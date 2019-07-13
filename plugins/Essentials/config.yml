@@ -45,7 +45,7 @@ change-displayname: true
 
 # When this option is enabled, the (tab) player list will be updated with the displayname.
 # The value of change-displayname (above) has to be true.
-#change-playerlist: true
+change-playerlist: true
 
 # When EssentialsChat.jar isn't used, force essentials to add the prefix and suffix from permission plugins to displayname.
 # This setting is ignored if EssentialsChat.jar is used, and defaults to 'true'.
@@ -285,7 +285,7 @@ player-commands:
 # This is useful if you want superperms-based permissions (with wildcards) for custom permissions plugins.
 # If you wish to use EssentialsX's built-in permissions using the `player-commands` section above, set this to false.
 # Default is true.
-use-bukkit-permissions: true
+use-bukkit-permissions: false
 
 # When this option is enabled, one-time use kits (ie. delay < 0) will be
 # removed from the /kit list when a player can no longer use it
@@ -427,7 +427,7 @@ death-messages: true
 # Should players with permissions be able to join and part silently?
 # You can control this with essentials.silentjoin and essentials.silentquit permissions if it is enabled.
 # In addition, people with essentials.silentjoin.vanish will be vanished on join.
-allow-silent-join-quit: false
+allow-silent-join-quit: true
 
 # You can set a custom join message here, set to "none" to disable.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
