@@ -164,7 +164,7 @@ MySQL:
             Load: 20
             Save: 20
     Server:
-        SSL: true
+        SSL: false
         Port: 3306
         Address: ***REMOVED***
 
