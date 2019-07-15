@@ -25,7 +25,7 @@ regions:
         keep-names-that-lack-uuids: true
     use-creature-spawn-event: true
     sql:
-        use: true
+        use: false
         dsn: jdbc:mysql://***REMOVED***/minecraft
         username: astensity
         password: ***REMOVED***
