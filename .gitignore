@@ -18,3 +18,4 @@ plugins/AuthMe/authme.db
 plugins/AuthMe/authme.log
 plugins/AuthMe/GeoLite2-Country.mmdb
 plugins/FastLogin/FastLogin.db
+server.properties
