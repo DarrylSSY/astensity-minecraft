@@ -1,7 +1,15 @@
 # MessageAnnouncer v1.10.0 Main configuration
 interval_announcement_list:
 announcements:
-announcer_enabled: true
+  default:
+  - '{"text": "--------"}'
+  - '{"text": "This is a JSON auto announcement!"}'
+  - '{"text": "--------"}'
+  vote:
+  - '{"text": "--------"}'
+  - '{"text": "Be sure to vote for the server!"}'
+  - '{"text": "--------"}'
+announcer_enabled: false
 announcer_random: true
 announce_interval: 60
 sound:
