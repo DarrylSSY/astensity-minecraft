@@ -1,22 +1,22 @@
 # DeluxeTags version: 1.7.1 Main Configuration
-#
+# 
 # Create your tags using the following format:
-#
+# 
 # deluxetags:
-#   VIP:
+#   VIP: 
 #     order: 1
 #     tag: '&7[&eVIP&7]'
 #     description: 'This tag is awarded by getting VIP'
-#
+# 
 # Placeholders for your DeluxeChat formats config:
-#
+# 
 # %deluxetags_identifier% - display the players active tag identifier
 # %deluxetags_tag% - display the players active tag
 # %deluxetags_description% - display the players active tag description
 # %deluxetags_amount% - display the amount of tags a player has access to
-#
+# 
 # Placeholders for your essentials/chat handling formats config:
-#
+# 
 # {deluxetags_identifier} - display the players active tag identifier
 # {deluxetags_tag} - display the players active tag
 # {deluxetags_description} - display the players active tag description

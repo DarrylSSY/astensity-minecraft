@@ -1,0 +1,14 @@
+# This is the BannerBoard configuration
+# Make sure to always make a backup of this file before making any changes!
+# Made by BigTeddy98
+# 
+# Every BannerBoard has some internal settings stored in this file.
+# Please do not make any changes to whatever is in the internal section.
+
+lastUsedId: 0
+idrange:
+  startid: 22000
+  amount: 5000
+color_palette: color_palette_v1_12_R1.bc
+skinserver: http://www.skinrender.com:2798/
+skinrender_key: INSERT_SKINRENDER_KEY_HERE
