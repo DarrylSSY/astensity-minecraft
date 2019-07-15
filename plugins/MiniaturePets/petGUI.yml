@@ -1,0 +1,42 @@
+GUIName: '&cPet Spawner'
+showPermissions: false
+hasPerms: 'Has Permissions: '
+permsYes: 'Yes'
+permsNo: 'No'
+hideIfNoPerms: true
+lore:
+  isDisguised: '&cYou''re currently &adisguised'
+  isNotDisguised: '&cYou''re currently &4not disguised'
+  isRiding: '&cYou''re currently &ariding his pet'
+  isNotRiding: '&cYou''re currently &4not riding his pet'
+items:
+  nextPage:
+    Material: ARROW
+    Amount: 1
+    Data: 0
+    Name: '&r&aNext Page'
+  previousPage:
+    Material: ARROW
+    Amount: 1
+    Data: 0
+    Name: '&r&aPrevious Page'
+  removePet:
+    Material: INK_SACK
+    Amount: 1
+    Data: 1
+    Name: '&r&cRemove your pet'
+  noPet:
+    Material: INK_SACK
+    Amount: 1
+    Data: 14
+    Name: '&r&cYou don''t have a pet yet!'
+  callPet:
+    Material: INK_SACK
+    Amount: 1
+    Data: 12
+    Name: '&r&cTeleport your pet'
+  changeName:
+    Material: INK_SACK
+    Amount: 1
+    Data: 12
+    Name: '&r&cName your pet'

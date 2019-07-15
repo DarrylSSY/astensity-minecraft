@@ -1,0 +1,18 @@
+disablePlugin: false
+useWorldGuard: true
+usePackets: true
+useHats: true
+useDisguises: true
+useRide: true
+useInteractGUI: true
+debug: false
+combatTag: false
+petPunch: true
+useHopperGUI: true
+combatMessage: '&4Your pet was removed because you engaged in a fight with another
+  player.'
+handlePlayerData: true
+PetExtraRemoval: false
+runGUIAsync: true
+perPetName: true
+SaveWithUUID: true
