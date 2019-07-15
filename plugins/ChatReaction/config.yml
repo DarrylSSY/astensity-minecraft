@@ -7,9 +7,9 @@ reaction_stats:
   hostname: ***REMOVED***
   port: 3306
   database: minecraft
-  prefix: 'chatreaction'
+  prefix: chatreaction
   username: astensity
-  password: '***REMOVED***'
+  password: ***REMOVED***
   ssl: false
 reaction:
   interval: 500

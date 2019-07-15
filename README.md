@@ -16,3 +16,7 @@
 `plugins/FastLogin/config.yml`
 
 `plugins/WorldGuard/config.yml`
+
+`plugins/ChatReaction/config.yml`
+
+`plugins/LuckPerms/config.yml`
