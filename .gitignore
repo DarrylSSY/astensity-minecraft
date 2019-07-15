@@ -10,3 +10,7 @@ usercache.json
 whitelist.json
 plugins/EssentialsGeoIP/GeoIP2-Country.mmdb
 .idea/workspace.xml
+plugins/AsyncWorldEdit/undo
+plugins/Essentials/userdata
+plugins/Essentials/usermap.csv
+plugins/PluginMetrics
