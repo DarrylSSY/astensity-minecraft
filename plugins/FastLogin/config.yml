@@ -161,26 +161,26 @@ autoLogin: true
 # Recommended is the use of MariaDB (a better version of MySQL)
 
 # Single file SQLite database
-driver: org.sqlite.JDBC
+# driver: org.sqlite.JDBC
 # File location
-database: '{pluginDir}/FastLogin.db'
+# database: '{pluginDir}/FastLogin.db'
 
 # MySQL/MariaDB
 # If you want to enable it uncomment only the lines below this not this line.
-#driver: com.mysql.jdbc.Driver
-#host: 127.0.0.1
-#port: 3306
-#database: fastlogin
-#username: myUser
-#password: myPassword
+driver: com.mysql.jdbc.Driver
+host: ***REMOVED***
+port: 3306
+database: minecraft
+username: astensity
+password: ***REMOVED***
 
 # Advanced Connection Pool settings in seconds
-#timeout: 30
-#lifetime: 30
+timeout: 30
+lifetime: 30
 
 # It's strongly recommended to enable SSL and setup a SSL certificate if the MySQL server isn't running on the same
 # machine
-#useSSL: false
+useSSL: true
 
 # HTTP proxies for connecting to the Mojang servers in order to check if the username of a player is premium.
 # This is a workaround to prevent rate-limiting by Mojang. These proxies will only be used once your server hit

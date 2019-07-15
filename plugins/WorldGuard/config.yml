@@ -25,10 +25,10 @@ regions:
         keep-names-that-lack-uuids: true
     use-creature-spawn-event: true
     sql:
-        use: false
-        dsn: jdbc:mysql://localhost/worldguard
-        username: worldguard
-        password: worldguard
+        use: true
+        dsn: jdbc:mysql://***REMOVED***/minecraft
+        username: astensity
+        password: ***REMOVED***
         table-prefix: ''
     enable: true
     invincibility-removes-mobs: false
@@ -169,9 +169,9 @@ blacklist:
             enable: true
         database:
             enable: false
-            dsn: jdbc:mysql://localhost:3306/minecraft
-            user: root
-            pass: ''
+            dsn: jdbc:mysql://***REMOVED***:3306/minecraft
+            user: astensity
+            pass: '***REMOVED***'
             table: blacklist_events
         file:
             enable: false
