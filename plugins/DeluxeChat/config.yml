@@ -5,7 +5,57 @@
 # Format priority must be specified per format and each priority must be unique.
 # higher value = lower priority
 # ex: guest-100, owner-1
-#   YOU MUST KEEP A 'default' TEMPLATE!
+#   YOU MUST KEEP A 'default' TEMPLATE! 
+#   
+# Social Spy only allows %player% and %recipient% as placeholders
+# 
+# You must download the placeholder expansion through PlaceholderAPI for which
+# placeholders you want to use. The example below uses Player placeholders, so
+# we need to download the player expansion: /papi ecloud download Player, /papi reload
+# 
+# 
+# example format template:
+# formats: 
+#   default:
+#     priority: 2147483647
+#     channel: ''
+#     prefix: '&8[&7Guest&8] '
+#     name_color: '&7'
+#     name: '%player_name%'
+#     suffix: '&7> '
+#     chat_color: '&f'
+#     channel_tooltip:
+#     - '&7%player_name% &bis a Guest'
+#     prefix_tooltip:
+#     - '&7%player_name% &bis a Guest'
+#     name_tooltip:
+#     - ''
+#     suffix_tooltip:
+#     - ''
+#     channel_click_command: '
+#     prefix_click_command: '/ranks
+#     name_click_command: '/msg %player_name% 
+#     suffix_click_command: '
+#   Member:
+#     priority: 100
+#     channel: ''
+#     prefix: '&8[&aMember&8] '
+#     name_color: '&7'
+#     name: '%player_name%'
+#     suffix: '&7> '
+#     chat_color: '&f'
+#     channel_tooltip:
+#     - '&7%player_name% &bis a Member'
+#     prefix_tooltip:
+#     - '&7%player_name% &bis a Member'
+#     name_tooltip:
+#     - ''
+#     suffix_tooltip:
+#     - ''
+#     channel_click_command: '
+#     prefix_click_command: '/ranks
+#     name_click_command: '/msg %player_name% 
+#     suffix_click_command: '
 check_updates: true
 bungeecord:
   enabled: false
@@ -29,14 +79,10 @@ private_message:
 private_message_formats:
   to_sender:
     format: '&7You &e-> &7%recipient_player_name%&7: '
-    tooltip:
-    - '%player_name%'
     click_command: '/r '
     chat_color: '&f'
   to_recipient:
     format: '&7%player_name% &e-> &7You&7: '
-    tooltip:
-    - '%player_name%'
     click_command: '/r '
     chat_color: '&f'
   social_spy: '&8[&cspy&8]&f%player% &e-> &f%recipient%&7: '

@@ -18,3 +18,12 @@ plugins/AuthMe/authme.db
 plugins/AuthMe/authme.log
 plugins/AuthMe/GeoLite2-Country.mmdb
 plugins/FastLogin/FastLogin.db
+server.properties
+plugins/mcMMO/backup
+plugins/mcMMO/flatfile
+plugins/MiniaturePets/data
+plugins/Jobs/jobs.sqlite.db
+plugins/DeluxeTags/userdata
+plugins/CoreProtect/database.db
+plugins/AuthMe/playerdata
+plugins/Multiverse-Core/worlds.yml
