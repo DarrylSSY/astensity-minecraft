@@ -1,7 +1,5 @@
 # MessageAnnouncer v1.10.0 Main configuration
 interval_announcement_list:
-- default
-- vote
 announcements:
   default:
   - '{"text": "--------"}'
@@ -11,7 +9,7 @@ announcements:
   - '{"text": "--------"}'
   - '{"text": "Be sure to vote for the server!"}'
   - '{"text": "--------"}'
-announcer_enabled: true
+announcer_enabled: false
 announcer_random: true
 announce_interval: 60
 sound:
