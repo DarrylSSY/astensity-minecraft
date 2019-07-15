@@ -26,3 +26,4 @@ plugins/Jobs/jobs.sqlite.db
 plugins/DeluxeTags/userdata
 plugins/CoreProtect/database.db
 plugins/AuthMe/playerdata
+plugins/Multiverse-Core/worlds.yml

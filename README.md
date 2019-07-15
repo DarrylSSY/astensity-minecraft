@@ -20,3 +20,11 @@
 `plugins/ChatReaction/config.yml`
 
 `plugins/LuckPerms/config.yml`
+
+`plugins/MiniaturePets/sql.yml`
+
+`plugins/Jobs/generalConfig.yml`
+
+`plugins/ShopGUIPlus/config.yml`
+
+`plugins/McMMO/config.yml`

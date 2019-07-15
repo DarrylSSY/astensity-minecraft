@@ -1,4 +1,4 @@
-useMySQL: false
+useMySQL: true
 hostName: ***REMOVED***
 port: '3306'
 databaseName: ''

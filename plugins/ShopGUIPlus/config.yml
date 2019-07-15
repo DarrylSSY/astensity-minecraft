@@ -1,6 +1,6 @@
 database:
   # Database backend type, can be set to mysql or sqlite
-  type: sqlite
+  type: mysql
   # MySQL database host
   mySQLHost: ***REMOVED***
   # MySQL connection port number
