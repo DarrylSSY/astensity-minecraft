@@ -10,7 +10,7 @@ DataSource:
     # Database port
     mySQLPort: '3306'
     # Connect to MySQL database over SSL
-    mySQLUseSSL: true
+    mySQLUseSSL: false
     # Verification of server's certificate.
     # We would not recommend to set this option to false.
     # Set this option to false at your own risk if and only if you know what you're doing
