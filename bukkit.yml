@@ -29,6 +29,7 @@ spawn-limits:
   water-animals: 15
   ambient: 15
 chunk-gc:
+  load-threshold: 0
   period-in-ticks: 600
 ticks-per:
   animal-spawns: 400
