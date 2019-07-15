@@ -60,6 +60,7 @@ stats:
   forced-stats: {}
 world-settings:
   default:
+    random-light-updates: false
     verbose: true
     item-despawn-rate: 6000
     enable-zombie-pigmen-portal-spawns: true
@@ -110,6 +111,7 @@ world-settings:
       sweetberry-modifier: 100
       kelp-modifier: 100
     entity-activation-range:
+      water: 16
       animals: 32
       monsters: 32
       raiders: 48
