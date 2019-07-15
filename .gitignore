@@ -14,3 +14,7 @@ plugins/AsyncWorldEdit/undo
 plugins/Essentials/userdata
 plugins/Essentials/usermap.csv
 plugins/PluginMetrics
+plugins/AuthMe/authme.db
+plugins/AuthMe/authme.log
+plugins/AuthMe/GeoLite2-Country.mmdb
+plugins/FastLogin/FastLogin.db
