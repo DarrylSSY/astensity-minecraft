@@ -1,0 +1,11 @@
+# MessageAnnouncer v1.10.0 Main configuration
+announcer_enabled: true
+announcer_random: true
+announce_interval: 60
+sound:
+  enabled: true
+  sound_name: NOTE_PLING
+  volume: 10
+  pitch: 1
+interval_announcement_list:
+announcements:
