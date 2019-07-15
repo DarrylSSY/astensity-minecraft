@@ -6,7 +6,7 @@ DataSource:
     # or when a website integration is being used.
     caching: true
     # Database host address
-    mySQLHost: localhost
+    mySQLHost: ***REMOVED***
     # Database port
     mySQLPort: '3306'
     # Connect to MySQL database over SSL
