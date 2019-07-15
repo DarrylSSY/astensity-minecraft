@@ -120,7 +120,7 @@ settings:
     # If you have issues with permission checks on player join please disable this option.
     useAsyncPreLoginEvent: true
     # The name of the server, used in some placeholders.
-    serverName: Your Minecraft Server
+    serverName: Astensity
     restrictions:
         # Can not authenticated players chat?
         # Keep in mind that this feature also blocks all commands not
@@ -129,7 +129,7 @@ settings:
         # Hide the chat log from players who are not authenticated?
         hideChat: false
         # Allowed commands for unauthenticated players
-        allowCommands: 
+        allowCommands:
         - /login
         - /register
         - /l
@@ -158,7 +158,7 @@ settings:
             enabled: false
             # WorldNames where we need to force the spawn location
             # Case-sensitive!
-            worlds: 
+            worlds:
             - world
             - world_nether
             - world_the_end
@@ -261,7 +261,7 @@ settings:
         # - '123456'
         # - 'password'
         # - 'help'
-        unsafePasswords: 
+        unsafePasswords:
         - '123456'
         - password
         - qwerty
@@ -299,7 +299,7 @@ settings:
     # {MAXPLAYERS}: display server slots, {IP}: player ip, {LOGINS}: number of players logged,
     # {WORLD}: player current world, {SERVER}: server name
     # {VERSION}: get current bukkit version, {COUNTRY}: player country
-    useWelcomeMessage: true
+    useWelcomeMessage: false
     # Broadcast the welcome message to the server or only to the player?
     # set true for server or false for player
     broadcastWelcomeMessage: false
@@ -343,19 +343,19 @@ GroupOptions:
     unregisteredPlayerGroup: ''
 Email:
     # Email SMTP server host
-    mailSMTP: smtp.gmail.com
+    mailSMTP: smtp.sendgrid.net
     # Email SMTP server port
     mailPort: 465
     # Only affects port 25: enable TLS/STARTTLS?
     useTls: true
     # Email account which sends the mails
-    mailAccount: ''
+    mailAccount: 'apikey'
     # Email account password
-    mailPassword: ''
+    mailPassword: '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'
     # Email address, fill when mailAccount is not the email address of the account
-    mailAddress: ''
+    mailAddress: 'noreply@astensity.com'
     # Custom sender name, replacing the mailAccount name in the email
-    mailSenderName: ''
+    mailSenderName: 'Astensity'
     # Recovery password length
     RecoveryPasswordLength: 8
     # Mail Subject
