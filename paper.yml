@@ -21,6 +21,10 @@ messages:
     flying-player: Flying is not enabled on this server
     flying-vehicle: Flying is not enabled on this server
 settings:
+  player-auto-save-rate: -1
+  max-player-auto-save-per-tick: -1
+  sleep-between-chunk-saves: false
+  queue-light-updates-max-loss: 10
   bungee-online-mode: true
   suggest-player-names-when-null-tab-completions: true
   incoming-packet-spam-threshold: 300
@@ -44,6 +48,11 @@ settings:
   spam-limiter:
     tab-spam-increment: 1
     tab-spam-limit: 500
+  async-chunks:
+    enable: true
+    generation: true
+    thread-per-world-generation: true
+    load-threads: -1
 timings:
   enabled: true
   verbose: true
@@ -56,6 +65,14 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    save-queue-limit-for-auto-save: 50
+    delay-chunk-unloads-by: 10s
+    queue-light-updates: false
+    count-all-mobs-for-spawning: false
+    max-chunk-sends-per-tick: 81
+    fire-physics-event-for-redstone: false
+    max-chunk-gens-per-tick: 10
+    skip-entity-ticking-in-chunks-scheduled-for-unload: true
     keep-spawn-loaded: true
     keep-spawn-loaded-range: 10
     all-chunks-are-slime-chunks: false
@@ -100,6 +117,7 @@ world-settings:
     fixed-chunk-inhabited-time: -1
     armor-stands-do-collision-entity-lookups: true
     game-mechanics:
+      villages-load-chunks: false
       disable-chest-cat-detection: false
       shield-blocking-delay: 5
       disable-end-credits: false
