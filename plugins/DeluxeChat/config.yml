@@ -28,18 +28,18 @@ private_message:
   bungeecord: false
 private_message_formats:
   to_sender:
-    format: '&7you &e-> &7%recipient_player_name% &7:'
+    format: '&7You &e-> &7%recipient_player_name%&7: '
     tooltip:
     - '%player_name%'
     click_command: '/r '
     chat_color: '&f'
   to_recipient:
-    format: '&7%player_name% &e-> &7you &7:'
+    format: '&7%player_name% &e-> &7You&7: '
     tooltip:
     - '%player_name%'
     click_command: '/r '
     chat_color: '&f'
-  social_spy: '&8[&cspy&8] &f%player% &e-> &f%recipient%&7:'
+  social_spy: '&8[&cspy&8]&f%player% &e-> &f%recipient%&7: '
 formats:
   default:
     priority: 2147483647
