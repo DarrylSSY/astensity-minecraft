@@ -1,17 +1,18 @@
 lastAccountName: krakken858
 timestamps:
-  login: 1563612565836
+  login: 1563633680117
   logout: 1563612580758
   kits:
     notch: 1562997406187
     dtools: 1562997422742
+  lastteleport: 1563634219429
 ipAddress: 127.0.0.1
 lastlocation:
   world: world
-  x: 94.5
-  y: 64.0
-  z: -135.5
-  yaw: 4.557848
+  x: 97.18818213183161
+  y: 76.0
+  z: -159.69999998807907
+  yaw: 0.0
   pitch: 0.0
 logoutlocation:
   world: world
