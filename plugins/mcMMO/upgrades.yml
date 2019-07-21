@@ -9,3 +9,5 @@ Upgrades_Finished:
   ADD_ALCHEMY: true
   ADD_UUIDS: true
   ADD_UUIDS_PARTY: true
+  ADD_SKILL_TOTAL: true
+  ADD_UNIQUE_PLAYER_DATA: true

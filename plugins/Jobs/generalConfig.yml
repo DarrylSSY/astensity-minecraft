@@ -14,7 +14,7 @@ storage:
 # Requires Mysql.
 mysql:
   username: astensity
-  password: '***REMOVED***'
+  password: ***REMOVED***
   hostname: ***REMOVED***:3306
   database: minecraft
   table-prefix: jobs_
