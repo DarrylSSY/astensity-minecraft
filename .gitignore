@@ -27,3 +27,13 @@ plugins/DeluxeTags/userdata
 plugins/CoreProtect/database.db
 plugins/AuthMe/playerdata
 plugins/Multiverse-Core/worlds.yml
+plugins/Towny/backup
+plugins/TheNewEconomy/Economy.mv.db
+plugins/LWC/lwc.db
+plugins/LWC/backups
+plugins/React/worlds
+plugins/dynmap/worlds.txt
+plugins/Multiverse-Core/worlds.yml
+plugins/Towny/data
+plugins/NoCheatPlus/nocheatplus.log.lck
+plugins/NoCheatPlus/nocheatplus.log

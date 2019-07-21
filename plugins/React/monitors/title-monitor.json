@@ -1,0 +1,32 @@
+[
+    {
+        "head": "tps",
+        "title": "Tick",
+        "fields": [
+            "tick",
+            "cpu"
+        ]
+    },
+    {
+        "head": "mem",
+        "title": "Memory",
+        "fields": [
+            "mahs",
+            "memtotals"
+        ]
+    },
+    {
+        "head": "chk",
+        "title": "Chunks",
+        "fields": ["chks"]
+    },
+    {
+        "head": "ent",
+        "title": "Entities",
+        "fields": [
+            "entliv",
+            "entdrop",
+            "enttile"
+        ]
+    }
+]
