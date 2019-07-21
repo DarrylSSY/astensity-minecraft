@@ -35,3 +35,5 @@ plugins/React/worlds
 plugins/dynmap/worlds.txt
 plugins/Multiverse-Core/worlds.yml
 plugins/Towny/data
+plugins/NoCheatPlus/nocheatplus.log.lck
+plugins/NoCheatPlus/nocheatplus.log
