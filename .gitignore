@@ -37,3 +37,4 @@ plugins/Multiverse-Core/worlds.yml
 plugins/Towny/data
 plugins/NoCheatPlus/nocheatplus.log.lck
 plugins/NoCheatPlus/nocheatplus.log
+plugins/LWC/lwc.db.old
