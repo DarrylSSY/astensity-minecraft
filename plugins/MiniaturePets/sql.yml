@@ -1,0 +1,9 @@
+useMySQL: true
+hostName: ***REMOVED***
+port: '3306'
+databaseName: ''
+username: root
+password: ''
+method: MySQL
+autoReconnect: false
+useSSL: false

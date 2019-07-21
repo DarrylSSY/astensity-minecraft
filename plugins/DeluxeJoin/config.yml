@@ -1,0 +1,168 @@
+# DeluxeJoin configuration
+# 
+# You can create as many formats for motd and join/leave you like.
+# All formats must contain action lists with valid actions
+# 
+# All actions must start with a valid action tag!
+# 
+# Valid Actions:
+# 
+# JSON message: [JSONMESSAGE], [JSON]
+# 
+#     DESCRIPTION: Send a JSON message to the target player
+# 
+#     EXAMPLE:  - '[JSON] {"text":"this is sent to the target player"}'
+# 
+# JSON broadcast: [JSONBROADCAST], [JSONBC]
+# 
+#     DESCRIPTION: Send a JSON broadcast to the entire server specific to the target player
+# 
+#     EXAMPLE:  - '[JSONBROADCAST] {"text":"this is sent all players"}'
+# 
+# Chat message: [MESSAGE], [MSG]
+# 
+#     DESCRIPTION: Send a message to the target player
+# 
+#     EXAMPLE:  - '[MESSAGE] &aThis is sent to the player joining/leaving/viewing the MOTD'
+# 
+# Chat broadcast: [BROADCAST], [BC]
+# 
+#     DESCRIPTION: Send a broadcast to the entire server specific to the target player
+# 
+#     EXAMPLE:  - '[BROADCAST] &aThis is sent to all players'
+# 
+# Actionbar message: [ACTIONBARMSG], [ACTIONMSG]
+# 
+#     DESCRIPTION: Send an actionbar message to the target player
+# 
+#     EXAMPLE:  - '[ACTIONMSG] &aThis is sent to the target player'
+# 
+# Actionbar broadcast: [ACTIONBARBROADCAST], [ACTIONBROADCAST]
+# 
+#     DESCRIPTION: Send an actionbar broadcast to the server specific to the target player
+# 
+#     EXAMPLE:  - '[ACTIONBROADCAST] &aThis is sent to all players'
+# 
+# Title message: [TITLEMESSAGE], [TITLEMSG]
+# 
+#     DESCRIPTION: Send a title and/or subtitle message to the target playe
+# 
+#     EXAMPLE:  - '[TITLEMSG] title:&aWelcome to the server subtitle:&bsubtitle here fadein:10 stay:20 fadeout:10'
+# 
+# Title broadcast: [TITLEBROADCAST], [TITLEBC]
+# 
+#     DESCRIPTION: Send a title broadcast to the entire server specific to the target player
+# 
+#     EXAMPLE:  - '[TITLEBC] title:&a%player% joined! subtitle:&bsubtitle here fadein:10 stay:20 fadeout:10'
+# 
+# Player command: [PLAYERCOMMAND], [PLAYERCMD]
+# 
+#     DESCRIPTION: Force the target player to execute a command
+# 
+#     EXAMPLE:  - '[PLAYERCMD] /spawn'
+# 
+# Console command: [CONSOLECOMMAND], [CONSOLECMD]
+# 
+#     DESCRIPTION: Execute a console command where target specific placeholders can be used
+# 
+#     EXAMPLE:  - '[CONSOLECMD] spawn %player%'
+# 
+# Player sound: [SOUND], [PLAYERSOUND]
+# 
+#     DESCRIPTION: Play a sound to the target player
+# 
+#     EXAMPLE:  - '[SOUND] NOTE_PLING 10 10'
+# 
+# Broadcast sound: [BROADCASTSOUND], [BCASTSOUND]
+# 
+#     DESCRIPTION: Play a sound to the entire server
+# 
+#     EXAMPLE:  - '[BROADCASTSOUND] NOTE_PLING 10 10'
+# 
+# 
+# 
+# 
+# If you want to display a line with normal text and color codes
+# you must start the line with the [MESSAGE] tag
+# formatName:
+#     join_actions:
+#     - '[MESSAGE] &eWelcome to the server %player%!'
+# 
+# If you want to use multiple JSON components in one String
+# you must separate them with an And operator -> &&
+# formatName:
+#     join_actions:
+#     - '[JSONMESSAGE] {"text":"Welcome","color":"green"}&&{"text":" player","color":"yellow"}'
+# 
+# template
+# ================
+# deluxejoin_formats:
+#   <formatIdentifier>:
+#     priority: <unique number here>
+#     join_actions:
+#     - '[JSONBROADCAST] {"text":"%player% joined the game","color":"yellow"}'
+#     leave_actions:
+#     - '[JSONBROADCAST] {"text":"%player% left the game","color":"yellow"}'
+# ================
+# The priority system is very important! It works just like
+# the DeluxeChat format priority system. This allows players to
+# have multiple permissions and DeluxeJoin will know what join/leave
+# format to assign the player. 1 would be the highest priority (first)
+# 1000 would be the lowest priority (last)
+# 
+# The permission node for a format is:
+# deluxejoin.format.<identifier>
+# 
+# Placeholders are available if you have DeluxeChat or PlaceholderAPI installed on your server!
+# You may use any placeholders anywhere inside of your formats.
+# All placeholders are specific to the target player joining, leaving, or viewing the MOTD
+# 
+# If the MOTD system is enabled, it follows the same format as join/leave formats.
+# You can create as many MOTDs you like, the player needs permission for a motd to
+# view it. The permission node is:
+# deluxejoin.motd.<identifier>
+# 
+# The following actions CAN NOT be used in leave_actions as the player has already left the server:
+# JSON message, chat message, actionbar message, title message, player command, player sound
+# 
+# The following actions CAN NOT be used in motd_actions as these actions would affect all players online:
+# JSON broadcast, chat broadcast, actionbar broadcast, title broadcast, broadcast sound
+# 
+# If you need an easy way to create JSON messages, 
+# visit http://minecraftjson.com/
+deluxejoin_formats:
+  default:
+    priority: 2
+    join_actions:
+    - '[JSONBROADCAST] {"text":"[","color":"dark_gray"}&&{"text":"+","color":"green","bold":"true"}&&{"text":"]","color":"dark_gray"}&&{"text":"  %player_name%","color":"gray","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Players
+      online: &f%online%","color":"aqua"}]}}}'
+    leave_actions:
+    - '[JSONBROADCAST] {"text":"[","color":"dark_gray"}&&{"text":"-","color":"red","bold":"true"}&&{"text":"]","color":"dark_gray"}&&{"text":"  %player_name%","color":"gray","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Players
+      online: &f%online%","color":"aqua"}]}}}'
+  management:
+    priority: 1
+    join_actions:
+    - ''
+    leave_actions:
+    - ''
+first_join:
+  announce_on_join: true
+  actions:
+  - '[JSONBROADCAST] {"text":"This is %player_name%s first time joining!","color":"green","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Welcome
+    %player_name%!","color":"yellow"}]}}}'
+motd:
+  enabled: false
+  delay: 1
+motds:
+  default:
+    priority: 2
+    motd_actions:
+    - '[MESSAGE] &8&m+---------------------------------------------------+'
+    - '[JSONMESSAGE] {"text":"               Welcome to Astensity ","color":"green"}&&{"text":"%player_name%","color":"white","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"That
+      is your name right?","color":"yellow"}]}}}'
+    - '[MESSAGE] &f'
+    - '[MESSAGE] &f'
+    - '[MESSAGE]           &eThis motd was brought to you by &7DeluxeJoin'
+    - '[JSONMESSAGE] {"text":"               &6Visit &7DeluxeJoin &6on Spigot "}&&{"text":"Click
+      here!","color":"white","clickEvent":{"action":"open_url","value":"http://www.spigotmc.org/resources/deluxejoin.4846/"}}'
+    - '[MESSAGE] &8&m+---------------------------------------------------+'
