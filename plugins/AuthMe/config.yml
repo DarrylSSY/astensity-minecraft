@@ -393,7 +393,7 @@ Protection:
     enableProtectionRegistered: true
     # Countries allowed to join the server and register. For country codes, see
     # https://dev.maxmind.com/geoip/legacy/codes/iso3166/
-    # Use "LOCALHOST" for local addresses.
+    # Use "34.87.92.37" for local addresses.
     # PLEASE USE QUOTES!
     countries: 
     - US

@@ -493,17 +493,17 @@ plugin:
  
   # Valid load and save types are: flatfile, mysql, sqlite, h2.
   database:
-    database_load: flatfile
-    database_save: flatfile
+    database_load: mysql
+    database_save: mysql
  
     # SQL database connection details (IF set to use SQL).
     sql:
       hostname: 34.87.92.37
       port: '3306'
-      dbname: towny
+      dbname: minecraft
       table_prefix: towny_
-      username: root
-      password: ''
+      username: astensity
+      password: 'Astensity1234'
       ssl: 'false'
  
     # Flatfile backup settings.

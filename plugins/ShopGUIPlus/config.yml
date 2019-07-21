@@ -6,11 +6,11 @@ database:
   # MySQL connection port number
   mySQLPort: 3306
   # MySQL database name
-  mySQLDatabase: db
+  mySQLDatabase: minecraft
   # MySQL database user
-  mySQLUser: root
+  mySQLUser: astensity
   # MySQL user's password
-  mySQLPassword: ""
+  mySQLPassword: "Astensity1234"
   # MySQL table names
   tableNames:
     players: "players"

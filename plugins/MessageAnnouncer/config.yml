@@ -1,5 +1,7 @@
 # MessageAnnouncer v1.10.0 Main configuration
 interval_announcement_list:
+- default
+- vote
 announcements:
   default:
   - '{"text": "--------"}'

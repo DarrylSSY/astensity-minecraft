@@ -78,16 +78,22 @@ private_message:
   bungeecord: false
 private_message_formats:
   to_sender:
+    tooltip:
+    - '%player_name%'
     format: '&7You &e-> &7%recipient_player_name%&7: '
     click_command: '/r '
     chat_color: '&f'
   to_recipient:
+    tooltip:
+    - '%player_name%'
     format: '&7%player_name% &e-> &7You&7: '
     click_command: '/r '
     chat_color: '&f'
   social_spy: '&8[&cspy&8]&f%player% &e-> &f%recipient%&7: '
 formats:
   default:
+    suffix_tooltip:
+    - ''
     priority: 2147483647
     channel: ''
     prefix: '%deluxetags_tag%'

@@ -1,9 +1,9 @@
 useMySQL: true
 hostName: 34.87.92.37
 port: '3306'
-databaseName: ''
-username: root
-password: ''
+databaseName: 'minecraft'
+username: astensity
+password: 'Astensity1234'
 method: MySQL
 autoReconnect: false
 useSSL: false
