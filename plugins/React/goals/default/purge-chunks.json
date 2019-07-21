@@ -1,0 +1,12 @@
+{
+    "reaction": {"type": "purge_chunks"},
+    "action-health-regen": 3,
+    "author": "React",
+    "action-health-max": 6700,
+    "name": "Purge Chunks",
+    "description": "Purges excess chunks every minute.",
+    "interval": "1m",
+    "conditions": ["chk>1000.0"],
+    "enabled": true,
+    "action-health-damage": 5250
+}
