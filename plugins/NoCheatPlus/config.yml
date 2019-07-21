@@ -3,7 +3,7 @@ configversion:
   notify: true
   notifymaxpaths: 5
   created: 1144
-  saved: 1144
+  saved: 1154
 logging:
   active: true
   maxqueuesize: 3500
@@ -123,6 +123,9 @@ checks:
       active: true
       level: 10
       actions: cancel
+      improbable:
+        feedonly: false
+        weight: 2.0
   blockinteract:
     active: default
     direction:
@@ -158,6 +161,9 @@ checks:
         ticks: 10
         limit: 4
       actions: cancel vl>5 cmdc:fastplace1:1:15 cancel vl>280 cmdc:fastplace2:1:12 cancel vl>850 cmdc:fastplace3:1:12 cancel
+      improbable:
+        feedonly: false
+        weight: 0.5
     reach:
       active: true
       actions: cancel vl>3 cmdc:blockreach:1:11 cancel
@@ -172,8 +178,14 @@ checks:
       active: true
       interval: 65
       actions: cancel vl>140 log:projectilespeed:2:11:i cancel vl>250 cancel
+      improbable:
+        feedonly: false
+        weight: 0.6
     preventmisc:
       boatsanywhere: true
+    scaffold:
+      active: default
+      actions: vl>15 cmdc:scaffold1:1:15 cancel vl>45 cmdc:scaffold2:1:15 cancel vl>85 cmdc:scaffold3:1:15 cancel
   chat:
     active: default
     captcha:
@@ -414,6 +426,9 @@ checks:
       reducedistance: 0.9
       reducestep: 0.15
       actions: cancel vl>2 cmdc:fightreach1:1:15 cancel vl>12 cmdc:fightreach2:1:13 cancel vl>30 cmdc:fightreach3:1:12 cancel
+      improbable:
+        feedonly: false
+        weight: 2.0
     selfhit:
       active: true
       actions: cancel vl>8 log:fselfhit:1:11:i cancel cmd:kickselfhit
@@ -424,9 +439,17 @@ checks:
       shortterm:
         ticks: 7
         limit: 5
+      improbable:
+        feedonly: false
+        weight: 2.0
     wrongturn:
       active: false
       actions: cancel
+    clickpattern:
+      active: default
+      range: 8
+      penalty: 150
+      actions: vl>2 cancel vl>6 cmdc:clickpattern1:1:12 cancel vl>22 cmdc:clickpattern2:1:12 cancel vl>50 cmdc:clickpattern3:1:12 cancel
   inventory:
     active: default
     drop:
@@ -435,13 +458,18 @@ checks:
       timeframe: 20
       actions: cancel cmd:dropkick:1:5
     fastclick:
+      exclude:
+      - Inventory Name Here
       active: true
       sparecreative: true
       tweaks1_5: true
       limit:
+        chest: 152
         shortterm: 4
         normal: 15
       actions: cancel vl>80 log:fastclick1:3:20:i cancel vl>9500 cmdc:fastclick2:1:30 cancel cmdc:fastclickkick:1:6
+      improbable:
+        weight: 0.7
     instantbow:
       active: true
       strict: true
@@ -460,6 +488,7 @@ checks:
       items: []
       actions: cmdc:fastconsume:1:15 cancel
     gutenberg:
+      pagelimit: 50
       active: true
       actions: cancel log:gutenberg:0:11:i cmd:kickinvaliddata:1:5
     items:
@@ -471,6 +500,10 @@ checks:
     hotfix:
       duplication:
         fallingblockendportal: true
+    inventorymove:
+      active: default
+      disable_creative: true
+      actions: cmdc:inventorymove:1:15 cancel
   moving:
     active: default
     creativefly:
@@ -478,6 +511,17 @@ checks:
       ignoreallowflight: true
       ignorecreative: false
       model:
+        slowfalling:
+          horizontal:
+            speed: 110
+          vertical:
+            ascend:
+              speed: 10
+            maxheight: 128
+            gravity: false
+          modifiers: false
+          gravity: true
+          ground: true
         creative:
           horizontal:
             speed: 130
@@ -643,6 +687,8 @@ checks:
         four: 50
         eight: 96
       actions: cancel vl>15 cmdc:attackfrequency1:1:15 cancel vl>45 cmdc:attackfrequency2:1:12 cancel vl>80 cmdc:attackfrequency3:1:11 cancel cmd:javaerror:1:20
+      improbable:
+        weight: 2.0
     flyingfrequency:
       active: true
       seconds: 5
@@ -653,6 +699,7 @@ checks:
         seconds: 3
         actions: cancel
     keepalivefrequency:
+      seconds: 20
       active: true
       actions: cancel vl>10 log:keepalive:1:15:i cancel
     packetfrequency:
@@ -666,7 +713,33 @@ checks:
     superseded:
       flying:
         cancelwaiting: true
+    fightsync:
+      active: default
+      threshold: 5
+      reset_count: 11
+      actions: vl>12 cmdc:fightsync1:1:12 vl>50 cmdc:fightsync2:1:12 vl>100 cmdc:fightsync3:1:12
 strings:
+  clickpattern1: ncp delay conditionalcommands:ccmd [player] unless -ping->161|-tps-<18.5 do ncp log stream notify &7(&a!&7) &a[player] &7seems to click in a pattern (&aAuto-Clicker&7/&aKill Aura&7) (&a[violations]VL&7)
+  clickpattern2: ncp delay conditionalcommands:ccmd [player] unless -ping->281|-tps-<18.5 do ncp log stream notify &7(&6!&7) &6[[player] &7is clicking in a pattern (&6Auto-Clicker&7/&6Kill Aura&7) (&6[violations]VL&7)
+  clickpattern3: ncp delay ncp log stream notify &7(&c!&7) &c[player] &7does not click like a human (&cAuto-Clicker&7/&cKill Aura&7) (&c[violations]VL&7) (&c[violations]VL&7)
+  flyingfrequency: ncp delay conditionalcommands:ccmd [player] unless -ping->181|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player] &7is sending movement packets (&cSpeed&7) (&c[violations]VL&7)
+  inventorymove: ncp delay conditionalcommands:ccmd [player] unless -ping->201|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player] &7failed &cInventoryMove &7([tags]) (&c[violations]VL&7)
+  fightangle1: '&7(&a!&7) &a[player] &7might be using an &aAimBot &7(Angle) ([tags]) (&a[violations]VL&7)'
+  fightangle2: ncp delay conditionalcommands:ccmd [player] unless -ping->191|-tps-<18.0 do ncp log stream notify &7(&6!&7) &6[player] &7might be using an &6AimBot &7(Angle)([tags]) (&6[violations]VL&7)
+  fightangle3: ncp delay ncp log stream notify &7(&c!&7) &c[player] &7is likely using an &cAimBot &7(Angle) ([tags]) (&c[violations]VL&7)
+  fightdirection1: '&7(&a!&7) &a[player] &7might be using an &aAimBot &7(Direction) (&a[violations]VL&7)'
+  fightdirection2: ncp delay conditionalcommands:ccmd [player] unless -ping->191|-tps-<18.0 do ncp log stream notify &7(&6!&7) &6[player] &7might be using an &6AimBot &7(Direction) (&6[violations]VL&7)
+  fightdirection3: ncp delay ncp log stream notify &7(&c!&7) &c[player] &7is likely using an &cAimBot &7(Direction) (&c[violations]VL&7)
+  fightspeed3: ncp delay ncp log stream notify &7(&c!&7) &c[player] &7failed (Combat) &cSpeed &7(Over 13 CPS) (&c[violations]VL&7)
+  fightsync1: '&7(&a!&7) &a[player] &7might be using an &aAimBot &7(FightSync) (&a[violations]VL&7)'
+  fightsync2: ncp delay conditionalcommands:ccmd [player] unless -ping->191|-tps-<18.0 do ncp log stream notify &7(&6!&7) &6[player] &7might be using an &6AimBot &7(FightSync) (&6[violations]VL&7)
+  fightsync3: ncp delay ncp log stream notify &7(&c!&7) &c[player] &7is likely using an &cAimBot &7(FightSync) (&c[violations]VL&7)
+  kickdrop: ncp delay ncp kick [player] Dropping items too fast.
+  kickfastclick: ncp delay conditionalcommands:ccmd [player] unless -ping->251|-tps-<18.0&-time_online-<180 do ncp kick [player] Internal Exception; io.netty.handler.timeout.ReadTimeoutException
+  scaffold1: ncp delay conditionalcommands:ccmd [player] unless -ping->281|-tps-<18.5 do ncp log stream notify &7(&6!&7) &6[player] &7failed &6Scaffold  &7(&6[violations]VL&7)
+  scaffold2: ncp delay conditionalcommands:ccmd [player] unless -ping->281|-tps-<18.5 do ncp log stream notify &7(&6!&7) &6[player] &7failed &6Scaffold  &7(&6[violations]VL&7)
+  scaffold3: ncp delay ncp log stream notify &7(&c!&7) &c[player] &7failed &cScaffold &7(&c[violations]VL&7)
+  selfhit: '&7(&c!&7) &c[player] &7failed &cSelfHit &7(&c[violations]VL&7)'
   angle: '&c[player] &7failed &cForceField&7 (&c[violations]&7VL)'
   attackfrequency: '[player] failed [check]: attacks with too high a frequency ([packets]/[limit], [tags]). VL [violations].'
   ban: ban [player]
@@ -832,6 +905,19 @@ compatibility:
       IRON_BLOCK:PICKAXE:DIAMOND:12: 1139
     allowinstantbreak: []
     overrideflags:
+      DEAD_TUBE_CORAL: default+ign_passable+ground_height
+      DEAD_TUBE_CORAL_WALL_FAN: default+ign_passable+ground_height
+      DEAD_BRAIN_CORAL: default+ign_passable+ground_height
+      DEAD_BRAIN_CORAL_WALL_FAN: default+ign_passable+ground_height
+      DEAD_BUBBLE_CORAL: default+ign_passable+ground_height
+      DEAD_BUBBLE_CORAL_WALL_FAN: default+ign_passable+ground_height
+      DEAD_FIRE_CORAL: default+ign_passable+ground_height
+      DEAD_FIRE_CORAL_WALL_FAN: default+ign_passable+ground_height
+      DEAD_HORN_CORAL: default+ign_passable+ground_height
+      DEAD_HORN_CORAL_WALL_FAN: default+ign_passable+ground_height
+      DEAD_TUBE_CORAL_FAN: default+ign_passable+ground_height
+      DEAD_BRAIN_CORAL_FAN: default+ign_passable+ground_height
+      DEAD_BUBBLE_CORAL_FAN: default+ign_passable+ground_height
       snow: default
       water_lily: default+ign_passable+ground_height
       GRASS_PATH: default+ign_passable+ground_height+ALLOW_LOWJUMP
