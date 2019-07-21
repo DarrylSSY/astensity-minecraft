@@ -61,3 +61,7 @@ gui:
     lore:
     - '&7Exit the tags menu'
 deluxetags:
+  example:
+    order: 1
+    tag: '&8[&bDeluxeTags&8]'
+    description: '&cAwarded for using DeluxeTags!'

@@ -1,0 +1,97 @@
+# You can use the following suffixes for samplers
+_raw -> Raw digits up to 9
+_raw_0 -> Raw, no decimals
+_raw_1 -> Raw, 1 decimal
+_raw_2 -> Raw, 2 decimals
+_raw_3 -> Raw, 3 decimals
+_raw_4 -> Raw, 4 decimals
+_raw_force_1 -> Raw, forces 1 decimal. If the value is round, places 0.
+_raw_force_2 -> Raw, forces 2 decimals. If no decimal is set for any segment, zero is used. I.e. 19.00 (instead of 19)
+
+%react_ping%
+%react_ping_raw%
+%react_ping_flat%
+
+# Samplers support suffixes
+%react_sample_entity_time_lock%
+%react_sample_entity_time_lock_raw%
+%react_sample_tile_time_lock%
+%react_sample_tile_time_lock_raw%
+%react_sample_entity_time%
+%react_sample_entity_time_raw%
+%react_sample_react_time%
+%react_sample_react_time_raw%
+%react_sample_react_task_time%
+%react_sample_react_task_time_raw%
+%react_sample_tile_time%
+%react_sample_tile_time_raw%
+%react_sample_entity_droptick%
+%react_sample_entity_droptick_raw%
+%react_sample_tile_droptick%
+%react_sample_tile_droptick_raw%
+%react_sample_redstone_tick_usage%
+%react_sample_redstone_tick_usage_raw%
+%react_sample_redstone_tick%
+%react_sample_redstone_tick_raw%
+%react_sample_redstone_second%
+%react_sample_redstone_second_raw%
+%react_sample_redstone_time%
+%react_sample_redstone_time_raw%
+%react_sample_physics_time%
+%react_sample_physics_time_raw%
+%react_sample_hopper_tick_usage%
+%react_sample_hopper_tick_usage_raw%
+%react_sample_hopper_tick%
+%react_sample_hopper_tick_raw%
+%react_sample_hopper_second%
+%react_sample_hopper_second_raw%
+%react_sample_hopper_time%
+%react_sample_hopper_time_raw%
+%react_sample_fluid_tick_usage%
+%react_sample_fluid_tick_usage_raw%
+%react_sample_fluid_tick%
+%react_sample_fluid_tick_raw%
+%react_sample_fluid_second%
+%react_sample_fluid_second_raw%
+%react_sample_fluid_time%
+%react_sample_fluid_time_raw%
+%react_sample_tps%
+%react_sample_tps_raw%
+%react_sample_tick%
+%react_sample_tick_raw%
+%react_sample_cpu%
+%react_sample_cpu_raw%
+%react_sample_playercount%
+%react_sample_playercount_raw%
+%react_sample_tiu%
+%react_sample_tiu_raw%
+%react_sample_mem%
+%react_sample_mem_raw%
+%react_sample_freemem%
+%react_sample_freemem_raw%
+%react_sample_memtotals%
+%react_sample_memtotals_raw%
+%react_sample_maxmem%
+%react_sample_maxmem_raw%
+%react_sample_allocmem%
+%react_sample_allocmem_raw%
+%react_sample_mahs%
+%react_sample_mahs_raw%
+%react_sample_chk_time%
+%react_sample_chk_time_raw%
+%react_sample_explosion_time%
+%react_sample_explosion_time_raw%
+%react_sample_growth_time%
+%react_sample_growth_time_raw%
+%react_sample_chk%
+%react_sample_chk_raw%
+%react_sample_chks%
+%react_sample_chks_raw%
+%react_sample_ent%
+%react_sample_ent_raw%
+%react_sample_entliv%
+%react_sample_entliv_raw%
+%react_sample_entdrop%
+%react_sample_entdrop_raw%
+%react_sample_enttile%
+%react_sample_enttile_raw%

@@ -1,0 +1,165 @@
+=== Sampler Codes ===
+'entity_time_lock':
+    Entity TLCK
+    Samples Entity Tick Time Lock
+    i.e. 0.0 -> 0ms
+'tile_time_lock':
+    Tile TLCK
+    Samples Tile Tick Time Lock
+    i.e. 0.0 -> 0ms
+'entity_time':
+    Ent TIME
+    Samples Entity Tick Time
+    i.e. 0.0 -> 0ms
+'react_time':
+    R Time
+    Samples react total tick time
+    i.e. 0.0 -> 0ms
+'react_task_time':
+    RTT
+    Samples react task queue
+    i.e. 0.0 -> 0
+'tile_time':
+    Tile Tick
+    Samples Tile Tick Time
+    i.e. 0.0 -> 0ms
+'entity_droptick':
+    Ent Droptick
+    Samples Dropped Entity Ticks
+    i.e. 0.0 -> 0
+'tile_droptick':
+    Tile Droptick
+    Samples Dropped Tile Ticks
+    i.e. 0.0 -> 0
+'redstone_tick_usage':
+    Red TIU
+    Samples Redstone Tick Time Utilization
+    i.e. 0.0 -> 0%
+'redstone_tick':
+    RS/t
+    Samples redstone updates per tick
+    i.e. 0.0 -> 0/t
+'redstone_second':
+    RS/s
+    Samples redstone updates per second
+    i.e. 0.0 -> 0/s
+'redstone_time':
+    RS Time
+    Samples Redstone Tick Time
+    i.e. 0.0 -> 0ms
+'physics_time':
+    Phy Tick
+    Samples Physics Tick Time
+    i.e. 0.0 -> 0ms
+'hopper_tick_usage':
+    Hopper TIU
+    Samples Hopper Tick Time Utilization
+    i.e. 0.0 -> 0%
+'hopper_tick':
+    Hopper Per Tick
+    Samples hopper updates per tick
+    i.e. 0.0 -> 0/t
+'hopper_second':
+    Hoppers Per Second
+    Samples hopper updates per second
+    i.e. 0.0 -> 0/s
+'hopper_time':
+    Hopper Tick
+    Samples Hopper Tick Time
+    i.e. 0.0 -> 0ms
+'fluid_tick_usage':
+    Fluid TIU
+    Samples Fluid Tick Time Utilization
+    i.e. 0.0 -> 0%
+'fluid_tick':
+    Fluid/t
+    Samples fluid updates per tick
+    i.e. 0.0 -> 0/t
+'fluid_second':
+    Fluid/s
+    Samples fluid updates per second
+    i.e. 0.0 -> 0/s
+'fluid_time':
+    Fluid Tick
+    Samples Fluid Tick Time
+    i.e. 0.0 -> 0ms
+'tps':
+    TPS
+    Samples the tps
+    i.e. 20.0 -> 20?
+'tick':
+    Tick Time
+    Tick time in milliseconds
+    i.e. 1.0 -> 1ms
+'cpu':
+    CPU
+    Java Process Usage
+    i.e. 0.0 -> 0% CPU
+'playercount':
+    PLR
+    Player Count
+    i.e. 0.0 -> 0 PLR
+'tiu':
+    TIU
+    Tick usage via percent
+    i.e. 1.0 -> 100%
+'mem':
+    Used Memory
+    Memory currently used
+    i.e. 1.0 -> 1b
+'freemem':
+    Free Memory
+    Memory currently free
+    i.e. 1.0 -> 1b
+'memtotals':
+    memtotals
+    Samples memory totals
+    i.e. 1.0 -> +0 Bytes -> 0 Bytes
+'maxmem':
+    Max Memory
+    Maximum Memory
+    i.e. 1.0 -> 1b
+'allocmem':
+    Alloc Mem
+    Allocated Memory
+    i.e. 1.0 -> 1b
+'mahs':
+    MAH/s
+    Memory allocated per second
+    i.e. 1.0 -> ? 1b
+'chk_time':
+    Chk Time
+    Samples Chunk total load times
+    i.e. 0.0 -> 0ms
+'explosion_time':
+    Explosion MS
+    Calculates milliseconds spent on explosions
+    i.e. 0.0 -> 0ms
+'growth_time':
+    Grow MS
+    Calculates milliseconds spent on growth tick
+    i.e. 0.0 -> 0ms
+'chk':
+    Chunks
+    Total loaded chunks
+    i.e. 1.0 -> 1?
+'chks':
+    Chunks/s
+    Chunks per second
+    i.e. 1.0 -> ? 1/s
+'ent':
+    Entities
+    Total Entities
+    i.e. 0.0 -> 0?
+'entliv':
+    Living
+    Total Living
+    i.e. 0.0 -> ?0
+'entdrop':
+    Drops
+    Total Drops
+    i.e. 0.0 -> ?0
+'enttile':
+    Tiles
+    Total Tiles
+    i.e. 0.0 -> ?0
