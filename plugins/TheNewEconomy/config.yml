@@ -23,7 +23,7 @@ Core:
         MenuMaterial: "GOLD_INGOT"
 
         #Whether or not mob drops that are a currency item should be disabled.
-        MobDrop: true
+        MobDrop: false
 
         #Whether or not to consolidate item-based currencies automatically.
         Consolidate: false

@@ -8,7 +8,7 @@
 #All configurations relating to mobs.
 Mobs:
 
-  Enabled: true
+  Enabled: false
 
   #Whether or not a mob is a baby affects the reward.
   EnableAge: true
