@@ -41,7 +41,7 @@ levels:
     namePrefix: ''
     mayorPostfix: ''
     townBlockLimit: 16
-    upkeepModifier: 1.0
+    upkeepModifier: 2.0
     townOutpostLimit: 0
   - numResidents: 2
     namePostfix: ' (Hamlet)'
@@ -49,7 +49,7 @@ levels:
     namePrefix: ''
     mayorPostfix: ''
     townBlockLimit: 32
-    upkeepModifier: 1.0
+    upkeepModifier: 4.0
     townOutpostLimit: 1
   - numResidents: 6
     namePostfix: ' (Village)'
@@ -57,7 +57,7 @@ levels:
     namePrefix: ''
     mayorPostfix: ''
     townBlockLimit: 96
-    upkeepModifier: 1.0
+    upkeepModifier: 8.0
     townOutpostLimit: 1
   - numResidents: 10
     namePostfix: ' (Town)'
@@ -65,7 +65,7 @@ levels:
     namePrefix: ''
     mayorPostfix: ''
     townBlockLimit: 160
-    upkeepModifier: 1.0
+    upkeepModifier: 16.0
     townOutpostLimit: 2
   - numResidents: 14
     namePostfix: ' (Large Town)'
@@ -73,7 +73,7 @@ levels:
     namePrefix: ''
     mayorPostfix: ''
     townBlockLimit: 224
-    upkeepModifier: 1.0
+    upkeepModifier: 32.0
     townOutpostLimit: 2
   - numResidents: 20
     namePostfix: ' (City)'
@@ -81,7 +81,7 @@ levels:
     namePrefix: ''
     mayorPostfix: ''
     townBlockLimit: 320
-    upkeepModifier: 1.0
+    upkeepModifier: 64.0
     townOutpostLimit: 3
   - numResidents: 24
     namePostfix: ' (Large City)'
@@ -89,7 +89,7 @@ levels:
     namePrefix: ''
     mayorPostfix: ''
     townBlockLimit: 384
-    upkeepModifier: 1.0
+    upkeepModifier: 128.0
     townOutpostLimit: 3
   - numResidents: 28
     namePostfix: ' (Metropolis)'
@@ -97,13 +97,13 @@ levels:
     namePrefix: ''
     mayorPostfix: ''
     townBlockLimit: 448
-    upkeepModifier: 1.0
+    upkeepModifier: 256.0
     townOutpostLimit: 4
   # default Nation levels.
   nation_level:
   - kingPostfix: ''
     capitalPostfix: ''
-    upkeepModifier: 1.0
+    upkeepModifier: 10.0
     kingPrefix: 'Leader '
     capitalPrefix: ''
     numResidents: 0
@@ -115,7 +115,7 @@ levels:
     nationTownUpkeepModifier: 1.0
   - kingPostfix: ''
     capitalPostfix: ''
-    upkeepModifier: 1.0
+    upkeepModifier: 20.0
     kingPrefix: 'Count '
     capitalPrefix: ''
     numResidents: 10
@@ -127,7 +127,7 @@ levels:
     nationTownUpkeepModifier: 1.0
   - kingPostfix: ''
     capitalPostfix: ''
-    upkeepModifier: 1.0
+    upkeepModifier: 40.0
     kingPrefix: 'Duke '
     capitalPrefix: ''
     numResidents: 20
@@ -139,7 +139,7 @@ levels:
     nationTownUpkeepModifier: 1.0
   - kingPostfix: ''
     capitalPostfix: ''
-    upkeepModifier: 1.0
+    upkeepModifier: 80.0
     kingPrefix: 'King '
     capitalPrefix: ''
     numResidents: 30
@@ -151,7 +151,7 @@ levels:
     nationTownUpkeepModifier: 1.0
   - kingPostfix: ''
     capitalPostfix: ''
-    upkeepModifier: 1.0
+    upkeepModifier: 160.0
     kingPrefix: 'Emperor '
     capitalPrefix: ''
     numResidents: 40
@@ -163,7 +163,7 @@ levels:
     nationTownUpkeepModifier: 1.0
   - kingPostfix: ''
     capitalPostfix: ''
-    upkeepModifier: 1.0
+    upkeepModifier: 320.0
     kingPrefix: 'God Emperor '
     capitalPrefix: ''
     numResidents: 60
@@ -503,7 +503,7 @@ plugin:
       dbname: minecraft
       table_prefix: towny_
       username: astensity
-      password: '***REMOVED***'
+      password: ***REMOVED***
       ssl: 'false'
  
     # Flatfile backup settings.
