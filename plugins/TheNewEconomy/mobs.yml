@@ -11,7 +11,7 @@ Mobs:
   Enabled: false
 
   #Whether or not a mob is a baby affects the reward.
-  EnableAge: true
+  EnableAge: false
 
   #Whether or not to send a message stating how much money a player got for killing a mob
   Message: true
@@ -21,7 +21,7 @@ Mobs:
 
   #If using virtual currency. If this is true all money rewards will be dropped as a currency note. If this is false they
   #will be added directly to the player's balance.
-  Note: true
+  Note: false
 
   #Settings relating to item multipliers.
   #Here you may specify multipliers for killing entities with certain items.
@@ -44,7 +44,7 @@ Mobs:
   #The configurations used for mobs that are not in vanilla MC or in your version of Bukkit
   Default:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -61,7 +61,7 @@ Mobs:
       Max: 15.0
   BAT:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -72,7 +72,7 @@ Mobs:
 
   BLAZE:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -83,7 +83,7 @@ Mobs:
 
   CAVE_SPIDER:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -94,7 +94,7 @@ Mobs:
 
   CHICKEN:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -105,7 +105,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -116,7 +116,7 @@ Mobs:
 
   COD:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -127,7 +127,7 @@ Mobs:
 
   COW:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -138,7 +138,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -149,7 +149,7 @@ Mobs:
 
   CREEPER:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -160,7 +160,7 @@ Mobs:
 
   DOLPHIN:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -171,7 +171,7 @@ Mobs:
 
   DONKEY:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -182,7 +182,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -193,7 +193,7 @@ Mobs:
 
   DROWNED:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -204,7 +204,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -215,7 +215,7 @@ Mobs:
 
   ELDER_GUARDIAN:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -226,7 +226,7 @@ Mobs:
 
   ENDERMAN:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -237,7 +237,7 @@ Mobs:
 
   ENDERMITE:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -248,7 +248,7 @@ Mobs:
 
   ENDER_DRAGON:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -259,7 +259,7 @@ Mobs:
 
   EVOKER:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -270,7 +270,7 @@ Mobs:
 
   GHAST:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -281,7 +281,7 @@ Mobs:
 
   GIANT:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -292,7 +292,7 @@ Mobs:
 
   GUARDIAN:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -303,7 +303,7 @@ Mobs:
 
   HORSE:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -314,7 +314,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -325,7 +325,7 @@ Mobs:
 
   HUSK:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -336,7 +336,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -347,7 +347,7 @@ Mobs:
 
   ILLUSIONER:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -358,7 +358,7 @@ Mobs:
 
   IRON_GOLEM:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -369,7 +369,7 @@ Mobs:
 
   LLAMA:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -380,7 +380,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -391,7 +391,7 @@ Mobs:
 
   MAGMA_CUBE:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -404,25 +404,25 @@ Mobs:
     #We support the natural ones with Small, Medium, and Large, and also custom ones with simply the size.
     #Natural sizes.
     Small:
-      Enabled: true
+      Enabled: false
       RewardCurrency: "Default"
       Reward: 5.00
     Medium:
-      Enabled: true
+      Enabled: false
       RewardCurrency: "Default"
       Reward: 10.00
     Large:
-      Enabled: true
+      Enabled: false
       RewardCurrency: "Default"
       Reward: "15.00    #Custom one for a magma cube size of 10"
     10:
-      Enabled: true
+      Enabled: false
       RewardCurrency: "Default"
       Reward: 20.00
 
   MULE:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -433,7 +433,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -444,7 +444,7 @@ Mobs:
 
   MUSHROOM_COW:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -455,7 +455,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -466,7 +466,7 @@ Mobs:
 
   OCELOT:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -477,7 +477,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -488,7 +488,7 @@ Mobs:
 
   PARROT:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -499,7 +499,7 @@ Mobs:
 
   PHANTOM:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -510,7 +510,7 @@ Mobs:
 
   PIG:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -521,7 +521,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -532,7 +532,7 @@ Mobs:
 
   PIG_ZOMBIE:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -543,7 +543,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -554,7 +554,7 @@ Mobs:
 
   PLAYER:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -566,12 +566,12 @@ Mobs:
     #Rewards for killing specific players may go here.
     Individual:
       player-uuid-here:
-        Enabled: true
+        Enabled: false
         Reward: 10.00
 
   POLAR_BEAR:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -582,7 +582,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -593,7 +593,7 @@ Mobs:
 
   PUFFERFISH:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -604,7 +604,7 @@ Mobs:
 
   RABBIT:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -615,7 +615,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -626,7 +626,7 @@ Mobs:
 
   SALMON:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -637,7 +637,7 @@ Mobs:
 
   SHEEP:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -648,7 +648,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -659,7 +659,7 @@ Mobs:
 
   SHULKER:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -670,7 +670,7 @@ Mobs:
 
   SILVERFISH:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -681,7 +681,7 @@ Mobs:
 
   SKELETON:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -692,7 +692,7 @@ Mobs:
 
   SKELETON_HORSE:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -703,7 +703,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -714,7 +714,7 @@ Mobs:
 
   SLIME:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -727,25 +727,25 @@ Mobs:
     #We support the natural ones with Small, Medium, and Large, and also custom ones with simply the size.
     #Natural sizes.
     Small:
-      Enabled: true
+      Enabled: false
       RewardCurrency: "Default"
       Reward: 5.00
     Medium:
-      Enabled: true
+      Enabled: false
       RewardCurrency: "Default"
       Reward: 10.00
     Large:
-      Enabled: true
+      Enabled: false
       RewardCurrency: "Default"
       Reward: "15.00    #Custom one for a slime size of 10"
     10:
-      Enabled: true
+      Enabled: false
       RewardCurrency: "Default"
       Reward: 20.00
 
   SNOWMAN:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -756,7 +756,7 @@ Mobs:
 
   SPIDER:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -767,7 +767,7 @@ Mobs:
 
   SQUID:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -778,7 +778,7 @@ Mobs:
 
   STRAY:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -789,7 +789,7 @@ Mobs:
 
   TROPICAL_FISH:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -800,7 +800,7 @@ Mobs:
 
   TURTLE:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -811,7 +811,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -822,7 +822,7 @@ Mobs:
 
   VEX:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -833,7 +833,7 @@ Mobs:
 
   VILLAGER:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -844,7 +844,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -855,7 +855,7 @@ Mobs:
 
   VILLAGER_FARMER:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -866,7 +866,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -877,7 +877,7 @@ Mobs:
 
   VILLAGER_FISHERMAN:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -888,7 +888,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -899,7 +899,7 @@ Mobs:
 
   VILLAGER_SHEPHERD:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -910,7 +910,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -921,7 +921,7 @@ Mobs:
 
   VILLAGER_FLETCHER:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -932,7 +932,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -943,7 +943,7 @@ Mobs:
 
   VILLAGER_LIBRARIAN:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -954,7 +954,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -965,7 +965,7 @@ Mobs:
 
   VILLAGER_CARTOGRAPHER:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -976,7 +976,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -987,7 +987,7 @@ Mobs:
 
   VILLAGER_CLERIC:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -998,7 +998,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -1009,7 +1009,7 @@ Mobs:
 
   VILLAGER_ARMORER:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -1020,7 +1020,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -1031,7 +1031,7 @@ Mobs:
 
   VILLAGER_WEAPON_SMITH:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -1042,7 +1042,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -1053,7 +1053,7 @@ Mobs:
 
   VILLAGER_TOOL_SMITH:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -1064,7 +1064,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -1075,7 +1075,7 @@ Mobs:
 
   VILLAGER_BUTCHER:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -1086,7 +1086,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -1097,7 +1097,7 @@ Mobs:
 
   VILLAGER_LEATHERWORKER:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -1108,7 +1108,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -1119,7 +1119,7 @@ Mobs:
 
   VILLAGER_NITWIT:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -1130,7 +1130,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -1141,7 +1141,7 @@ Mobs:
 
   VINDICATOR:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -1152,7 +1152,7 @@ Mobs:
 
   WITCH:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -1163,7 +1163,7 @@ Mobs:
 
   WITHER:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -1174,7 +1174,7 @@ Mobs:
 
   WITHER_SKELETON:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -1185,7 +1185,7 @@ Mobs:
 
   WOLF:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -1196,7 +1196,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -1207,7 +1207,7 @@ Mobs:
 
   ZOMBIE:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -1218,7 +1218,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -1229,7 +1229,7 @@ Mobs:
 
   ZOMBIE_HORSE:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -1240,7 +1240,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -1251,7 +1251,7 @@ Mobs:
 
   ZOMBIE_VILLAGER:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -1262,7 +1262,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -1273,7 +1273,7 @@ Mobs:
 
   ZOMBIE_VILLAGER_FARMER:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -1284,7 +1284,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -1295,7 +1295,7 @@ Mobs:
 
   ZOMBIE_VILLAGER_LIBRARIAN:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -1306,7 +1306,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -1317,7 +1317,7 @@ Mobs:
 
   ZOMBIE_VILLAGER_PRIEST:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -1328,7 +1328,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -1339,7 +1339,7 @@ Mobs:
 
   ZOMBIE_VILLAGER_BLACKSMITH:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -1350,7 +1350,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -1361,7 +1361,7 @@ Mobs:
 
   ZOMBIE_VILLAGER_BUTCHER:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -1372,7 +1372,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"
@@ -1383,7 +1383,7 @@ Mobs:
 
   ZOMBIE_VILLAGER_NITWIT:
 
-    Enabled: true
+    Enabled: false
 
     #The currency to use for the money dropped by this entity
     RewardCurrency: "Default"
@@ -1394,7 +1394,7 @@ Mobs:
 
     #Configurations relating to baby versions of this entity.
     Baby:
-      Enabled: true
+      Enabled: false
 
       #The currency to use for the money dropped by this entity
       RewardCurrency: "Default"

@@ -49,8 +49,7 @@ per_vote_rewards:
   enabled: true
   max_possible_rewards: 1
   reward_commands:
-  - eco give @p 10;0
-  - give @p steak 8;0
+  - crate key @p vote 1
 on_vote_global_commands:
   enabled: true
   commands:
@@ -69,6 +68,7 @@ party:
   - eco give @p 100
   - give @p diamond 6
   - give @p iron_ingot 12
+  - crate key @p vote 1
   reward_command_delay: 1
   reward_commands:
   - eco give @p 100;0
