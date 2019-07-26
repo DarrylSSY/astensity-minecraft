@@ -1,0 +1,15 @@
+{
+    "reaction": {
+        "near": "entity",
+        "type": "cull_entities"
+    },
+    "action-health-regen": 1,
+    "author": "React",
+    "action-health-max": 295,
+    "name": "Cull Entities",
+    "description": "Culls Entities in entity dense areas",
+    "interval": "10t",
+    "conditions": ["entity_time>7.5"],
+    "enabled": true,
+    "action-health-damage": 126
+}

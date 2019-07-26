@@ -28,3 +28,7 @@
 `plugins/ShopGUIPlus/config.yml`
 
 `plugins/McMMO/config.yml`
+
+`plugins/TheNewEconomy/config.yml`
+
+`plugins/LWC/core.yml`
