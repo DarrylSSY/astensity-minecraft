@@ -24,7 +24,7 @@ settings:
   netty-threads: 4
   debug: false
   sample-count: 12
-  save-user-cache-on-stop-only: false
+  save-user-cache-on-stop-only: true
   attribute:
     maxHealth:
       max: 2048.0
@@ -65,12 +65,12 @@ world-settings:
     item-despawn-rate: 6000
     enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
-    arrow-despawn-rate: 1200
+    arrow-despawn-rate: 300
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
-    nerf-spawner-mobs: false
+    nerf-spawner-mobs: true
     dragon-death-sound-radius: 0
-    mob-spawn-range: 8
+    mob-spawn-range: 6
     max-tnt-per-tick: 100
     hopper-amount: 1
     seed-village: 10387312
@@ -85,8 +85,8 @@ world-settings:
     seed-slime: 987234911
     max-entity-collisions: 8
     merge-radius:
-      item: 2.5
-      exp: 3.0
+      item: 4.0
+      exp: 6.0
     entity-tracking-range:
       players: 48
       animals: 48
@@ -112,10 +112,10 @@ world-settings:
       kelp-modifier: 100
     entity-activation-range:
       water: 16
-      animals: 32
-      monsters: 32
+      animals: 24
+      monsters: 24
       raiders: 48
-      misc: 16
+      misc: 12
       tick-inactive-villagers: true
     squid-spawn-range:
       min: 45.0
@@ -131,5 +131,5 @@ world-settings:
       sprint-multiplier: 0.1
       other-multiplier: 0.0
     max-tick-time:
-      tile: 50
-      entity: 50
+      tile: 1000
+      entity: 1000

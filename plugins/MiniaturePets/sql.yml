@@ -1,9 +1,9 @@
 useMySQL: true
 hostName: ***REMOVED***
 port: '3306'
-databaseName: ''
-username: root
-password: ''
+databaseName: 'minecraft'
+username: astensity
+password: '***REMOVED***'
 method: MySQL
 autoReconnect: false
 useSSL: false
