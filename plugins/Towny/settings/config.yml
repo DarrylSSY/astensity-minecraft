@@ -498,7 +498,7 @@ plugin:
  
     # SQL database connection details (IF set to use SQL).
     sql:
-      hostname: localhost
+      hostname: 34.87.92.37
       port: '3306'
       dbname: minecraft
       table_prefix: towny_
