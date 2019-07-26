@@ -43,3 +43,12 @@ commands:
     - '{"text": "This message is optional if you want to show a different message
       when"}&&{"text": " %player% is specified at the end of the command"}'
     - '{"text": "--------"}'
+  vote:
+    permission: astensity.vote
+    message:
+    - '{"text": "--------"}'
+    - '{"text":"Voting Sites","color":"gold","bold":true}'
+    - '{"text": "--------"}'
+    - '{"text":"MinecraftMP","color":"yellow","clickEvent":{"action":"open_url","value":"https://minecraft-mp.com/server/228873/vote/"}}'
+    - '{"text":"TOPG","color":"yellow","clickEvent":{"action":"open_url","value":"https://topg.org/Minecraft/in-517552"}}'
+    - '{"text":"PlanetMinecraft","color":"yellow","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/server/astensity/vote/"}}'
