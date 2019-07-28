@@ -117,6 +117,7 @@ world-settings:
     fixed-chunk-inhabited-time: -1
     armor-stands-do-collision-entity-lookups: true
     game-mechanics:
+      disable-relative-projectile-velocity: false
       villages-load-chunks: false
       disable-chest-cat-detection: true
       shield-blocking-delay: 5
