@@ -258,7 +258,7 @@ killaura:
       vl_addition: 6
   # Action map
   action:
-    10:
+    12:
       - 'horizon notify &7(&a!&7) &a%player% &7failed &aKill Aura &7(Patchwork - %module%) (&a%fixed_vl%VL&7)'
     20:
       - 'horizon notify &7(&6!&7) &6%player% &7failed &6Kill Aura &7(Patchwork - %module%) (&6%fixed_vl%VL&7)'
