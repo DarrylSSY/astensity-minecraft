@@ -14,12 +14,12 @@ Mobs:
   EnableAge: false
 
   #Whether or not to send a message stating how much money a player got for killing a mob
-  Message: true
+  Message: false
 
   #Whether a message should be sent if the reward is set to zero.
   MessageZero: false
 
-  #If using virtual currency. If this is true all money rewards will be dropped as a currency note. If this is false they
+  #If using virtual currency. If this is false all money rewards will be dropped as a currency note. If this is false they
   #will be added directly to the player's balance.
   Note: false
 
@@ -57,7 +57,7 @@ Mobs:
     #Note: This overrides the value of Reward
     Chance:
 
-      Min: "5.0      #The maximum value that may be granted"
+      Min: 5.0      #The maximum value that may be granted
       Max: 15.0
   BAT:
 
@@ -414,7 +414,7 @@ Mobs:
     Large:
       Enabled: false
       RewardCurrency: "Default"
-      Reward: "15.00    #Custom one for a magma cube size of 10"
+      Reward: 15.00    #Custom one for a magma cube size of 10
     10:
       Enabled: false
       RewardCurrency: "Default"
@@ -737,7 +737,7 @@ Mobs:
     Large:
       Enabled: false
       RewardCurrency: "Default"
-      Reward: "15.00    #Custom one for a slime size of 10"
+      Reward: 15.00    #Custom one for a slime size of 10
     10:
       Enabled: false
       RewardCurrency: "Default"
