@@ -8,28 +8,28 @@ Discord:
     Log: true
 
     #The channel ID of the channel to log transactions to.
-    Channel: 604379152396582922
+    Channel: "604379152396582922"
 
   #Configurations relating to required roles for each command.
   Roles:
 
     #The required role for balance.
-    Balance: 598819516444835841
+    Balance: "598819516444835841"
 
     #The required role for balanceother.
-    BalanceOther: 598819516444835841
+    BalanceOther: "598819516444835841"
 
     #The required role for give.
-    Give: 598819516444835841
+    Give: "598819516444835841"
 
     #The required role for pay.
-    Pay: 598819516444835841
+    Pay: "598819516444835841"
 
     #The required role for set.
-    Set: 598819516444835841
+    Set: "598819516444835841"
 
     #The required role for take.
-    Take: 598819516444835841
+    Take: "598819516444835841"
 
   #Whether or not to allow the use of !deco, which uses separate accounts for discord users to create a discord-based
   #economy system.

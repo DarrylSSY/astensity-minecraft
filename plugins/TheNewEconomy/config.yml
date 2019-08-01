@@ -23,7 +23,7 @@ Core:
         MenuMaterial: "GOLD_INGOT"
 
         #Whether or not mob drops that are a currency item should be disabled.
-        MobDrop: false
+        MobDrop: true
 
         #Whether or not to consolidate item-based currencies automatically.
         Consolidate: false
@@ -291,7 +291,7 @@ Core:
     Database:
 
         #The database type to use. Current options: MySQL, H2.
-        Type: "mysql"
+        Type: "MySQL"
 
         #The prefix to use for TheNewEconomy MySQL and H2 Tables
         Prefix: "TNE"
