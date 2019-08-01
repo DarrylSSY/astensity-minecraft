@@ -45,3 +45,5 @@ hooks:
     enabled: true
     exempt-names:
     - MagicSpellsPlayerInteractEvent
+  citizens2:
+    enabled: true

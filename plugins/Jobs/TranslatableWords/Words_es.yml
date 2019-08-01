@@ -1067,7 +1067,6 @@ EnchantList:
   Flame: Flame
   Aqua affinity: Aqua affinity
   Punch: Punch
-  Multishot: Multishot
   Loyalty: Loyalty
   Depth strider: Depth strider
   Vanishing curse: Vanishing curse
@@ -1085,6 +1084,7 @@ EnchantList:
   Piercing: Piercing
   Blast protection: Blast protection
   Smite: Smite
+  Multishot: Multishot
   Fire aspect: Fire aspect
   Channeling: Channeling
   Sweeping: Sweeping
