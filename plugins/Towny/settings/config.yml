@@ -1,8 +1,8 @@
 version:
   # This is the current version of Towny.  Please do not edit.
-  version: 0.93.1.0 Pre-Release 4
+  version: 0.94.0.0
   # This is for showing the changelog on updates.  Please do not edit.
-  last_run_version: 0.93.1.0 Pre-Release 4
+  last_run_version: 0.94.0.0
 # The language file you wish to use
 language: english.yml
  
@@ -491,7 +491,7 @@ global_nation_settings:
  
 plugin:
  
-  # Valid load and save types are: flatfile, mysql, sqlite, h2.
+  # Valid load and save types are: flatfile, mysql, h2.
   database:
     database_load: mysql
     database_save: mysql
@@ -527,10 +527,6 @@ plugin:
     # If Reserve/Vault is not present it will attempt to find a supported economy plugin.
     # If neither Vault/Reserve or supported economy are present it will not be possible to create towns or do any operations that require money.
     using_economy: 'true'
- 
-    # True to attempt to use GroupManager, LuckPerms, or other compliant Permission Manager
-    # False to disable permission checks and rely on Towny settings (This should almost never be set to false on a modern server.)
-    using_permissions: 'true'
  
   day_timer:
     # The number of hours in each "day".
@@ -643,9 +639,6 @@ protection:
  
   # When preventing PVP prevent the use of these potions.
   potion_types: BLINDNESS,CONFUSION,HARM,HUNGER,POISON,SLOW,SLOW_DIGGING,WEAKNESS,WITHER
- 
-  # Prevent fly and double block jump cheats.
-  cheat_protection: 'true'
  
  
   ############################################################
