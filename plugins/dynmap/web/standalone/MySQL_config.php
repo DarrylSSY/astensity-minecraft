@@ -1,6 +1,6 @@
 <?php
 $dbname = 'minecraft';
-$dbhost = 'localhost';
+$dbhost = '***REMOVED***';
 $dbport = 3306;
 $dbuserid = 'astensity';
 $dbpassword = '***REMOVED***';

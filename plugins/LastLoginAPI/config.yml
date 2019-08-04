@@ -62,7 +62,7 @@ storage:
 
     # MySQL settings
     mysql:
-      address: "localhost"
+      address: "***REMOVED***"
       port: "3306"
       database: "minecraft"
       username: "astensity"

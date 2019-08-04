@@ -10,5 +10,5 @@ mysql:
   host: '***REMOVED***:3306'
   username: 'astensity'
   password: '***REMOVED***'
-  # Table names are prefixed with ls_
+  # Table names are prefixed with ls_6
   database: 'minecraft'

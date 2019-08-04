@@ -251,7 +251,7 @@ commands:
 storage:
   type: mysql
   mysql:
-    host: localhost
+    host: ***REMOVED***
     user: astensity
     database: minecraft
     password: ***REMOVED***
