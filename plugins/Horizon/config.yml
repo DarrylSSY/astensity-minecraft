@@ -27,6 +27,10 @@ badpackets:
       # Do you want to enable the KeepAliveExploit check?
       enabled: true
       vl_addition: 5
+    Derp:
+      # Do you want to enable the KeepAliveExploit check?
+      enabled: true
+      vl_addition: 6
     CustomPayloadExploit:
       # Do you want to enable the CustomPayloadExploit check?
       enabled: true
@@ -58,7 +62,7 @@ fastuse:
       vl_addition: 2
       # What delay should be enforced for eating an item?
       # Measured in ms
-      min_time: 1300
+      min_time: 1250
     FastBow:
       # Do you want to enable the FastBow check?
       enabled: true
@@ -86,6 +90,10 @@ fly:
       # Do you want to enable the Ability check?
       enabled: true
       vl_addition: 5
+    Elytra:
+      # Do you want to enable the Elytra check?
+      enabled: true
+      vl_addition: 3
     Equality:
       # Do you want to enable the Equality check?
       enabled: true
@@ -131,8 +139,6 @@ speed:
       enabled: true
       vl_addition: 2
 
-      # Violation level addition for NoSlow check
-      noslow_vl_addition: 5
     FastFall:
       # Do you want to enable the Expect check?
       enabled: true
@@ -419,7 +425,7 @@ bowaimbot:
       vl_addition: 0
       # Multiply the velocity of arrows to make hack client failed to expect the arrow's trajectory.
       # It can be harmful if you set it too high.
-      multiplier: 1.1
+      multiplier: 1.2
       # The y-axis will be added for arrows.
       # Your players may complain if you set it too high.
       y_addition: 0.1
