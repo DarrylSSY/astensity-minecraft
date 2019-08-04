@@ -89,19 +89,19 @@ checks:
   lag: true
   debug: false
   blockbreak:
-    active: default
+    active: true
     direction:
-      active: default
+      active: true
       actions: cancel vl>6 cmdc:blockdirection:1:11 cancel
     fastbreak:
-      active: default
+      active: true
       strict: true
       delay: 97
       intervalsurvival: 100
       grace: 2000
       actions: cancel vl>3 cmdc:fastbreak1:1:15 cancel vl>25 cmdc:fastbreak2:1:11 cancel vl>45 cmdc:fastbreak3:1:11 cancel
     frequency:
-      active: default
+      active: true
       intervalcreative: 95
       intervalsurvival: 45
       shortterm:
@@ -112,7 +112,7 @@ checks:
       active: true
       actions: cancel
     reach:
-      active: default
+      active: true
       actions: cancel vl>6 cmdc:blockreach:1:11 cancel
     wrongblock:
       active: false
@@ -122,7 +122,7 @@ checks:
         weight: 2.0
       actions: cancel
   blockinteract:
-    active: default
+    active: true
     direction:
       active: false
       actions: cancel
@@ -130,7 +130,7 @@ checks:
       active: false
       actions: cancel
     speed:
-      active: default
+      active: true
       interval: 2000
       limit: 56
       actions: cancel vl>9 cmdc:blockspeed:1:11 cancel vl>60 cancel cmd:javaerror:1:20
@@ -138,19 +138,19 @@ checks:
       active: false
       actions: cancel
   blockplace:
-    active: default
+    active: true
     against:
       active: false
       actions: cancel
     autosign:
-      active: default
+      active: true
       skipempty: false
       actions: cancel vl>10 cmdc:autosign:1:11 cancel
     direction:
-      active: default
+      active: true
       actions: cancel vl>5 cmdc:blockdirection:1:11 cancel
     fastplace:
-      active: default
+      active: true
       limit: 14
       shortterm:
         ticks: 10
@@ -160,7 +160,7 @@ checks:
         weight: 0.5
       actions: cancel vl>5 cmdc:fastplace1:1:15 cancel vl>280 cmdc:fastplace2:1:12 cancel vl>850 cmdc:fastplace3:1:12 cancel
     reach:
-      active: default
+      active: true
       actions: cancel vl>6 cmdc:blockreach:1:11 cancel
     noswing:
       active: false
@@ -169,10 +169,10 @@ checks:
       - FLINT_AND_STEEL
       actions: cancel vl>10 log:noswing:0:5:if cancel
     scaffold:
-      active: default
+      active: true
       actions: vl>15 cmdc:scaffold1:1:15 cancel vl>45 cmdc:scaffold2:1:15 cancel vl>85 cmdc:scaffold3:1:15 cancel
     speed:
-      active: default
+      active: true
       interval: 45
       improbable:
         feedonly: false
@@ -181,9 +181,9 @@ checks:
     preventmisc:
       boatsanywhere: true
   chat:
-    active: default
+    active: true
     captcha:
-      active: default
+      active: true
       skip:
         commands: false
       characters: abcdefghjkmnpqrtuvwxyzABCDEFGHJKMNPQRTUVWXYZ2346789
@@ -196,7 +196,7 @@ checks:
       active: false
       actions: cancel
     commands:
-      active: default
+      active: true
       exclusions:
       - /join
       - /hub
@@ -249,7 +249,7 @@ checks:
         level: 3
       actions: cancel
     text:
-      active: default
+      active: true
       allowvlreset: true
       frequency:
         normal:
@@ -303,7 +303,7 @@ checks:
         &7&m---------------------------------------------------
       timeout: 11
     relog:
-      active: default
+      active: true
       timeout: 2750
       warning:
         message: '&7(&c!&7) &cYou relogged really fast!'
@@ -312,22 +312,22 @@ checks:
       kickmessage: You relogged really fast! Try with a little delay.
       actions: cancel
     logins:
-      active: default
+      active: true
       startupdelay: 550
       perworldcount: false
       seconds: 10
       limit: 8
       kickmessage: Too many people logging in, retry soon.
   combined:
-    active: default
+    active: true
     bedleave:
-      active: default
+      active: true
       actions: cancel cmdc:bedleave:1:11 cmd:kickbedleave
     enderpearl:
-      active: default
+      active: true
       preventclickblock: true
     improbable:
-      active: default
+      active: true
       level: 100
       actions: cancel vl>100 cancel log:improbable1:2:15:i vl>800 cancel cmdc:improbable2:1:15 vl>4000 cancel cmdc:improbable3:1:12
     invulnerable:
@@ -354,7 +354,7 @@ checks:
         feedonly: false
         weight: 100.0
   fight:
-    active: default
+    active: true
     canceldead: true
     toolchangepenalty: 200
     pvp:
@@ -362,7 +362,7 @@ checks:
     yawrate:
       active: true
     angle:
-      active: default
+      active: true
       threshold:
         average_move: 50
         average_time: 50
@@ -370,7 +370,7 @@ checks:
         average_switch: 50
       actions: cancel vl>125 cmdc:fightangle1:1:15 cancel vl>315 cmdc:fightangle2:1:13 cancel vl>625 cmdc:fightangle3:1:12 cancel
     clickpattern:
-      active: default
+      active: true
       range: 8
       penalty: 150
       actions: vl>2 cancel vl>6 cmdc:clickpattern1:1:12 cancel vl>22 cmdc:clickpattern2:1:12 cancel vl>50 cmdc:clickpattern3:1:12 cancel
@@ -379,17 +379,17 @@ checks:
       falldistance: 0.075
       actions: cancel
     direction:
-      active: default
+      active: true
       strict: false
       penalty: 0
       actions: vl>8 log:fightdirection1:1:15:i vl>45 cmdc:fightdirection2:1:13 vl>105 cmdc:fightdirection3:1:12
     fastheal:
-      active: default
+      active: true
       interval: 4000
       buffer: 1000
       actions: cancel vl>11 cmdc:fastheal1:1:11 cancel vl>35 cmdc:fastheal2:1:12 cancel
     godmode:
-      active: default
+      active: true
       minage: 1100
       maxage: 5000
       actions: cancel
@@ -397,7 +397,7 @@ checks:
       active: false
       actions: cancel
     reach:
-      active: default
+      active: true
       survivaldistance: 4.2
       penalty: 360
       reduce: true
@@ -408,10 +408,10 @@ checks:
         weight: 2.0
       actions: cancel vl>2 cmdc:fightreach1:1:15 cancel vl>12 cmdc:fightreach2:1:13 cancel vl>30 cmdc:fightreach3:1:12 cancel
     selfhit:
-      active: default
+      active: true
       actions: cancel vl>8 log:selfhit:1:11:i cancel cmd:kickselfhit
     speed:
-      active: default
+      active: true
       limit: 14
       actions: cancel vl>2 cmdc:fightspeed1:1:11 cancel vl>12 cmdc:fightspeed2:1:11 cancel vl>30 cmdc:fightspeed3:1:11 cancel
       shortterm:
@@ -424,14 +424,14 @@ checks:
       active: false
       actions: cancel
   inventory:
-    active: default
+    active: true
     drop:
-      active: default
+      active: true
       limit: 80
       timeframe: 20
       actions: cancel cmd:kickdrop:1:15
     fastclick:
-      active: default
+      active: true
       exclude:
       - Inventory Name Here
       sparecreative: true
@@ -444,7 +444,7 @@ checks:
         weight: 0.7
       actions: cancel vl>80 log:fastclick1:3:20:i cancel vl>9500 cmdc:fastclick2:1:30 cancel cmdc:kickfastclick:1:15
     instantbow:
-      active: default
+      active: true
       strict: true
       delay: 130
       improbable:
@@ -452,36 +452,36 @@ checks:
         weight: 0.6
       actions: cancel vl>18 cmdc:fastbow:1:20 cancel
     instanteat:
-      active: default
+      active: true
       actions: cmdc:instanteat:1:12 cancel
     fastconsume:
-      active: default
+      active: true
       duration: 0.67
       whitelist: false
       items:
       - DRIED_KELP
       actions: cmdc:fastconsume:1:15 cancel
     inventorymove:
-      active: default
+      active: true
       disable_creative: true
       actions: cmdc:inventorymove:1:15 cancel
     gutenberg:
-      active: default
+      active: true
       pagelimit: 50
       actions: cancel log:gutenberg:0:11:i cmd:kickinvaliddata:1:5
     items:
-      active: default
+      active: true
     open:
-      active: default
+      active: true
       close: true
       cancelother: true
     hotfix:
       duplication:
         fallingblockendportal: true
   moving:
-    active: default
+    active: true
     creativefly:
-      active: default
+      active: true
       ignoreallowflight: true
       ignorecreative: false
       model:
@@ -534,7 +534,7 @@ checks:
           modifiers: false
       actions: vl>550 cmdc:notifyflyspeed1:1:60 vl>4000 cmdc:notifyflyspeed2:1:40 vl>9500 cmdc:notifyflyspeed3:1:30
     morepackets:
-      active: default
+      active: true
       seconds: 6
       epsideal: 20
       epsmax: 22
@@ -545,7 +545,7 @@ checks:
       setbackage: 40
       actions: cancel vl>32 cmdc:morepackets1:1:12 cancel vl>95 cmdc:morepackets2:1:11 cancel cmd:javaerror:1:20
     nofall:
-      active: default
+      active: true
       dealdamage: true
       skipallowflight: true
       resetonviolation: false
@@ -554,7 +554,7 @@ checks:
       anticriticals: true
       actions: cancel cmdc:nofall:1:11
     passable:
-      active: default
+      active: true
       actions: cancel vl>18 cmdc:phase1:1:15 cancel vl>40 cmdc:phase2:1:13 cancel vl>80 cmdc:phase3:1:12 cancel
       untracked:
         teleport:
@@ -571,7 +571,7 @@ checks:
           - set back
           - back set
     survivalfly:
-      active: default
+      active: true
       stepheight: default
       extended:
         vertical-accounting: true
@@ -613,8 +613,8 @@ checks:
       enforcelocation: default
       schedulesetbacks: default
       morepackets:
-        active: default
-        actions: cancel vl>20 log:morepackets2:0:11:i cancel
+        active: true
+        actions: cancel vl>20 cmdc:morepackets2:0:11:i cancel
       envelope:
         active: default
         actions: cancel vl>100 cancel log:vehicleenvelope:0:11:i
@@ -622,9 +622,9 @@ checks:
       illegalplayermove: Illegal move.
       illegalvehiclemove: Illegal vehicle move.
   net:
-    active: default
+    active: true
     attackfrequency:
-      active: default
+      active: true
       limitforseconds:
         half: 10
         one: 18
@@ -635,12 +635,12 @@ checks:
         weight: 2.0
       actions: cancel vl>15 cmdc:attackfrequency1:1:15 cancel vl>45 cmdc:attackfrequency2:1:12 cancel vl>80 cmdc:attackfrequency3:1:11 cancel cmd:javaerror:1:20
     fightsync:
-      active: default
+      active: true
       threshold: 5
       reset_count: 11
       actions: vl>12 cmdc:fightsync1:1:12 vl>50 cmdc:fightsync2:1:12 vl>100 cmdc:fightsync3:1:12
     flyingfrequency:
-      active: default
+      active: true
       seconds: 5
       packetspersecond: 60
       actions: cancel
@@ -649,16 +649,16 @@ checks:
         seconds: 3
         actions: cancel vl>70 cmdc:flyingfrequency:0:15 cancel
     keepalivefrequency:
-      active: default
+      active: true
       seconds: 20
       actions: cancel vl>10 log:keepalive:1:15:i cancel
     packetfrequency:
-      active: default
+      active: true
       limitpersecond: 175
       seconds: 4
       actions: cancel cmd:kickpacketfrequency
     sounddistance:
-      active: default
+      active: true
       maxdistance: 180
     superseded:
       flying:

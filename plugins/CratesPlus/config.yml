@@ -157,6 +157,7 @@ Crates:
         Percentage: 5
         Commands:
         - townyadmin givebonus %name% 1
+        - essentials:pm %name% You have gained 1 claimblock!
         Name: 1 Claim Block
         Amount: 1
         Enchantments:
@@ -168,6 +169,7 @@ Crates:
         Percentage: 5
         Commands:
         - money give %name% 1000
+        - essentials:pm %name% You have gained $1000!
         Name: $1000
         Amount: 1
         Enchantments:
