@@ -1,0 +1,130 @@
+global-settings:
+  enabled: true
+  allowed-commands: /list, /pl
+  update-notification: true
+  prefix: '&a[MobArena] '
+  pet-items:
+    wolf: bone
+    ocelot: salmon
+classes:
+  Knight:
+    items: diamond_sword, potion:instant_heal:3
+    armor: iron_helmet, iron_chestplate, iron_leggings, iron_boots
+  Tank:
+    items: iron_sword, potion:instant_heal:2
+    armor: diamond_helmet, diamond_chestplate, diamond_leggings, diamond_boots
+    effects: slow, health_boost
+  Archer:
+    items: wooden_sword, bow, arrow:256, potion:instant_heal:3, bone
+    armor: leather_helmet, leather_chestplate, leather_leggings, leather_boots
+    effects: speed
+  Chemist:
+    items: stone_sword, splash_potion:instant_damage:30, splash_potion:poison:8, splash_potion:instant_heal:20,
+      potion:instant_heal:3
+    armor: chainmail_helmet, chainmail_chestplate, chainmail_leggings, chainmail_boots
+    effects: speed:1
+  Oddjob:
+    items: stone_sword, flint_and_steel, netherrack:2, tnt:4, potion:instant_heal:3
+    armor: leather_helmet, leather_chestplate, leather_leggings, leather_boots
+arenas:
+  default:
+    settings:
+      prefix: ''
+      world: world
+      enabled: true
+      protect: true
+      entry-fee: ''
+      default-class: ''
+      clear-wave-before-next: false
+      clear-boss-before-next: false
+      clear-wave-before-boss: false
+      soft-restore: false
+      soft-restore-drops: false
+      require-empty-inv-join: false
+      require-empty-inv-spec: false
+      pvp-enabled: false
+      monster-infight: false
+      allow-teleporting: false
+      spectate-on-death: true
+      auto-respawn: true
+      share-items-in-arena: true
+      min-players: 0
+      max-players: 0
+      max-join-distance: 0
+      join-interrupt-timer: 0
+      first-wave-delay: 5
+      next-wave-delay: 0
+      wave-interval: 15
+      final-wave: 0
+      monster-limit: 100
+      monster-exp: false
+      keep-exp: false
+      food-regen: false
+      lock-food-level: true
+      player-time-in-arena: world
+      auto-ignite-tnt: false
+      auto-start-timer: 0
+      start-delay-timer: 0
+      auto-ready: false
+      use-class-chests: false
+      boss-health-bar: boss-bar
+      display-waves-as-level: false
+      display-timer-as-level: false
+      use-scoreboards: true
+      isolated-chat: false
+      global-join-announce: false
+      global-end-announce: false
+      show-death-messages: true
+    waves:
+      recurrent:
+        def1:
+          type: default
+          priority: 1
+          frequency: 1
+          monsters:
+            zombies: 10
+            skeletons: 10
+            spiders: 10
+            creepers: 10
+            wolves: 10
+        spec1:
+          type: special
+          priority: 2
+          frequency: 4
+          monsters:
+            powered-creepers: 10
+            zombie-pigmen: 10
+            angry-wolves: 10
+            blazes: 10
+      single:
+        swarm1:
+          type: swarm
+          wave: 6
+          monster: slime
+          amount: low
+        boss1:
+          type: boss
+          wave: 10
+          monster: cave_spider
+          health: high
+          abilities: arrows, root-target, throw-nearby
+    rewards:
+      waves:
+        every:
+          '3': feather, bone, stick
+          '5': dirt:4, gravel:4, stone:4
+          '10': iron_ingot:10, gold_ingot:8
+        after:
+          '7': minecart, chest_minecart, furnace_minecart
+          '13': iron_sword, iron_pickaxe, iron_shovel
+          '16': diamond_sword
+    coords:
+      spawnpoints: {}
+      containers: {}
+    class-limits:
+      Oddjob: -1
+      Knight: -1
+      Archer: -1
+      My Items: -1
+      Tank: -1
+      Chemist: -1

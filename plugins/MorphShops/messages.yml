@@ -1,0 +1,69 @@
+Prefix: '&9&lMorphShops &8&l➙ '
+ErrorPrefix: '&8[&9&l!&8] '
+NoPermission: '&7Invalid permissions!'
+NoPlayer: '&7Player does not exist!'
+NoSetShop: '&7You haven''t set a shop yet! &8(&b/setps&8)'
+NoPlayerSetShop: '&7This player hasn''t set a shop yet!'
+NoMoney: '&7Invalid funds! &8(&bCost&8: &7COST&8)'
+NoArgs: '&7Invalid args. Use &b/ps &7for commands!'
+PlayerNameChange: '&7Player shop cannot be found! Name change?'
+Advert:
+  Message: '&7Advert successfully purchased for &bCOST&7! &7Be sure to check out &b/ps
+    advertise lore &7to add a advert message!'
+  AlreadyPurchased: '&7You already have an advert! Use &b/ps advertise lore &7to add
+    a personal message to your advert!'
+  ListFull: '&7Advert list is currently full! Wait until there is a advert reset to
+    try agian.'
+  ResetBroadcast: '&7Adverts have been reset! Use &b/ps advertise &7 to buy a new
+    spot!'
+  NoAdverts: '&7There are currently no adverts!'
+  Usage: '&7Use &b/ps advertise &7to buy one!'
+  LoreAdded: '&7Added lore line!'
+  LoreFull: '&7You have 3 lore lines set! &8(&b/ps advertise lore delete &7to reset
+    them!&8)'
+  LoreDeleted: '&7Lore successfully deleted!'
+Commands:
+  Header: '&7-------- &9&lMorphShops Commands &7-------'
+  SetPs: '&b/setps &8- &7Sets your player shop at your current location.'
+  Pshops: '&b/pshops &8 - &7Opens the shop advertisement menu.'
+  MyPs: '&b/myps &8- &7Teleports you to your shop. &8(&7If one is set.&8)'
+  PsPlayer: '&b/ps <player> &8- &7Teleports you to another player''s shop. &8(&7If
+    one is set.&8)'
+  PsLock: '&b/ps lock &8- &7Locks OR unlocks your shop. &8(&7Toggle&8)'
+  PsRemove: '&b/ps remove &8- &7Deletes your shop &bAND &7advertisement!'
+  PsAdvertise: '&b/ps advertise &8- &7Buy an advert spot for a set cost.'
+  PsLore: '&b/ps advertise lore <lore> &8- &7Adds a custom message to your advert.
+    &8(&7Only up to 3 lines!&8)'
+  PsLoreDelete: '&b/ps advertise lore delete &8- &7Reset all lore lines!'
+  PsReset: '&9[ADMIN] &b/psreset &8- &7Resets the advert list!'
+  PsReload: '&9[ADMIN] &b/psreload &8- &7Reloads all plugin files!'
+  Footer: '&7------------------ &8[&9&l!&8] &7------------------'
+LockedShopMessage: '&7This user''s shop is currently locked!'
+LockedMessage: '&7Shop has been locked, use &b/ps lock &7to unlock!'
+UnLockedMessage: '&7Shop has been unlocked, use &b/ps lock &7to lock!'
+Menu:
+  Title: '&9&lMorphShops&8: &bPlayer Adverts!'
+  ShopTitle: '&9PLAYER''s &bshop.'
+  DefaultShopLore: '&bCome to my shop I''ve got much product!'
+  LockedShop: '&bShop currently locked by &9owner!'
+  CreditsTitle: '&9&lCredits&8:'
+  CreditsLore:
+  - '&9&lVersion&8: &7VERSION'
+  - '&bCode Contributors&8:'
+  - '&8- &7Morphie'
+  - '&8- &7Teleports'
+  - '&b&oClick for spigot link!'
+ReloadMessage: '&7Plugin files successfully reloaded.'
+ReloadArgs: '&7Invalid arguments! &8(&b/psreload&8)'
+RemoveConfirmMessage: '&7Type &b/ps remove &7again to confirm! This will &bdelete
+  &7your advertisement &bAND &7playershop.'
+RemoveMessage: '&7Your shop has been successfully removed!'
+SetShop:
+  Message: '&7Your shop has been successfully created!'
+  ConfirmMessage: '&7Type &b/setps &7again to confirm!'
+  ConfirmPriceMessage: '&7Type &b/setps &7again to confirm! This will cost&8: &bCOST'
+ToShopMessage: '&7Teleporting to &bPLAYER''s &7shop.'
+ToOwnShopMessage: '&7Teleporting to &byour &7shop.'
+UnsafeShop:
+  LavaNearMessage: '&7Unsafe shop location! &8(&bTo close to lava.&8)'
+  FloatingBlockMessage: '&7Unsafe shop location! &8(&bOn a floating block.&8)'

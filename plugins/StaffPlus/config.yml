@@ -1,0 +1,266 @@
+# Staff+ | Made with love by Shortninja - ?
+# 
+# If you're having trouble with item type names, refer to here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# All item slots are how they "should be", meaning the first slot of an inventory will be one. Maximum is 36.
+
+lang: lang_en
+blocked-commands: /example1, /example2, /example3
+blocked-mode-commands: /example1, /example2, /example3
+glass-color: 0
+glass-title: '&bChoose GUI glass color'
+reports-module:
+  enabled: true
+  sound: ORB_PICKUP
+  cooldown: 10
+  show-reporter: true
+warnings-module:
+  enabled: true
+  sound: ORB_PICKUP
+  maximum: 3
+  ban-command: ban %player% &4Met three warnings. Appeal @ &7www.shithcf.net&4.
+  clear: 604800
+  show-issuer: true
+staff-chat-module:
+  enabled: true
+  handle: '@'
+vanish-module:
+  enabled: true
+  tab-list: true
+  show-away: false
+chat-module:
+  enabled: true
+  lines: 100
+  slow: 5
+  blacklist-module:
+    enabled: false
+    hoverable: false
+    character: '*'
+    merging: true
+    words: fuck, shit, ass, bitch, dick, cock, piss, cunt, fag, faggot, slut, nigger,
+      nigga
+    characters: 卐, 卍
+    domains: com, net, org
+    periods: (), (dot),
+    allowed: bypass, assembly, assassin, compass, assume, assault, asset, assort
+tickets-module:
+  enabled: true
+  global: false
+  keep-open: false
+alerts-module:
+  name-notify: true
+  mention-notify: true
+  sound: ORB_PICKUP
+  xray-alerts:
+    enabled: true
+    blocks: SPAWNER, DIAMOND_ORE
+login:
+  enabled: false
+  kick-message: '&cInvalid login password!'
+staff-mode:
+  block-manipulation: false
+  inventory-interaction: true
+  item-change: false
+  vanish-type: TOTAL
+  invincible: true
+  damage: false
+  hunger-loss: false
+  flight: true
+  creative: false
+  original-location: false
+  enable-on-login: false
+  prelogin-blocked-commands: /ban
+  enable-commands: example1 %player%, example2 %player%
+  disable-commands: example1 %player%, example2 %player%
+  disable-on-world-change: false
+  staff-see-staff-in-mode: false
+  compass-module:
+    enabled: true
+    slot: 1
+    velocity: 5
+    item: COMPASS
+    name: '&4Launcher'
+    lore: '&7Launches you towards the, &7location you are facing.'
+  random-teleport-module:
+    enabled: true
+    slot: 2
+    item: ENDEREYE
+    name: '&cRandom Teleport'
+    lore: '&7Teleports you to a random player.'
+    random: false
+  vanish-module:
+    enabled: true
+    slot: 3
+    item: INK:10
+    name: '&6Vanish'
+    lore: '&7Toggles your total vanish.'
+    item-off: INK:8
+  gui-module:
+    enabled: true
+    slot: 4
+    item: PAPER
+    name: '&eGUI Hub'
+    lore: '&7Opens the GUI hub.'
+    reports-gui: true
+    reports-title: '&bUnresolved reports'
+    miner-gui: true
+    miner-title: '&bUnderground users'
+    xray-level: 16
+  counter-module:
+    enabled: true
+    slot: 5
+    item: HEAD
+    name: '&aStaff List'
+    lore: '&7Shows all staff online and in staff mode'
+    title: '&bCurrent staff online'
+    show-staff-mode: false
+  freeze-module:
+    enabled: true
+    slot: 6
+    item: BLAZE_ROD
+    name: '&2Freeze'
+    lore: '&7Toggles freeze for the clicked player.'
+    chat: true
+    damage: false
+    timer: 5
+    sound: ORB_PICKUP
+    prompt: false
+    prompt-title: '&bFrozen'
+    logout-commands: ban %player%
+  cps-module:
+    enabled: true
+    slot: 7
+    item: CLOCK
+    name: '&3CPS'
+    lore: '&7Runs a click per second test on, &7the player that was clicked.'
+    time: 10
+    max: 16.0
+  examine-module:
+    enabled: true
+    slot: 8
+    item: CHEST
+    name: '&bExamine'
+    lore: '&7Inspects the inventory of the player that was clicked.'
+    title: '&bExamine inventory'
+    info-line:
+      food: 2
+      ip-address: 3
+      gamemode: 4
+      infractions: 5
+      location: 6
+      notes: 7
+      freeze: 8
+      warn: 0
+  follow-module:
+    enabled: true
+    slot: 9
+    item: LEAD
+    name: '&9Follow'
+    lore: '&7Mounts the player that was clicked.'
+    use-mount: true
+  custom-modules:
+    StaticCommand:
+      enabled: false
+      type: COMMAND_STATIC
+      slot: 30
+      item: DIAMOND
+      name: '&4Ban all god kids'
+      lore: '&4line1, &6line2, &3line3'
+      command: ban Shortninja &4For coding 2hard!!11!1!one!
+    DynamicCommand:
+      enabled: false
+      type: COMMAND_DYNAMIC
+      slot: 31
+      item: QUARTZ
+      name: '&4Ban this kid'
+      lore: '&cyou damn lazy staff'
+      command: ban %clicked% &6for shitposting too much with %clicker%
+    ConsoleCommand:
+      enabled: false
+      type: COMMAND_CONSOLE
+      slot: 33
+      item: OBSIDIAN
+      name: '&bDisable staff mode'
+      lore: '&7you''re so lazy'
+      command: staff %clicker% disable
+    Item:
+      enabled: false
+      type: ITEM
+      slot: 34
+      item: WOOD_AXE
+      name: '&7WorldEdit Wand'
+      lore: '&8don''t grief shitlord!!'
+permissions:
+  wild-card: staff.*
+  block: staff.block
+  report: staff.report
+  report-bypass: staff.report.bypass
+  warn: staff.warn
+  warn-bypass: staff.warn.bypass
+  staff-chat: staff.staffchat
+  vanish-total: staff.vanish.total
+  vanish-list: staff.vanish.list
+  chat-clear: staff.chat.clear
+  chat-toggle: staff.chat.toggle
+  chat-slow: staff.chat.slow
+  blacklist: staff.blacklist
+  tickets: staff.tickets
+  mention: staff.alerts.mention
+  name-change: staff.alerts.namechange
+  xray: staff.alerts.xray
+  mode: staff.mode
+  compass: staff.compass
+  random-teleport: staff.random-teleport
+  gui: staff.gui
+  counter: staff.counter
+  freeze: staff.freeze
+  freeze-bypass: staff.freeze.bypass
+  cps: staff.cps
+  examine: staff.examine
+  examine-modify: staff.examine.modify
+  follow: staff.follow
+  lockdown: staff.lockdown
+  revive: staff.revive
+  member: staff.member
+  strip: staff.strip
+  tp: staff.tp
+  staffplus: staff.staffplus
+  ipPerm: staff.staffplus.hideip
+  invClear: staff.staffplus.clearinv
+  resetPass: staff.staffplus.resetpassword
+commands:
+  staff-mode: staff
+  freeze: freeze
+  examine: examine
+  notes: notes
+  cps: cps
+  staff-chat: sc
+  report: report
+  warn: warn
+  vanish: vanish
+  chat: chat
+  ticket: ticket
+  alerts: alerts
+  follow: follow
+  revive: revive
+  staff-list: personnel
+  login: login
+  register: register
+  strip: strip
+  clearInv: clear
+  resetPass: resetPassword
+storage:
+  type: mysql
+  mysql:
+    host: ***REMOVED***
+    user: astensity
+    database: minecraft
+    password: ***REMOVED***
+    port: 3306
+    migrated: true
+config-version: 6202
+auto-save: 3602
+clock: 2
+disable-packets: false
+animation-packets: PacketPlayOutBlockBreakAnimation, PacketPlayOutBlockAction
+sound-names: random.chestopen, random.chestclosed
+metrics: true
