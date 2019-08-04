@@ -36,7 +36,7 @@ MyPet:
     LoadDelay: 20
     MySQL:
       Database: minecraft
-      TablePrefix: mypet_''
+      TablePrefix: 'mypet_'
       Host: 34.87.92.37
       Password: Astensity1234
       User: astensity
