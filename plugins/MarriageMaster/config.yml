@@ -54,7 +54,7 @@ Database:
 
 Marriage:
   # Defines if players need to get married by a priest or if they can marry each other on their own.
-  RequirePriest: true
+  RequirePriest: false
   # This option defines if a priest is needed to divorce 2 players or if they can divorce on their own.
   # Options: true, false, auto (auto will copy the RequirePriest value)
   DivorceRequiresPriest: auto
