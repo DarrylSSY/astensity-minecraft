@@ -39,3 +39,6 @@ plugins/NoCheatPlus/nocheatplus.log.lck
 plugins/NoCheatPlus/nocheatplus.log
 plugins/LWC/lwc.db.old
 plugins/CommandButtons/data.yml
+plugins/ChestShop/items.db
+plugins/ChestShop/users.db
+plugins/CommandButtons/data.yml

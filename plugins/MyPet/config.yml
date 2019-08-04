@@ -37,7 +37,7 @@ MyPet:
     MySQL:
       Database: minecraft
       TablePrefix: mypet_''
-      Host: localhost
+      Host: 34.87.92.37
       Password: Astensity1234
       User: astensity
       Port: 3306
@@ -46,7 +46,7 @@ MyPet:
     MongoDB:
       Database: mypet
       CollectionPrefix: ''
-      Host: localhost
+      Host: 34.87.92.37
       Password: ''
       User: ''
       Port: 27017

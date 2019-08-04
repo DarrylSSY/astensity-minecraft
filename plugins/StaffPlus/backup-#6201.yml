@@ -908,7 +908,7 @@ storage:
   #Type is how it will store either a flatfile (yml) or mysql
   type: 'flatfile'
   mysql:
-    host: 'localhost'
+    host: '34.87.92.37'
     user: 'root'
     database: 'root'
     password: 'mypass'

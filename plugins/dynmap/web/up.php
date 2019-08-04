@@ -1,6 +1,6 @@
 <?php
 
-define ('HOSTNAME', 'http://localhost:8123/up/');
+define ('HOSTNAME', 'http://34.87.92.37:8123/up/');
 
 session_start();
 
