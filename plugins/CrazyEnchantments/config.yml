@@ -55,7 +55,7 @@ Settings:
       - '&7Drag and drop it on an enchantment book'
       - '&7to get a new destroy and success rate.'
       - ''
-      - '&eCost: &e&l$800'
+      - '&eCost: &e&l$80000'
   GKitz: #GKitz GUI option.
     InGUI: false #If you can open the GKitz GUI from the main /ce gui.
     Enabled: true #If the GKitz option is enabled on the server.
@@ -88,7 +88,7 @@ Settings:
       - '&7protect items from getting lost'
       - '&7while the owners away in the after life.'
       - ''
-      - '&eCost: &e&l$500'
+      - '&eCost: &e&l$50000'
   BlackSmith: #Options for the Black Smith
     InGUI: true #In the GUI.
     Slot: 24 #Slot it is in.
@@ -151,7 +151,7 @@ Settings:
       InGUI: true #If you can buy it in the /CE GUI
       GUIName: '&aMagical Angel Dust' #Name of the item in the GUI
       GUILore: #Lore in the GUI.
-        - '&eCost: &a&l$500'
+        - '&eCost: &a&l$50000'
         - '&7Dust allows you to bring'
         - '&7up your &aSuccess Rate&7.'
       Slot: 25 #Slot number it is on
@@ -168,7 +168,7 @@ Settings:
       InGUI: true #If you can buy it in the /CE GUI
       GUIName: '&eMagical Fixing Dust' #Name of the item in the GUI
       GUILore: #Lore in the GUI.
-        - '&eCost: &a&l$500'
+        - '&eCost: &a&l$50000'
         - '&7Dust allows you to bring'
         - '&7down your &4Destroy Rate&7.'
       Slot: 34 #Slot number it is on
@@ -203,7 +203,7 @@ Settings:
     Glowing: false #If it has a glowing effect.
     Slot: 21 #Slot you can buy the scroll at
     Lore: #Lore of the item in the GUI
-      - '&eCost: &a&l$1000'
+      - '&eCost: &a&l$100000'
       - '&7Black Scrolls allow you to'
       - '&7take off random enchantments.'
     SuccessChance: #Controls what the success chance will be when they get the book from the Black Scroll
@@ -224,7 +224,7 @@ Settings:
     Glowing: false #If it has a glowing effect.
     Slot: 30 #Slot you can buy the scroll at
     Lore: #Lore of the scroll in the GUI
-      - '&eCost: &a&l$2000'
+      - '&eCost: &a&l$200000'
       - '&7White Scrolls allow you to'
       - '&7protect items from breaking.'
     ProtectedName: '&b&lPROTECTED' #The lore that is added to protect an item.
@@ -240,7 +240,7 @@ Settings:
     Glowing: false #If it has a glowing effect.
     Slot: 30 #Slot you can buy the scroll at
     Lore: #Lore of the scroll in the GUI
-      - '&eCost: &a&l$200'
+      - '&eCost: &a&l$20000'
       - '&7This scroll allows you to organize'
       - '&7your enchantments and tell you how many'
       - '&7enchantments you currently have on the item.'
@@ -278,7 +278,7 @@ Settings:
           - 'SkyBlock_Example'
   Costs: #This is where you set the cost of stuff in the shop GUI.
     Scrambler: #The item that is being bought.
-      Cost: 800 #How much the item will cost.
+      Cost: 80000 #How much the item will cost.
       Currency: Vault #The currency that will be taken when bought.
     ProtectionCrystal:
       Cost: 50000
