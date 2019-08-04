@@ -473,6 +473,94 @@ features:
     - spikes
     - action
     - gc
+tweaks:
+  chunks:
+
+    # Bypass forced open chunks to be purged, 1.13+ only
+    force-bypass: true
+
+    # Should chunk purging be enabled? Only chunks OUTSIDE of every player's view
+    # distance combined are purged.
+    purge-enabled: true
+
+    # The interval at which chunks are purged. Only chunks OUTSIDE of every
+    # player's view distance combined are purged.
+    purge-interval: 1200
+
+    # Chunk purge distance multiplier (multiplied by the server's view distance)
+    distance-multiplier: 1.5
+  fast-leaf-decay:
+
+    # Use fast block destruction for fast leaf decay. Turn this on if you dont like
+    # snow floating above leaves, though you lose most of the performance benefits
+    # of fast decay.
+    fast-destroy: true
+
+    # The maximum milliseconds react is allowed to use to fast-leaf decay
+    max-ms: 0.8
+    enabled: true
+
+    # Trigger fast leaf decay when leaves decay normally
+    trigger-on-decay: true
+
+    # Saturate the destruction queue as fast as possible, ignoring tick limits.
+    instantaneous: false
+
+    # The period of time (in ticks) which a leaf block that is marked for decay
+    # will actually decay. If 10 blocks are set to be destroyed, they will be
+    # destroyed randomly within 7 ticks (by default)
+    decay-period: 7
+  explosions:
+
+    # The percent of tnt to be removed when tnt is over the max ms limit
+    throttled-ratio: 0.65
+
+    # Throttle explosions to a maximum tick time per tick
+    max-explosions-milliseconds: 5.0
+
+    # Skip block physics for explosion block damage. Breaks cannons obviously.
+    fast-block-destruction: false
+
+    # Throttle explosions by removing a percentage of tnt entities after it has
+    # exceeded the max ms set. This obviously breaks cannons.
+    throttle-explosions: true
+  xp:
+
+    # Fast pickup xp (pick up all xp orbs at once.)
+    fast-xp-pickup: false
+
+    # Skip spawning xp orbs if the player who caused the xp to drop is known (just
+    # give them the xp). Reduces entities.
+    fast-drop-xp: false
+
+  # If factions is installed, this option will configure react to be more
+  # compatible with a factions server (cannon stuff etc)
+  factions-compat: true
+  drops:
+
+    # Drops spawned from entities or blocks will not have a pickup cooldown. This
+    # reduces left behind drops while mining.
+    fast-drop-items: false
+
+    # Instant teleport drops to the nearest player (only from entities and block
+    # drops)
+    teleport-to-source: false
+
+    # Despawn arrows that cannot be picked up by players anyways. (Think skeleton
+    # arrow landed entities).
+    despawn-useless-arrows: true
+  hoppers:
+
+    # Full hoppers for some reason spam-tick and cause a ton of lag. React helps by
+    # preventing this from happening.
+    reduce-overtick-hoppers: true
+  redstone:
+
+    # Dynamically change the redstone tick speed depending on redstone tick time
+    # (may cause issues with large contraptions)
+    dynamic-clocking: false
+  fast-growth:
+    enabled: true
 entity-types:
   culling-rules:
   - '@Refuse Tamed'
@@ -855,88 +943,6 @@ entity-types:
   - ZOMBIE
   - ZOMBIE_HORSE
   - ZOMBIE_VILLAGER
-tweaks:
-  fast-leaf-decay:
-
-    # Use fast block destruction for fast leaf decay. Turn this on if you dont like
-    # snow floating above leaves, though you lose most of the performance benefits
-    # of fast decay.
-    fast-destroy: true
-
-    # The maximum milliseconds react is allowed to use to fast-leaf decay
-    max-ms: 0.8
-    enabled: true
-
-    # Trigger fast leaf decay when leaves decay normally
-    trigger-on-decay: true
-
-    # Saturate the destruction queue as fast as possible, ignoring tick limits.
-    instantaneous: false
-
-    # The period of time (in ticks) which a leaf block that is marked for decay
-    # will actually decay. If 10 blocks are set to be destroyed, they will be
-    # destroyed randomly within 7 ticks (by default)
-    decay-period: 7
-  chunks:
-
-    # Should chunk purging be enabled? Only chunks OUTSIDE of every player's view
-    # distance combined are purged.
-    purge-enabled: true
-
-    # The interval at which chunks are purged. Only chunks OUTSIDE of every
-    # player's view distance combined are purged.
-    purge-interval: 1200
-  explosions:
-
-    # The percent of tnt to be removed when tnt is over the max ms limit
-    throttled-ratio: 0.65
-
-    # Throttle explosions to a maximum tick time per tick
-    max-explosions-milliseconds: 5.0
-
-    # Skip block physics for explosion block damage. Breaks cannons obviously.
-    fast-block-destruction: false
-
-    # Throttle explosions by removing a percentage of tnt entities after it has
-    # exceeded the max ms set. This obviously breaks cannons.
-    throttle-explosions: true
-  xp:
-
-    # Fast pickup xp (pick up all xp orbs at once.)
-    fast-xp-pickup: false
-
-    # Skip spawning xp orbs if the player who caused the xp to drop is known (just
-    # give them the xp). Reduces entities.
-    fast-drop-xp: false
-
-  # If factions is installed, this option will configure react to be more
-  # compatible with a factions server (cannon stuff etc)
-  factions-compat: true
-  drops:
-
-    # Drops spawned from entities or blocks will not have a pickup cooldown. This
-    # reduces left behind drops while mining.
-    fast-drop-items: false
-
-    # Instant teleport drops to the nearest player (only from entities and block
-    # drops)
-    teleport-to-source: false
-
-    # Despawn arrows that cannot be picked up by players anyways. (Think skeleton
-    # arrow landed entities).
-    despawn-useless-arrows: true
-  hoppers:
-
-    # Full hoppers for some reason spam-tick and cause a ton of lag. React helps by
-    # preventing this from happening.
-    reduce-overtick-hoppers: true
-  redstone:
-
-    # Dynamically change the redstone tick speed depending on redstone tick time
-    # (may cause issues with large contraptions)
-    dynamic-clocking: false
-  fast-growth:
-    enabled: true
 rai:
   tps:
 
