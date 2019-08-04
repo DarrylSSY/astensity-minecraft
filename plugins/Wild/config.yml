@@ -31,7 +31,7 @@ NoWorldPerm: '&4Sorry but you don''t have permission to do /wild is this world'
 Cooldown: 5
 Play: true
 Sound: Enderman Teleport
-Cost: 150
+Cost: 0
 Cooldownmsg: '&4You must wait {rem} seconds until you can use the command and or sign
   again'
 DoCostMsg: true
