@@ -1,0 +1,13 @@
+# ######################################################################
+#           This is the world group configuration of MyPet             #
+#                 You can find more info on the wiki:                  #
+#   https://wiki.mypet-plugin.de/setup/configurations/worldgroups.yml  #
+# ######################################################################
+
+Disabled:
+- example_world
+Groups:
+  default:
+  - world
+  - world_nether
+  - world_the_end

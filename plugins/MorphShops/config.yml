@@ -1,0 +1,27 @@
+#============================================================================================================================| 
+#    _____                      .__      _________.__                         
+#   /     \   _________________ |  |__  /   _____/|  |__   ____ ______  ______
+#  /  \ /  \ /  _ \_  __ \____ \|  |  \ \_____  \ |  |  \ /  _ \\____ \/  ___/
+# /    Y    (  <_> )  | \/  |_> >   Y  \/        \|   Y  (  <_> )  |_> >___ \ 
+# \____|__  /\____/|__|  |   __/|___|  /_______  /|___|  /\____/|   __/____  >
+#         \/             |__|        \/        \/      \/       |__|       \/ 
+#
+#============================================================================================================================|
+#
+# Plugin Version: 1.2.4
+# Spigot Link: https://www.spigotmc.org/resources/morphshops.59678/
+# Author's Discord: Morphie#6969
+# 
+# If you have issues or questions feel free to message me on spigot OR discord.
+# Please do keep in mind however that I will respond when I can! <3
+#
+#============================================================================================================================|
+
+# Advertisemenu Price:
+# The cost for a user to add their shop to the main ./pshops menu.
+advertisement-price: 1000.00
+
+# Set Shop Price:
+# Cost to set a player shop. (PLAYER NEEDS PERMISSION!)
+setshop-price-enabled: false
+setshop-price: 100.00

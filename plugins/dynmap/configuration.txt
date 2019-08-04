@@ -27,12 +27,12 @@ storage:
   #dbfile: dynmap.db
   # MySQL DB for map storage (at 'hostname':'port' with flags "flags" in database 'database' using user 'userid' password 'password' and table prefix 'prefix')
   type: mysql
-  hostname: ***REMOVED***
+  hostname: localhost
   port: 3306
   database: minecraft
   userid: astensity
   password: ***REMOVED***
-  prefix: ""
+  prefix: "dynmap_"
   flags: "?allowReconnect=true"
   
 components:
