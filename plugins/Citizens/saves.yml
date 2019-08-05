@@ -1,3 +1,93 @@
 # Citizens NPC Storage
 
 
+
+last-created-npc-id: 2
+npc:
+  '2':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NjUwMzYwMDcyMDAsInByb2ZpbGVJZCI6IjQzODRlMWVjMTYyZjQyZDM5NmYyNGFiZWUzZWU2YmY4IiwicHJvZmlsZU5hbWUiOiJNckF2aWF0b3IiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FlNDAzNTcwMDdmZTAwMGNiNzI4NDVhYmU4MzY1ZmM1YzNhZjRhZTQ5NDM1NzMwNDBlNDU1M2MzNDM2MWJkNmQifX19
+      cached-skin-uuid-name: mraviator
+      cached-skin-uuid: 4384e1ec-162f-42d3-96f2-4abee3ee6bf8
+      player-skin-name: mraviator
+      player-skin-signature: kBsngAptA8BW3nnESywUFXK0H8QrndCDbs1DR/Ii5UoCHpQkicWNSMGzmPKZhUbSsdvUZ3BqPiw3vQAY1XFtZg1wWHafan8KWDMxfuMRyZP7+wI6Awg+7F0xDfdntOmsnIiZrXprxbl6h+28uyMDqQWMzCW8ZMh9X4IPQEZx53xW8mVjoI4xhPyQ/dVnK6gxgGkgqrL1hkAnxcVlJcQP4rQXayOiSFrVihktJCLtE00k7TVuS/SY/MJOWLZFKY0dGc/ER8ZJWaIh8coXshLm0vV2VvQWnSK/7C4qw55xmFeitB45hznj+ij/IIkObJX6xaN5HJidE/LMLHIf6q2PQTMHUPaH+ueUCvK+s60KZAt1EZfKZh8DPE6VCj2+cQhOoiW8G03hvkgHZhZpjP2CP4Bk0UbbQneuscRSIdbX4QminRZYEbAn/dc5gtx4cqtrIMnalGf2kcRRoQtcvKdw3XibIIaL+74FGWQ94ixWJu2bp3rXXlmg5LJGL87QaBJ/oTSaKvg05tugpKsUNAJiR/65wLUt9jiZ1wTppQJ+3yPT49J3YwsB8x7YbbkQzsFrc+QMKyqcAoK27nbuFy+DOIrb6GSIi/NxgS3PR1gaRisMP17ceSk6Besu5/a7jIun7R0WAYdjbXDU3P6Xc0CjNbqeLA+nf6HNsscG3eTQ/hA=
+    name: Quests
+    uuid: f9c40c46-bc78-4ad7-b6e2-6368aed0fd57
+    traits:
+      type: PLAYER
+      gravity:
+        enabled: false
+      spawned: true
+      location:
+        world: spawn
+        x: '995.4395'
+        y: '77.0625'
+        z: '101.2506'
+        yaw: '-1.674560546875'
+        pitch: '2.549010753631592'
+      owner:
+        owner: DarrylSSY
+        uuid: a65d1ac7-a445-4a16-a20f-36b9d0c6f8d3
+    traitnames: mounttrait,inventory,type,owner,gravity,spawned,equipment,scoreboardtrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NjUwMzU5MTA3MDAsInByb2ZpbGVJZCI6IjBkYmJhODJlYTUwYjQzYmI4MTg3YzY0NDU3MjA3ODkzIiwicHJvZmlsZU5hbWUiOiJERVlaWk9VIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kMzg5OGFkN2UyMjM3NjljYjE3M2M3YjQ2MDU2MGMzNjA3YTZkZDY2NGE5OThhZDk1YTA2NDZiYzU5NWMyNGE1In19fQ==
+      cached-skin-uuid-name: deyzzou
+      cached-skin-uuid: 0dbba82e-a50b-43bb-8187-c64457207893
+      player-skin-name: deyzzou
+      player-skin-signature: WsJFVMLWQnPMEIiuJG/euqIc6LVjeEQI/dkBkCJBllYDAQtq1gdhJgg6zkLWoBY+3T5H4Vtgoo7yyjm2D6NCb4iLlfLqCJCIHmUqb/YoApfUXve6/mSuWIirJb5FQc8tv7zIYYCLpwrEvWUuYjR/s77wHQ50fnIx5JjnV8oquz7vGJMzc40v+uE+/iNmZhPz7d0b3goqhrTciYQoSHIlVC5sxaj4/+T4V/ius9Q2NBq39qVw1ZJwhgcLM39mSjb4ae8iH8ilNMZIp9f62FquDJiLLn2k/gDVCKG8rD2ET0BnhCaKQcI9K1p6GKxnTLIEeVkW2FKDCmOk7MeMt0/fV7xLfiUowhtMG5bKUjDSwyWCOHgIP0AwOCQPyTFf0XPseycTM6GNPQ7nvJMVsvurdXzHQi2S1CXh6LxOBylYJmjgyqX3l4w+7oypR8TLg4HEGFYHU+v6s6kT0O9s5UR+kk4M5T4TYTzlKndd2ocht7jW92UjCe+fOt6sHhpxRM6aX/LS0K9SWUEuVdvUxi2SDFt8yV87IsCTLeuAtga8x1XmkYkj0kpnMFrWQV8AzOiAxYfwuewiXVjjIhTPJJoHl6uiaaWUkVrlJmete+rCnLnNUmiukEhxe92vfxMmDz8juIWg4XsTPOn5wu2MUbEObYICrItXjUeRx7WLgO95TyU=
+    name: Shop
+    uuid: 98c5889c-4697-4ae2-9e47-93a42e3ac65b
+    traits:
+      type: PLAYER
+      gravity:
+        enabled: false
+      spawned: true
+      location:
+        world: spawn
+        x: '993.4681'
+        y: '77.0625'
+        z: '134.1637'
+        yaw: '178.2119140625'
+        pitch: '1.3489571809768677'
+      owner:
+        owner: DarrylSSY
+        uuid: a65d1ac7-a445-4a16-a20f-36b9d0c6f8d3
+    traitnames: mounttrait,inventory,type,owner,gravity,spawned,equipment,scoreboardtrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '0':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NjUwMzU4NzMyMTMsInByb2ZpbGVJZCI6IjEyOGZmNmI0YTgwNTQwMDlhYjRmMjhlNjYwZDQzNDgzIiwicHJvZmlsZU5hbWUiOiJXYWRvIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80YmJhZTA2MTEwNjNiNTY5NGQ5ZWY3YjMyYzBhNDdhMzg0Yzk1MmMxMjEzMDkyMzljMjRhNDlhMzFjZDBhMjU0In19fQ==
+      cached-skin-uuid-name: wado
+      cached-skin-uuid: 128ff6b4-a805-4009-ab4f-28e660d43483
+      player-skin-name: wado
+      player-skin-signature: AnwxOgE4ynYOssNtpES6tt1O/kr2Vphxp9n/bFVBo1rpoX7hR+ZfskeHXIlwXom4jkIgNCQAUKY1stvVbk5Yo1DEykJLQt+UAoV7tMNRIjqeZaIvqDeTdJx+Z8eLdL0QpcoFj4ijaMmtTJn+eTEWBTHkYADM5os6g0xfW781l0QpGtQNksGpn/jKFR/P3JvM1meDNHt9BOKtyw+r0sdZzDoM0Yr2/nZ78s9tleuhTjWMBlkuK6ODyrL5GlrSXURCltBFZT8THIe14xMvblyjCOLqJdzyHteCSG+5K3YRO7htaFLdxwSwXmSkX/ZLnU1KfmVweGWqEt1seI9pNOrLuONhJE0KriSbfBHoHUGmyFq/UUmUOktAYnVZIWOh62ivxYDWJIfB6qU9bcXz2zbcIRXOrZ39wTHGfzZpxP6we/v7aLbbEsGqtcOlTrOjZLnUYRPyqw5nxg/SLnibskIxlbKVnpNFsVt2gMDGB/L7NcupZhjURC1JbPWicpghMirR7kEtFC5UTgRkf+D2RnezdDGNwGmp3Z9ktAXdkpVlv/aCbcw2tL6V0sJ0ZyDBXvN8nvCXBVr2mmOlPr6nZyX05PlYdvQAWscI+ztgYiRTV3Elei/XTVwz/vXB8hpXFekXDza0JV1v32CgAQJkH4BPp2ZGWuW57YUIRHEGBTv0O+Q=
+    name: Menu
+    uuid: a605879a-d42b-4677-820b-4fb81009b23a
+    traits:
+      type: PLAYER
+      gravity:
+        enabled: false
+      spawned: true
+      location:
+        world: spawn
+        x: '998.4811'
+        y: '77.0625'
+        z: '133.4259'
+        yaw: '174.812744140625'
+        pitch: '1.3491193056106567'
+      owner:
+        owner: DarrylSSY
+        uuid: a65d1ac7-a445-4a16-a20f-36b9d0c6f8d3
+    traitnames: mounttrait,inventory,type,owner,gravity,spawned,equipment,scoreboardtrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
