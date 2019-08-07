@@ -65,7 +65,7 @@ world-settings:
     count-all-mobs-for-spawning: false
     armor-stands-do-collision-entity-lookups: true
     disable-teleportation-suffocation-check: false
-    armor-stands-tick: true
+    armor-stands-tick: false
     non-player-arrow-despawn-rate: 60
     creative-arrow-despawn-rate: 60
     prevent-tnt-from-moving-in-water: false
@@ -73,9 +73,9 @@ world-settings:
     disable-explosion-knockback: false
     allow-non-player-entities-on-scoreboards: false
     parrots-are-unaffected-by-player-movement: false
-    container-update-tick-rate: 2
+    container-update-tick-rate: 3
     water-over-lava-flow-speed: 5
-    grass-spread-tick-rate: 2
+    grass-spread-tick-rate: 4
     bed-search-radius: 1
     use-faster-eigencraft-redstone: true
     all-chunks-are-slime-chunks: false
@@ -98,7 +98,7 @@ world-settings:
     disable-creeper-lingering-effect: false
     duplicate-uuid-resolver: saferegen
     duplicate-uuid-saferegen-delete-range: 32
-    prevent-moving-into-unloaded-chunks: false
+    prevent-moving-into-unloaded-chunks: true
     use-vanilla-world-scoreboard-name-coloring: false
     anti-xray:
       enabled: true
@@ -160,4 +160,4 @@ world-settings:
       flash: -1
     hopper:
       cooldown-when-full: true
-      disable-move-event: true
+      disable-move-event: false
