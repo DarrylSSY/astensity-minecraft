@@ -1,0 +1,26 @@
+No_Permissions: &cYou have got no permissions for this command!
+No_Prefix: &cThe warp &4{warp} &chas no prefix
+No_Warps: &cThere're no avaible warps for you!
+DoesntExist_Warp: &cThe warp &4{warp} &cdoesn't exist
+NotA_Player: &cYou are not a player!
+NotA_Number: &4{number} &cis not a number!
+Changed_Icon: &aThe icon has been changed to &2{icon}
+Changed_Prefix: &aThe prefix by the warp &2{warp}&a has been changed
+Removed_Prefix: &aThe prefix by the warp &2{warp}&a has been removed
+Added_Lore: &aA lore has been added to the warp &2{warp}
+Removed_Lore: &aThe lore with the ID &2{id} &ahas been removed from the warp &2{warp}
+Unkown_Material: &cUnkown material &4{material}
+Unkown_Argument: &cUnkown argument &4{arg}
+Unkown_ID: &cUnkown ID &4{id}
+Usage: &6Usage: &e{usage}
+Usage_Add_Lore: &6Write &e{usage} &6to add a lore
+Usage_Remove_Lore: &6Write &e{usage} &6to remove a lore
+Usage_Change_Prefix: &6Write &e{usage} &6to change the prefix
+Usage_Remove_Prefix: &6Write &e{usage} &6to remove the prefix
+Reloaded_Config: &aThe config has been successfully reloaded!
+Teleporting: &6Teleporting to &e{warp}&6...
+Teleporting_Secounds: &6Teleporting to &e{warp}&6 in &e{seconds}&6 seconds...
+Teleporting_Stopped: &cStopped teleport to &4{warp}
+List_Warps: &6Avaible warps: &e{warps}
+Info_MadeBy: &aMade by &2{info}
+Info_Version: &aVersion &2{info}
