@@ -34,7 +34,7 @@ regions:
     worldName: spawn
     commands:
       playerEnterCommand: NONE
-      consoleEnterCommand: perms user %player% parent set member; tp DarrylSSY 980 78 115
+      consoleEnterCommand: perms user %player% parent set member; tp %player% 980 78 115
       playerLeaveCommand: NONE
       consoleLeaveCommand: NONE
     messages:
