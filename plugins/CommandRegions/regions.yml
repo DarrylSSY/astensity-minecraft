@@ -1,0 +1,98 @@
+# 
+# Start of example Region (You can add any amount of regions)
+# To add, either edit this .yml file or use the provided in-game commands.
+# Note that if in-game commands are used and the first region is created, all the notes below example1: will be erased.
+# 
+# 
+# You're able to add multiple commands for on enter & on leave, just seperate them using "; ". - example below.
+# Unsure about Sound names for your server's version? Take a look at the Spigot API here - https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+regions:
+  example1:
+    worldName: world
+    commands:
+      playerEnterCommand: kick %player%; broadcast %player% has entered the %regionname%
+        region!
+      consoleEnterCommand: NONE
+      playerLeaveCommand: ban %player%
+      consoleLeaveCommand: NONE
+    messages:
+      onEnter: '&7Welcome, &e%player%&7 to &6%regionname%&7!'
+      onLeave: '&7Bye, &e%player%&7! Visit &6%regionname%&7 again someday!!'
+    sounds:
+      onEnter: BLOCK_BEACON_ACTIVATE
+      onLeave: BLOCK_BARREL_CLOSE
+    locations:
+      '1':
+        x: 0
+        y: 0
+        z: 0
+      '2':
+        x: 0
+        y: 0
+        z: 0
+  tutorial:
+    worldName: spawn
+    commands:
+      playerEnterCommand: perms user %player% parent set member; spawn %player%
+      consoleEnterCommand: NONE
+      playerLeaveCommand: NONE
+      consoleLeaveCommand: NONE
+    messages:
+      onEnter: NONE
+      onLeave: NONE
+    sounds:
+      onEnter: NONE
+      onLeave: NONE
+    locations:
+      '1':
+        x: 969
+        y: 103
+        z: 213
+      '2':
+        x: 975
+        y: 108
+        z: 212
+  wild:
+    worldName: spawn
+    commands:
+      playerEnterCommand: wild %player% world
+      consoleEnterCommand: NONE
+      playerLeaveCommand: NONE
+      consoleLeaveCommand: NONE
+    messages:
+      onEnter: NONE
+      onLeave: NONE
+    sounds:
+      onEnter: NONE
+      onLeave: NONE
+    locations:
+      '1':
+        x: 1002
+        y: 77
+        z: 120
+      '2':
+        x: 1002
+        y: 82
+        z: 110
+  warps:
+    worldName: spawn
+    commands:
+      playerEnterCommand: warp
+      consoleEnterCommand: NONE
+      playerLeaveCommand: NONE
+      consoleLeaveCommand: NONE
+    messages:
+      onEnter: NONE
+      onLeave: NONE
+    sounds:
+      onEnter: NONE
+      onLeave: NONE
+    locations:
+      '1':
+        x: 982
+        y: 81
+        z: 125
+      '2':
+        x: 984
+        y: 77
+        z: 127
