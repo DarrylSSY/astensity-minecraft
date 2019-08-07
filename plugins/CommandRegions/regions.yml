@@ -33,8 +33,8 @@ regions:
   tutorial:
     worldName: spawn
     commands:
-      playerEnterCommand: perms user %player% parent set member; spawn %player%
-      consoleEnterCommand: NONE
+      playerEnterCommand: NONE
+      consoleEnterCommand: perms user %player% parent set member; spawn %player%
       playerLeaveCommand: NONE
       consoleLeaveCommand: NONE
     messages:
