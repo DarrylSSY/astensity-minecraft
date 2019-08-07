@@ -8,4 +8,6 @@ Disabled:
 - example_world
 Groups:
   default:
-  - spawn
+  - world
+  - world_nether
+  - world_the_end
