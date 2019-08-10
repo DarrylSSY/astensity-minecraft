@@ -61,7 +61,158 @@ gui:
     lore:
     - '&7Exit the tags menu'
 deluxetags:
-  example:
+  guest:
     order: 1
-    tag: '&8[&bDeluxeTags&8]'
-    description: '&cAwarded for using DeluxeTags!'
+    tag: '&7[Guest]'
+    description: '&0New Player'
+  member:
+    order: 2
+    tag: '&e[Member]'
+    description: '&6Member of AstensitySMP'
+  honorary:
+    order: 3
+    tag: '&6[Honorary]'
+    description: '&eSpecial Member of AstensitySMP'
+  supporter:
+    order: 4
+    tag: '&6[Supporter]'
+    description: '&c'
+  donor:
+    order: 5
+    tag: '&2[Donor]'
+    description: '&c'
+  donor+:
+    order: 6
+    tag: '&2[Donor+]'
+    description: '&c'
+  vip:
+    order: 7
+    tag: '&5[VIP]'
+    description: '&c'
+  vip+:
+    order: 8
+    tag: '&5[VIP+]'
+    description: '&c'
+  investor:
+    order: 9
+    tag: '&c[Investor]'
+    description: '&c'
+
+
+
+
+  voter:
+    order: 51
+    tag: '&e[Voter]'
+    description: '&6Reached 100 Votes'
+  legend:
+    order: 52
+    tag: '&6[Legend]'
+    description: '&eReached 300 Votes'
+  alpha:
+    order: 53
+    tag: '&9[Alpha]'
+    description: '&1Alpha Tester of AstensitySMP'
+  beta:
+    order: 54
+    tag: '&d[Beta]'
+    description: '&5Beta Test of AstensitySMP'
+  puff:
+    order: 55
+    tag: '&b[Puff]'
+    description: '&bParticipant of Event'
+  ender:
+    order: 56
+    tag: '&5[Ender]'
+    description: '&dFirst 10 to visit The End'
+  nether:
+    order: 57
+    tag: '&4[Nether]'
+    description: '&4First to visit the Nether'
+  hunter:
+    order: 58
+    tag: '&a[Hunter]'
+    description:  '&aFirst to kill the Ender Dragon'
+
+
+  death:
+    order: 101
+    tag: '&0[Death]'
+    description: '&0The scary one'
+  empress:
+    order: 102
+    tag: '&5[Empress]'
+    description: '&dThe true beauty'
+  kappa:
+    order: 103
+    tag: '&a[Kappa]'
+    description: '&2Kappa, kappa, kappa'
+  kitty:
+    order: 104
+    tag: '&d[Kitty]'
+    description: '&5The cute one'
+  lord:
+    order: 105
+    tag: '&6[Lord]'
+    description: '&eThe best of the best'
+  queen:
+    order: 106
+    tag: '&d[Queen]'
+    description: '&5The mightiest of all'
+  wolf:
+    order: 106
+    tag: '&7[Wolf]'
+    description: '&0The cunning one'
+  joker:
+    order: 107
+    tag: '&2[Joker]'
+    description: '&aThe Clown'
+  supreme:
+    order: 108
+    tag: '&5[Supreme]'
+    description: '&dTrillionaire'
+  intellect:
+    order: 109
+    tag: '&9[Intellect]'
+    description: '&3The Genius'
+  valor:
+    order: 110
+    tag: '&5[Valor]'
+    description: '&cThe Courageous one'
+
+
+
+
+  lucky:
+    order: 151
+    tag: '&a[Lucky]'
+    description: '&2The lucky one'
+  c392:
+    order: 152
+    tag: '&9[C392]'
+    description: '&1Classmate of DarrylSSY'
+  jester:
+    order: 153
+    tag: '&e[Jester]'
+    description: '&&6Provides quality entertainment'
+  train:
+    order: 154
+    tag: '&4[Train]'
+    description: '&cRetired train conductor'
+  banned:
+    order: 155
+    tag: '&0[Banned]'
+    description: '&0Unbanned from the server'
+  codehaven:
+    order: 156
+    tag: '&3[CodeHaven]'
+    description:  '&bOwner of CodeHaven'
+  fng:
+    order: 157
+    tag: '&6[FNG]'
+    description: '&eMember of Friday Night Gaming'
+  senpai:
+    order: 158
+    tag: '&d[Senpai]'
+    description:  '&5Host of AstensitySMP'
+
