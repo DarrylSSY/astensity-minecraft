@@ -97,10 +97,6 @@ deluxetags:
     order: 9
     tag: '&c[Investor]'
     description: '&c'
-
-
-
-
   voter:
     order: 51
     tag: '&e[Voter]'
@@ -132,9 +128,7 @@ deluxetags:
   hunter:
     order: 58
     tag: '&a[Hunter]'
-    description:  '&aFirst to kill the Ender Dragon'
-
-
+    description: '&aFirst to kill the Ender Dragon'
   death:
     order: 101
     tag: '&0[Death]'
@@ -179,10 +173,6 @@ deluxetags:
     order: 110
     tag: '&5[Valor]'
     description: '&cThe Courageous one'
-
-
-
-
   lucky:
     order: 151
     tag: '&a[Lucky]'
@@ -206,7 +196,7 @@ deluxetags:
   codehaven:
     order: 156
     tag: '&3[CodeHaven]'
-    description:  '&bOwner of CodeHaven'
+    description: '&bOwner of CodeHaven'
   fng:
     order: 157
     tag: '&6[FNG]'
@@ -214,5 +204,4 @@ deluxetags:
   senpai:
     order: 158
     tag: '&d[Senpai]'
-    description:  '&5Host of AstensitySMP'
-
+    description: '&5Host of AstensitySMP'
