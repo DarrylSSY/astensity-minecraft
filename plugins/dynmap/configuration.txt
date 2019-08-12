@@ -32,7 +32,7 @@ storage:
   database: minecraft
   userid: astensity
   password: ***REMOVED***
-  prefix: ""
+  prefix: "dynmap_"
   flags: "?allowReconnect=true"
   
 components:

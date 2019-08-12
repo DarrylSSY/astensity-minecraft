@@ -3,12 +3,25 @@
   <component name="dataSourceStorageLocal">
     <data-source name="FastLogin" uuid="1498393d-e3b4-4e3a-b5f4-0ee396f01bde">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" exact-version="0" />
+      <schema-mapping />
     </data-source>
     <data-source name="authme" uuid="e096afa1-dbe0-488f-9586-81a82f001439">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" exact-version="0" />
+      <schema-mapping />
     </data-source>
     <data-source name="jobs.sqlite" uuid="f5aee4b9-1f2d-4767-8d00-e5f86d096a24">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" exact-version="0" />
+      <schema-mapping />
+    </data-source>
+    <data-source name="LoginSecurity" uuid="5b0df622-d310-4014-9013-e211d373337b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" exact-version="0" />
+      <auth-required>false</auth-required>
+      <schema-mapping />
+    </data-source>
+    <data-source name="items" uuid="b7ef67e7-9109-4d28-9efe-f57a2e16cf39">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" exact-version="0" />
+      <auth-required>false</auth-required>
+      <schema-mapping />
     </data-source>
   </component>
 </project>

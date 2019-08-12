@@ -174,8 +174,8 @@ MySQL:
 ###
 Hardcore:
     Death_Stat_Loss:
-        Penalty_Percentage: 75.0
-        Level_Threshold: 0
+        Penalty_Percentage: 5.0
+        Level_Threshold: 100
         Enabled:
             Acrobatics: true
             Alchemy: true

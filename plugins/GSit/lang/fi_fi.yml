@@ -1,0 +1,19 @@
+#
+# Language-File created by:		Thihi
+#
+  
+  
+  
+Plugin:
+
+  plugin-start: "[P]&a Käyttöönotto onnistui."
+  plugin-update: "[P]&a This Plugin have a new Version:&6 %NewVersion%&a!\n[P]&a You use the outdated Version:&6 %Version%&a!\n[P]&a Download the latest Version:&6 %Path%"
+  plugin-stop: "[P]&a Poistettu käytöstä."
+  plugin-prefix: "&7[&6GSit&7]"
+  
+  
+  
+Messages:
+  
+  command-config-reload: "[P]&a Asetukset ladattiin uudelleen."
+  command-permission-error: "[P]&c Lupa puuttuu!"

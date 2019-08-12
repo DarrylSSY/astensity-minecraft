@@ -1,0 +1,47 @@
+# Diamond pickaxe option:
+# If enabled true, it will be able to mine spawners with or without enchantmentes, just any diamond pickaxe:
+# If silk_touch_required true, you'll mine only if your diamond pick have enchanted with silk_touch
+Diamond_Pickaxe:
+  Enabled: true
+  Silk_Touch_Required: true
+
+# This options are independent you may select true only iron pickaxe if you want it
+# Iron pickaxe option, if enabled true, it will be able to mine spawners with or without enchantmentes, just any iron pickaxe
+# If silk_touch_required true, you'll mine only if your iron pick have enchanted with silk_touch
+# If enabled option is set to false, silk_touch_required will be irrelevant
+Iron_Pickaxe:
+  Enabled: false
+  Silk_Touch_Required: false
+
+# The option to allow mob spawners change:
+# By right clicking spawner it with a spawn egg in main hand to change it is native
+# Using this option you can turn it off, if wanted
+Allow_SpawnEgg_Change:
+  Enabled: true
+  
+# Prevent spawner change while player is invisible by SuperVanish plugin
+SuperVanish_Prevent_SpawnEgg_Change:
+  Enabled: true
+  
+# Experience gained from availableMobs which spawned from a not original spawner, will get an operation by these values
+# If enabled is set to true, those availableMobs will receive a custom name with the prefix "gs"
+# Killing a gs mob, you'll get the default exp amount, calculated by the operations below
+Dropped_Exp_From_gsMobs:
+  Enabled: true
+# Divide value equals 0 will receive 1
+  Divide: 0
+# Set multiply to 0 by disable exp
+  Multiply: 1
+  Subtract: 0
+  Add: 0
+  
+# Experience gained from original availableMobs which spawned from a original vanilla spawner, will get an operation by these values
+# If enabled is set to true, killing a mob, you'll get the default exp amount, calculated by the operations below
+Dropped_Exp_From_Vanilla_Mobs:
+  Enabled: true
+# Divide value equals 0 will receive 1
+  Divide: 0
+# Set multiply to 0 by disable exp
+  Multiply: 1
+  Subtract: 0
+  Add: 0

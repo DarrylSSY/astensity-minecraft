@@ -43,3 +43,18 @@ commands:
     - '{"text": "This message is optional if you want to show a different message
       when"}&&{"text": " %player% is specified at the end of the command"}'
     - '{"text": "--------"}'
+  vote:
+    permission: astensity.vote
+    message:
+    - '{"text": "--------"}'
+    - '{"text":"Voting Sites","color":"gold","bold":true}'
+    - '{"text": "--------"}'
+    - '{"text":"MinecraftMP","color":"yellow","clickEvent":{"action":"open_url","value":"https://minecraft-mp.com/server/228873/vote/"}}'
+    - '{"text":"TOPG","color":"yellow","clickEvent":{"action":"open_url","value":"https://topg.org/Minecraft/in-517552"}}'
+    - '{"text":"PlanetMinecraft","color":"yellow","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/server/astensity/vote/"}}'
+    - '{"text":"TopMinecraftServers","color":"yellow","clickEvent":{"action":"open_url","value":"https://topminecraftservers.org/vote/6793"}}'
+    - '{"text":"Minecraft-Server.net","color":"yellow","clickEvent":{"action":"open_url","value":"https://minecraft-server.net/vote/Astensity/"}}'
+    - '{"text":"MinecraftServers.org","color":"yellow","clickEvent":{"action":"open_url","value":"https://minecraftservers.org/vote/559128"}}'
+    target_permission: some.custom.targetpermission
+    target_no_permission_message: '&cYou don''t have permission to view this command
+      with a target player argument!'
