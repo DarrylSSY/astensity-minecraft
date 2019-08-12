@@ -120,7 +120,7 @@ formats:
     channel: ''
     prefix: '%luckperms_prefix%'
     name_color: '&b'
-    name: '%player_name%'
+    name: '%player_displayname%'
     suffix: '&8: '
     chat_color: '&3'
     prefix_tooltip:

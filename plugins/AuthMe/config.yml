@@ -398,7 +398,7 @@ Protection:
     countries: 
     - US
     - GB
-    - LOCALHOST
+    - ***REMOVED***
     # Countries not allowed to join the server and register
     # PLEASE USE QUOTES!
     countriesBlacklist: 
