@@ -1,0 +1,75 @@
+#============================================================================================================================| 
+#    _____                      .__   __________           .___                     
+#   /     \   _________________ |  |__\______   \ ____   __| _/____   ____   _____  
+#  /  \ /  \ /  _ \_  __ \____ \|  |  \|       _// __ \ / __ |/ __ \_/ __ \ /     \ 
+# /    Y    (  <_> )  | \/  |_> >   Y  \    |   \  ___// /_/ \  ___/\  ___/|  Y Y  \
+# \____|__  /\____/|__|  |   __/|___|  /____|_  /\___  >____ |\___  >\___  >__|_|  /
+#         \/             |__|        \/       \/     \/     \/    \/     \/      \/ 
+#
+#============================================================================================================================|
+#
+# Plugin Version: 1.1.1
+# Spigot Link: TBA
+# Discord Link: https://discord.gg/6bnU9xn
+# Author's Discord: Morphie#6969
+# 
+# If you have issues or questions feel free to message me on spigot OR discord.
+# Please do keep in mind however that I will respond when I can! <3
+#
+#============================================================================================================================|
+
+# Storage method, can be MySQL or YML
+StorageMethod: "MySQL"
+
+# Requires 'StorageMethod' to be MySQL
+MySQL:
+  Username: "astensity"
+  Password: "Astensity1234"
+  Host: "34.87.92.37"
+  Port: 3306
+  SSL: false
+  Database: "minecraft"
+  TablePrefix: "mr_"
+  
+Settings:
+  BackgroundGlassColor: 11
+  DisabledSkills:
+    Enabled: false
+    ReplaceGUIItem:
+      Enabled: false
+      ItemName: STRUCTURE_VOID
+    SkillsToDisable:
+    - Acrobatics
+  GUI:
+    Acrobatics:
+      ItemName: LEATHER_BOOTS
+    Alchemy:
+      ItemName: POTION
+    Archery:
+      ItemName: BOW
+    Axes:
+      ItemName: DIAMOND_AXE
+    Excavation:
+      ItemName: DIAMOND_SHOVEL
+    Fishing:
+      ItemName: FISHING_ROD 
+    Herbalism:
+      ItemName: FARMLAND
+    Mining:
+      ItemName: DIAMOND_PICKAXE
+    Repair:
+      ItemName: ANVIL
+    Swords:
+      ItemName: DIAMOND_SWORD
+    Taming:
+      ItemName: BONE
+    Unarmed:
+      ItemName: STICK
+    Woodcutting:
+      ItemName: OAK_WOOD
+    mcMMOCredits:
+      ItemName: NETHER_STAR
+    CreditsSpent:
+      ItemName: EMERALD
+    PluginCredits:
+      ItemName: PAPER

@@ -1,4 +1,4 @@
-version: 3.0-beta-4
+version: 3.0-beta-5
 #
 # This file contains default standard shader definitions.  The contents of this file are replaced and updated
 # during upgrades, so new or updated shader definitions should be done in the custom-shaders.txt file

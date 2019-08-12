@@ -114,7 +114,7 @@
 'memtotals':
     memtotals
     Samples memory totals
-    i.e. 1.0 -> +178 MB -> 552 MB
+    i.e. 1.0 -> +327 MB -> 287 MB
 'maxmem':
     Max Memory
     Maximum Memory

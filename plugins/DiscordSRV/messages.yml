@@ -21,7 +21,7 @@
 #
 # DiscordToMinecraftAllRolesSeparator: the separator used in between roles in %allroles%
 #
-DiscordToMinecraftChatMessageFormat: "[&bDiscord &r| %toprolecolor%%toprole%&r] %username% » %message%"
+DiscordToMinecraftChatMessageFormat: "[&bDiscord &r| %toprolecolor%%toprole%&r] %username%: %message%"
 DiscordToMinecraftChatMessageFormatNoRole: "[&bDiscord&r] %username% » %message%"
 DiscordToMinecraftAllRolesSeparator: " | "
 
@@ -205,7 +205,7 @@ DiscordChatChannelServerShutdownMessage: ":octagonal_sign: **Server has stopped*
 #                        you can @mention the owner of the server by using "%guildowner%"
 #                        you can put the date and time of the crash in the message by using %date%
 #
-ServerWatchdogMessage: "`%date%` @126864830047977472, the server room is on :fire::bangbang:"
+ServerWatchdogMessage: "`%date%` <@126864830047977472>, the server room is on :fire::bangbang:"
 
 # Account link messages
 # These are messages used when accounts are linked

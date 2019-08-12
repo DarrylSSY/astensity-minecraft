@@ -1,0 +1,199 @@
+# Don't change this!
+version: 7
+
+# Do you want a config file with more options to generate?
+use-advanced-config: false
+
+
+# When the server's TPS drops below this, we will start freezing mobs.
+tps-freezing-threshold: 18.5
+
+# When the server's TPS rises above this, we will begin unfreezing mobs again.
+# This should be higher than the tps-freezing-threshold!
+tps-unfreezing-threshold: 19.0
+
+# Every how many ticks should we freeze or unfreeze mobs? There are 20 ticks per second.
+# Not recommended to set this below 600.
+ticks-per-operation: 1200
+
+# How long (in milliseconds) should the freezing or unfreezing operation be allowed to take?
+# If this is set too high there may be noticeable lag spikes when we freeze mobs.
+maximum-operation-time: 300
+
+# At most how many mobs should be unfrozen in any given operation?
+unfreeze-limit: 100
+
+# Should we keep a list of chunks containing frozen mobs in them, so we may be able to unfreeze them if the plugin doesn't shut down correctly?
+# Keep this as true if you think you'll uninstall this plugin at some point. This will allow you to unfreeze all the frozen mobs in your world easily.
+keep-frozen-chunk-cache: true
+
+# On startup, should we unfreeze mobs which were not unfrozen previously?
+# Warning: this operation loads chunks and therefore can cause a lot of lag.
+unfreeze-cached-chunks-on-startup: false
+
+# Every how many ticks should we unfreeze these mobs?
+ticks-per-cached-chunk-unfreeze: 40
+
+# Do you use Paper? If so, do you want this task (the cache unfreezing task) to run in a more efficient manner?
+use-paper-get-chunk-async: false
+
+
+# Should we only freeze mobs that are in large groups, ignoring single mobs?
+# This is good if you want to freeze large player-made farms, but don't want to freeze random monsters in the world.
+group-bias: true
+
+# Below what TPS should we ignore the option above and freeze EVERYTHING in accordance to the other options?
+# Set to 0 to disable this option.
+group-bias-tps-threshold: 0
+
+# If there are any more than the group-minimum-size number of mobs within group-maximum-radius of each other this will constitute a group of mobs, which will be frozen if the server starts lagging.
+group-minimum-size: 10
+group-maximum-radius: 8.0
+
+# Should we scale the maximum radius and minimum size required of a group depending on how much the server is lagging?
+use-smart-scaling: true
+
+
+# When we freeze mobs should we say so in the server console?
+broadcast-to-console: true
+
+# When we freeze mobs should we tell people with the permission 'saml.notify'?
+broadcast-to-ops: false
+
+
+# Should we stop mobs from targeting mobs that are frozen?
+# This includes things like zombies attacking frozen villagers.
+prevent-targeting-frozen: true
+
+# Should we stop mobs from being able to damage frozen mobs?
+prevent-damaging-frozen: true
+
+# Should we stop players from being able to damage frozen mobs?
+prevent-player-damaging-frozen: false
+
+# Should we unfreeze mobs when the chunk they are in is unloaded?
+unfreeze-on-unload: true
+
+# Should we unfreeze all the loaded mobs when the plugin shuts down?
+unfreeze-on-shutdown: true
+
+# Should we unfreeze mobs when interacted with by a player?
+unfreeze-on-interact: true
+
+# Below what TPS should we ignore the option above and not unfreeze mobs that are interacted with?
+# Set to 0 to disable this option.
+unfreeze-on-interact-tps-threshold: 0
+
+# Should we unfreeze mobs when they take damage?
+unfreeze-on-damage: true
+
+# Below what TPS should we ignore the option above and not unfreeze mobs that take damage?
+# Set to 0 to disable this option.
+unfreeze-on-damage-tps-threshold: 0
+
+# Should tamed mobs (cats, dogs, horses, etc.) never be frozen?
+ignore-tamed: true
+
+# Below what TPS should we ignore the option above and start freezing mobs that are tamed?
+# Set to 0 to disable this option.
+ignore-tamed-tps-threshold: 0
+
+# Should we ignore mobs named with a name tag?
+ignore-named: true
+
+# Below what TPS should we ignore the option above and start freezing mobs that are named?
+# Set to 0 to disable this option.
+ignore-named-tps-threshold: 0
+
+# Should mobs that are leashed never be frozen?
+ignore-leashed: true
+
+# Below what TPS should we ignore the option above and start freezing mobs that are leashed?
+# Set to 0 to disable this option.
+ignore-leashed-tps-threshold: 0
+
+# Should mobs that are in love mode (breeding mode) never be frozen?
+ignore-love-mode: true
+
+# Below what TPS should we ignore the option above and start freezing mobs that are in love mode?
+# Set to 0 to disable this option.
+ignore-love-mode-tps-threshold: 0
+
+# At what distance (in blocks) should we not freeze mobs that are within that distance of a player?
+# Note that this is quite an expensive check. If you have a lot of players it may make the freezing operation last significantly longer.
+# Set to 0 to disable this option.
+ignore-player-proximity: 0
+
+# Below what TPS should we ignore the option above and start freezing mobs that are close to players?
+# Set to 0 to disable this option.
+ignore-player-proximity-tps-threshold: 0
+
+# For what age in (in ticks) should we ignore mobs that are younger than that age?
+# This option effectively allows you to ignore recently spawned mobs. It is good for preventing certain types of farms or grinders clogging up.
+# Set to 0 to disable this option.
+ignore-younger-than-ticks: 600
+
+# Below what TPS should we ignore the option above and start freezing mobs of any age?
+# Set to 0 to disable this option.
+ignore-younger-than-ticks-tps-threshold: 0
+
+# Should mobs that are targeting players (e.g. mobs attacking a player) never be frozen?
+ignore-target-player: true
+
+# Below what TPS should we ignore the option above and start freezing mobs that are targeting a player?
+# Set to 0 to disable this option.
+ignore-target-player-tps-threshold: 0
+
+# Plugins can add metadata to entities that allows other plugins to identify them with that plugin.
+# This option allows you to completely ignore such entities, so that SAML does not interfere with them.
+# If SAML interferes with some other plugin's entities, please ask that plugin's developer to add identifying metadata to them.
+# We will never freeze (or unfreeze) entities that have metadata on the following list.
+ignore-metadata:
+  - Elitemob  # This ignores elite mobs from the plugin EliteMobs.
+  - infernalMetadata # This ignores infernal mobs from the plugin InfernalMobs.
+  - NPC # This ignores NPCs from the plugin Citizens.
+  - shopkeeper # This ignores shopkeepers from the plugin Shopkeepers.
+#  - Supermob  # This ignores super mobs from the plugin EliteMobs.
+
+# Whenever we freeze a mob we add some data to it that lets us know a few things.
+# Should we only unfreeze mobs which have been tagged by the plugin (i.e. mobs we are sure that we have frozen)?
+# Keep this option as true if you use another plugin that freezes mobs, or if you summon in mobs with the 'NoAI' tag.
+# This feature only works for version 1.14+.
+only-unfreeze-tagged: true
+
+
+# We will never freeze mobs of this type.
+# This is good for things, like raids, that you don't want to be interrupted - even if the server is lagging a bit.
+# See https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html for a list of types.
+# This is CaSE SenSiTIVe, it needs to be in all CAPS!
+never-freeze:
+  - WANDERING_TRADER
+  - PILLAGER
+  - VINDICATOR
+  - VEX
+  - WITCH
+  - RAVAGER
+  - ILLUSIONER
+  - EVOKER
+
+# Below what TPS should we ignore the option above and start freezing mobs on this list?
+# Set to 0 to disable this option.
+never-freeze-tps-threshold: 0
+
+# If the server is lagging, we will always freeze mobs of this type. Even if they're not in a large group.
+# Put mobs that are resource hogs here, like water mobs.
+# See https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html for a list of types.
+# This is CaSE SenSiTIVe, it needs to be in all CAPS!
+always-freeze:
+  - COD
+  - SALMON
+  - TROPICAL_FISH
+  - PUFFERFISH
+  - TURTLE
+  - SQUID
+  - DOLPHIN
+
+
+# We will never freeze mobs in these worlds.
+ignore-world:
+  - example_world_the_end

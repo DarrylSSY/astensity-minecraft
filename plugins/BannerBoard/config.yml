@@ -5,10 +5,264 @@
 # Every BannerBoard has some internal settings stored in this file.
 # Please do not make any changes to whatever is in the internal section.
 
-lastUsedId: 0
+lastUsedId: 70
 idrange:
-  startid: 22000
-  amount: 5000
-color_palette: color_palette_v1_12_R1.bc
+  startid: 1001
+  amount: 3999
 skinserver: http://www.skinrender.com:2798/
+bannerboards:
+  '5':
+    internal:
+      frames:
+      - spawn_1000.0_80.0_105.0_0.0_0.0
+      - spawn_1000.0_79.0_105.0_0.0_0.0
+      - spawn_1000.0_78.0_105.0_0.0_0.0
+      - spawn_1000.0_77.0_105.0_0.0_0.0
+      - spawn_1000.0_80.0_106.0_0.0_0.0
+      - spawn_1000.0_79.0_106.0_0.0_0.0
+      - spawn_1000.0_78.0_106.0_0.0_0.0
+      - spawn_1000.0_77.0_106.0_0.0_0.0
+      - spawn_1000.0_80.0_107.0_0.0_0.0
+      - spawn_1000.0_79.0_107.0_0.0_0.0
+      - spawn_1000.0_78.0_107.0_0.0_0.0
+      - spawn_1000.0_77.0_107.0_0.0_0.0
+      - spawn_1000.0_80.0_108.0_0.0_0.0
+      - spawn_1000.0_79.0_108.0_0.0_0.0
+      - spawn_1000.0_78.0_108.0_0.0_0.0
+      - spawn_1000.0_77.0_108.0_0.0_0.0
+      facing: EAST
+      width: 4
+      height: 4
+      rotation: 0
+    configurable:
+      renderers:
+      - JOBSREBORN
+      - IMAGE -src jobs.png -yOffset 0
+  '45':
+    internal:
+      frames:
+      - spawn_1001.0_80.0_114.0_0.0_0.0
+      - spawn_1001.0_79.0_114.0_0.0_0.0
+      - spawn_1001.0_80.0_115.0_0.0_0.0
+      - spawn_1001.0_79.0_115.0_0.0_0.0
+      - spawn_1001.0_80.0_116.0_0.0_0.0
+      - spawn_1001.0_79.0_116.0_0.0_0.0
+      facing: EAST
+      width: 3
+      height: 2
+      rotation: 0
+    configurable:
+      renderers:
+      - IMAGE -src beginYourAdventure.png
+  '52':
+    internal:
+      frames:
+      - spawn_994.0_80.0_102.0_0.0_0.0
+      - spawn_995.0_80.0_102.0_0.0_0.0
+      - spawn_996.0_80.0_102.0_0.0_0.0
+      facing: SOUTH
+      width: 3
+      height: 1
+      rotation: 0
+    configurable:
+      renderers:
+      - IMAGE -src quests.png
+  '53':
+    internal:
+      frames:
+      - spawn_984.0_80.0_127.0_0.0_0.0
+      - spawn_984.0_80.0_126.0_0.0_0.0
+      - spawn_984.0_80.0_125.0_0.0_0.0
+      facing: WEST
+      width: 3
+      height: 1
+      rotation: 0
+    configurable:
+      renderers:
+      - IMAGE -src warps.png
+  '56':
+    internal:
+      frames:
+      - spawn_994.0_80.0_133.0_0.0_0.0
+      - spawn_993.0_80.0_133.0_0.0_0.0
+      - spawn_992.0_80.0_133.0_0.0_0.0
+      facing: SOUTH
+      width: 3
+      height: 1
+      rotation: 0
+    configurable:
+      renderers:
+      - IMAGE -src shop.png
+  '57':
+    internal:
+      frames:
+      - spawn_960.0_71.0_121.0_0.0_0.0
+      - spawn_960.0_71.0_120.0_0.0_0.0
+      - spawn_960.0_71.0_119.0_0.0_0.0
+      facing: WEST
+      width: 3
+      height: 1
+      rotation: 0
+    configurable:
+      renderers:
+      - IMAGE -src enchant.png
+  '58':
+    internal:
+      frames:
+      - spawn_955.0_71.0_124.0_0.0_0.0
+      - spawn_956.0_71.0_124.0_0.0_0.0
+      - spawn_957.0_71.0_124.0_0.0_0.0
+      facing: NORTH
+      width: 3
+      height: 1
+      rotation: 0
+    configurable:
+      renderers:
+      - IMAGE -src enchant.png
+  '59':
+    internal:
+      frames:
+      - spawn_952.0_71.0_119.0_0.0_0.0
+      - spawn_952.0_71.0_120.0_0.0_0.0
+      - spawn_952.0_71.0_121.0_0.0_0.0
+      facing: EAST
+      width: 3
+      height: 1
+      rotation: 0
+    configurable:
+      renderers:
+      - IMAGE -src enchant.png
+  '60':
+    internal:
+      frames:
+      - spawn_957.0_71.0_116.0_0.0_0.0
+      - spawn_956.0_71.0_116.0_0.0_0.0
+      - spawn_955.0_71.0_116.0_0.0_0.0
+      facing: SOUTH
+      width: 3
+      height: 1
+      rotation: 0
+    configurable:
+      renderers:
+      - IMAGE -src enchant.png
+  '61':
+    internal:
+      frames:
+      - spawn_902.0_95.0_201.0_0.0_0.0
+      - spawn_902.0_95.0_200.0_0.0_0.0
+      - spawn_902.0_95.0_199.0_0.0_0.0
+      facing: WEST
+      width: 3
+      height: 1
+      rotation: 0
+    configurable:
+      renderers:
+      - IMAGE -src enchant.png
+  '62':
+    internal:
+      frames:
+      - spawn_908.0_95.0_193.0_0.0_0.0
+      - spawn_908.0_95.0_194.0_0.0_0.0
+      - spawn_908.0_95.0_195.0_0.0_0.0
+      facing: EAST
+      width: 3
+      height: 1
+      rotation: 0
+    configurable:
+      renderers:
+      - IMAGE -src enchant.png
+  '63':
+    internal:
+      frames:
+      - spawn_967.0_84.0_173.0_0.0_0.0
+      - spawn_966.0_84.0_173.0_0.0_0.0
+      - spawn_965.0_84.0_173.0_0.0_0.0
+      facing: SOUTH
+      width: 3
+      height: 1
+      rotation: 0
+    configurable:
+      renderers:
+      - IMAGE -src mobArena.png
+  '64':
+    internal:
+      frames:
+      - spawn_1028.0_88.0_105.0_0.0_0.0
+      - spawn_1028.0_88.0_106.0_0.0_0.0
+      - spawn_1028.0_88.0_107.0_0.0_0.0
+      facing: EAST
+      width: 3
+      height: 1
+      rotation: 0
+    configurable:
+      renderers:
+      - IMAGE -src pvpArena.png
+  '65':
+    internal:
+      frames:
+      - spawn_935.0_73.0_57.0_0.0_0.0
+      - spawn_936.0_73.0_57.0_0.0_0.0
+      - spawn_937.0_73.0_57.0_0.0_0.0
+      facing: NORTH
+      width: 3
+      height: 1
+      rotation: 0
+    configurable:
+      renderers:
+      - IMAGE -src church.png
+  '66':
+    internal:
+      frames:
+      - spawn_912.0_79.0_0.0_0.0_0.0
+      - spawn_913.0_79.0_0.0_0.0_0.0
+      - spawn_914.0_79.0_0.0_0.0_0.0
+      facing: NORTH
+      width: 3
+      height: 1
+      rotation: 0
+    configurable:
+      renderers:
+      - IMAGE -src eventHall.png
+  '68':
+    internal:
+      frames:
+      - spawn_916.0_68.0_82.0_0.0_0.0
+      - spawn_917.0_68.0_82.0_0.0_0.0
+      - spawn_918.0_68.0_82.0_0.0_0.0
+      facing: NORTH
+      width: 3
+      height: 1
+      rotation: 0
+    configurable:
+      renderers:
+      - IMAGE -src jail.png
+  '69':
+    internal:
+      frames:
+      - spawn_1000.0_80.0_122.0_0.0_0.0
+      - spawn_1000.0_80.0_123.0_0.0_0.0
+      - spawn_1000.0_80.0_124.0_0.0_0.0
+      - spawn_1000.0_80.0_125.0_0.0_0.0
+      - spawn_1000.0_80.0_126.0_0.0_0.0
+      facing: EAST
+      width: 5
+      height: 1
+      rotation: 0
+    configurable:
+      renderers:
+      - IMAGE -src bulletinBoard.png
+  '70':
+    internal:
+      frames:
+      - spawn_999.0_80.0_131.0_0.0_0.0
+      - spawn_998.0_80.0_131.0_0.0_0.0
+      - spawn_997.0_80.0_131.0_0.0_0.0
+      facing: SOUTH
+      width: 3
+      height: 1
+      rotation: 0
+    configurable:
+      renderers:
+      - IMAGE -src menu.png
+color_palette: color_palette_v1_12_R1.bc
 skinrender_key: INSERT_SKINRENDER_KEY_HERE

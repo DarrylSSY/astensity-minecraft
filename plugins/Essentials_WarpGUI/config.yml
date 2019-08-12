@@ -1,0 +1,11 @@
+# Don't change this
+config-version: 1.6.1
+
+# Set the title from the inventory
+inv-title: &3Warps
+
+# If it's enabled, the first character in the name of the warp is in caps
+first-char-caps: false
+
+# If it's enabled, /warps will open the GUI too
+includecmd-warps: true

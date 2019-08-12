@@ -1,0 +1,19 @@
+#
+# Language-File created by:		Gecolay
+#
+  
+  
+  
+Plugin:
+  
+  plugin-start: "[P]&a Le plugin a été chargé avec succès."
+  plugin-update: "[P]&a This Plugin have a new Version:&6 %NewVersion%&a!\n[P]&a You use the outdated Version:&6 %Version%&a!\n[P]&a Download the latest Version:&6 %Path%"
+  plugin-stop: "[P]&a Le plugin a été désactivé avec succès."
+  plugin-prefix: "&7[&6GSit&7]"
+  
+  
+  
+Messages:
+  
+  command-config-reload: "[P]&a Les paramètres ont été rechargés avec succès."
+  command-permission-error: "[P]&c Vous n'êtes pas autorisé à exécuter cette commande!"

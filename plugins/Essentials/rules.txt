@@ -1,0 +1,12 @@
+[1] &eNo unfair mods/clients
+[2] &eNo griefing, stealing or scamming
+[3] &eBe appropriate in chat and builds
+[4] &eDo not overclaim land if possible
+[5] &eDo not boost party power with alts
+[6] &eNo TPA killing or traps
+[7] &eNo real world trading
+[8] &eDo not attempt to lag the server
+[9] &eAutomatic Farms may be removed
+
+&cAll punishments are issued in staff discretion.
+&cYou may refer to our forums for more information on server rules.

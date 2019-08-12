@@ -150,9 +150,9 @@ Economy:
   # If you are getting paid 10 for placing wood, then same value of 50 for money income, will result in you getting 15 bucks
   # This only effects base income value
   GeneralMulti:
-    MONEY: -200.0
-    EXP: -200.0
-    POINTS: -200.0
+    MONEY: 0
+    EXP: 0.0
+    POINTS: 0
   MinimumOveralPayment:
     # Determines minimum payment. In example if player uses McMMO treefeller and earns only 20%, but at same time he gets 25% penalty from dynamic payment. He can 'get' negative amount of money
     # This will limit it to particular percentage

@@ -17,7 +17,7 @@ effects:
     - smoke
     - hearts
 crate:
-  use_crate: true
+  use_crate: false
   material: CHEST
   displayname: '&b&lVote&f&lParty &7Crate'
   lore:
@@ -49,8 +49,7 @@ per_vote_rewards:
   enabled: true
   max_possible_rewards: 1
   reward_commands:
-  - eco give @p 10;0
-  - give @p steak 8;0
+  - crate key @p vote 1
 on_vote_global_commands:
   enabled: true
   commands:
@@ -60,7 +59,7 @@ party:
   disabled_worlds:
   - world_nether
   allow_offline_votes: true
-  max_possible_rewards_per_player: 1
+  max_possible_rewards_per_player: 30
   start_delay_in_seconds: 15
   use_no_luck_commands: false
   allow_duplicate_no_luck_commands: false
@@ -69,11 +68,25 @@ party:
   - eco give @p 100
   - give @p diamond 6
   - give @p iron_ingot 12
+  - crate key @p vote 1
   reward_command_delay: 1
   reward_commands:
-  - eco give @p 100;0
-  - give @p diamond 6;2
-  - give @p iron_ingot 12;1
+  - give @p diamond 1
+  - give @p iron_ingot 1
+  - crate key @p vote 1
+  - give @p dirt 5
+  - give @p gold_ingot 3
+  - give @p grass_block 3
+  - give @p cobblestone 5
+  - give @p arrow 5
+  - give @p bone 5
+  - give @p wool 3
+  - give @p oak_wood 3
+  - give @p oak_log 3
+  - give @p glass 3
+  - give @p bread 3
+  - give @p steak 3
+  - give @p apple 3
   use_global_pre_party_start_commands: false
   global_pre_party_start_commands:
   - broadcast Party will start soon!
