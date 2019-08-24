@@ -72,7 +72,7 @@ deluxetags:
   honorary:
     order: 3
     tag: '&6[Honorary]'
-    description: '&eSpecical Member of AstensitySMP'
+    description: '&eSpecial Member of AstensitySMP'
   supporter:
     order: 4
     tag: '&6[Supporter]'

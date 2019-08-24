@@ -1,0 +1,49 @@
+# LimitPillagers
+# Made with love from HexedHero ❤️
+# May 1.14 not kill your server #MojangPlease
+   
+Stopper:
+
+   # Should we stop Pillagers from spawning anywhere? (overwrites Limiter)
+   Enabled: false
+   
+   # Should we ignore Pillager Leaders (Ones with banners) so players can still get the Bad Omen effect?
+   Ignore-Leaders: false
+   
+Limiter:
+
+   # Should we limit Pillager spawns? (Needs stopper to be false)
+   Enabled: true
+   
+   # What radius should be check for other Pillagers?
+   Radius-X: 32
+   Radius-Y: 16
+   Radius-Z: 32
+   
+   # What amount of nearby Pillagers should we stop future Pillagers from spawning?
+   Stop-At-Amount: 4
+   
+   # Should we ignore Pillager Leaders (Ones with banners) so players can still get the Bad Omen effect?
+   Ignore-Leaders: false
+   
+Remover:
+
+   # Should we also remove any Pillagers that are already in the world?
+   # Checks for Pillagers on the chunk load event and can be used with the Stopper or Limiter!
+   # I highly don't recommend using this. Only use if you need to.
+   Enabled: false
+   
+   # Should we ignore Pillager Leaders (Ones with banners) so players can still get the Bad Omen effect?
+   Ignore-Leaders: false
+
+Messages:
+
+   # Message for when you do /limitpillagers without the reload arg
+   Usage: "&cUsage: /limitpillagers reload"
+   
+   # Message for when the plugin gets reloaded correctly
+   Reloaded: "&aReloaded LimitPillagers!"
+   
+   # Message for when the user doesn't have permission
+   No-Permission: "&cYou don't have permission to do this!"
+   
