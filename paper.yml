@@ -44,6 +44,9 @@ settings:
   watchdog:
     early-warning-every: 5000
     early-warning-delay: 10000
+  async-chunks:
+    enable: true
+    load-threads: -1
 timings:
   enabled: true
   verbose: true
@@ -56,6 +59,7 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    per-player-mob-spawns: false
     skeleton-horse-thunder-spawn-chance: 0.01
     keep-spawn-loaded-range: 10
     keep-spawn-loaded: true
@@ -161,3 +165,7 @@ world-settings:
     hopper:
       cooldown-when-full: true
       disable-move-event: false
+    alt-item-despawn-rate:
+      enabled: false
+      items:
+        COBBLESTONE: 300
