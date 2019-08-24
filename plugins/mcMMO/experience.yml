@@ -1,6 +1,6 @@
 #
 #  Experience configuration
-#  Last updated on 2.1.97-SNAPSHOT-b${BUILD_NUMBER}
+#  Last updated on 2.1.101-b${BUILD_NUMBER}
 #
 #  Configure the experience formula and experience settings here.
 #
@@ -117,20 +117,20 @@ Experience_Formula:
     # If an invalid value is entered, this will reset to the default setting, which is LINEAR
     # LINEAR:      base + (level * multiplier)
     # EXPONENTIAL: multiplier * level ^ exponent + base
-    Curve: EXPONENTIAL
+    Curve: LINEAR
 
     # If invalid values are entered mcMMO will not start and print an error in the console
     Linear_Values:
         base: 1020
         multiplier: 20
     Exponential_Values:
-        multiplier: 2
+        multiplier: 0.1
         exponent: 1.80
         base: 2000
 
     # Cumulative experience curves will use a players power level instead of their skill level,
     # players with high power levels will have to gain a lot more experience to reach the next level in every skill.
-    Cumulative_Curve: true
+    Cumulative_Curve: false
 
     # Experience gained in every skill will get multiplied by this value. 1.0 by default, 2.0 means two times as much
     Multiplier:

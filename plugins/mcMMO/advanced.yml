@@ -1,6 +1,6 @@
 #
 #  Advanced configuration
-#  Last updated on 2.1.97-SNAPSHOT-b${BUILD_NUMBER}
+#  Last updated on 2.1.101-b${BUILD_NUMBER}
 #
 #  For advanced users only! There is no need to change anything here.
 #
@@ -41,7 +41,7 @@ Feedback:
             SendCopyOfMessageToChat: false
         LevelUps:
             Enabled: true
-            SendCopyOfMessageToChat: false
+            SendCopyOfMessageToChat: true
         Holiday:
             Enabled: true
             SendCopyOfMessageToChat: true

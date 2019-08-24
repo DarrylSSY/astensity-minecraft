@@ -94,3 +94,4 @@ party:
   global_party_start_commands:
   - broadcast Party Starting!
   - save-all
+save: 50
