@@ -1,0 +1,25 @@
+#----------------------------------------
+# Vanilla Combat hook
+# Player Combat hook in minecraft
+# 
+#----------------------------------------
+
+# DO NOT EDIT THIS CONFIG VERSION!
+config: 2
+
+
+# Do you want to enable this event hook?
+# Enabling this hook will trigger
+# when the player is in combat
+# for the players that are in combat
+enabled: false
+
+# What do you want to trigger?
+trigger: "default"
+
+
+# The time to display the trigger on the screen (in millseconds) after the last combat hit was made
+onscreen-time: 5000
+
+# Do you only want to trigger it on PVP (no mob attacks)
+only-pvp: false

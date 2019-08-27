@@ -1,0 +1,211 @@
+## --------------------------------------- ##
+## Twitter tweets placeholders Placeholders
+## About: This configuration allows you to
+##        configure what certain placeholders return.
+## --------------------------------------- ##
+
+# DO NOT EDIT THE CONFIG VERSION
+config: 3
+
+# Enable/Disable the placeholder group
+# Placeholder groups will not be loaded into the memory
+# when not used.
+enabled: true
+
+# Placeholder settings {twitter_lasttweet_language} returns
+twitter_lasttweet_language:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_message} returns
+twitter_message:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_timeline_placename} returns
+twitter_timeline_placename:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_username} returns
+twitter_username:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_country} returns
+twitter_country:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_timeline_formatteddate} returns
+twitter_timeline_formatteddate:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_lasttweet_country} returns
+twitter_lasttweet_country:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_timeline_country} returns
+twitter_timeline_country:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_formatteddate} returns
+twitter_formatteddate:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_timeline_lasttweet_user} returns
+twitter_timeline_lasttweet_user:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_timeline_message} returns
+twitter_timeline_message:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_placename} returns
+twitter_placename:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_timeline_username} returns
+twitter_timeline_username:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_lasttweet_placename} returns
+twitter_lasttweet_placename:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_timeline_lasttweet_country} returns
+twitter_timeline_lasttweet_country:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_timeline_lasttweet_username} returns
+twitter_timeline_lasttweet_username:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_timeline_lasttweet_placename} returns
+twitter_timeline_lasttweet_placename:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_language} returns
+twitter_language:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_timeline_lasttweet_formatteddate} returns
+twitter_timeline_lasttweet_formatteddate:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_timeline_lasttweet_message} returns
+twitter_timeline_lasttweet_message:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_countrycode} returns
+twitter_countrycode:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_lasttweet_user} returns
+twitter_lasttweet_user:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_timeline_countrycode} returns
+twitter_timeline_countrycode:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_timeline_user} returns
+twitter_timeline_user:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_lasttweet_countrycode} returns
+twitter_lasttweet_countrycode:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_lasttweet_message} returns
+twitter_lasttweet_message:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_lasttweet_formatteddate} returns
+twitter_lasttweet_formatteddate:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_timeline_lasttweet_language} returns
+twitter_timeline_lasttweet_language:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_timeline_lasttweet_countrycode} returns
+twitter_timeline_lasttweet_countrycode:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_lasttweet_username} returns
+twitter_lasttweet_username:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {twitter_timeline_language} returns
+twitter_timeline_language:
+  # Default return value
+  default: ""
+
+
+
+twitter:
+  # Account page to fetch timeline from (ex. MVdWSoftware)
+  account: ""
+
+
+date-format: "dd MMMM yyyy HH:mm:ss"
+
+#interval in ticks to fetch the twitter
+#Has to be higher then 18000 (15min)
+interval: "18000"

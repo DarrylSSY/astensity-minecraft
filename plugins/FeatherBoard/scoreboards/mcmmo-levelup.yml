@@ -1,0 +1,77 @@
+lines:
+  # This is an example for mcMMO when you level up
+  # DO NOT GIVE THE PERMISSION FOR THIS SCOREBOARD
+  # (Unless you want it to show all the time)
+  # You still need to 'trigger' this scoreboard in the 'mcmmo-levelup'
+
+  title:
+    frames:
+    # To create cool looking animations you create yourself
+    # you can use the graphical tool AnimationCreator
+    # https://www.spigotmc.org/resources/animationcreator.6001/
+    # For all placeholders:   https://www.spigotmc.org/wiki/mvdw-placeholders/
+    # For all preset effects: https://www.spigotmc.org/wiki/mvdw-effects/
+    - '<single><delay times="10">&l><</delay></single>'
+    - '<single>&f&ler</single>' # <single> will allow the frame to only run ONCE
+    - '<single>&f&lherB</single>'
+    - '<single>&f&lherBo</single>'
+    - '<single>&f&latherBoa</single>'
+    - '<single>&f&leatherBoar</single>'
+    - ' <delay times="100">&f&lFe&4&l4&f&ltherBoard</delay>' # <delay> will repeat the line X times
+    interval: 2
+    random: false
+  header:
+    frames:
+    - '&a&m+-----------------+'
+    interval: 10
+    random: true
+  info-label:
+    frames:
+    # mcMMO-levelup comes with several event specific placeholders
+    - '&bCongrats! Level up: {mcmmo-levelup_levelsgained}'
+    interval: 10
+  spacer1: # This is a spacer an empty line
+    frames:
+    - ''
+    interval: 10
+    # Do you want to randomize the animation frames?
+    random: false
+  skill-label: # You can add elements to the group and name them like you want
+    # Lets make a static label
+    frames:
+    - '&9&l> &e&lSkill:'
+    interval: 10 # The interval is not important since its just 1 static text.
+    # Do you want to randomize the animation frames?
+    random: false
+  skill:
+    # Lets make a static label
+    frames:
+    - '{mcmmo-levelup_skill_name}'
+    interval: 10 # The interval is not important since its just 1 static text.
+    # Do you want to randomize the animation frames?
+    random: false
+  spacer2: # This is a spacer an empty line
+    frames:
+    - ''
+    interval: 100
+    # Do you want to randomize the animation frames?
+    random: false
+  skilllevel-label: # You can add elements to the group and name them like you want
+    # Lets make a static label
+    frames:
+    - '&b&l> &e&lCurrent level:'
+    interval: 10 # The interval is not important since its just 1 static text.
+    # Do you want to randomize the animation frames?
+    random: false
+  skilllevel:
+    # Lets make a static label
+    frames:
+    - '{mcmmo-levelup_skilllevel}'
+    interval: 10 # The interval is not important since its just 1 static text.
+    # Do you want to randomize the animation frames?
+    random: false
+  footer:
+    frames:
+    - '&a&m+-----------------+'
+    interval: 10
+    random: true

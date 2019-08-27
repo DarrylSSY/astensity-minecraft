@@ -1,0 +1,336 @@
+## --------------------------------------- ##
+## TownyAdvanced placeholders Placeholders
+## http://palmergames.com/towny/
+## About: This configuration allows you to
+##        configure what certain placeholders return.
+## --------------------------------------- ##
+
+# DO NOT EDIT THE CONFIG VERSION
+config: 3
+
+# Enable/Disable the placeholder group
+# Placeholder groups will not be loaded into the memory
+# when not used.
+enabled: true
+
+# Placeholder settings {towny_town_name} returns
+towny_town_name:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {towny_town_hasmobs} returns
+towny_town_hasmobs:
+  # This will be shown when the placeholder is 'True'
+  true: "&aON"
+  # This will be shown when the placeholder is 'False'
+  false: "&4OFF"
+
+
+# Define what the boolean placeholder {towny_currenttown_hasmobs} returns
+towny_currenttown_hasmobs:
+  # This will be shown when the placeholder is 'True'
+  true: "&aON"
+  # This will be shown when the placeholder is 'False'
+  false: "&4OFF"
+
+
+# Define what the boolean placeholder {towny_currenttown_isfire_raw} returns
+towny_currenttown_isfire_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {towny_resident_surname} returns
+towny_resident_surname:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {towny_currenttown_nameformatted} returns
+towny_currenttown_nameformatted:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {towny_town_ispublic} returns
+towny_town_ispublic:
+  # This will be shown when the placeholder is 'True'
+  true: "&aYES"
+  # This will be shown when the placeholder is 'False'
+  false: "&4NO"
+
+
+# Define what the boolean placeholder {towny_town_hasupkeep} returns
+towny_town_hasupkeep:
+  # This will be shown when the placeholder is 'True'
+  true: "&aON"
+  # This will be shown when the placeholder is 'False'
+  false: "&4OFF"
+
+
+# Define what the boolean placeholder {towny_town_isfire_raw} returns
+towny_town_isfire_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {towny_currenttown_townboard} returns
+towny_currenttown_townboard:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {towny_currenttown_ispvp_raw} returns
+towny_currenttown_ispvp_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {towny_resident_formattedname} returns
+towny_resident_formattedname:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {towny_currenttown_hasupkeep} returns
+towny_currenttown_hasupkeep:
+  # This will be shown when the placeholder is 'True'
+  true: "&aON"
+  # This will be shown when the placeholder is 'False'
+  false: "&4OFF"
+
+
+# Define what the boolean placeholder {towny_town_isfire} returns
+towny_town_isfire:
+  # This will be shown when the placeholder is 'True'
+  true: "&aON"
+  # This will be shown when the placeholder is 'False'
+  false: "&4OFF"
+
+
+# Placeholder settings {towny_currenttown_mayor} returns
+towny_currenttown_mayor:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {towny_town_nameformatted} returns
+towny_town_nameformatted:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {towny_currenttown_hasupkeep_raw} returns
+towny_currenttown_hasupkeep_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {towny_currenttown_iscapital_raw} returns
+towny_currenttown_iscapital_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {towny_currenttown_ispublic_raw} returns
+towny_currenttown_ispublic_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {towny_town_hasupkeep_raw} returns
+towny_town_hasupkeep_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {towny_town_home_chunk_isloaded_raw} returns
+towny_town_home_chunk_isloaded_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {towny_resident_name} returns
+towny_resident_name:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {towny_currenttown_ispvp} returns
+towny_currenttown_ispvp:
+  # This will be shown when the placeholder is 'True'
+  true: "&aON"
+  # This will be shown when the placeholder is 'False'
+  false: "&4OFF"
+
+
+# Define what the boolean placeholder {towny_town_ispvp_raw} returns
+towny_town_ispvp_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {towny_town_isopen} returns
+towny_town_isopen:
+  # This will be shown when the placeholder is 'True'
+  true: "&aYES"
+  # This will be shown when the placeholder is 'False'
+  false: "&4NO"
+
+
+# Define what the boolean placeholder {towny_currenttown_isfire} returns
+towny_currenttown_isfire:
+  # This will be shown when the placeholder is 'True'
+  true: "&aON"
+  # This will be shown when the placeholder is 'False'
+  false: "&4OFF"
+
+
+# Placeholder settings {towny_town_townboard} returns
+towny_town_townboard:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {towny_currenttown_name} returns
+towny_currenttown_name:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {towny_currenttown_hasmobs_raw} returns
+towny_currenttown_hasmobs_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {towny_town_iscapital_raw} returns
+towny_town_iscapital_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {towny_resident_title} returns
+towny_resident_title:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {towny_town_isopen_raw} returns
+towny_town_isopen_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {towny_currenttown_iscapital} returns
+towny_currenttown_iscapital:
+  # This will be shown when the placeholder is 'True'
+  true: "&aYES"
+  # This will be shown when the placeholder is 'False'
+  false: "&4NO"
+
+
+# Placeholder settings {towny_town_balance_formatted} returns
+towny_town_balance_formatted:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {towny_currenttown_isopen} returns
+towny_currenttown_isopen:
+  # This will be shown when the placeholder is 'True'
+  true: "&aYES"
+  # This will be shown when the placeholder is 'False'
+  false: "&4NO"
+
+
+# Placeholder settings {towny_currenttown_balance_formatted} returns
+towny_currenttown_balance_formatted:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {towny_town_iscapital} returns
+towny_town_iscapital:
+  # This will be shown when the placeholder is 'True'
+  true: "&aYES"
+  # This will be shown when the placeholder is 'False'
+  false: "&4NO"
+
+
+# Define what the boolean placeholder {towny_currenttown_ispublic} returns
+towny_currenttown_ispublic:
+  # This will be shown when the placeholder is 'True'
+  true: "&aYES"
+  # This will be shown when the placeholder is 'False'
+  false: "&4NO"
+
+
+# Define what the boolean placeholder {towny_town_hasmobs_raw} returns
+towny_town_hasmobs_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {towny_town_mayor} returns
+towny_town_mayor:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {towny_town_ispublic_raw} returns
+towny_town_ispublic_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {towny_town_ispvp} returns
+towny_town_ispvp:
+  # This will be shown when the placeholder is 'True'
+  true: "&aON"
+  # This will be shown when the placeholder is 'False'
+  false: "&4OFF"
+
+
+# Define what the boolean placeholder {towny_currenttown_isopen_raw} returns
+towny_currenttown_isopen_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+
+# %towny_town_name% Name format {TOWN} is the name without any colors
+town_name:
+  format: "&f~&6&o{TOWN}"
+

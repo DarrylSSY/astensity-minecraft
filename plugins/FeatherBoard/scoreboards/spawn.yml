@@ -1,0 +1,68 @@
+# Default FeatherBoard comes with a board called "default". All players have the permission
+# featherboard.group.default  (by default) meaning all players should see the scoreboard unless
+# the permission is negated.
+
+# Example of the use of settings
+# This section is optional
+settings:
+  # If you quickly want to change the
+  # the label color change it here.
+  # It replaces $setting_label-color$ throughout the entire config
+  label-color: "&e"
+  # Show or hide the health
+  # This is an example of the script
+  show-health: true
+  # The priority of the scoreboard. The higher the number -> higher priority
+  # Used when having more than one scoreboard assigned
+  priority: 10
+
+# Example of pre processing script
+# This section is optional
+# This section is required. Those are your scoreboard lines
+lines:
+  title:
+    frames:
+    - '&e&lAstensity'
+    interval: 2
+    random: false
+  spacer1:
+    frames:
+    - []
+    interval: 100
+    random: true
+  player-line1:
+    frames:
+    - 'Money: &a${money_formatted}'
+    interval: 2
+    random: false
+  player-line2:
+    frames:
+    - 'Hours: &6{placeholderapi_statistic_hours_played}'
+    interval: 2
+    random: false
+  player-line3:
+    frames:
+    - 'Achievements: &5{placeholderapi_aach_achievements}'
+    interval: 2
+    random: false
+  spacer2:
+    frames: []
+    interval: 100
+    random: false
+  town-line1:
+    frames:
+    - 'Town: &d{placeholderapi_towny_town}'
+    interval: 2
+    random: false
+  spacer3:
+    frames: []
+    interval: 100
+    random: false
+  server-line1:
+    frames:
+    - '{ping} &7ms latency'
+    interval: 2
+    random: false
+  server-line2:
+    frames:
+    - '&ehttps://Astensity.org'
