@@ -213,22 +213,22 @@ AdvancementsBackground: "minecraft:textures/item/book.png"
 DatabaseBackup: true
 
 # Database type, sqlite, h2, postgresql or mysql. Do a full server restart for this to take effect.
-DatabaseType: h2
+DatabaseType: mysql
 
 # Prefix added to the tables in the database. If you switch from the default tables names (no prefix),
 # the plugin will attempt an automatic renaming. Otherwise you have to rename your tables manually.
 # Do a full server restart for this to take effect.
-TablePrefix: ""
+TablePrefix: "aach_"
   
 # Specify additional options when opening a connection to a MySQL/PostgreSQL database. Start each option with &,
 # for instance "&useUnicode=yes&characterEncoding=UTF-8". Make sure the key-value pairs themselves are URL encoded.
 AdditionalConnectionOptions: ""
 
 # Settings to connect to your MySQL/PostgreSQL database (ignored if sqlite).
-# A PostgreSQL database address will be similar to jdbc:postgresql://localhost:5432/minecraft
-DatabaseAddress: "jdbc:mysql://localhost:3306/minecraft"
-DatabaseUser: root
-DatabasePassword: root
+# A PostgreSQL database address will be similar to jdbc:postgresql://***REMOVED***:5432/minecraft
+DatabaseAddress: "jdbc:mysql://***REMOVED***:3306/minecraft"
+DatabaseUser: astensity
+DatabasePassword: ***REMOVED***
   
 #============================OO=OO============================#
 # IV-------------------------------------------------------IV #
