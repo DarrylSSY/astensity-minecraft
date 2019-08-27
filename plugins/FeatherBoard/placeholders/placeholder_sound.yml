@@ -1,0 +1,4784 @@
+## --------------------------------------- ##
+## Sound effect placeholders Placeholders
+## About: This configuration allows you to
+##        configure what certain placeholders return.
+## --------------------------------------- ##
+
+# DO NOT EDIT THE CONFIG VERSION
+config: 1
+
+# Enable/Disable the placeholder group
+# Placeholder groups will not be loaded into the memory
+# when not used.
+enabled: true
+
+# Placeholder settings {sound_block_bubble_column_bubble_pop} returns
+sound_block_bubble_column_bubble_pop:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_zombie_attack_iron_door} returns
+sound_entity_zombie_attack_iron_door:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_spider} returns
+sound_entity_parrot_imitate_spider:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_horse_armor} returns
+sound_entity_horse_armor:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_sand_hit} returns
+sound_block_sand_hit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_mule_ambient} returns
+sound_entity_mule_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ravager_hurt} returns
+sound_entity_ravager_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wolf_shake} returns
+sound_entity_wolf_shake:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_enderman_hurt} returns
+sound_entity_enderman_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_villager_work_farmer} returns
+sound_entity_villager_work_farmer:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_stone_pressure_plate_click_off} returns
+sound_block_stone_pressure_plate_click_off:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_fox_spit} returns
+sound_entity_fox_spit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_zombie_villager_hurt} returns
+sound_entity_zombie_villager_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_lantern_break} returns
+sound_block_lantern_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_creeper_primed} returns
+sound_entity_creeper_primed:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_firework_rocket_large_blast} returns
+sound_entity_firework_rocket_large_blast:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_witch_death} returns
+sound_entity_witch_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ocelot_death} returns
+sound_entity_ocelot_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_sheep_death} returns
+sound_entity_sheep_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_llama_step} returns
+sound_entity_llama_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_villager_death} returns
+sound_entity_villager_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_mooshroom_eat} returns
+sound_entity_mooshroom_eat:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_zombie} returns
+sound_entity_parrot_imitate_zombie:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_bat_takeoff} returns
+sound_entity_bat_takeoff:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_fishing_bobber_retrieve} returns
+sound_entity_fishing_bobber_retrieve:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_book_put} returns
+sound_item_book_put:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_blastfurnace_fire_crackle} returns
+sound_block_blastfurnace_fire_crackle:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_fox_aggro} returns
+sound_entity_fox_aggro:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_blaze_shoot} returns
+sound_entity_blaze_shoot:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_bucket_fill} returns
+sound_item_bucket_fill:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_music_creative} returns
+sound_music_creative:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_cod_death} returns
+sound_entity_cod_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_villager_work_mason} returns
+sound_entity_villager_work_mason:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_husk} returns
+sound_entity_parrot_imitate_husk:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_illusioner_ambient} returns
+sound_entity_illusioner_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_composter_empty} returns
+sound_block_composter_empty:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_zombie_hurt} returns
+sound_entity_zombie_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_mule_chest} returns
+sound_entity_mule_chest:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_player_attack_weak} returns
+sound_entity_player_attack_weak:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_donkey_ambient} returns
+sound_entity_donkey_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wandering_trader_hurt} returns
+sound_entity_wandering_trader_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_armor_equip_leather} returns
+sound_item_armor_equip_leather:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_dolphin_play} returns
+sound_entity_dolphin_play:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_glass_place} returns
+sound_block_glass_place:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_bamboo_fall} returns
+sound_block_bamboo_fall:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_wet_grass_step} returns
+sound_block_wet_grass_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_fire_extinguish} returns
+sound_block_fire_extinguish:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_slime_jump} returns
+sound_entity_slime_jump:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_coral_block_fall} returns
+sound_block_coral_block_fall:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_gravel_fall} returns
+sound_block_gravel_fall:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_music_disc_mall} returns
+sound_music_disc_mall:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_mooshroom_convert} returns
+sound_entity_mooshroom_convert:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_fox_sleep} returns
+sound_entity_fox_sleep:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_generic_eat} returns
+sound_entity_generic_eat:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_skeleton_horse_hurt} returns
+sound_entity_skeleton_horse_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_cat_stray_ambient} returns
+sound_entity_cat_stray_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_horse_saddle} returns
+sound_entity_horse_saddle:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_magma_cube_squish_small} returns
+sound_entity_magma_cube_squish_small:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_ui_stonecutter_select_recipe} returns
+sound_ui_stonecutter_select_recipe:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_dispenser_dispense} returns
+sound_block_dispenser_dispense:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_ambient_underwater_exit} returns
+sound_ambient_underwater_exit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_turtle_egg_hatch} returns
+sound_entity_turtle_egg_hatch:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_boat_paddle_water} returns
+sound_entity_boat_paddle_water:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_enderman_teleport} returns
+sound_entity_enderman_teleport:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_ladder_hit} returns
+sound_block_ladder_hit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_music_disc_ward} returns
+sound_music_disc_ward:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_puffer_fish_ambient} returns
+sound_entity_puffer_fish_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_item_frame_remove_item} returns
+sound_entity_item_frame_remove_item:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_item_break} returns
+sound_entity_item_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_music_disc_11} returns
+sound_music_disc_11:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_scaffolding_step} returns
+sound_block_scaffolding_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_dolphin_eat} returns
+sound_entity_dolphin_eat:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_generic_burn} returns
+sound_entity_generic_burn:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_book_page_turn} returns
+sound_item_book_page_turn:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_wood_step} returns
+sound_block_wood_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_silverfish_death} returns
+sound_entity_silverfish_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_llama_death} returns
+sound_entity_llama_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_bamboo_sapling_break} returns
+sound_block_bamboo_sapling_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_trident_return} returns
+sound_item_trident_return:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_slime_jump_small} returns
+sound_entity_slime_jump_small:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_portal_ambient} returns
+sound_block_portal_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_wet_grass_hit} returns
+sound_block_wet_grass_hit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_panda_ambient} returns
+sound_entity_panda_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_lantern_hit} returns
+sound_block_lantern_hit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_metal_place} returns
+sound_block_metal_place:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_panda_cant_breed} returns
+sound_entity_panda_cant_breed:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_music_disc_wait} returns
+sound_music_disc_wait:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_player_splash_high_speed} returns
+sound_entity_player_splash_high_speed:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_beacon_ambient} returns
+sound_block_beacon_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_donkey_chest} returns
+sound_entity_donkey_chest:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_villager_yes} returns
+sound_entity_villager_yes:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_scaffolding_place} returns
+sound_block_scaffolding_place:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_player_attack_nodamage} returns
+sound_entity_player_attack_nodamage:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_bucket_empty_fish} returns
+sound_item_bucket_empty_fish:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_phantom_death} returns
+sound_entity_phantom_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ocelot_ambient} returns
+sound_entity_ocelot_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_sheep_step} returns
+sound_entity_sheep_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_stone_button_click_on} returns
+sound_block_stone_button_click_on:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_lightning_bolt_thunder} returns
+sound_entity_lightning_bolt_thunder:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_hostile_hurt} returns
+sound_entity_hostile_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_music_disc_13} returns
+sound_music_disc_13:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_wool_fall} returns
+sound_block_wool_fall:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_creeper} returns
+sound_entity_parrot_imitate_creeper:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_player_hurt_drown} returns
+sound_entity_player_hurt_drown:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_vex_hurt} returns
+sound_entity_vex_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_dispenser_fail} returns
+sound_block_dispenser_fail:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_item_frame_add_item} returns
+sound_entity_item_frame_add_item:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_skeleton_horse_ambient_water} returns
+sound_entity_skeleton_horse_ambient_water:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_metal_pressure_plate_click_on} returns
+sound_block_metal_pressure_plate_click_on:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_fish_swim} returns
+sound_entity_fish_swim:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_hoe_till} returns
+sound_item_hoe_till:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_trident_hit} returns
+sound_item_trident_hit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ender_dragon_death} returns
+sound_entity_ender_dragon_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_iron_golem_step} returns
+sound_entity_iron_golem_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_elder_guardian_death} returns
+sound_entity_elder_guardian_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_firework_rocket_blast_far} returns
+sound_entity_firework_rocket_blast_far:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_stray_ambient} returns
+sound_entity_stray_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_comparator_click} returns
+sound_block_comparator_click:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_crossbow_quick_charge_1} returns
+sound_item_crossbow_quick_charge_1:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ravager_death} returns
+sound_entity_ravager_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_chorus_flower_grow} returns
+sound_block_chorus_flower_grow:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_elder_guardian_hurt_land} returns
+sound_entity_elder_guardian_hurt_land:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_puffer_fish_blow_up} returns
+sound_entity_puffer_fish_blow_up:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_music_nether} returns
+sound_music_nether:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_player_hurt} returns
+sound_entity_player_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_ender_dragon} returns
+sound_entity_parrot_imitate_ender_dragon:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_shulker_ambient} returns
+sound_entity_shulker_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_player_swim} returns
+sound_entity_player_swim:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_note_block_flute} returns
+sound_block_note_block_flute:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_chest_close} returns
+sound_block_chest_close:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_puffer_fish_hurt} returns
+sound_entity_puffer_fish_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_shulker_death} returns
+sound_entity_shulker_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_chorus_flower_death} returns
+sound_block_chorus_flower_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_cow_hurt} returns
+sound_entity_cow_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_pig_saddle} returns
+sound_entity_pig_saddle:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_crossbow_loading_start} returns
+sound_item_crossbow_loading_start:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_leash_knot_place} returns
+sound_entity_leash_knot_place:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_bucket_fill_fish} returns
+sound_item_bucket_fill_fish:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_phantom_swoop} returns
+sound_entity_phantom_swoop:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_pig_hurt} returns
+sound_entity_pig_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_turtle_swim} returns
+sound_entity_turtle_swim:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_illusioner} returns
+sound_entity_parrot_imitate_illusioner:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_minecart_riding} returns
+sound_entity_minecart_riding:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_horse_hurt} returns
+sound_entity_horse_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_wood_break} returns
+sound_block_wood_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_bat_ambient} returns
+sound_entity_bat_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_music_disc_cat} returns
+sound_music_disc_cat:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_bamboo_hit} returns
+sound_block_bamboo_hit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_arrow_hit_player} returns
+sound_entity_arrow_hit_player:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_skeleton_horse_death} returns
+sound_entity_skeleton_horse_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_crossbow_loading_end} returns
+sound_item_crossbow_loading_end:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_stone_hit} returns
+sound_block_stone_hit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_cat_ambient} returns
+sound_entity_cat_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_ui_loom_select_pattern} returns
+sound_ui_loom_select_pattern:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_generic_drink} returns
+sound_entity_generic_drink:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_note_block_banjo} returns
+sound_block_note_block_banjo:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_metal_break} returns
+sound_block_metal_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_illusioner_mirror_move} returns
+sound_entity_illusioner_mirror_move:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_metal_fall} returns
+sound_block_metal_fall:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_spider_hurt} returns
+sound_entity_spider_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_stray_death} returns
+sound_entity_stray_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_elder_guardian_flop} returns
+sound_entity_elder_guardian_flop:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_hostile_small_fall} returns
+sound_entity_hostile_small_fall:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_axe_strip} returns
+sound_item_axe_strip:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_music_disc_chirp} returns
+sound_music_disc_chirp:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_polar_bear_death} returns
+sound_entity_polar_bear_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_egg_throw} returns
+sound_entity_egg_throw:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wolf_howl} returns
+sound_entity_wolf_howl:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_chest_open} returns
+sound_block_chest_open:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_tripwire_click_off} returns
+sound_block_tripwire_click_off:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_dolphin_ambient} returns
+sound_entity_dolphin_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_composter_ready} returns
+sound_block_composter_ready:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_ui_cartography_table_take_result} returns
+sound_ui_cartography_table_take_result:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_stone_pressure_plate_click_on} returns
+sound_block_stone_pressure_plate_click_on:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_vindicator_death} returns
+sound_entity_vindicator_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_vindicator_ambient} returns
+sound_entity_vindicator_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_cow_ambient} returns
+sound_entity_cow_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_note_block_iron_xylophone} returns
+sound_block_note_block_iron_xylophone:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_glass_fall} returns
+sound_block_glass_fall:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_chest_locked} returns
+sound_block_chest_locked:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_grass_step} returns
+sound_block_grass_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_mule_death} returns
+sound_entity_mule_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_tropical_fish_ambient} returns
+sound_entity_tropical_fish_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_elder_guardian} returns
+sound_entity_parrot_imitate_elder_guardian:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_player_attack_sweep} returns
+sound_entity_player_attack_sweep:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_music_menu} returns
+sound_music_menu:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_wood_place} returns
+sound_block_wood_place:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_lava_ambient} returns
+sound_block_lava_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_villager_work_leatherworker} returns
+sound_entity_villager_work_leatherworker:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_enderman} returns
+sound_entity_parrot_imitate_enderman:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_snow_fall} returns
+sound_block_snow_fall:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_squid_death} returns
+sound_entity_squid_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ravager_roar} returns
+sound_entity_ravager_roar:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_shovel_flatten} returns
+sound_item_shovel_flatten:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_turtle_shamble_baby} returns
+sound_entity_turtle_shamble_baby:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_crossbow_quick_charge_3} returns
+sound_item_crossbow_quick_charge_3:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_stone_break} returns
+sound_block_stone_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_blaze_death} returns
+sound_entity_blaze_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_panda} returns
+sound_entity_parrot_imitate_panda:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_metal_hit} returns
+sound_block_metal_hit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ghast_scream} returns
+sound_entity_ghast_scream:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_zombie_horse_hurt} returns
+sound_entity_zombie_horse_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_chorus_fruit_teleport} returns
+sound_item_chorus_fruit_teleport:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_evoker_cast_spell} returns
+sound_entity_evoker_cast_spell:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_turtle_hurt_baby} returns
+sound_entity_turtle_hurt_baby:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_husk_converted_to_zombie} returns
+sound_entity_husk_converted_to_zombie:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_note_block_chime} returns
+sound_block_note_block_chime:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_hostile_splash} returns
+sound_entity_hostile_splash:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_fishing_bobber_throw} returns
+sound_entity_fishing_bobber_throw:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_witch} returns
+sound_entity_parrot_imitate_witch:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_crossbow_quick_charge_2} returns
+sound_item_crossbow_quick_charge_2:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wolf_hurt} returns
+sound_entity_wolf_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_zombie_villager_cure} returns
+sound_entity_zombie_villager_cure:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_drowned_death_water} returns
+sound_entity_drowned_death_water:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_drowned_hurt_water} returns
+sound_entity_drowned_hurt_water:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_rabbit_jump} returns
+sound_entity_rabbit_jump:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_shulker_hurt} returns
+sound_entity_shulker_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_sweet_berries_pick_from_bush} returns
+sound_item_sweet_berries_pick_from_bush:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_dolphin_ambient_water} returns
+sound_entity_dolphin_ambient_water:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_generic_hurt} returns
+sound_entity_generic_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_turtle_death_baby} returns
+sound_entity_turtle_death_baby:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_villager_work_shepherd} returns
+sound_entity_villager_work_shepherd:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_chicken_death} returns
+sound_entity_chicken_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_bucket_empty} returns
+sound_item_bucket_empty:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_guardian_flop} returns
+sound_entity_guardian_flop:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_generic_swim} returns
+sound_entity_generic_swim:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_ghast} returns
+sound_entity_parrot_imitate_ghast:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wolf_whine} returns
+sound_entity_wolf_whine:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_evoker_prepare_attack} returns
+sound_entity_evoker_prepare_attack:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_enderman_death} returns
+sound_entity_enderman_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_stone_button_click_off} returns
+sound_block_stone_button_click_off:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_end_gateway_spawn} returns
+sound_block_end_gateway_spawn:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_hurt} returns
+sound_entity_parrot_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_player_breath} returns
+sound_entity_player_breath:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_music_end} returns
+sound_music_end:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_silverfish_step} returns
+sound_entity_silverfish_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_magma_cube_jump} returns
+sound_entity_magma_cube_jump:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_llama_chest} returns
+sound_entity_llama_chest:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_silverfish_hurt} returns
+sound_entity_silverfish_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_villager_work_librarian} returns
+sound_entity_villager_work_librarian:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ender_eye_launch} returns
+sound_entity_ender_eye_launch:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_scaffolding_break} returns
+sound_block_scaffolding_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_campfire_crackle} returns
+sound_block_campfire_crackle:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_dragon_fireball_explode} returns
+sound_entity_dragon_fireball_explode:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_slime_block_place} returns
+sound_block_slime_block_place:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wither_skeleton_hurt} returns
+sound_entity_wither_skeleton_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_enchant_thorns_hit} returns
+sound_enchant_thorns_hit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_totem_use} returns
+sound_item_totem_use:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_phantom} returns
+sound_entity_parrot_imitate_phantom:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_ravager} returns
+sound_entity_parrot_imitate_ravager:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_witch_throw} returns
+sound_entity_witch_throw:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_horse_step_wood} returns
+sound_entity_horse_step_wood:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_rabbit_death} returns
+sound_entity_rabbit_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_armor_equip_chain} returns
+sound_item_armor_equip_chain:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_slime_block_fall} returns
+sound_block_slime_block_fall:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_trident_throw} returns
+sound_item_trident_throw:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_skeleton_horse_gallop_water} returns
+sound_entity_skeleton_horse_gallop_water:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_armor_equip_generic} returns
+sound_item_armor_equip_generic:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_cat_purreow} returns
+sound_entity_cat_purreow:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_hostile_big_fall} returns
+sound_entity_hostile_big_fall:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_drowned_ambient_water} returns
+sound_entity_drowned_ambient_water:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_endermite_step} returns
+sound_entity_endermite_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_wool_hit} returns
+sound_block_wool_hit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_vex_ambient} returns
+sound_entity_vex_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_gravel_place} returns
+sound_block_gravel_place:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_phantom_ambient} returns
+sound_entity_phantom_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_wool_step} returns
+sound_block_wool_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_enderman_ambient} returns
+sound_entity_enderman_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_cow_death} returns
+sound_entity_cow_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_cat_purr} returns
+sound_entity_cat_purr:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_donkey_death} returns
+sound_entity_donkey_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_ui_toast_out} returns
+sound_ui_toast_out:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_firework_rocket_shoot} returns
+sound_entity_firework_rocket_shoot:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_horse_gallop} returns
+sound_entity_horse_gallop:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_step} returns
+sound_entity_parrot_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_snow_step} returns
+sound_block_snow_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_salmon_hurt} returns
+sound_entity_salmon_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_ambient_underwater_loop} returns
+sound_ambient_underwater_loop:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_conduit_ambient_short} returns
+sound_block_conduit_ambient_short:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_leash_knot_break} returns
+sound_entity_leash_knot_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wither_spawn} returns
+sound_entity_wither_spawn:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_turtle_ambient_land} returns
+sound_entity_turtle_ambient_land:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_anvil_land} returns
+sound_block_anvil_land:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_wooden_button_click_on} returns
+sound_block_wooden_button_click_on:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_anvil_hit} returns
+sound_block_anvil_hit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wolf_ambient} returns
+sound_entity_wolf_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_bamboo_sapling_hit} returns
+sound_block_bamboo_sapling_hit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_zombie_break_wooden_door} returns
+sound_entity_zombie_break_wooden_door:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_snow_golem_death} returns
+sound_entity_snow_golem_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wandering_trader_yes} returns
+sound_entity_wandering_trader_yes:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_husk_death} returns
+sound_entity_husk_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_magma_cube_hurt_small} returns
+sound_entity_magma_cube_hurt_small:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_puffer_fish_flop} returns
+sound_entity_puffer_fish_flop:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wandering_trader_no} returns
+sound_entity_wandering_trader_no:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_note_block_basedrum} returns
+sound_block_note_block_basedrum:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_phantom_bite} returns
+sound_entity_phantom_bite:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_dolphin_swim} returns
+sound_entity_dolphin_swim:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_glass_break} returns
+sound_block_glass_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_conduit_attack_target} returns
+sound_block_conduit_attack_target:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_panda_bite} returns
+sound_entity_panda_bite:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wandering_trader_trade} returns
+sound_entity_wandering_trader_trade:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_wooden_trapdoor_close} returns
+sound_block_wooden_trapdoor_close:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_slime_block_hit} returns
+sound_block_slime_block_hit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wither_skeleton_ambient} returns
+sound_entity_wither_skeleton_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_dolphin_attack} returns
+sound_entity_dolphin_attack:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_drowned_death} returns
+sound_entity_drowned_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_bamboo_place} returns
+sound_block_bamboo_place:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_horse_death} returns
+sound_entity_horse_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_note_block_snare} returns
+sound_block_note_block_snare:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_panda_step} returns
+sound_entity_panda_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_anvil_break} returns
+sound_block_anvil_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_vex} returns
+sound_entity_parrot_imitate_vex:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_end_portal_spawn} returns
+sound_block_end_portal_spawn:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_stray_step} returns
+sound_entity_stray_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_slime_squish_small} returns
+sound_entity_slime_squish_small:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_lever_click} returns
+sound_block_lever_click:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ender_dragon_shoot} returns
+sound_entity_ender_dragon_shoot:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_shulker_bullet_hurt} returns
+sound_entity_shulker_bullet_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_polar_bear_ambient} returns
+sound_entity_polar_bear_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_creeper_hurt} returns
+sound_entity_creeper_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_sand_step} returns
+sound_block_sand_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_wooden_pressure_plate_click_off} returns
+sound_block_wooden_pressure_plate_click_off:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_chicken_hurt} returns
+sound_entity_chicken_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_lantern_fall} returns
+sound_block_lantern_fall:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_pig_death} returns
+sound_entity_pig_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_squid_hurt} returns
+sound_entity_squid_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_wool_break} returns
+sound_block_wool_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_conduit_ambient} returns
+sound_block_conduit_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_dolphin_splash} returns
+sound_entity_dolphin_splash:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_water_ambient} returns
+sound_block_water_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_zombie_pigman_angry} returns
+sound_entity_zombie_pigman_angry:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ender_pearl_throw} returns
+sound_entity_ender_pearl_throw:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_magma_cube} returns
+sound_entity_parrot_imitate_magma_cube:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_panda_aggressive_ambient} returns
+sound_entity_panda_aggressive_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_dolphin_hurt} returns
+sound_entity_dolphin_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_player_hurt_sweet_berry_bush} returns
+sound_entity_player_hurt_sweet_berry_bush:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_cat_eat} returns
+sound_entity_cat_eat:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_ui_loom_take_result} returns
+sound_ui_loom_take_result:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_llama_eat} returns
+sound_entity_llama_eat:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_dolphin_death} returns
+sound_entity_dolphin_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_item_frame_break} returns
+sound_entity_item_frame_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_piston_extend} returns
+sound_block_piston_extend:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_evoker_celebrate} returns
+sound_entity_evoker_celebrate:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ghast_ambient} returns
+sound_entity_ghast_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_blaze_ambient} returns
+sound_entity_blaze_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_tripwire_click_on} returns
+sound_block_tripwire_click_on:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_wolf} returns
+sound_entity_parrot_imitate_wolf:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_horse_eat} returns
+sound_entity_horse_eat:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_snow_place} returns
+sound_block_snow_place:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_generic_death} returns
+sound_entity_generic_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_music_disc_strad} returns
+sound_music_disc_strad:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_firework_rocket_blast} returns
+sound_entity_firework_rocket_blast:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_bucket_empty_lava} returns
+sound_item_bucket_empty_lava:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_anvil_place} returns
+sound_block_anvil_place:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_bat_hurt} returns
+sound_entity_bat_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_villager_work_fisherman} returns
+sound_entity_villager_work_fisherman:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_generic_small_fall} returns
+sound_entity_generic_small_fall:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_illusioner_hurt} returns
+sound_entity_illusioner_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_zombie_horse_ambient} returns
+sound_entity_zombie_horse_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_snowball_throw} returns
+sound_entity_snowball_throw:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_skeleton_horse_swim} returns
+sound_entity_skeleton_horse_swim:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_shield_block} returns
+sound_item_shield_block:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_music_dragon} returns
+sound_music_dragon:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_sheep_shear} returns
+sound_entity_sheep_shear:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_crop_plant} returns
+sound_item_crop_plant:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_iron_trapdoor_close} returns
+sound_block_iron_trapdoor_close:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_drowned_step} returns
+sound_entity_drowned_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_hostile_swim} returns
+sound_entity_hostile_swim:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_wool_place} returns
+sound_block_wool_place:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_panda_sneeze} returns
+sound_entity_panda_sneeze:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_shulker} returns
+sound_entity_parrot_imitate_shulker:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_wooden_door_open} returns
+sound_block_wooden_door_open:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_experience_bottle_throw} returns
+sound_entity_experience_bottle_throw:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_elder_guardian_hurt} returns
+sound_entity_elder_guardian_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_note_block_harp} returns
+sound_block_note_block_harp:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_arrow_hit} returns
+sound_entity_arrow_hit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_vex_charge} returns
+sound_entity_vex_charge:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_note_block_bit} returns
+sound_block_note_block_bit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_sweet_berry_bush_break} returns
+sound_block_sweet_berry_bush_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_snow_break} returns
+sound_block_snow_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_bat_loop} returns
+sound_entity_bat_loop:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_lightning_bolt_impact} returns
+sound_entity_lightning_bolt_impact:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_splash_potion_break} returns
+sound_entity_splash_potion_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_fox_hurt} returns
+sound_entity_fox_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_item_frame_place} returns
+sound_entity_item_frame_place:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_fence_gate_open} returns
+sound_block_fence_gate_open:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_squid_squirt} returns
+sound_entity_squid_squirt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_cow_milk} returns
+sound_entity_cow_milk:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_villager_trade} returns
+sound_entity_villager_trade:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_gravel_step} returns
+sound_block_gravel_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_skeleton_horse_step_water} returns
+sound_entity_skeleton_horse_step_water:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_wet_grass_fall} returns
+sound_block_wet_grass_fall:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_armor_stand_fall} returns
+sound_entity_armor_stand_fall:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_husk_step} returns
+sound_entity_husk_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_panda_death} returns
+sound_entity_panda_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_ladder_break} returns
+sound_block_ladder_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_horse_angry} returns
+sound_entity_horse_angry:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_player_small_fall} returns
+sound_entity_player_small_fall:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_glass_hit} returns
+sound_block_glass_hit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_lava_pop} returns
+sound_block_lava_pop:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_elytra_flying} returns
+sound_item_elytra_flying:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_vex_death} returns
+sound_entity_vex_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_zombie_step} returns
+sound_entity_zombie_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_panda_eat} returns
+sound_entity_panda_eat:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_guardian_hurt} returns
+sound_entity_guardian_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_trident_riptide_3} returns
+sound_item_trident_riptide_3:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_turtle_lay_egg} returns
+sound_entity_turtle_lay_egg:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_gravel_break} returns
+sound_block_gravel_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_slime_block_step} returns
+sound_block_slime_block_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_armor_equip_diamond} returns
+sound_item_armor_equip_diamond:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_wet_grass_break} returns
+sound_block_wet_grass_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_stone_step} returns
+sound_block_stone_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_zombie_infect} returns
+sound_entity_zombie_infect:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_llama_hurt} returns
+sound_entity_llama_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_chicken_ambient} returns
+sound_entity_chicken_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_vindicator_celebrate} returns
+sound_entity_vindicator_celebrate:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_ui_button_click} returns
+sound_ui_button_click:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_zombie_villager_death} returns
+sound_entity_zombie_villager_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_drowned_hurt} returns
+sound_entity_drowned_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_trident_riptide_2} returns
+sound_item_trident_riptide_2:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_evoker_death} returns
+sound_entity_evoker_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_villager_work_butcher} returns
+sound_entity_villager_work_butcher:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_shulker_box_open} returns
+sound_block_shulker_box_open:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ravager_attack} returns
+sound_entity_ravager_attack:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_bubble_column_whirlpool_inside} returns
+sound_block_bubble_column_whirlpool_inside:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_tropical_fish_hurt} returns
+sound_entity_tropical_fish_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wolf_death} returns
+sound_entity_wolf_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_horse_breathe} returns
+sound_entity_horse_breathe:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_iron_golem_death} returns
+sound_entity_iron_golem_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_slime_hurt} returns
+sound_entity_slime_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_mule_hurt} returns
+sound_entity_mule_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_sweet_berry_bush_place} returns
+sound_block_sweet_berry_bush_place:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_sheep_hurt} returns
+sound_entity_sheep_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_skeleton_ambient} returns
+sound_entity_skeleton_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_guardian} returns
+sound_entity_parrot_imitate_guardian:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_note_block_bass} returns
+sound_block_note_block_bass:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_horse_jump} returns
+sound_entity_horse_jump:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_anvil_step} returns
+sound_block_anvil_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_bottle_fill_dragonbreath} returns
+sound_item_bottle_fill_dragonbreath:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_bamboo_break} returns
+sound_block_bamboo_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_note_block_cow_bell} returns
+sound_block_note_block_cow_bell:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ender_dragon_flap} returns
+sound_entity_ender_dragon_flap:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_bat_death} returns
+sound_entity_bat_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_player_splash} returns
+sound_entity_player_splash:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_spider_ambient} returns
+sound_entity_spider_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_cod_ambient} returns
+sound_entity_cod_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_player_levelup} returns
+sound_entity_player_levelup:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_slime_block_break} returns
+sound_block_slime_block_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_elder_guardian_ambient_land} returns
+sound_entity_elder_guardian_ambient_land:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_zombie_villager_step} returns
+sound_entity_zombie_villager_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_pig_step} returns
+sound_entity_pig_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_grindstone_use} returns
+sound_block_grindstone_use:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_donkey_angry} returns
+sound_entity_donkey_angry:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_grass_hit} returns
+sound_block_grass_hit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_donkey_hurt} returns
+sound_entity_donkey_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_crossbow_hit} returns
+sound_item_crossbow_hit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_polar_bear_warning} returns
+sound_entity_polar_bear_warning:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_illusioner_prepare_blindness} returns
+sound_entity_illusioner_prepare_blindness:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_painting_break} returns
+sound_entity_painting_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_pillager_celebrate} returns
+sound_entity_pillager_celebrate:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_player_burp} returns
+sound_entity_player_burp:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_guardian_death_land} returns
+sound_entity_guardian_death_land:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wither_hurt} returns
+sound_entity_wither_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_panda_hurt} returns
+sound_entity_panda_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_illusioner_death} returns
+sound_entity_illusioner_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_music_under_water} returns
+sound_music_under_water:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_illusioner_cast_spell} returns
+sound_entity_illusioner_cast_spell:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_mooshroom_shear} returns
+sound_entity_mooshroom_shear:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_ui_toast_in} returns
+sound_ui_toast_in:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_evoker} returns
+sound_entity_parrot_imitate_evoker:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_zombie_pigman_death} returns
+sound_entity_zombie_pigman_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_generic_extinguish_fire} returns
+sound_entity_generic_extinguish_fire:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wandering_trader_drink_potion} returns
+sound_entity_wandering_trader_drink_potion:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_elder_guardian_ambient} returns
+sound_entity_elder_guardian_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_barrel_close} returns
+sound_block_barrel_close:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_trident_riptide_1} returns
+sound_item_trident_riptide_1:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_shulker_teleport} returns
+sound_entity_shulker_teleport:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_skeleton_death} returns
+sound_entity_skeleton_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_coral_block_hit} returns
+sound_block_coral_block_hit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_salmon_flop} returns
+sound_entity_salmon_flop:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_ender_chest_close} returns
+sound_block_ender_chest_close:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_player_attack_strong} returns
+sound_entity_player_attack_strong:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_armor_equip_turtle} returns
+sound_item_armor_equip_turtle:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_puffer_fish_blow_out} returns
+sound_entity_puffer_fish_blow_out:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_bubble_column_upwards_ambient} returns
+sound_block_bubble_column_upwards_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_cod_flop} returns
+sound_entity_cod_flop:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_magma_cube_death} returns
+sound_entity_magma_cube_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_mooshroom_milk} returns
+sound_entity_mooshroom_milk:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_bottle_fill} returns
+sound_item_bottle_fill:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_fishing_bobber_splash} returns
+sound_entity_fishing_bobber_splash:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_zombie_villager_converted} returns
+sound_entity_zombie_villager_converted:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wither_shoot} returns
+sound_entity_wither_shoot:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ghast_death} returns
+sound_entity_ghast_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_fox_sniff} returns
+sound_entity_fox_sniff:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ravager_ambient} returns
+sound_entity_ravager_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_shulker_box_close} returns
+sound_block_shulker_box_close:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_witch_ambient} returns
+sound_entity_witch_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_anvil_destroy} returns
+sound_block_anvil_destroy:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_firework_rocket_launch} returns
+sound_entity_firework_rocket_launch:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ravager_celebrate} returns
+sound_entity_ravager_celebrate:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_polar_bear_ambient_baby} returns
+sound_entity_polar_bear_ambient_baby:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_spider_death} returns
+sound_entity_spider_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_fox_eat} returns
+sound_entity_fox_eat:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_zombie_horse_death} returns
+sound_entity_zombie_horse_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_rabbit_attack} returns
+sound_entity_rabbit_attack:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ocelot_hurt} returns
+sound_entity_ocelot_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_llama_swag} returns
+sound_entity_llama_swag:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_villager_hurt} returns
+sound_entity_villager_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_wooden_trapdoor_open} returns
+sound_block_wooden_trapdoor_open:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ghast_shoot} returns
+sound_entity_ghast_shoot:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_villager_work_fletcher} returns
+sound_entity_villager_work_fletcher:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ender_dragon_ambient} returns
+sound_entity_ender_dragon_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_pumpkin_carve} returns
+sound_block_pumpkin_carve:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_armor_equip_gold} returns
+sound_item_armor_equip_gold:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_zombie_converted_to_drowned} returns
+sound_entity_zombie_converted_to_drowned:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_iron_door_close} returns
+sound_block_iron_door_close:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_chicken_step} returns
+sound_entity_chicken_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_villager_celebrate} returns
+sound_entity_villager_celebrate:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_fly} returns
+sound_entity_parrot_fly:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_grass_place} returns
+sound_block_grass_place:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_villager_work_cleric} returns
+sound_entity_villager_work_cleric:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wither_break_block} returns
+sound_entity_wither_break_block:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_painting_place} returns
+sound_entity_painting_place:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_fence_gate_close} returns
+sound_block_fence_gate_close:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_phantom_flap} returns
+sound_entity_phantom_flap:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_zombie_ambient} returns
+sound_entity_zombie_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_enderman_scream} returns
+sound_entity_enderman_scream:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_shulker_close} returns
+sound_entity_shulker_close:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_drowned} returns
+sound_entity_parrot_imitate_drowned:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_stone_place} returns
+sound_block_stone_place:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_smoker_smoke} returns
+sound_block_smoker_smoke:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_conduit_activate} returns
+sound_block_conduit_activate:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_wet_grass_place} returns
+sound_block_wet_grass_place:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_llama_ambient} returns
+sound_entity_llama_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_zombie_attack_wooden_door} returns
+sound_entity_zombie_attack_wooden_door:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_wooden_door_close} returns
+sound_block_wooden_door_close:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_elder_guardian_death_land} returns
+sound_entity_elder_guardian_death_land:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_armor_equip_iron} returns
+sound_item_armor_equip_iron:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_drowned_ambient} returns
+sound_entity_drowned_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_bell_use} returns
+sound_block_bell_use:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_ui_toast_challenge_complete} returns
+sound_ui_toast_challenge_complete:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_villager_no} returns
+sound_entity_villager_no:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_snow_hit} returns
+sound_block_snow_hit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_guardian_ambient} returns
+sound_entity_guardian_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_husk_hurt} returns
+sound_entity_husk_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_fox_ambient} returns
+sound_entity_fox_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_elder_guardian_curse} returns
+sound_entity_elder_guardian_curse:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_crossbow_loading_middle} returns
+sound_item_crossbow_loading_middle:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_armor_stand_place} returns
+sound_entity_armor_stand_place:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_zombie_villager_ambient} returns
+sound_entity_zombie_villager_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_experience_orb_pickup} returns
+sound_entity_experience_orb_pickup:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_salmon_ambient} returns
+sound_entity_salmon_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_squid_ambient} returns
+sound_entity_squid_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_scaffolding_fall} returns
+sound_block_scaffolding_fall:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_note_block_pling} returns
+sound_block_note_block_pling:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_redstone_torch_burnout} returns
+sound_block_redstone_torch_burnout:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_witch_drink} returns
+sound_entity_witch_drink:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_cat_hiss} returns
+sound_entity_cat_hiss:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_polar_bear_step} returns
+sound_entity_polar_bear_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_ambient} returns
+sound_entity_parrot_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_silverfish_ambient} returns
+sound_entity_silverfish_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_music_credits} returns
+sound_music_credits:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_grass_fall} returns
+sound_block_grass_fall:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_tripwire_attach} returns
+sound_block_tripwire_attach:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_shulker_hurt_closed} returns
+sound_entity_shulker_hurt_closed:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_ambient_underwater_enter} returns
+sound_ambient_underwater_enter:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_ladder_place} returns
+sound_block_ladder_place:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_blaze_hurt} returns
+sound_entity_blaze_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wandering_trader_drink_milk} returns
+sound_entity_wandering_trader_drink_milk:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_ladder_fall} returns
+sound_block_ladder_fall:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_beacon_deactivate} returns
+sound_block_beacon_deactivate:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ravager_step} returns
+sound_entity_ravager_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_sheep_ambient} returns
+sound_entity_sheep_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_death} returns
+sound_entity_parrot_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_wooden_pressure_plate_click_on} returns
+sound_block_wooden_pressure_plate_click_on:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_lava_extinguish} returns
+sound_block_lava_extinguish:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_arrow_shoot} returns
+sound_entity_arrow_shoot:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_zombie_pigman_hurt} returns
+sound_entity_zombie_pigman_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_music_disc_blocks} returns
+sound_music_disc_blocks:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_guardian_death} returns
+sound_entity_guardian_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_villager_work_weaponsmith} returns
+sound_entity_villager_work_weaponsmith:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_slime_squish} returns
+sound_entity_slime_squish:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_zombie_pigman} returns
+sound_entity_parrot_imitate_zombie_pigman:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wither_skeleton_step} returns
+sound_entity_wither_skeleton_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_wither} returns
+sound_entity_parrot_imitate_wither:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_crop_break} returns
+sound_block_crop_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_magma_cube_death_small} returns
+sound_entity_magma_cube_death_small:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_mooshroom_suspicious_milk} returns
+sound_entity_mooshroom_suspicious_milk:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_shield_break} returns
+sound_item_shield_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ender_dragon_hurt} returns
+sound_entity_ender_dragon_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_anvil_fall} returns
+sound_block_anvil_fall:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_husk_ambient} returns
+sound_entity_husk_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_scaffolding_hit} returns
+sound_block_scaffolding_hit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_note_block_bell} returns
+sound_block_note_block_bell:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_skeleton_shoot} returns
+sound_entity_skeleton_shoot:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_trident_thunder} returns
+sound_item_trident_thunder:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_music_disc_stal} returns
+sound_music_disc_stal:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wandering_trader_reappeared} returns
+sound_entity_wandering_trader_reappeared:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_vindicator} returns
+sound_entity_parrot_imitate_vindicator:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_armor_stand_break} returns
+sound_entity_armor_stand_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_villager_work_cartographer} returns
+sound_entity_villager_work_cartographer:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ghast_hurt} returns
+sound_entity_ghast_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_ambient_underwater_loop_additions} returns
+sound_ambient_underwater_loop_additions:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_blaze_burn} returns
+sound_entity_blaze_burn:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_skeleton_horse_jump_water} returns
+sound_entity_skeleton_horse_jump_water:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_llama_spit} returns
+sound_entity_llama_spit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_puffer_fish_death} returns
+sound_entity_puffer_fish_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_stone_fall} returns
+sound_block_stone_fall:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_bamboo_sapling_place} returns
+sound_block_bamboo_sapling_place:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_ambient_cave} returns
+sound_ambient_cave:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_tripwire_detach} returns
+sound_block_tripwire_detach:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_anvil_use} returns
+sound_block_anvil_use:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_stray} returns
+sound_entity_parrot_imitate_stray:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_portal_trigger} returns
+sound_block_portal_trigger:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_enderman_stare} returns
+sound_entity_enderman_stare:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_skeleton_step} returns
+sound_entity_skeleton_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_puffer_fish_sting} returns
+sound_entity_puffer_fish_sting:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_tropical_fish_flop} returns
+sound_entity_tropical_fish_flop:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_polar_bear} returns
+sound_entity_parrot_imitate_polar_bear:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_skeleton_horse_ambient} returns
+sound_entity_skeleton_horse_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_nether_wart_break} returns
+sound_block_nether_wart_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_ladder_step} returns
+sound_block_ladder_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_portal_travel} returns
+sound_block_portal_travel:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_weather_rain} returns
+sound_weather_rain:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_blaze} returns
+sound_entity_parrot_imitate_blaze:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_wooden_button_click_off} returns
+sound_block_wooden_button_click_off:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_player_attack_knockback} returns
+sound_entity_player_attack_knockback:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_note_block_didgeridoo} returns
+sound_block_note_block_didgeridoo:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_beacon_activate} returns
+sound_block_beacon_activate:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_rabbit_hurt} returns
+sound_entity_rabbit_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_snow_golem_ambient} returns
+sound_entity_snow_golem_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_snow_golem_hurt} returns
+sound_entity_snow_golem_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_boat_paddle_land} returns
+sound_entity_boat_paddle_land:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_barrel_open} returns
+sound_block_barrel_open:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wandering_trader_disappeared} returns
+sound_entity_wandering_trader_disappeared:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_minecart_inside} returns
+sound_entity_minecart_inside:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ravager_stunned} returns
+sound_entity_ravager_stunned:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_dolphin_jump} returns
+sound_entity_dolphin_jump:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_player_big_fall} returns
+sound_entity_player_big_fall:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_fox_death} returns
+sound_entity_fox_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_generic_explode} returns
+sound_entity_generic_explode:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_music_disc_far} returns
+sound_music_disc_far:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wolf_step} returns
+sound_entity_wolf_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_shulker_bullet_hit} returns
+sound_entity_shulker_bullet_hit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_dispenser_launch} returns
+sound_block_dispenser_launch:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_note_block_guitar} returns
+sound_block_note_block_guitar:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_horse_land} returns
+sound_entity_horse_land:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ghast_warn} returns
+sound_entity_ghast_warn:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_tropical_fish_death} returns
+sound_entity_tropical_fish_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_endermite_ambient} returns
+sound_entity_endermite_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_glass_step} returns
+sound_block_glass_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_skeleton_hurt} returns
+sound_entity_skeleton_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_bubble_column_upwards_inside} returns
+sound_block_bubble_column_upwards_inside:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_bell_resonate} returns
+sound_block_bell_resonate:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_rabbit_ambient} returns
+sound_entity_rabbit_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_firecharge_use} returns
+sound_item_firecharge_use:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_magma_cube_hurt} returns
+sound_entity_magma_cube_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_weather_rain_above} returns
+sound_weather_rain_above:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wither_ambient} returns
+sound_entity_wither_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_ender_chest_open} returns
+sound_block_ender_chest_open:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_lingering_potion_throw} returns
+sound_entity_lingering_potion_throw:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_slime_hurt_small} returns
+sound_entity_slime_hurt_small:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_composter_fill} returns
+sound_block_composter_fill:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_event_raid_horn} returns
+sound_event_raid_horn:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_vindicator_hurt} returns
+sound_entity_vindicator_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_pillager} returns
+sound_entity_parrot_imitate_pillager:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_armor_equip_elytra} returns
+sound_item_armor_equip_elytra:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_music_game} returns
+sound_music_game:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_pillager_hurt} returns
+sound_entity_pillager_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_cod_hurt} returns
+sound_entity_cod_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_fox_screech} returns
+sound_entity_fox_screech:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_end_portal_frame_fill} returns
+sound_block_end_portal_frame_fill:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_phantom_hurt} returns
+sound_entity_phantom_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_ambient_underwater_loop_additions_ultra_rare} returns
+sound_ambient_underwater_loop_additions_ultra_rare:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_guardian_attack} returns
+sound_entity_guardian_attack:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_endermite_hurt} returns
+sound_entity_endermite_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_lantern_place} returns
+sound_block_lantern_place:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_wither_skeleton} returns
+sound_entity_parrot_imitate_wither_skeleton:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_turtle_death} returns
+sound_entity_turtle_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_cat_hurt} returns
+sound_entity_cat_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_conduit_deactivate} returns
+sound_block_conduit_deactivate:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_villager_work_toolsmith} returns
+sound_entity_villager_work_toolsmith:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_furnace_fire_crackle} returns
+sound_block_furnace_fire_crackle:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_ui_stonecutter_take_result} returns
+sound_ui_stonecutter_take_result:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wolf_growl} returns
+sound_entity_wolf_growl:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_brewing_stand_brew} returns
+sound_block_brewing_stand_brew:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_spider_step} returns
+sound_entity_spider_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_item_pickup} returns
+sound_entity_item_pickup:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_panda_pre_sneeze} returns
+sound_entity_panda_pre_sneeze:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wandering_trader_ambient} returns
+sound_entity_wandering_trader_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_grass_break} returns
+sound_block_grass_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_llama_angry} returns
+sound_entity_llama_angry:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_silverfish} returns
+sound_entity_parrot_imitate_silverfish:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_turtle_egg_crack} returns
+sound_entity_turtle_egg_crack:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_slime_death} returns
+sound_entity_slime_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_turtle_hurt} returns
+sound_entity_turtle_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_beacon_power_select} returns
+sound_block_beacon_power_select:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_metal_step} returns
+sound_block_metal_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_endermite} returns
+sound_entity_parrot_imitate_endermite:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_splash_potion_throw} returns
+sound_entity_splash_potion_throw:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_player_death} returns
+sound_entity_player_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_pillager_ambient} returns
+sound_entity_pillager_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_turtle_egg_break} returns
+sound_entity_turtle_egg_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_sand_fall} returns
+sound_block_sand_fall:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wandering_trader_death} returns
+sound_entity_wandering_trader_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_evoker_prepare_wololo} returns
+sound_entity_evoker_prepare_wololo:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_tnt_primed} returns
+sound_entity_tnt_primed:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_panda_worried_ambient} returns
+sound_entity_panda_worried_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_firework_rocket_twinkle} returns
+sound_entity_firework_rocket_twinkle:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_firework_rocket_large_blast_far} returns
+sound_entity_firework_rocket_large_blast_far:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_horse_step} returns
+sound_entity_horse_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_zombie_destroy_egg} returns
+sound_entity_zombie_destroy_egg:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_skeleton} returns
+sound_entity_parrot_imitate_skeleton:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_composter_fill_success} returns
+sound_block_composter_fill_success:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_piston_contract} returns
+sound_block_piston_contract:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_flintandsteel_use} returns
+sound_item_flintandsteel_use:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_evoker_prepare_summon} returns
+sound_entity_evoker_prepare_summon:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_generic_big_fall} returns
+sound_entity_generic_big_fall:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_ambient_underwater_loop_additions_rare} returns
+sound_ambient_underwater_loop_additions_rare:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_turtle_shamble} returns
+sound_entity_turtle_shamble:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wither_death} returns
+sound_entity_wither_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_witch_celebrate} returns
+sound_entity_witch_celebrate:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_nether_wart_plant} returns
+sound_item_nether_wart_plant:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_shulker_shoot} returns
+sound_entity_shulker_shoot:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_fire_ambient} returns
+sound_block_fire_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_lantern_step} returns
+sound_block_lantern_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_zombie_villager} returns
+sound_entity_parrot_imitate_zombie_villager:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_coral_block_place} returns
+sound_block_coral_block_place:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_shulker_open} returns
+sound_entity_shulker_open:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wither_skeleton_death} returns
+sound_entity_wither_skeleton_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_iron_trapdoor_open} returns
+sound_block_iron_trapdoor_open:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_zombie_pigman_ambient} returns
+sound_entity_zombie_pigman_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_iron_golem_hurt} returns
+sound_entity_iron_golem_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_illusioner_prepare_mirror} returns
+sound_entity_illusioner_prepare_mirror:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_pig_ambient} returns
+sound_entity_pig_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_player_attack_crit} returns
+sound_entity_player_attack_crit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_cat_beg_for_food} returns
+sound_entity_cat_beg_for_food:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_stray_hurt} returns
+sound_entity_stray_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ender_eye_death} returns
+sound_entity_ender_eye_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_evoker_fangs_attack} returns
+sound_entity_evoker_fangs_attack:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_sand_place} returns
+sound_block_sand_place:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_chicken_egg} returns
+sound_entity_chicken_egg:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_bucket_fill_lava} returns
+sound_item_bucket_fill_lava:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_note_block_hat} returns
+sound_block_note_block_hat:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_firework_rocket_twinkle_far} returns
+sound_entity_firework_rocket_twinkle_far:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_guardian_ambient_land} returns
+sound_entity_guardian_ambient_land:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_enchantment_table_use} returns
+sound_block_enchantment_table_use:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_drowned_shoot} returns
+sound_entity_drowned_shoot:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_villager_ambient} returns
+sound_entity_villager_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_creeper_death} returns
+sound_entity_creeper_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_crossbow_shoot} returns
+sound_item_crossbow_shoot:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_zombie_death} returns
+sound_entity_zombie_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_bottle_empty} returns
+sound_item_bottle_empty:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_cat_death} returns
+sound_entity_cat_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_ender_dragon_growl} returns
+sound_entity_ender_dragon_growl:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_item_trident_hit_ground} returns
+sound_item_trident_hit_ground:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_villager_work_armorer} returns
+sound_entity_villager_work_armorer:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_player_hurt_on_fire} returns
+sound_entity_player_hurt_on_fire:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_gravel_hit} returns
+sound_block_gravel_hit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_cow_step} returns
+sound_entity_cow_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_imitate_slime} returns
+sound_entity_parrot_imitate_slime:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_metal_pressure_plate_click_off} returns
+sound_block_metal_pressure_plate_click_off:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_snow_golem_shoot} returns
+sound_entity_snow_golem_shoot:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_magma_cube_squish} returns
+sound_entity_magma_cube_squish:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_horse_ambient} returns
+sound_entity_horse_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_bamboo_step} returns
+sound_block_bamboo_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_music_disc_mellohi} returns
+sound_music_disc_mellohi:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_hostile_death} returns
+sound_entity_hostile_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_salmon_death} returns
+sound_entity_salmon_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_lily_pad_place} returns
+sound_block_lily_pad_place:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_evoker_hurt} returns
+sound_entity_evoker_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_wood_fall} returns
+sound_block_wood_fall:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_guardian_hurt_land} returns
+sound_entity_guardian_hurt_land:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_generic_splash} returns
+sound_entity_generic_splash:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_item_frame_rotate_item} returns
+sound_entity_item_frame_rotate_item:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_pillager_death} returns
+sound_entity_pillager_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_polar_bear_hurt} returns
+sound_entity_polar_bear_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_bubble_column_whirlpool_ambient} returns
+sound_block_bubble_column_whirlpool_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_coral_block_break} returns
+sound_block_coral_block_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_slime_death_small} returns
+sound_entity_slime_death_small:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_sand_break} returns
+sound_block_sand_break:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_evoker_ambient} returns
+sound_entity_evoker_ambient:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_wolf_pant} returns
+sound_entity_wolf_pant:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_coral_block_step} returns
+sound_block_coral_block_step:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_slime_attack} returns
+sound_entity_slime_attack:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_armor_stand_hit} returns
+sound_entity_armor_stand_hit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_witch_hurt} returns
+sound_entity_witch_hurt:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_note_block_xylophone} returns
+sound_block_note_block_xylophone:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_endermite_death} returns
+sound_entity_endermite_death:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_iron_golem_attack} returns
+sound_entity_iron_golem_attack:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_wood_hit} returns
+sound_block_wood_hit:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_block_iron_door_open} returns
+sound_block_iron_door_open:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_drowned_swim} returns
+sound_entity_drowned_swim:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_parrot_eat} returns
+sound_entity_parrot_eat:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {sound_entity_fox_bite} returns
+sound_entity_fox_bite:
+  # Default return value
+  default: ""
+
+

@@ -1,0 +1,20 @@
+#----------------------------------------
+# World change
+# World change
+# 
+#----------------------------------------
+
+# DO NOT EDIT THIS CONFIG VERSION!
+config: 1
+
+
+# Do you want to enable this event hook?
+# Enabling this hook will trigger
+# when the player enters a world
+# for the player that enters the world
+enabled: false
+
+# What do you want to trigger?
+trigger: "default"
+
+

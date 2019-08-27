@@ -1,0 +1,20 @@
+#----------------------------------------
+# Towny Town
+# Towny Advanced
+# http://towny.palmergames.com/
+#----------------------------------------
+
+# DO NOT EDIT THIS CONFIG VERSION!
+config: 2
+
+
+# Do you want to enable this event hook?
+# Enabling this hook will trigger
+# when the player enters/leaves a town
+# for the player that enters the arena
+enabled: false
+
+# What do you want to trigger?
+trigger: "default"
+
+

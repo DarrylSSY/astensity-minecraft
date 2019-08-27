@@ -1,0 +1,39 @@
+## --------------------------------------- ##
+## Quests placeholders Placeholders
+## http://dev.bukkit.org/bukkit-plugins/quests/
+## About: This configuration allows you to
+##        configure what certain placeholders return.
+## --------------------------------------- ##
+
+# DO NOT EDIT THE CONFIG VERSION
+config: 1
+
+# Enable/Disable the placeholder group
+# Placeholder groups will not be loaded into the memory
+# when not used.
+enabled: true
+
+# Placeholder settings {quests_hero_maxmana} returns
+quests_hero_maxmana:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {quests_hero_level} returns
+quests_hero_level:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {quests_hero_manaregen} returns
+quests_hero_manaregen:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {quests_hero_mana} returns
+quests_hero_mana:
+  # Default return value
+  default: ""
+
+

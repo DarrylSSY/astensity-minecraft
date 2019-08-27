@@ -1,0 +1,408 @@
+## --------------------------------------- ##
+## Player information placeholders Placeholders
+## About: This configuration allows you to
+##        configure what certain placeholders return.
+## --------------------------------------- ##
+
+# DO NOT EDIT THE CONFIG VERSION
+config: 4
+
+# Enable/Disable the placeholder group
+# Placeholder groups will not be loaded into the memory
+# when not used.
+enabled: true
+
+# Define what the boolean placeholder {isdead_raw} returns
+isdead_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iteminmainhand_istransparent_raw} returns
+iteminmainhand_istransparent_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iswhitelisted_raw} returns
+iswhitelisted_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iteminhand_isflammable_raw} returns
+iteminhand_isflammable_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {isinsidevehicle_raw} returns
+isinsidevehicle_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {isleashed_raw} returns
+isleashed_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iteminhand_istransparent_raw} returns
+iteminhand_istransparent_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iteminoffhand_isedible_raw} returns
+iteminoffhand_isedible_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iteminmainhand_hasgravity_raw} returns
+iteminmainhand_hasgravity_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iteminhand_isrecord_raw} returns
+iteminhand_isrecord_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iteminoffhand_istransparent_raw} returns
+iteminoffhand_istransparent_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {isinlava_raw} returns
+isinlava_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iteminhand_isburnable_raw} returns
+iteminhand_isburnable_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {isplayeronline_} returns
+isplayeronline_:
+  # This will be shown when the placeholder is 'True'
+  true: "{player}"
+  # This will be shown when the placeholder is 'False'
+  false: "False"
+
+
+# Define what the boolean placeholder {bed_chunk_isloaded_raw} returns
+bed_chunk_isloaded_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iteminhand_isedible_raw} returns
+iteminhand_isedible_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iteminhand_hasgravity_raw} returns
+iteminhand_hasgravity_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {haspermission__raw} returns
+haspermission__raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iteminmainhand_isedible_raw} returns
+iteminmainhand_isedible_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iteminoffhand_isflammable_raw} returns
+iteminoffhand_isflammable_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iteminhand_issolid_raw} returns
+iteminhand_issolid_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iteminoffhand_isoccluding_raw} returns
+iteminoffhand_isoccluding_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iteminoffhand_isblock_raw} returns
+iteminoffhand_isblock_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iteminhand_isblock_raw} returns
+iteminhand_isblock_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iteminoffhand_isburnable_raw} returns
+iteminoffhand_isburnable_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iteminoffhand_issolid_raw} returns
+iteminoffhand_issolid_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {isflying_raw} returns
+isflying_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {isconversing_raw} returns
+isconversing_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iteminmainhand_isflammable_raw} returns
+iteminmainhand_isflammable_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {lastdamage_entitytype} returns
+lastdamage_entitytype:
+  # Default return value
+  default: "None"
+
+
+# Placeholder settings {lastdamage_opponent_name} returns
+lastdamage_opponent_name:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {isblocking_raw} returns
+isblocking_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {issprinting_raw} returns
+issprinting_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {lastdamage_entity_location_chunk_isloaded_raw} returns
+lastdamage_entity_location_chunk_isloaded_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iteminmainhand_isoccluding_raw} returns
+iteminmainhand_isoccluding_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {issleeping_raw} returns
+issleeping_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {lastdamage_opponent_isplayer_raw} returns
+lastdamage_opponent_isplayer_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iteminmainhand_issolid_raw} returns
+iteminmainhand_issolid_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {isop_raw} returns
+isop_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {isinwater_raw} returns
+isinwater_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iteminoffhand_isrecord_raw} returns
+iteminoffhand_isrecord_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iteminhand_isoccluding_raw} returns
+iteminhand_isoccluding_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {lastdamage_opponent_player_name} returns
+lastdamage_opponent_player_name:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {iteminmainhand_isburnable_raw} returns
+iteminmainhand_isburnable_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iteminmainhand_isrecord_raw} returns
+iteminmainhand_isrecord_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {iteminmainhand_isblock_raw} returns
+iteminmainhand_isblock_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {issneaking_raw} returns
+issneaking_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {lastdamage_entity_customname} returns
+lastdamage_entity_customname:
+  # Default return value
+  default: "None"
+
+
+# Define what the boolean placeholder {iteminoffhand_hasgravity_raw} returns
+iteminoffhand_hasgravity_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+
+#Firstplayed Time/Date formatting
+firstplayed:
+  format: "HH:mm:ss"
+
+
+#Lastplayed Time/Date formatting
+lastplayed:
+  format: "HH:mm:ss"
+
