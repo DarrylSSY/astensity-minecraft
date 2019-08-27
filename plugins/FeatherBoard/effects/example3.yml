@@ -1,0 +1,18 @@
+# Example 3:
+# This is the scramble effect
+
+settings:
+  # Tag name
+  # By default it will use the name of the YML file as the tag. In this case it would
+  # be <example3>. But you can override this with "tag" setting.
+  tag: "scramble"
+  # When set to false, it will cache the effect if it does not contain MVdW placeholders
+  # When set to true, it will not cache the effect and parse it every time it starts again
+  force-update: false
+
+script: |
+  load(effectsDirectory + "/ScrambleEffect.js");
+
+# Use {message} as the placeholder for the text that is between the tags
+frames:
+- '<% ScrambleEffect.scramble("{message}"); %>'

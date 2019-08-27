@@ -1,0 +1,111 @@
+## --------------------------------------- ##
+## MobArena placeholders Placeholders
+## http://www.spigotmc.org/resources/battlelevels-demo-server.2218/
+## About: This configuration allows you to
+##        configure what certain placeholders return.
+## --------------------------------------- ##
+
+# DO NOT EDIT THE CONFIG VERSION
+config: 1
+
+# Enable/Disable the placeholder group
+# Placeholder groups will not be loaded into the memory
+# when not used.
+enabled: true
+
+# Define what the boolean placeholder {mobarena_arena_isprotected_raw} returns
+mobarena_arena_isprotected_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {mobarena_locationarena_isenabled_raw} returns
+mobarena_locationarena_isenabled_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {mobarena_locationarena_isrunning_raw} returns
+mobarena_locationarena_isrunning_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {mobarena_locationarena_canspec_raw} returns
+mobarena_locationarena_canspec_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {mobarena_arena_canafford_raw} returns
+mobarena_arena_canafford_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {mobarena_arena_canjoin_raw} returns
+mobarena_arena_canjoin_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {mobarena_arena_canspec_raw} returns
+mobarena_arena_canspec_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {mobarena_locationarena_canjoin_raw} returns
+mobarena_locationarena_canjoin_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {mobarena_locationarena_canafford_raw} returns
+mobarena_locationarena_canafford_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {mobarena_arena_isrunning_raw} returns
+mobarena_arena_isrunning_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {mobarena_arena_isenabled_raw} returns
+mobarena_arena_isenabled_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {mobarena_locationarena_isprotected_raw} returns
+mobarena_locationarena_isprotected_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+

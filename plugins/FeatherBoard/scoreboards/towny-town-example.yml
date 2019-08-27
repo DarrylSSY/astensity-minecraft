@@ -1,0 +1,64 @@
+lines:
+  # This is an example for Towny when you enter a town
+  # DO NOT GIVE THE PERMISSION FOR THIS SCOREBOARD
+  # (Unless you want it to show all the time)
+  # You still need to 'trigger' this scoreboard in the 'towny-town'
+
+  # Lets just use the title,header and footer from the default example
+  # for in depth configuration look at the spawn.yml
+  title:
+    frames:
+    # To create cool looking animations you create yourself
+    # you can use the graphical tool AnimationCreator
+    # https://www.spigotmc.org/resources/animationcreator.6001/
+    # For all placeholders:   https://www.spigotmc.org/wiki/mvdw-placeholders/
+    # For all preset effects: https://www.spigotmc.org/wiki/mvdw-effects/
+    - '<single><delay times="10">&l><</delay></single>'
+    - '<single>&f&ler</single>' # <single> will allow the frame to only run ONCE
+    - '<single>&f&lherB</single>'
+    - '<single>&f&lherBo</single>'
+    - '<single>&f&latherBoa</single>'
+    - '<single>&f&leatherBoar</single>'
+    - ' <delay times="100">&f&lFe&4&l4&f&ltherBoard</delay>' # <delay> will repeat the line X times
+    interval: 2
+    random: false
+  header:
+    frames:
+    - '&a&m+-------------------+'
+    interval: 10
+    random: true
+  town-label:
+    frames:
+    - '&bYou are in town:'
+    interval: 100
+  town-data:
+    frames:
+    - '{towny_currenttown_name}'
+    interval: 100
+  spacer1:
+    frames: []
+    interval: 100
+  townboard-label:
+    frames:
+    - '&bTown board:'
+    interval: 100
+  townboard:
+    frames:
+    - '&a<scroll minwidth="28" width="30">{towny_currenttown_townboard}</scroll>'
+    interval: 3
+  spacer2:
+    frames: []
+    interval: 100
+  population-label:
+    frames:
+    - '&bPopulation:'
+    interval: 100
+  poplulation-data:
+    frames:
+    - '{towny_currenttown_residents}'
+    interval: 100
+  footer:
+    frames:
+    - '&a&m+-------------------+'
+    interval: 10
+    random: true
