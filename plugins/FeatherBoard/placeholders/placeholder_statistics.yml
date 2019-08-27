@@ -1,0 +1,25 @@
+## --------------------------------------- ##
+## Basic Player statistics (bound to world Placeholders
+## About: This configuration allows you to
+##        configure what certain placeholders return.
+## --------------------------------------- ##
+
+# DO NOT EDIT THE CONFIG VERSION
+config: 3
+
+# Enable/Disable the placeholder group
+# Placeholder groups will not be loaded into the memory
+# when not used.
+enabled: true
+
+
+#Names: http://minecraft-ids.grahamedgecombe.com/
+blocksmined:
+  blocks: 
+  - "STONE"
+  - "IRON_ORE"
+  - "DIAMOND_ORE"
+  - "REDSTONE_ORE"
+  - "GOLD_ORE"
+  - "COAL_ORE"
+

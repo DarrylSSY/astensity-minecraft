@@ -1,0 +1,295 @@
+# ------------------------------------ #
+#
+#  FeatherBoard 4
+#  Runs like a feather on your server
+#  (c) Maxim Van de Wynckel
+#
+# ------------------------------------ #
+
+# Plugin requirements:
+#           (Required) MVdWPlaceholderAPI 2 or higher
+
+# Permissions: To use the action groups give them the permission
+#              featherboard.group.<group>
+#              Make sure to remove them from the other groups
+#              when giving a new permission.
+
+# Variables: These variables can be used in the TEXT section
+#            of both the header as the footer.
+#            
+#            {PLAYER}       - Player name
+#            {PLAYERNICK}   - Player nickname
+#            {SERVER}       - Server name
+#            {PLAYERCOUNT}  - Server player count
+#            {BUNGEECOUNT}  - Bungee network player count
+#            5000+ more ... see spigot page
+
+# Formatting: These are formatting tags allowing you to format the animations
+#             or placeholders.
+#
+#             Substring: This allows you to split a word (even a placeholder) in lines
+#               example: <substring begin=0 end=3>Hello World</substring> = Hel
+#               usage: This can be used to split placeholders when creating a typewriter
+#                      or to split the colors in a placeholder.
+#
+#             Scroll: This creates a scrolling animation of the text inside it. It accepts
+#                     two arguments (the length and space between scrolls).
+#               example: <scroll width=20 spaces=20>&2This is a &atest</scroll>
+#
+#             PLENTY MORE! See spigot page
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# GENERAL PLUGIN SETTINGS
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+## Config version (DO NOT EDIT)
+config: 4
+
+## Language file
+lang: 'en'
+
+## Debug mode
+debug: false
+
+## Log to file
+log:
+  enabled: true
+  # Reset log on startup
+  reset: true
+
+## Update checking
+update:
+ # RECOMMENDED YOU LEAVE THIS TRUE
+ # Support for older versions is not provided
+  check: true
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# PLUGIN SPECIFIC SETTINGS
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+  
+# Toggling allows you to disable the scoreboard
+database:
+  # If you want the toggle to stay even when your users
+  # log off you can enable this. Keep in mind that this requires a
+  # MySQL or SQLite database.
+  # If you are configuring the plugin for the first time it is advised
+  # to stay away from these settings until you managed the scoreboard
+  # set up.
+  persistent: false
+  # Database configuration is SIMILAR to http://wiki.bukkit.org/Bukkit.yml#database
+  # with isolation, url, driver, ...
+  # Database name
+  database: "featherboard"
+  # Database username
+  username: bukkit
+  # Database password
+  password: walrus
+  # Database driver URL
+  # {DIR} will be replaced with the plugin directory
+  # {NAME} will be replaced wit the plugin name
+  url: jdbc:sqlite:{DIR}{NAME}.db
+  # Save interval in ticks
+  save-interval: 6000
+
+# Disabled worlds. Add your world name in this list to disable it.
+disabled-worlds:
+- 'example_world'
+
+# Scoreboard assigning. The boards can be assigned by various ways.
+# default the scoreboards will be assigned by permissions.
+# You can have multiple ways of assigning a scoreboard, but
+# keep in mind that it uses a "first come first served" principal
+# Multiple assign methods is only recommended when using things like
+# TIME or WORLD in combination with something else.
+#
+# PERMISSION 	    - 	Assign scoreboards based on permissions
+#                       This is the default setting (since 2014)
+#                    	featherboard.group.<scoreboard>
+#
+# PERMISSION_CACHED -   Assign scoreboards based on permissions
+#                       Unlike "PERMISSION" this method is cached.
+#                       It will require a toggle or relog to update.
+#                       Use this for permission plugins that do not cache
+#                       permissions and contact a database every time.
+#
+# GROUP			    -	Assign scoreboards based on Vault groups
+#					    this means the scoreboard name has to
+#					    have the name of your Vault group.
+#
+# WORLD			    -	Assign scoreboards based on the world
+#					    the player is in.
+#
+# TIME              -   Assign the scoreboard based on the day.
+#                       "day" for Day and "night" for night.
+#
+# NONE			    -	Do no assign scoreboards and just rely on
+#					    manual assigning (triggers, etc...)
+#
+# LANGUAGE          -   Client language (en,nl,fr) Two letter language code
+#                       name your scoreboard "en.yml", "nl.yml" , ...
+#
+# PLACEHOLDER:*	    -	Assign the scoreboard based on a placeholder
+#					    this method can be very intensive for certain non cached
+#					    placeholders.
+#					    It will look for scoreboardname.yml files matching the result
+#					    of the placeholder.
+#                       Replace "*" with an actual placeholder (ex. "PLACEHOLDER:{isflying}" )
+#					    KEEP IN MIND: Fast switching scoreboards is not a good thing.
+#
+# SPAWN_DISTANCE    -   Assign the scoreboard based on the distance to the world's spawn
+#                       Name your scoreboard: "spawn_distance_*" where * is a number
+#                       representing the distance. (ex. "spawn_distance_10")
+#                       The example would math the scoreboard if you are within 10 blocks
+#                       to the spawn.
+scoreboard-assigning:
+- 'PERMISSION'
+- 'WORLD'
+
+# GUI: This is a feature enabling a GUI to select a specific scoreboard
+# The GUI will show all scoreboards you have permission to. It is not very
+# configurable in the way you can't control the location or order of the scoreboards
+# For a more configurable GUI I recommend DeluxeMenus
+gui:
+  # This is the title of the GUI
+  title: "Scoreboards"
+  # Size of the GUI (leave to -1 to make it dynamic)
+  # Sizes: 9,27,54
+  size: -1
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# ADVANCED SETTINGS
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+# Placeholder settings
+placeholder:
+  # Placeholder update method
+  # COMPATIBLE          - Only downloads compatible placeholders.
+  # UPDATE_ONLY         - Only update existing downloaded placeholders.
+  update-method: "COMPATIBLE"
+  # Clear unused placeholders that are not enabled.
+  clear-unused: true
+  # Config cache only
+  # This will only keep placeholders you use in the config
+  # This breaks:
+  # 1) MVdWPlaceholderAPI hooked plugins that make you use placeholders
+  #    in their plugins.
+  # 2) Plugins that add custom placeholders to MVdWPlaceholderAPI
+  config-cache: false
+  # Log 'perfect' loading in the console
+  # Any warnings, errors or downloading will still be shown
+  console-log: true
+
+# Tweaks to increase or tune performance
+tweaks:
+  # Hide the scoreboard by default
+  # This requires players to manually toggle the scoreboard
+  default-hidden: false
+  # Reset all scoreboard on startup
+  # this is similar to manually deleting the scoreboard.dat
+  reset-scoreboard-data: false
+  # This option does not send scoreboard remove packets
+  # to the client on join.
+  keep-scoreboard-join: false
+  # This option does not send scoreboard remove packets
+  # to the client on quit. This can increase performance on servers
+  # where players quit a lot (hubs, ...)
+  #
+  # Removal of the plugin requires you to manually delete the scoreboard.dat in the worlds
+  # /data folder
+  #
+  # Enabling this can cause the scoreboard not to work anymore. Use at your own risk
+  keep-scoreboard-quit: false
+  # Trust or do not trust scoreboard scripts.
+  # Normally you leave this to true
+  # When disabled scoreboard scripts will be disabled
+  trust-scoreboard-scripts: true
+  # Some placeholders have a slow process behind them. Meaning they might contact a database
+  # and take a while to 'resolve'. This will never cause lag since the placeholders are loaded
+  # separate from the sending. But can slow down the animation because it has to wait
+  # for the placeholder to be loaded. When having multiple lines like a text that shows
+  # the information about the placeholders you put below it, this can cause problems.
+  # Enabling this will output a message in the console and ingame to operators
+  # saying when a placeholder is causing delays.
+  detect-animation-lag: false
+  # Putting this to true will SPAM your console with timings report per placeholder/animation
+  # refresh. Used for debugging purposes.
+  # This requires detect-placeholderdelay to true
+  verbose-animation-timings: false
+  # Show delay on join. Useful if you wish to let the user
+  # enjoy a Title MOTD without having the scoreboard obstructing
+  # the view.
+  # Please note that there is a static show-delay build in of 5 ticks that you can
+  # not change. This is because a lot of data is send in the first moment a player
+  # joins.
+  show-delay: 0
+  # The update speed multiplier can increase the update speed of the scoreboard
+  # A normal scoreboard would have a max refresh rate of 20 ticks per second
+  # When changing this multiplier you can make this slower or faster.
+  # Support for faster multipliers is not provided as it depends on your server
+  # hardware if it can handle it.
+  # This feature is mostly meant for advanced users that want to create something unique
+  # or when stress testing.
+  speed-multiplier: 1.0
+  # Scoreboard script engine to use
+  scoreboard-script-engine: "JavaScript"
+  scoreboard-update:
+    # Scoreboard update method
+    # This is the method used to send the scoreboard.
+    # RECOMMENDED          - This method will use the recommended setting based
+    #                        on your Minecraft version
+    # ANTI_FLICKER_V1      - This method works for 1.7-1.14. It will prevent the
+    #                        scoreboard lines from jumping.
+    #                        This is the only supported method for Cauldron servers.
+    #                       Pros:
+    #                       - No flickering or jumping lines
+    #                       - Fast animations
+    #                       - Less packets after the scoreboard is loaded
+    #                       - Static line support with ~72 characters
+    #                       Cons:
+    #                       - This method sends more packets when the scoreboard first loads
+    #                       - Maximum of 28 characters with colors
+    # ANTI_FLICKER_V2      - This method works for 1.8-1.12. It will prevent the
+    #                        scoreboard lines from jumping.
+    #                        This method is in BETA
+    #                        Pros:
+    #                        - No flickering or jumping lines
+    #                        - Fast animations
+    #                        - Full 68-70 character animations on 1.8-1.12
+    #                        - Full 38 character animations on 1.13
+    #                        Cons:
+    #                        - More CPU/RAM usage than V1 due to frame buffer
+    #                        - Scoreboards will have a delay of 3 ticks (not really noticeable)
+    #                        - Does not work with Team plugins, 'especially' those that use packets
+    # ANTI_FLICKER_V3      - This method works for 1.8-1.14. It is based on anti flicker v1
+    #                        but with raw packets.
+    #                        Pros:
+    #                        - No flickering or jumping lines
+    #                        - Fast animations
+    #                        - Less packets after the scoreboard is loaded
+    #                        - Static line support with ~72 characters
+    #                        - No saving to scoreboard.dat (better performance)
+    #                        - Compatible with all team plugins or under_name scoreboards
+    #                        - Compatible with sidebar scoreboard plugins
+    #                        - Less memory usage
+    method: 'RECOMMENDED'
+  animation-update:
+    # Animation update method
+    # This is the method used to update the line animations
+    # (Updating the frames, placeholders ,...)
+    # EFFICIENT       - Will update the scoreboards using X workers.
+    #                   The advantage is that it makes optimal use of the
+    #                   processor to update the animations.
+    #                   The downside is that some placeholders
+    #                   may delay the scoreboard.
+    #                   Use this if you have many different scoreboards
+    # OPTIMAL         - This default option will assign a dedicated worker
+    #                   per scoreboard config. Lines are therefor synchronized.
+    #                   If you have no idea what the other strategies do, use this
+    # SYNCHRONOUS     - This option will update all scoreboard lines of all
+    #                   scoreboards in a single worker. Meaning that for many
+    #                   boards this can cause delays.
+    #                   Use this if you have no more than 2 different scoreboards
+    # ASYNCHRONOUS    - This option will create a task for each scoreboard line
+    #                   it was default for FeatherBoard 3 and previous versions.
+    #                   However it is not really optimized.
+    method: 'OPTIMAL'

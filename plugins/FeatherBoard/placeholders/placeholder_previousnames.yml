@@ -1,0 +1,16 @@
+## --------------------------------------- ##
+## Previous minecraft names placeholders Placeholders
+## About: This configuration allows you to
+##        configure what certain placeholders return.
+## --------------------------------------- ##
+
+# DO NOT EDIT THE CONFIG VERSION
+config: 3
+
+# Enable/Disable the placeholder group
+# Placeholder groups will not be loaded into the memory
+# when not used.
+enabled: true
+
+
+date-format: "dd MMMM yyyy"

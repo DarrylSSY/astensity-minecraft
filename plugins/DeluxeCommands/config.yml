@@ -58,3 +58,17 @@ commands:
     target_permission: some.custom.targetpermission
     target_no_permission_message: '&cYou don''t have permission to view this command
       with a target player argument!'
+  map:
+    permission: astensity.map
+    message:
+    - '{"text":"Click to open live map","color":"yellow","clickEvent":{"action":"open_url","value":"http://mc.astensity.org:8123/"}}'
+    target_permission: some.custom.targetpermission
+    target_no_permission_message: '&cYou don''t have permission to view this command
+      with a target player argument!'
+  web:
+    permission: astensity.web
+    message:
+    - '{"text":"Click to open website","color":"yellow","clickEvent":{"action":"open_url","value":"https://astensity.org/"}}'
+    target_permission: some.custom.targetpermission
+    target_no_permission_message: '&cYou don''t have permission to view this command
+      with a target player argument!'
