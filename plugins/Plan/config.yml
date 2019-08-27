@@ -25,13 +25,13 @@ Plugin:
 # Supported databases: SQLite, H2, MySQL
 # -----------------------------------------------------
 Database:
-    Type: SQLite
+    Type: MySQL
     MySQL:
-        Host: localhost
+        Host: 34.87.92.37
         Port: 3306
-        User: root
-        Password: minecraft
-        Database: Plan
+        User: astensity
+        Password: Astensity1234
+        Database: minecraft
         # Launch options to append after mysql driver address
         Launch_options: ?rewriteBatchedStatements=true&useSSL=false
 # -----------------------------------------------------

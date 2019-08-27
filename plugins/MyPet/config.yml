@@ -16,9 +16,7 @@ MyPet:
     AllowRanged: true
   OwnerCanAttackPet: false
   DisablePetVersusPlayer: false
-  RemovePetsAfterRelease: false
   FollowStartDistance: 7.0
-  ReleasePetsOnDeath: false
   RetainEquipmentOnTame: true
   Make-Pet-Invisible-When-Owner-Is-Invisible: true
   Log:
