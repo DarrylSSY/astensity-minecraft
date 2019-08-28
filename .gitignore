@@ -42,3 +42,5 @@ plugins/CommandButtons/data.yml
 plugins/ChestShop/items.db
 plugins/ChestShop/users.db
 plugins/CommandButtons/data.yml
+spawn/
+plugins/Minepacks/backpack.db
