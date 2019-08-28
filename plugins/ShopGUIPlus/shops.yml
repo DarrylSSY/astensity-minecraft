@@ -6,6 +6,7 @@ shops:
         type: item
         item:
           material: GRASS_BLOCK
+          quantity: 64
         buyPrice: 350
         sellPrice: 16
         slot: 0
