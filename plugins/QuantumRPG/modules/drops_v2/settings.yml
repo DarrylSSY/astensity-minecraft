@@ -1,0 +1,6 @@
+cfg_version: 1.0
+command-aliases: drops
+multipliers:
+  VIP: 1.25
+  Premium: 1.5
+  Gold: 1.75

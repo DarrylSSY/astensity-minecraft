@@ -1,0 +1,21 @@
+material: 'ENCHANTED_BOOK:0'
+name: '&aIdentify Tome %rlevel%'
+lore:
+- '&8&m               &f  「 INFO 」  &8&m               '
+- '&7Tier: &aRare'
+- '&7Uses: &f%uses%&7/&f%uses-max%'
+- '&8&m         &f  「 REQUIREMENTS 」  &8&m        '
+- '%target-level%'
+- '%target-types%'
+- '&8&m              &f  「 USAGE 」  &8&m              '
+- '&7Drag & Drop onto item to identify.'
+min-level: 1
+max-level: 3
+uses-by-level:
+  1: 1
+  2: 2
+  3: 3
+item-level-requirements:
+  '1': 1-10
+  '2': 11-25
+  '3': 26-45

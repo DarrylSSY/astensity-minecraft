@@ -1,0 +1,5 @@
+ArtisanCrafter:
+  usage: This is an EXAMPLE!
+  permissions:
+  - plugin.example.node.here
+  

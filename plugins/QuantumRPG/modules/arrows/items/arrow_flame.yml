@@ -1,0 +1,25 @@
+name: '&cFlame Arrow'
+lore:
+- '&f⚔ &7Fire Damage: &a+10%'
+- '&f⚔ &7Fire Defense: &c-3%'
+- ''
+- '&7This arrow will &fignite&7 the enemy'
+- '&7for &f5 seconds&7 on hit.'
+additional-stats:
+  BURN_RATE: 100.0
+additional-damage:
+  fire: 10.0%
+defense-ignoring:
+  fire: 3.0%
+on-fly-actions:
+  target-selectors:
+    self:
+    - '[SELF]'
+  action-executors:
+  - '[PARTICLE_SIMPLE] ~name: FLAME; ~amount: 1; ~offset:0,0,0; ~speed: 0; ~target: self;'
+on-hit-actions:
+  target-selectors:
+    sight:
+    - '[FROM_SIGHT] ~distance: 3; ~party-member: false; ~attackable: true; ~allow-self: false;'
+  action-executors:
+  - '[PARTICLE_SIMPLE] ~name: LAVA; ~offset:0.3,0.3,0.3; ~speed: 0.2; ~amount: 20; ~target: sight;'

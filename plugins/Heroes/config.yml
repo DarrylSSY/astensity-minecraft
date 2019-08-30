@@ -1,0 +1,270 @@
+# Use these sections to configure the plugin.
+leveling:
+  exp-calc-alt: false
+  exp-curve: 1.0
+  max-exp: 100000
+  max-level: 50
+  pad-max-level: true
+  exp-loss: 0.1
+  pvp-exp-loss: 1.0
+  max-party-size: 6
+  party-exp-bonus: 1.0
+  level-loss: false
+  mastery-loss: false
+  spawner-checks: false
+  spawner-exp-mult: 0.5
+  reset-on-death: false
+  pvp-range: 50
+  min-pvp-level: 1
+  pvp-exp-range: 10
+  pvp-max-exp-range: 40
+  dump-exp-file: false
+  mob-health-distance-modified: true
+  mob-health-modifier: 3
+  mob-experience-distance-modified: true
+  mob-exp-modifier: 3
+  mob-damage-distance-modified: true
+  mob-damage-modifier: 3
+classes:
+  swap-cost: 0
+  old-swap-cost: 0
+  old-swap-cost-per-level: 0
+  prof-swap-cost: 0
+  old-prof-swap-cost: 0
+  old-prof-swap-cost-per-level: 0
+  race-swap-cost: 0
+  old-race-swap-cost: 0
+  old-race-swap-cost-per-level: 0
+  master-swap-free: true
+  first-swap-free: true
+  first-swap-free-race: true
+  swap-with-masteries-has-full-cost: false
+  number-of-masteries-for-full-cost: 1
+  use-prefix: false
+  reset-exp-on-change: true
+  reset-master-on-change: false
+  reset-prof-master-on-change: false
+  reset-prof-on-pri-change: false
+  lock-till-master: false
+  lock-at-max-level: false
+  self-heal: 0.5
+  class-change-cooldown: 600000
+attributes:
+  allocation-points-per-level: 3
+  attack-damage-per-strength: 1.0
+  health-per-constitution: 20.0
+  magic-resist-per-constitution: 0.003
+  stamina-regeneration-per-endurance: 1
+  enable-carry-weight-per-endurance: true
+  carry-weight-per-endurance: 0.0
+  stamina-per-endurance: 1
+  projectile-damage-per-dexterity: 2.0
+  speed-increase-per-dexterity: 0.001
+  mana-per-intellect: 5
+  mana-regeneration-per-wisdom: 1
+  magic-resists-per-constitution: 0.03
+  attribute-allocation-cost-per-level: 0.4
+  attribute-reset-cost: 1
+healthbar:
+  limit-one-bar: true
+  health-per-bar: 20
+  display-entity-health: false
+properties:
+  storage-type: yml
+  economy: true
+  debug: false
+  enchant-exp-mult: 3
+  global-cooldown: 500
+  block-tracking-duration: 900000
+  max-tracked-blocks: 2000
+  slow-while-casting: true
+  combat-time: 10000
+  silence-passive-skill-messages: false
+  check-equipment-weight: false
+  enable-recipes: true
+  fix-legacy-health: true
+  combat-enter-message: You have entered combat!
+  combat-exit-message: You have left combat!
+verbose:
+  exp: true
+  mana: true
+  stamina: false
+  skills: true
+database:
+  type: mysql
+  db: test
+  poolsize: 10
+  url: localhost
+  port: '3306'
+  username: test
+  password: test
+bed:
+  enabled: true
+  interval: 15
+  percent: 5
+shield:
+  interval: 2
+  delay: 10
+mana:
+  interval: 5
+  regen-multiplier-out-of-combat: 4
+stamina:
+  interval: 1
+  costs:
+    swing-weapon: 0
+    shoot-bow: 0
+    per-damage-taken: 0
+    mana-regen-tick: 0
+    per-mana-point-regen: 0
+    sprinting: 0
+  stop-regen:
+    swing-weapon:
+      enabled: false
+      duration: 3000
+    shoot-bow:
+      enabled: false
+      duration: 3000
+    take-damage:
+      enabled: false
+      duration: 3000
+    sprinting:
+      enabled: false
+      duration: 3000
+food:
+  enabled: false
+  time-multiplier: 5000
+  food-heal-percent: 0.05
+  consumable-in-combat: false
+bonus:
+  expiration: 0
+  exp: 1.0
+  message: Bonus experience time is enabled!
+hats:
+  level: 1
+  enabled: false
+global-mitigation:
+  enabled: false
+  maximum-damage-reduction: 0.8
+  per-armor-damage-reduction-percent: 0.04
+  mitigation-damage-causes:
+  - BLOCK_EXPLOSION
+  - CONTACT
+  - ENTITY_ATTACK
+  - ENTITY_EXPLOSION
+  - ENTITY_SWEEP_ATTACK
+  - FALLING_BLOCK
+  - FIRE
+  - HOT_FLOOR
+  - LAVA
+  - LIGHTNING
+  - PROJECTILE
+durability:
+  armor-durability-damage-reduction: 4
+  armor-is-damaged-by-skills: true
+  weapons-are-damaged-by-skill-usage: true
+  custom-system:
+    enabled: false
+    default-maximum-durability: 250
+    show-custom-durability-text: false
+    sync-with-minecraft-durability: true
+    overrides:
+    - name-match: Legendary
+      type-match: ''
+      max-durability: 450
+    - name-match: Epic
+      type-match: ''
+      max-durability: 400
+    - name-match: Rare
+      type-match: ''
+      max-durability: 350
+    - name-match: ''
+      type-match: DIAMOND
+      max-durability: 300
+    - name-match: ''
+      type-match: IRON
+      max-durability: 275
+    - name-match: ''
+      type-match: GOLD
+      max-durability: 250
+    - name-match: ''
+      type-match: LEATHER
+      max-durability: 225
+    - name-match: ''
+      type-match: STONE
+      max-durability: 150
+    - name-match: ''
+      type-match: WOOD
+      max-durability: 100
+features:
+  no-damage-ticks: 10
+  no-combat-materials:
+  - MILK_BUCKET
+  - WATER_BUCKET
+  - LAVA_BUCKET
+  - FLINT_AND_STEEL
+  respawn-features-enabled: false
+  respawn-health-percent: 50
+  respawn-shield-percent: 50
+  respawn-mana-percent: 50
+  respawn-stamina-percent: 50
+  respawn-health-regen-seconds: 30.0
+  item-roll:
+    enabled: true
+    include-victim-name: false
+    expire-seconds: 30
+    radius:
+      x: 25
+      y: 25
+      z: 25
+  scoreboard:
+    enabled: true
+    title: Â§aÂ§lâš  Character âš 
+    component:
+      info:
+        enabled: true
+        title: Â§3âœª  Hero Info  âœª
+        class:
+          enabled: true
+          show-primary: true
+          show-secondary: true
+          show-race: false
+          format:
+            short: ' Â§4{0}Â§d LÂ§f: Â§a{1}Â§f - {2}%'
+            long: ' Â§4{0}Â§d LvlÂ§f: Â§a{1}Â§f - {2}%'
+            long-length: 11
+        health:
+          enabled: true
+          format: Â§4 â�¤  Â§c{0}Â§f / Â§c{1}
+          merge-mana: true
+          merge-mana-threshold: 100
+        mana:
+          enabled: true
+          format: Â§9 â¦¿  {0}Â§f / Â§9{1}
+        stamina:
+          enabled: true
+          format: Â§e âœ³  {0}Â§f / Â§3{1}
+      party:
+        enabled: true
+        title: Â§6âœ°  Party  âœ°
+        member-format: ' {2}{0}Â§f: {2}{3}%'
+equipment-weight:
+  LEATHER_HELMET: 5
+  LEATHER_CHESTPLATE: 15
+  LEATHER_LEGGINGS: 10
+  LEATHER_BOOTS: 5.0
+  GOLDEN_HELMET: 10.0
+  GOLDEN_CHESTPLATE: 25
+  GOLDEN_LEGGINGS: 15
+  GOLDEN_BOOTS: 5.0
+  CHAINMAIL_HELMET: 10
+  CHAINMAIL_CHESTPLATE: 25
+  CHAINMAIL_LEGGINGS: 20
+  CHAINMAIL_BOOTS: 5
+  IRON_HELMET: 10
+  IRON_CHESTPLATE: 30
+  IRON_LEGGINGS: 25
+  IRON_BOOTS: 10
+  DIAMOND_HELMET: 15
+  DIAMOND_CHESTPLATE: 40
+  DIAMOND_LEGGINGS: 30
+  DIAMOND_BOOTS: 15

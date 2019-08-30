@@ -1,0 +1,19 @@
+material: GLOWSTONE_DUST:0:1
+name: '&eMagic Dust'
+lore:
+- '&c➛ Item type: &fGems, Runes, Essences'
+enchanted: true
+item-flags:
+- '*'
+affected-modules:
+- GEMS
+- RUNES
+- ESSENCES
+min-level: 1
+max-level: 20
+rate-by-level:
+  '1': 1
+  '5': 2
+  '10': 3
+  '15': 4
+  '20': 5

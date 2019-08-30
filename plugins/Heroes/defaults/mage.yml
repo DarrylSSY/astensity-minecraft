@@ -1,0 +1,128 @@
+name: Mage
+default: false
+parents:
+    strong: []
+    weak: []
+primary: true
+secondary: false
+description: Ranged Disable with LeatherArmor and Icebolt
+#Runs a cmd as console or not on selection of this class.
+run-command:
+  as-console: true
+  #you can have multiple cmds run
+  #use {player_name} for plugins who dont support @p, etc.
+  command:
+    -  give @p diamond
+    -  mm items give {PLAYER_NAME} KingsCrown
+stamina:
+  costs:
+    miss: 150
+    swing-hit: -75
+    sprinting: 0
+    taken-hit: 20
+    jump: 50
+  stop-regen:
+    swing-hit:
+      enable: false
+      time: 10000
+    miss:
+      enable: false
+      time: 10000
+    sprinting:
+      enable: true
+      time: 10000
+    taken-hit:
+      enable: false
+      time: 10000
+    jump:
+      enable: false
+      time: 10000
+base-attributes:
+    STRENGTH: 2
+    CONSTITUTION: 2
+    ENDURANCE: 3
+    DEXTERITY: 5
+    INTELLECT: 10
+    WISDOM: 5
+    CHARISMA: 5
+permitted-armor:
+- LEATHER
+permitted-weapon:
+- WOOD
+- STONE_PICKAXE
+- STONE_AXE
+- STONE_SPADE
+- STONE_HOE
+- IRON_PICKAXE
+item-damage:
+  STONE_HOE: 2
+  IRON_HOE: 2.5
+  GOLD_HOE: 3
+  DIAMOND_HOE: 4
+item-damage-level:
+  STONE_HOE: 0.1
+  IRON_HOE: 0.15
+  GOLD_HOE: 0.20
+  DIAMOND_HOE: 0.25
+permitted-skills:
+    Mark:
+        level: 5
+        mana: 5
+        reagent: BED
+        reagent-cost: 1
+    Recall:
+        level: 5
+        mana: 40
+        cooldown: 60000
+        health-cost: 10
+        delay: 5000
+    Port:
+        level: 1
+    Icebolt:
+        level: 1
+        damage: 4
+        cooldown: 2000
+        slow-duration: 2000
+        mana: 0
+    Piggify:
+        level: 2
+        duration: 8000
+        max-distance: 15
+        cooldown: 30000
+        mana: 25
+    Fireball:
+        level: 20
+        mana: 15
+        cooldown: 25000
+        damage: 10
+        fire-ticks: 5
+    Wisdom:
+        level: 10
+        radius: 1
+        regen-multiplier: 2.0
+        duration: 300000
+        mana: 0
+        cooldown: 301000
+    Blink:
+        level: 25
+        max-distance: 10
+        cooldown: 20000
+    Web:
+        level: 5
+        mana: 25
+        duration: 10000
+experience-sources:
+- KILLING
+- PVP
+- QUESTING
+expmodifier: 1.0
+base-max-health: 21.0
+max-health-per-level: 0.25
+base-max-mana: 125
+max-mana-per-level: 1
+base-mana-regen: 2
+mana-regen-per-level: .1
+expLoss: 0.007
+wildcard-permission: true
+tier: 1
+recipes: [ default ]

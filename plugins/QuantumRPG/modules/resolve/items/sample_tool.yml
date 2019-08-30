@@ -1,0 +1,18 @@
+material: SHEARS:0:1
+name: '&0&fResolve Tool %rlevel%'
+lore:
+- '&8&m               &f  「 INFO 」  &8&m               '
+- '&7Tier: &fCommon'
+- '&7Uses: &f%uses%&7/&f%uses-max%'
+- '&8&m              &f  「 USAGE 」  &8&m              '
+- '&7Drag & Drop onto item to resolve.'
+item-flags:
+- '*'
+
+min-level: 1
+max-level: 3
+
+uses-by-level:
+  '1': 1
+  '2': 2
+  '3': 3

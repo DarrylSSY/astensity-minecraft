@@ -1,0 +1,16 @@
+name: '&aEvasion %rlevel%'
+icon:
+  material: 'FEATHER'
+  name: '%buff_name%'
+  lore:
+  - '&7Have a &f%stat_DODGE_RATE%%&7 chance to dodge the attack.'
+min-level: 1
+max-level: 2
+buffs-by-level:
+  item-stats:
+    '1':
+      DODGE_RATE: 40
+    '2':
+      DODGE_RATE: 60
+  damage-types: {}
+  defense-types: {}

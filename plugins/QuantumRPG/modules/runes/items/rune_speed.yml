@@ -1,0 +1,12 @@
+material: PRISMARINE_SHARD:0
+name: '&bRune of Speed'
+lore:
+- '&7Grants &fSpeed %rlevel% &7effect'
+socket-display: '&bSpeed %rlevel%'
+effect: SPEED
+min-level: 1
+max-level: 3
+min-success-rate: 40
+max-success-rate: 75
+item-types:
+- BOOTS

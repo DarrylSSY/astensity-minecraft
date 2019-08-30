@@ -2,7 +2,7 @@
 
 ## Database Configuration
 ### Server Authentication
-`Host` = `***REMOVED***`
+`Host` = `localhost`
 
 `Database` = `minecraft`
 

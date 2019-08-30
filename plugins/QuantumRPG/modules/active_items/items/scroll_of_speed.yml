@@ -1,0 +1,42 @@
+material: MAP:0
+name: '&aScroll of Speed %rlevel%'
+lore:
+- '&7Tier: &aRare'
+- '&7Uses: &f%uses%&7/&f%uses-max%'
+- ''
+- '%LEVEL%'
+- ''
+- '&7Gives &fSpeed Lv. %var_lvl% &7effect for &f%var_dur%.'
+variables-by-level:
+  '1':
+    lvl: 1
+    dur: '&f1 &7minute'
+    durTick: 1200
+  '2':
+    lvl: 2
+    dur: '&f2 &7minutes'
+    durTick: 2400
+  '3':
+    lvl: 3
+    dur: '&f5 &7minutes'
+    durTick: 6000
+min-level: 1
+max-level: 3
+uses-by-level:
+  1: 1
+  2: 2
+  3: 3
+user-requirements:
+  level: 5
+  classes: ''
+usage:
+  RIGHT:
+    cooldown: 1
+    actions:
+      target-selectors:
+        self:
+        - '[SELF]'
+      action-executors:
+      - '[PARTICLE_SIMPLE] ~offset: 0.3,0.3,0.3; ~speed: 0.05; ~name: CLOUD; ~target: self; ~amount: 50;'
+      - '[POTION] ~name: SPEED; ~amount: %var_lvl%; ~duration: %var_durtick%; ~target: self;'
+      - '[SOUND] ~name: BLOCK_NOTE_BLOCK_BELL; ~target: self;'

@@ -1,0 +1,6 @@
+cfg_version: 1.0
+command-aliases: identify,identifying
+item-format:
+  name: '%item_name%'
+  lore:
+  - '%item_lore%'

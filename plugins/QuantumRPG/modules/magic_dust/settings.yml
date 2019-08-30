@@ -1,0 +1,17 @@
+cfg_version: 1.0
+command-aliases: magicdust,mdust
+general:
+  max-item-success-rate: 80
+  effect: SPELL_WITCH
+  sound: ENTITY_EXPERIENCE_ORB_PICKUP
+item-format:
+  name: '%item_name% %rlevel%'
+  lore:
+  - '&8&m               &f  「 INFO 」  &8&m               '
+  - '&7Increases the success rate of'
+  - '&7any socket-item by &f%rate%%'
+  - '&8&m         &f  「 REQUIREMENTS 」  &8&m        '
+  - '%target-level%'
+  - '%item_lore%'
+  - '&8&m              &f  「 USAGE 」  &8&m              '
+  - '&7Drag & drop onto item to apply.'
