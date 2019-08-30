@@ -1,0 +1,24 @@
+material: EMERALD:0
+name: '&aEmerald of Health'
+socket-display: '&aHealth %rlevel% &7[&f+%stat_MAX_HEALTH%&7]'
+lore:
+- '&f▸ &7Max. Health: &f+%stat_MAX_HEALTH%'
+enchanted: false
+item-flags:
+- '*'
+damage-by-level: {}
+defense-by-level: {}
+stats-by-level:
+  '1':
+    MAX_HEALTH: 5.0
+  '2':
+    MAX_HEALTH: 7.0
+  '3':
+    MAX_HEALTH: 10
+min-level: 1
+max-level: 3
+min-success-rate: 60
+max-success-rate: 80
+item-types:
+- SWORD
+- AXE

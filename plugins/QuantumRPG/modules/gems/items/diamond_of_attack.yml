@@ -1,0 +1,34 @@
+material: DIAMOND:0
+name: '&bDiamond of Attack'
+socket-display: '&aAttack Diamond %rlevel%'
+lore:
+- '&f▸ &7Phys. Damage: &f+%damage_physical%'
+- '&f▸ &7Crit. Damage: &f+%stat_CRITICAL_DAMAGE%'
+- '&f▸ &7Crit. Chance: &f+%stat_CRITICAL_RATE%%'
+enchanted: false
+item-flags:
+- '*'
+damage-by-level:
+  '1':
+    physical: 1.5%
+  '2':
+    physical: 2%
+  '3':
+    physical: 2.5%
+defense-by-level: {}
+stats-by-level:
+  '1':
+    CRITICAL_DAMAGE: 0.1
+    CRITICAL_RATE: 1
+  '2':
+    CRITICAL_DAMAGE: 0.15
+    CRITICAL_RATE: 2
+  '3':
+    CRITICAL_DAMAGE: 0.2
+    CRITICAL_RATE: 3
+min-level: 1
+max-level: 3
+min-success-rate: 60
+max-success-rate: 80
+item-types:
+- WEAPON

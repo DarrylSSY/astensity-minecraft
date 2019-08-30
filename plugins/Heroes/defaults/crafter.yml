@@ -1,0 +1,72 @@
+name: crafter
+default: false
+default-prof: true
+tier: 1
+secondary: true
+primary: false
+description: '==Profession==[PICKAXE] Construction begins here...'
+#Runs a cmd as console or not on selection of this class.
+run-command:
+  as-console: true
+  #you can have multiple cmds run
+  #use {player_name} for plugins who dont support @p, etc.
+  command:
+    -  give @p diamond
+    -  mm items give {PLAYER_NAME} KingsCrown
+stamina:
+  costs:
+    miss: 150
+    swing-hit: -75
+    sprinting: 0
+    taken-hit: 20
+    jump: 50
+  stop-regen:
+    swing-hit:
+      enable: false
+      time: 10000
+    miss:
+      enable: false
+      time: 10000
+    sprinting:
+      enable: true
+      time: 10000
+    taken-hit:
+      enable: false
+      time: 10000
+    jump:
+      enable: false
+      time: 10000
+permitted-weapon:
+- WOOD
+- STONE
+- IRON_PICKAXE
+- IRON_AXE
+- IRON_SPADE
+- IRON_HOE
+- SHEARS
+- FISHING_ROD
+permitted-skills:
+    Mark:
+        level: 1
+        mana: 100
+    Recall:
+        level: 1
+        mana: 150
+        cooldown: 900000
+permission-skills: []
+experience-sources:
+- MINING
+- CRAFTING
+- LOGGING
+- FISHING
+- BUILDING
+- FARMING
+- SKILL
+expmodifier: 1.0
+item-damage:
+    Wood_Pickaxe: 12
+expLoss: 0.01
+wildcard-permission: true
+max-level: 20
+recipes:
+- CRAFTER

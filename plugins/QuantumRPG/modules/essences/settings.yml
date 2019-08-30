@@ -1,0 +1,59 @@
+cfg_version: 1.0
+command-aliases: essence,essences
+socketing:
+  destroy-type: ITEM
+  effects:
+    enabled: true
+    failure: VILLAGER_ANGRY
+    success: VILLAGER_HAPPY
+  sounds:
+    enabled: true
+    failure: BLOCK_ANVIL_DESTROY
+    success: ENTITY_EXPERIENCE_ORB_PICKUP
+item-format:
+  name: '%item_name% %rlevel%'
+  lore:
+  - '&f» &7Sucess: &a&l%s%% &8| &7Failure: &c&l%d%%'
+  - '&8&m               &f  「 INFO 」  &8&m               '
+  - '%item_lore%'
+  - '&8&m         &f  「 REQUIREMENTS 」  &8&m        '
+  - '%item-level%'
+  - '%item-types%'
+  - '&8&m               &f 「 USAGE 」 &8&m               '
+  - '&7Drag & Drop onto item to start socketing.'
+gui:
+  title: '&4&l<&4&nEssence Socketing&4&l>'
+  size: 9
+  item-slot: 3
+  source-slot: 4
+  result-slot: 5
+  content:
+    filler:
+      material: BLACK_STAINED_GLASS_PANE:0:1
+      skull-hash: ''
+      enchanted: false
+      name: ''
+      lore: []
+      slots: 0,1,2,3,4,5,6,7,8
+      type: NONE
+    accept:
+      material: LIME_STAINED_GLASS_PANE:0:1
+      skull-hash: ''
+      enchanted: false
+      name: '&a&l&nAccept'
+      lore:
+      - '&7You will try to socket the essence'
+      - '&7into your item.'
+      - ''
+      - '&7In case of failure your item'
+      - '&7will be &cdestroyed&7.'
+      slots: '8'
+      type: ACCEPT
+    exit:
+      material: RED_STAINED_GLASS_PANE:0:1
+      skull-hash: ''
+      enchanted: false
+      name: '&c&l&nCancel'
+      lore: []
+      slots: '0'
+      type: EXIT

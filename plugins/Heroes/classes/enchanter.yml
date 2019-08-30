@@ -1,0 +1,74 @@
+name: Enchanter
+default: false
+default-prof: false
+tier: 1
+parents:
+    strong: [ ]
+    weak: []
+description: 'Empowers items with powerful enchants'
+secondary: true
+primary: false
+#Runs a cmd as console or not on selection of this class.
+run-command:
+  as-console: true
+  #you can have multiple cmds run
+  #use {PLAYER_NAME} for plugins who dont support @p, etc.
+  command:
+    -  give @p diamond
+    -  mm items give {PLAYER_NAME} KingsCrown
+stamina:
+  costs:
+    miss: 150
+    swing-hit: -75
+    sprinting: 0
+    taken-hit: 20
+    jump: 50
+  stop-regen:
+    swing-hit:
+      enable: false
+      time: 10000
+    miss:
+      enable: false
+      time: 10000
+    sprinting:
+      enable: true
+      time: 10000
+    taken-hit:
+      enable: false
+      time: 10000
+    jump:
+      enable: false
+      time: 10000
+permitted-weapon:
+- WOOD
+- STONE
+- IRON
+- DIAMOND
+- GOLD
+- SHEARS
+- FISHING_ROD
+permitted-skills:
+    # Required to enable enchanting
+    # see "Enchant" skill properties in skills.yml
+    # to configure required class level to enchant
+    # each type of enchantment.
+    Enchant:
+        level: 1
+    Disenchant:
+        level: 20
+        mana: 50
+        cooldown: 10000
+        delay: 5000
+permission-skills: []
+# ENCHANTING exp. source is required to enabled enchanting
+# and reduce class experience from enchanting
+experience-sources:
+- MINING
+- CRAFTING
+- ENCHANTING
+- SKILL
+expmodifier: 1.0
+expLoss: 0.01
+wildcard-permission: true
+max-level: 50
+recipes: [ default ]

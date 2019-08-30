@@ -1,0 +1,7 @@
+command-aliases: arrows
+settings:
+  allow-infinity-enchant: true
+item-format:
+  name: '%item_name%'
+  lore:
+  - '%item_lore%'

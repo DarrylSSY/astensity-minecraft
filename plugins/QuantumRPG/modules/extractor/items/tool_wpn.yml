@@ -1,0 +1,14 @@
+material: IRON_AXE:0:1
+name: '&a&fExtraction Tool %rlevel%'
+lore:
+- '&7This tool can extract weapon sockets.'
+min-level: 1
+max-level: 3
+item-flags:
+- '*'
+item-level-requirements:
+  '1': 1-5
+  '2': 5-10
+  '3': 10-15
+item-types:
+- WEAPON

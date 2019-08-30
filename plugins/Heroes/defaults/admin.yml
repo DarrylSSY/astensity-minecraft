@@ -1,0 +1,107 @@
+name: Admin
+default: false
+wildcard-permission: false
+primary: true
+secondary: false
+description: The Admin Class Path
+#Runs a cmd as console or not on selection of this class.
+run-command:
+  as-console: true
+  #you can have multiple cmds run
+  #use {player_name} for plugins who dont support @p, etc.
+  command:
+    -  give @p diamond
+#Allows use of different alternative level scaling, this works with any of the per-level adjustables, such as health, mana, stamina and so forth.
+#The scaling values are 'expression (expression: 10*1.1^level)', 'level' and to use the default, just leave the section commented out.
+max-health:
+  scaling: power
+  base: 500
+  per-level: 5
+  power: 1.5
+stamina:
+  costs:
+    miss: 150
+    swing-hit: -75
+    sprinting: 0
+    taken-hit: 20
+    jump: 50
+  stop-regen:
+    swing-hit:
+      enable: false
+      time: 10000
+    miss:
+      enable: false
+      time: 10000
+    sprinting:
+      enable: true
+      time: 10000
+    taken-hit:
+      enable: false
+      time: 10000
+    jump:
+      enable: false
+      time: 10000
+permitted-armor:
+- ALL
+permitted-weapon:
+- ALL
+permitted-skills:
+  ALL: true
+experience-sources:
+- KILLING
+- MINING
+- PVP
+- CRAFTING
+- LOGGING
+- SKILL
+- FISHING
+- FARMING
+- TAMING
+- SHEARING
+- QUESTING
+permission-skills:
+expmodifier: 1.5
+base-attributes:
+    STRENGTH: 33
+    CONSTITUTION: 33
+    ENDURANCE: 33
+    DEXTERITY: 33
+    INTELLECT: 33
+    WISDOM: 33
+    CHARISMA: 33
+item-damage:
+    Air: 100
+    string: 400
+    Iron_Sword: 50
+    portal: 1000
+    anvil: 1000
+item-damage-level:
+    Iron_Sword: 10
+pve-item-damage-multiplier:
+    Air: 2
+    anvil: 5
+pve-item-damage-multiplier-level:
+    Air: 0.1
+projectile-damage:
+    ARROW: 50
+pve-projectile-damage-multiplier:
+    ARROW: 4
+pve-projectile-damage-multiplier-level:
+    ARROW: 0.1
+base-max-health: 100
+base-max-mana: 100
+base-mana-regen: 100
+base-stamina-regen: 50
+base-max-equipment-weight: 10.0
+base-max-shield: 100
+base-shield-per-level: 10
+base-shield-regen: 25
+max-health-per-level-power: 1.5
+max-shield-per-level-power: 1.5
+max-mana-per-level-power: 1.2
+item-damage-level-power: 1.5
+projectile-damage-level-power: 1.2
+expLoss: 0
+wildcard-permission: false
+max-level: 100
+recipes: [ default ]
