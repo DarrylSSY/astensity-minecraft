@@ -1,6 +1,6 @@
 cache/
 logs/
-spawn/
+spawn
 world/
 world_nether/
 world_the_end/
