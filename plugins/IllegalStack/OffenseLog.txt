@@ -1,0 +1,5 @@
+July 28 2019 (1:38:32) - Illegal stack of items removed: ENCHANTED_BOOK (2) from player: DarrylSSY at item scan.
+August 3 2019 (0:44:18) - Illegal stack of items removed: LEATHER_HELMET (64) from player: DarrylSSY at item scan.
+August 3 2019 (0:44:18) - Illegal stack of items removed: LEATHER_HELMET (64) from player: DarrylSSY at item scan.
+August 3 2019 (0:44:18) - Illegal stack of items removed: LEATHER_CHESTPLATE (64) from player: DarrylSSY at item scan.
+August 3 2019 (0:44:18) - Illegal stack of items removed: LEATHER_CHESTPLATE (64) from player: DarrylSSY at item scan.

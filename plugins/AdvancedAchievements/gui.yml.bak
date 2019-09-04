@@ -1,0 +1,128 @@
+#==============================================================#
+# +----------------------------------------------------------+ #
+# |      Advanced Achievements 5.12.3 GUI configuration      | #
+# +----------------------------------------------------------+ #
+#==============================================================#
+# Possible items: github.com/PyvesB/AdvancedAchievements/wiki/Material-names
+# Do not use bedrock or barrier.
+# Do not use the same Item twice.
+
+# Items used to represent the achievements.
+AchievementNotStarted:
+  Item: red_terracotta
+AchievementStarted:
+  Item: yellow_terracotta
+AchievementReceived:
+  Item: lime_terracotta
+
+# Buttons when navigating in a category.
+BackButton:
+  Item: book
+PreviousButton:
+  Item: oak_button
+NextButton:
+  Item: stone_button
+
+# Items used to represent the categories.
+Places:
+  Item: stone
+Breaks:
+  Item: stone_bricks
+Kills:
+  Item: bone
+Crafts:
+  Item: crafting_table
+Breeding:
+  Item: wheat
+PlayerCommands:
+  Item: paper
+Custom:
+  Item: feather
+Connections:
+  Item: writable_book
+Deaths:
+  Item: skeleton_skull
+Arrows:
+  Item: arrow
+Snowballs:
+  Item: snowball
+Eggs:
+  Item: egg
+Fish:
+  Item: tropical_fish
+Treasures:
+  Item: fishing_rod
+ItemBreaks:
+  Item: flint
+EatenItems:
+  Item: melon_slice
+Shear:
+  Item: shears
+Milk:
+  Item: milk_bucket
+LavaBuckets:
+  Item: lava_bucket
+WaterBuckets:
+  Item: water_bucket
+Trades:
+  Item: emerald
+AnvilsUsed:
+  Item: anvil
+Enchantments:
+  Item: enchanting_table
+Beds:
+  Item: white_bed
+MaxLevel:
+  Item: experience_bottle
+ConsumedPotions:
+  Item: glass_bottle
+PlayedTime:
+  Item: clock
+ItemDrops:
+  Item: hopper
+ItemPickups:
+  Item: chest
+HoePlowings:
+  Item: grass_path
+Fertilising:
+  Item: bone_meal
+Taming:
+  Item: lead
+Brewing:
+  Item: brewing_stand
+Fireworks:
+  Item: firework_rocket
+MusicDiscs:
+  Item: jukebox
+EnderPearls:
+  Item: ender_pearl
+PetMasterGive:
+  Item: golden_horse_armor
+PetMasterReceive:
+  Item: iron_horse_armor
+Smelting:
+  Item: furnace
+DistanceFoot:
+  Item: leather_boots
+DistancePig:
+  Item: carrot_on_a_stick
+DistanceHorse:
+  Item: saddle
+DistanceMinecart:
+  Item: minecart
+DistanceBoat:
+  Item: birch_boat
+DistanceGliding:
+  Item: elytra
+DistanceLlama:
+  Item: cyan_carpet
+Commands:
+  Item: bookshelf
+TargetsShot:
+  Item: firework_star
+
+#============================================================#
+# +--------------------------------------------------------+ #
+# | Parameters in future plugin versions will  appear here | #
+# +--------------------------------------------------------+ #
+#============================================================#

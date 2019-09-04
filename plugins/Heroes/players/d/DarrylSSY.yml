@@ -1,0 +1,26 @@
+class: Citizen
+secondary-class: crafter
+race-class: crafter
+verbose-exp: true
+verbose-mana: true
+verbose-stamina: false
+verbose-skills: true
+suppressed: []
+mana: 80
+stamina: 1001
+attributes:
+  Citizen:
+    STRENGTH: 0
+    CONSTITUTION: 0
+    ENDURANCE: 0
+    DEXTERITY: 0
+    INTELLECT: 0
+    WISDOM: 0
+    CHARISMA: 0
+allocation-points:
+  Citizen: 3
+skill-settings: {}
+cooldowns: {}
+experience: {}
+mastered: {}
+binds: {}
