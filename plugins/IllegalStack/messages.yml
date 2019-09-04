@@ -71,3 +71,7 @@ StaffEnchantBypassCancel: §cEnchantedItemWhitelist add item mode DISABLED.
 StaffEnchantBypassAdded: §aAdded ~itemdata~ to the EnchantedItemWhitelist!
 IllegalEnchantLevel: '§aFixed Enchantment Level ~enchant~.(~lvl~) on ~item~ found
   on player: ~player~'
+StaffSpamFishingNotice: §a~player~ is spam fishing! ~casts~ casts without a 2 second
+  break! @
+IllegalEnchantType: '§aCould not fix Enchantment ~enchant~.(~lvl~) on ~item~ found
+  on player: ~player~ this enchantment is not valid for this item type!'
