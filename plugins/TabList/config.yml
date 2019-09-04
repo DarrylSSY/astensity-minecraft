@@ -212,7 +212,7 @@ tablist:
   - "<lines>"
   footer:
   - "<lines>\n<13>&e&l Players:&6 %online-players%&7/&6%max-players%"
-  - "&7<28> %anim:website%&7:&2 &nexample.com&7 <28>"
+  - "&7<28> %anim:website%&7:&2 &nastensity.org&7 <28>"
   # Per world tablist
   per-world:
     enable: false
