@@ -498,7 +498,7 @@ ItemList:
   MAGMA_CREAM: Crema de Magma (Magma Cream)
   MAGMA_CUBE_SPAWN_EGG: Huevo de Cubo de Magma (Spawn Magma Cube)
   MAP: Mapa Vacío (Empty Map)
-  MELON_BLOCK: Sandía (Melon Block)
+  MELON: Melonblock
   MELON_SEEDS: Semillas de Sandía (Melon Seeds)
   MELON_SLICE: sandía (Melon)
   MELON_STEM: Tallo de Sandía (Melon Stem)
@@ -1045,22 +1045,22 @@ EntityList:
   102-POLAR_BEAR: Oso Polar
   103-LLAMA: Llama
   105-PARROT: Parrot
+  108-PUFFERFISH: Pufferfish
+  109-SALMON: Salmon
+  111-TROPICAL_FISH: Tropical Fish
+  112-COD: Cod
+  113-PANDA: Panda
+  114-PILLAGER: Pillager
   120-VILLAGER: Aldeano
+  121-FOX: Fox
   901-TURTLE: Turtle
   902-PHANTOM: Phantom
-  904-COD: Cod
-  905-SALMON: Salmon
-  906-PUFFERFISH: Pufferfish
-  907-TROPICAL_FISH: Tropical Fish
   908-DROWNED: Drowned
   909-DOLPHIN: Dolphin
   914-PLAYER: Player
-  916-PANDA: Panda
-  916-PILLAGER: Pillager
-  916-RAVAGER: Ravager
-  916-TRADER_LLAMA: Trader Llama
-  916-WANDERING_TRADER: Wandering Trader
-  916-FOX: Fox
+  917-RAVAGER: Ravager
+  918-TRADER_LLAMA: Trader Llama
+  919-WANDERING_TRADER: Wandering Trader
 EnchantList:
   Fire protection: Fire protection
   Sharpness: Sharpness
@@ -1103,12 +1103,12 @@ ColorList:
   0-white: '&fWhite'
   1-orange: '&6Orange'
   2-magenta: '&dMagenta'
-  3-navy: '&9Navy'
+  3-light_blue: '&9Light Blue'
   4-yellow: '&eYellow'
   5-lime: '&aLime'
   6-pink: '&dPink'
   7-gray: '&8Gray'
-  8-silver: '&7Silver'
+  8-light_gray: '&7Light Gray'
   9-cyan: '&3Cyan'
   10-purple: '&5Purple'
   11-blue: '&1Blue'
@@ -1116,39 +1116,3 @@ ColorList:
   13-green: '&2Green'
   14-red: '&cRed'
   15-black: '&0Black'
-PotionNamesList:
-  16-Awkward: Awkward
-  8195-Fire_Resistance: Fire Resistance
-  8259-Extended_Fire_Resistance: Extended Fire Resistance
-  8204-Harming: Harming
-  8236-Extended_Harming: Extended Harming
-  8197-Healing: Healing
-  8229-Extended_Healing: Extended Healing
-  8206-Invisibility: Invisibility
-  8270-Extended_Invisibility: Extended Invisibility
-  8267-Leaping: Leaping
-  8235-Extended_Leaping: Extended Leaping
-  -1-Luck: Luck
-  64-Mundane: Mundane
-  8198-Night_Vision: Night Vision
-  8262-Extended_Night_Vision: Extended Night Vision
-  8196-Poison: Poison
-  8228-Extended_Poison: Extended Poison
-  8193-Regeneration: Regeneration
-  8225-Extended_Regeneration: Extended Regeneration
-  -1-Slow_Falling: Slow Falling
-  -1-Extended_Slow_Falling: Extended Slow Falling
-  8202-Slowness: Slowness
-  8266-Extended_Slowness: Extended Slowness
-  8201-Strength: Strength Potion
-  8233-Extended_Strength: Extended Strength
-  8194-Swiftness: Swiftness
-  8226-Extended_Swiftness: Extended Swiftness
-  32-Thick: Thick
-  -1-Turtle_Master: Turtle Master
-  -1-Extended_Turtle_Master: Extended Turtle Master
-  8205-Water_Breathing: Water Breathing
-  8269-Extended_Water_Breathing: Extended Water Breathing
-  8200-Weakness: Weakness
-  8264-Extended_Weakness: Extended Weakness
-  0-Water: Water

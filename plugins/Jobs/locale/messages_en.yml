@@ -311,9 +311,6 @@ command:
       craft:
         info: '&eCraft'
         none: '%jobname% does not get money from crafting.'
-      drink:
-        info: '&eDrink'
-        none: '%jobname% does not get money for drinking.'
       smelt:
         info: '&eSmelt'
         none: '%jobname% does not get money from smelting.'
@@ -353,6 +350,9 @@ command:
       custom-kill:
         info: '&eCustom kill'
         none: '%jobname% does not get money from custom player kills.'
+      collect:
+        info: '&eCollect'
+        none: '%jobname% does not get money for collecting blocks.'
   playerinfo:
     help:
       info: Show how much each job is getting paid and for what on another player.
@@ -616,6 +616,8 @@ message:
   levelup:
     broadcast: '%playername% is now a level %joblevel% %jobname%.'
     nobroadcast: You are now level %joblevel% %jobname%.
+  leveldown:
+    message: '&cYou lost level&e %lostLevel%&c in&e %jobname%&c job! Level:&6 %joblevel%&c.'
   cowtimer: '&eYou still need to wait &6%time% &esec to get paid for this job.'
   blocktimer: '&eYou need to wait &3[time] &esec more to get paid for this!'
   placeblocktimer: '&eYou can''t place blocks faster than &6[time] &esec in the same
@@ -627,6 +629,7 @@ message:
     fullinventory: '&cYour inventory is full!'
 signs:
   List: '&0[number].&8[player]&7:&4[level]'
+  questList: '&0[number].&8[player]&7:&4[quests]'
   SpecialList:
     p1: '&b** &8First &b**'
     p2: '&b** &8Second &b**'
@@ -640,6 +643,7 @@ signs:
     p10: '&b** &8Tenth &b**'
     name: '&9[player]'
     level: '&8[level] level'
+    quests: '&8[quests] quests'
     bottom: '&b************'
   cantcreate: '&4You can''t create this sign!'
   cantdestroy: '&4You can''t destroy this sign!'
