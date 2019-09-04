@@ -55,7 +55,7 @@ modules:
   GEMS: true
   IDENTIFY: true
   ITEM_HINTS: true
-  LOOT: true
+  LOOT: false
   MAGIC_DUST: true
   NOTIFICATIONS: true
   PARTY: true
