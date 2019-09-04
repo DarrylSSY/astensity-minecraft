@@ -35,7 +35,6 @@ plugins/LWC/lwc.db
 plugins/LWC/backups
 plugins/React/worlds
 plugins/dynmap/worlds.txt
-plugins/Multiverse-Core/worlds.yml
 plugins/Towny/data
 plugins/NoCheatPlus/nocheatplus.log.lck
 plugins/NoCheatPlus/nocheatplus.log
@@ -43,7 +42,5 @@ plugins/LWC/lwc.db.old
 plugins/CommandButtons/data.yml
 plugins/ChestShop/items.db
 plugins/ChestShop/users.db
-plugins/CommandButtons/data.yml
-spawn/
 plugins/Essentials_WarpGUI/warps.yml
 plugins/Minepacks/backpack.db
