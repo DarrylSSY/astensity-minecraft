@@ -47,7 +47,7 @@ plugins/Wild/Biomes.txt
 plugins/ShopGUIPlus/lang.yml
 plugins/SAML/.chunk-cache
 plugins/Essentials_WarpGUI/warps.cfg
-dynmap\web\standalone/MySQL_config.php
+plugins/dynmap/web/standalone
 plugins/AdvancedAchievements/config.yml.bak
 *.bak*
 *.data*
@@ -58,6 +58,6 @@ plugins/AdvancedAchievements/config.yml.bak
 plugins/CrazyCrates/Locations.yml
 plugins/CrazyCrates/Schematics
 plugins/Essentials_WarpGUI/warps.yml
-plugins/SAML\frozen-chunks/
+plugins/SAML/frozen-chunks
 plugins/TimeVote/Stats.yml
 plugins/WeatherVote/Stats.yml
