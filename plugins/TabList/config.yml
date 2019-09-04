@@ -207,7 +207,7 @@ tablist:
   interval: 4
 
   header:
-  - "%anim:tablist%"
+  - "%anim:Astensity%"
   - "&7<75> %anim:welcome% <name>&c!&7 <74>\n&6Ping:&r %ping%&7ms"
   - "<lines>"
   footer:
