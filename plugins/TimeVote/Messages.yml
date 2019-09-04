@@ -1,0 +1,85 @@
+Version: 1.42
+'[TimeVote]': '&f[&6&lTime&e&lVote&f] '
+Color:
+  '1': '&6'
+  '2': '&e'
+Message:
+  '1': You have to be a player, to use this command.
+  '2': You do not have the permission for this command.
+  '3': '&e&l[PLAYER]&6 started a new voting for &e&l[TIME]&6 time, vote with &e&l/tv
+    yes&6 or &e&l/tv no&6.'
+  '4': The voting is disabled in this world.
+  '5': There is already a voting in this world.
+  '6': There isn't a voting in this world.
+  '7': You have already voted.
+  '8': You have voted for &e&lYes&6.
+  '9': You have voted for &e&lNo&6.
+  '10': The plugin is reloading...
+  '11': Reloading completed.
+  '12': The voting is over, the time has been changed.
+  '13': The voting is over, the time hasn't been changed.
+  '14': The voting for &e&l[TIME]&6 time is over in &e&l[SECONDS]&6 seconds.
+  '15': You have to wait &e&l[SECONDS]&6 more second(s), until you can start a new
+    voting.
+  '16': There is a new update available for this plugin. &e( https://fof1092.de/Plugins/TV
+    )&6
+  '17': All players have voted.
+  '18': You need &e&l[MONEY]$&6 more to start a voting.
+  '19': You payed &e&l[MONEY]$&6 to start a voting.
+  '20': You opend the Voting-Inventory.
+  '21': Your Voting-Inventory has been closed.
+  '22': Try [COMMAND]
+  '23': You changed the time to &e&l[TIME]&6.
+  '24': The voting has stopped.
+  '25': You stopped the voting.
+Text:
+  '1': Day
+  '2': Night
+  '3': 'Yes'
+  '4': 'No'
+StatsText:
+  '1': 'Stats since: '
+  '2': 'Money spent: '
+  '3': 'Total day votes: '
+  '8': 'Total night votes: '
+  '4': '  Yes votes: '
+  '5': '  No votes: '
+  '6': '  Won: '
+  '7': '  Lost: '
+HelpTextGui:
+  '1': '&e[&6Click to use this command&e]'
+  '2': '&e[&6Next page&e]'
+  '3': '&e[&6Last page&e]'
+  '4': '&7&oPage [PAGE]. &7Click on the arrows for the next page.'
+HelpText:
+  '1': This command shows you the help page.
+  '2': This command shows you the info page.
+  '3': This command shows you the stats page.
+  '4': This command opens the Voting-Inventory.
+  '5': This command allows you to start a day voting.
+  '6': This command allows you to start a night voting.
+  '7': This command allows you to vote for yes or no.
+  '8': ''' '''
+  '9': This command is reloading the Config.yml and Messages.yml file.
+  '10': This command stopps a voting.
+VotingInventoryTitle:
+  '1': '&f[&6&lT&e&lV&f] &eDay&f/&eNight'
+  '2': '&f[&6&lT&e&lV&f] &e[TIME] Time'
+BossBarMessage: '&f[&6&lT&e&lV&f] &6Voting for &e&l[TIME]&6 time (&e&l/tv yes&6 or
+  &e&l/tv no&6)'
+TitleMessage:
+  Title:
+    '1': '&f[&6&lT&e&lV&f] &e&l[TIME]&6 time voting.'
+    '2': '&f[&6&lT&e&lV&f] &e&l[SECONDS]&6 seconds left.'
+    '3': '&f[&6&lT&e&lV&f] &6The time has been changed.'
+    '4': '&f[&6&lT&e&lV&f] &6The time hasn''t been changed.'
+  SubTitle: '&6(&e/tv yes&6 or &e/tv no&6)'
+RawMessage:
+  '1': '["",{"text":"[PLAYER]","color":"yellow","bold":true},{"text":" started a new
+    voting for ","color":"gold"},{"text":"[TIME]","color":"yellow","bold":true},{"text":"
+    time, vote with ","color":"gold"},{"text":"/tv yes","color":"yellow","bold":true,"clickEvent":{"action":"run_command","value":"/tv
+    yes"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"/tv
+    yes","color":"yellow","bold":true}]}}},{"text":" or ","color":"gold"},{"text":"/tv
+    no","color":"yellow","bold":true,"clickEvent":{"action":"run_command","value":"/tv
+    no"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"/tv
+    no","color":"yellow","bold":true}]}}},{"text":".","color":"gold"}]'
