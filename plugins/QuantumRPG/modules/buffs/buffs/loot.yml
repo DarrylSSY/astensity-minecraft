@@ -1,0 +1,16 @@
+name: '&aLoot %rlevel%'
+icon:
+  material: 'GOLD_NUGGET'
+  name: '%buff_name%'
+  lore:
+  - '&7Increase a chance to find the item by &f%stat_LOOT_RATE%%&7.'
+min-level: 1
+max-level: 2
+buffs-by-level:
+  item-stats:
+    '1':
+      LOOT_RATE: 10
+    '2':
+      LOOT_RATE: 15
+  damage-types: {}
+  defense-types: {}

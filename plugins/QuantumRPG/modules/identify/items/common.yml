@@ -1,0 +1,18 @@
+type: TIERS
+item-id: 'common'
+tomes:
+- common
+- rare
+name: '&0&f&kUndentified Item'
+lore:
+- '&8&m               &f  「 INFO 」  &8&m               '
+- '&7Type: &fUnidentified Item'
+- '&7Level: &f%level%'
+- '&7Tier: &fCommon'
+- '&8&m               &f  「 STATS 」  &8&m               '
+- '&7Find an &fCommon Identify Tome&7 to'
+- '&7indentify the item!'
+item-flags:
+- '*'
+min-level: 1
+max-level: 25

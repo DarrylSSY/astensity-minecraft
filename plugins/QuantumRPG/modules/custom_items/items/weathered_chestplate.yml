@@ -1,0 +1,33 @@
+material: 'LEATHER_CHESTPLATE'
+name: '&lWeathered Battlemail'
+lore:
+- '&8&m               &f  「 INFO 」  &8&m               '
+- '&fA worn out chest plate by Astensia Militia'
+- '%SET%'
+- '&8&m         &f  「 REQUIREMENTS 」  &8&m    e    '
+- '%LEVEL%'
+- '%CLASS%'
+- '%UNTRADEABLE%'
+- ''
+- '&8&m               &f 「 STATS 」 &8&m               '
+- '%DEFENSE_TYPE:physical:5.45-15.75%'
+- '%BLOCK_RATE:7.5-15.0%'
+- '%BLOCK_DAMAGE:1.25-1.5%'
+- ''
+- '%DURABILITY:750-750%'
+- '&8&m             &f 「 SOCKETS 」 &8&m             '
+- '%SOCKET:GEM%'
+- '%SOCKET:GEM%'
+- '%SOCKET:ESSENCE%'
+- '%SOCKET:ESSENCE%'
+item-flags:
+- HIDE_ATTRIBUTES
+min-level: 1
+max-level: 2
+user-requirements:
+uses-by-level:
+  1: 500
+  2: 750
+enchants:
+  protection: '3:3'
+  unbreaking: '2:2'

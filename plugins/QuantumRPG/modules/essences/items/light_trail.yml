@@ -1,0 +1,24 @@
+material: GLOWSTONE_DUST:0:1
+name: '&eEssence of Trail'
+lore:
+- '&7Creates a &eLight Trail %rlevel%'
+- '&7effect behind you.'
+socket-display: '&eLight Trail %rlevel%'
+enchanted: true
+min-level: 1
+max-level: 1
+min-success-rate: 60
+max-success-rate: 80
+item-flags:
+- '*'
+item-types:
+- ARMOR
+- WEAPON
+effect:
+  type: FOOT
+  name: REDSTONE:225,225,125
+  speed: 0.2
+  amount: 15
+  offset-x: 0.25
+  offset-y: 0.1
+  offset-z: 0.25

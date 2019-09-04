@@ -290,14 +290,14 @@ auto-removal:
   autoremoval-interval: 460
   world-filter:
   # - this_world <-This world will be ignored during removal!
-  boat: true
+  boat: false
   falling-block: true
   experience-orb: true
   painting: false
   projectile: true
   item: true
   itemframe: false
-  minecart: true
+  minecart: false
   primed-tnt: true
   item-filter:
   # - Stone <-This item-id will be ignored during removal!
@@ -324,7 +324,7 @@ command-remove:
   projectile: true
   item: true
   itemframe: false
-  minecart: true
+  minecart: false
   primed-tnt: true
   item-filter:
   # - Stone <-This item-id will be ignored during removal!

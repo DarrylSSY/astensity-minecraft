@@ -1,0 +1,125 @@
+name: Rogue
+default: false
+parents:
+    strong: []
+    weak: []
+primary: true
+secondary: false
+description: The trickster of the wilds.
+#Runs a cmd as console or not on selection of this class.
+run-command:
+  as-console: true
+  #you can have multiple cmds run
+  #use {player_name} for plugins who dont support @p, etc.
+  command:
+    -  give @p diamond
+    -  mm items give {PLAYER_NAME} KingsCrown
+stamina:
+  costs:
+    miss: 150
+    swing-hit: -75
+    sprinting: 0
+    taken-hit: 20
+    jump: 50
+  stop-regen:
+    swing-hit:
+      enable: false
+      time: 10000
+    miss:
+      enable: false
+      time: 10000
+    sprinting:
+      enable: true
+      time: 10000
+    taken-hit:
+      enable: false
+      time: 10000
+    jump:
+      enable: false
+      time: 10000
+base-attributes:
+    STRENGTH: 5
+    CONSTITUTION: 2
+    ENDURANCE: 8
+    DEXTERITY: 10
+    INTELLECT: 5
+    WISDOM: 5
+    CHARISMA: 5
+permitted-armor: 
+- LEATHER
+permitted-weapon:
+- WOOD
+- STONE
+- IRON_PICKAXE
+- IRON_SWORD
+- GOLD_SWORD
+- DIAMOND_SWORD
+- BOW
+item-damage:
+  IRON_SWORD: 6
+  GOLD_SWORD: 7
+  DIAMOND_SWORD: 8
+item-damage-level:
+  IRON_SWORD: 0.1
+  GOLD_SWORD: 0.15
+  DIAMOND_SWORD: 0.2
+projectile-damage:
+    ARROW: 5
+projectile-damage-level:
+    ARROW: 0.1
+permitted-skills:
+    Sneak:
+        level: 1
+    Jump:
+        level: 20
+    AssassinsBlade: 
+        level: 10
+        mana: 15
+    Mark:
+        level: 5
+        mana: 5
+        reagent: BED
+        reagent-cost: 1
+    Recall:
+        level: 5
+        mana: 40
+        cooldown: 60000
+        health-cost: 10
+        delay: 5000
+    EscapeArtist:
+        level: 25
+        mana: 30
+    Smoke:
+        level: 15
+        duration: 30000
+        mana: 10
+        cooldown: 20000
+    Backstab:
+        level: 1
+        attack-bonus: 1.5
+        attack-chance: 0.5
+        sneak-bonus: 2.0
+        sneak-chance: 1.0
+    Curse:
+        level: 35
+        max-distance: 15
+        duration: 15000
+        miss-chance: 0.5
+        cooldown: 25000
+        mana: 10
+experience-sources:
+- KILLING
+- PVP
+- QUESTING
+- EXTERNAL
+expmodifier: 1.0
+base-max-health: 28.0
+max-health-per-level: 0.4
+base-max-mana: 50
+max-mana-per-level: 1
+base-mana-regen: 1
+mana-regen-per-level: .05
+expLoss: 0.007
+wildcard-permission: true
+tier: 1
+recipes: [ default ]

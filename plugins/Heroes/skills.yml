@@ -1,0 +1,2782 @@
+Invuln:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 6000
+  apply-text: §7[§2Skill§7] %hero% has become invulnerable!
+  expire-text: §7[§2Skill§7] %hero% is once again vulnerable!
+  reagent: 81
+  reagent-cost: 1
+Piggify:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 15.0
+  target-hit-tolerance: 0.2
+  duration: 10000
+FireRune:
+  use-text: §7[§2Skill§7] %hero% imbues his blade with a Rune of §cFire.
+  damage: 55
+  damage-increase-per-intellect: 1.375
+  apply-text: §7[§2Skill§7] %target% has been burned by a Rune of Fire!
+  rune-chat-color: §c
+ThrowAxe:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  weapons:
+  - WOODEN_AXE
+  - STONE_AXE
+  - IRON_AXE
+  - GOLDEN_AXE
+  - DIAMOND_AXE
+  damage: 50
+  damage-increase-per-strength: 0.75
+  axe-throw-multiplier: 0.5
+  axe-throw-multiplier-per-dexterity: 0.1
+  launch-target: true
+  launch-target-multiplier: 1.4
+  launch-target-up-additive: 1.0
+Flicker:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 7500
+  period: 1500
+  invis-duration: 500
+  apply-text: §7[§2Skill§7] %hero% begins to flicker!
+  expire-text: §7[§2Skill§7] %hero% is no longer flickering.
+HolyWater:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  healing: 75
+  healing-increase-per-wisdom: 1.875
+  radius: 7
+  undead-damage: 70
+  undead-damage-increase-per-wisdom: 1.2
+  velocity-multiplier: 1.5
+DragonSmash:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  damage: 100
+  damage-increase-per-strength: 1
+  radius: 5
+  user-launch: 0.5
+  user-launch-per-dexterity: 0.1
+  user-drop: -0.5
+  user-drop-per-dexterity: -0.1
+  target-launch: 0.5
+EnderPearls:
+  apply-text: ''
+  unapply-text: §7[§2Skill§7] %hero% lost %skill%!
+  expire-text: ''
+  vertical-leniency: 2
+  velocity-multiplier: 0.85
+  cooldown-during-combat: true
+  combat-toss-cooldown: 60000
+SmeltIron:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  no-combat-use: true
+  base-ingot-chance: 10
+  chance-gain-per-level: 0.2
+BloodGift:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 10
+  target-hit-tolerance: 0.2
+  health-increase-percent-per-blood-union: 0.04
+  healing: 130
+  healing-increase-per-wisdom: 1.8
+  health-cost: 85
+  mana: 110
+Decay:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 7
+  target-hit-tolerance: 0.2
+  duration: 20000
+  period: 2500
+  tick-damage: 17.0
+  tick-damage-increase-per-intellect: 0.17
+  apply-text: §7[§2Skill§7] %target%'s flesh has begun to rot!
+  expire-text: §7[§2Skill§7] %target% is no longer decaying alive!
+Plague:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 12
+  target-hit-tolerance: 0.2
+  duration: 15000
+  period: 1500
+  tick-damage: 10.0
+  tick-damage-increase-per-intellect: 0.125
+  radius: 4
+  apply-text: §7[§2Skill§7] %target% is infected with the plague!
+  expire-text: §7[§2Skill§7] %target% is no longer infected with the plague!
+SonicBoom:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 10000
+  duration-per-level: 0
+  radius: 10
+  radius-increase: 0
+  damage: 0
+  damage-per-level: 0
+Rupture:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 4
+  target-hit-tolerance: 0.2
+  damage: 40
+  damage-increase-per-strength: 1.0
+  duration: 7500
+  period: 500
+  damage-per-distance-moved: 10.0
+  distance-per-damage: 1.0
+  apply-text: §7[§2Skill§7] %target% is wounded deeply!
+  expire-text: §7[§2Skill§7] %target% is no longer wounded.
+InfernoFlash:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  max-distance: 6
+  max-distance-increase-per-intellect: 0.15
+  reagent: 331
+  reagent-cost: 3
+Dynamite:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  tnt-count: 1
+  harmless-to-entities: true
+  throw: false
+  velocity-multiplier: 1.5
+IceArrow:
+  use-text: '%hero% imbues their arrows with ice!'
+  duration: 5000
+  speed-multiplier: 2
+  mana-per-shot: 1
+  apply-text: '%target% is slowed by ice!'
+  expire-text: '%hero%''s arrows are no longer imbued with ice!'
+Famine:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 7
+  target-hit-tolerance: 0.2
+  stamina-drain-per-tick: 60
+  stamina-drain-increase-intellect: 1
+  radius: 4
+  duration: 6000
+  period: 1500
+  apply-text: §7[§2Skill§7] %target%'s has been overcome with famine!
+  expire-text: §7[§2Skill§7] %target%'s famine has ended.
+SuperJump:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 5000
+  jump-force: 4.0
+RuptureShot:
+  use-text: '%hero% imbues their arrows with rupture!'
+  duration: 10000
+  period: 2000
+  mana-per-shot: 1
+  tick-damage: 2
+  apply-text: '%target% is ruptured!'
+  expire-text: '%target% has recovered from the rupture!'
+IceVolley:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 4000
+  max-arrows-per-shot: 5
+  degrees: 10.0
+  velocity-multiplier: 2.0
+  slow-multiplier: 1
+  slow-duration: 2500
+  apply-text: §7[§2Skill§7] %hero% has loaded an array of Ice Arrows!
+  expire-text: §7[§2Skill§7] %hero% is no longer firing a volley of arrows.
+  slow-apply-text: §7[§2Skill§7] %target% has been slowed by %hero%'s Ice Volley!
+  slow-expire-text: §7[§2Skill§7] %target% is no longer slowed!
+Rally:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 8
+  target-hit-tolerance: 0.2
+  max-distance-increase-per-strength: 0.15
+  vertical-power: 1.0
+  horizontal-divider: 6
+  vertical-divider: 8
+  multiplier: 1.0
+  jump-delay: 0.3
+  ncp-exemption-duration: 2000
+Jump:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  no-air-jump: false
+  horizontal-power: 0.5
+  horizontal-power-increase-per-dexterity: 0.0125
+  vertical-power: 0.5
+  vertical-power-increase-per-dexterity: 0.00625
+  ncp-exemption-duration: 2000
+DoomstarRequiem:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  damage: 50
+  damage-increase-per-charisma: 1.125
+  radius: 5
+  horizontal-power: 0.0
+  vertical-power: 0.4
+  ncp-exemption-duration: 1500
+  delay: 50
+EarthernFury:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 4
+  target-hit-tolerance: 0.2
+  weapons:
+  - WOODEN_AXE
+  - STONE_AXE
+  - IRON_AXE
+  - GOLDEN_AXE
+  - DIAMOND_AXE
+  slownessAmplitude: 2
+  dexterity-reduction: 3
+  damage: 60
+  damage-increase-per-intellect: 1.0
+  duration: 2500
+  apply-text: §7[§2Skill§7] %target% feels the earthern fury of %hero%!
+  expire-text: §7[§2Skill§7] %target% is no longer slowed!
+Alchemy:
+  apply-text: ''
+  unapply-text: ''
+  level: 1
+ManaFreeze:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 3
+  target-hit-tolerance: 0.2
+  max-distance-increase-per-intellect: 0.1
+  duration: 6000
+  apply-text: §7[§2Skill§7] %target% has stopped regenerating mana!
+  expire-text: §7[§2Skill§7] %target% is once again regenerating mana!
+Voidsong:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  radius: 5
+  duration: 2500
+  duration-increase-per-charisma: 38
+ForgeChainHelmet:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  amount: 1
+Toss:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 5
+  target-hit-tolerance: 0.2
+  horizontal-power: 0.5
+  horizontal-power-increase-per-strength: 0.025
+  vertical-power: 0.5
+  vertical-power-increase-per-strength: 0.0175
+  ncp-exemption-duration: 1500
+  toss-delay: 0.2
+Slow:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 15.0
+  target-hit-tolerance: 0.2
+  speed-multiplier: 2
+  duration: 15000
+  apply-text: '%target% has been slowed by %hero%!'
+  expire-text: '%target% is no longer slowed!'
+MightyBlow:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 3
+  target-hit-tolerance: 0.2
+  damage: 30
+  damage-increase-per-strength: 0.7
+Energize:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  stamina-gain: 500
+MelodicBinding:
+  use-text: ''
+  melodic-buff-duration: 3000
+  melodic-buff-period: 1500
+  radius: 6
+  damage: 17
+  damage-increase-per-charisma: 0.125
+  melodic-slow-duration: 1500
+  slow-amplifier: 0
+  slow-amplifier-increase-per-charisma: 0.075
+  apply-text: §7[§2Skill§7] %hero% releases Melodic Bindings!
+  expire-text: §7[§2Skill§7] %hero% is no longer binding enemies.
+  delay: 1000
+  cooldown: 1000
+  max-targets: 5
+Replenish:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  mana-gain-percent: 0.2
+  mana-gain-percent-increase-per-wisdom: 0.015
+Flash:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  max-distance: 6
+  max-distance-increase-per-intellect: 0.15
+  reagent: 331
+  reagent-cost: 3
+SacredWord:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 8
+  target-hit-tolerance: 0.2
+  is-scaled-healing: false
+  healing-scale-expression: '1'
+  healing: 75
+  healing-increase-per-wisdom: 1.875
+Serenity:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  radius: 5.0
+  duration: 6000
+  period: 1000
+  tick-healing: 100.0
+  tick-healing-increase-per-wisdom: 1.0
+UndyingWill:
+  use-text: §7[§2Skill§7] %hero% is overcome with an undying will!
+  duration: 4500
+  period: 500
+  expire-text: §7[§2Skill§7] %hero%'s will returns to normal.
+Drainsoul:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 6
+  target-hit-tolerance: 0.2
+  max-distance-increase-per-intellect: 0.15
+  damage: 98
+  damage-increase-per-intellect: 1.0
+  heal-mult: 0.77
+Herbalism:
+  apply-text: ''
+  unapply-text: ''
+  chance-per-level: 0.001
+HolyAura:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 16000
+  period: 2000
+  healing: 17
+  healing-increase-per-wisdom: 0.15
+  radius: 6
+  undead-damage: 20
+  undead-damage-increase-per-wisdom: 0.375
+  apply-text: §7[§2Skill§7] %target% begins to radiate a holy aura!
+  expire-text: §7[§2Skill§7] %target% has lost their holy aura!
+Scan:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 15.0
+  target-hit-tolerance: 0.2
+StealEssence:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 15.0
+  target-hit-tolerance: 0.2
+  apply-text: '%hero% used %skill% and stole %effect% from %target%!'
+  max-steals: 1
+VoidRune:
+  use-text: §7[§2Skill§7] %hero% imbues his blade with a Rune of §5Void.
+  damage: 25
+  damage-increase-per-intellect: 0.625
+  duration: 1500
+  apply-text: §7[§2Skill§7] %target% has been silenced by a Rune of Void!
+  expire-text: §7[§2Skill§7] %target% is no longer silenced!
+  rune-chat-color: §5
+Tsunami:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  damage: 200.0
+  damage-increase-per-intellect: 1.0
+  duration: 10
+  duration-increase-per-wisdom: 1
+  knockup: true
+  knockup-velocity: 1.0
+  knockup-multiplier: 2.0
+Fade:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 30000
+  apply-text: §7[§2Skill§7] You fade into the shadows
+  expire-text: §7[§2Skill§7] You come back into view
+  fail-text: §7[§2Skill§7] It's too bright to fade
+  detection-range: 0
+  max-light-level: 8
+  max-move-distance: 1.0
+AncientRunestone:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  no-combat-use: true
+  delay: 10000
+  max-uses: -1
+SoulLeech:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 8
+  target-hit-tolerance: 0.2
+  tick-damage: 14
+  tick-damage-increase-per-intellect: 0.0375
+  duration: 20000
+  period: 2000
+  heal-mult: 0.72
+  apply-text: §7[§2Skill§7] %target% is having their soul leeched by %hero%
+  expire-text: §7[§2Skill§7] %target%'s soul is no longer being leeched.
+  delay: 1000
+SummonHorse:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  chance-2x: 0.2
+  chance-3x: 0.1
+  max-distance: 20
+  chance-2x-per-level: 0.0
+  chance-3x-per-level: 0.0
+WindGale:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  max-distance: 6
+  damage: 50
+  damage-increase-per-intellect: 0.2
+  radius: 3
+  wind-travel-delay: 1
+  push-horizontal-power: 1.5
+  push-horizontal-power-increase-per-wisdom: 0.0375
+  push-vertical-power: 0.25
+  push-vertical-power-increase-per-wisdom: 0.0075
+  ncp-exemption-duration: 1500
+  push-delay: 0.2
+QuantumLeap:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 15.0
+  target-hit-tolerance: 0.2
+Ire:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 12
+  target-hit-tolerance: 0.2
+  damage: 80
+  damage-increase-per-intellect: 0.75
+Layhands:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 4
+  target-hit-tolerance: 0.2
+  max-distance-increase-per-wisdom: 0.1
+  cooldown: 900000
+  drain-all-mana: false
+Empathy:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 10
+  target-hit-tolerance: 0.2
+  max-damage: 152
+  max-damage-increase-per-intellect: 1.0
+  damage-modifier: 1.0
+  damage-modifier-increase-per-intellect: 0.0
+  slow-duration: 4000
+  slow-amplifier: 2
+Tremor:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  damage: 50
+  damage-increase-per-strength: 1.125
+  radius: 5
+  horizontal-power: 0.0
+  vertical-power: 0.4
+  ncp-exemption-duration: 1500
+  delay: 50
+BloodDrinker:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  weapons:
+  - WOODEN_AXE
+  - STONE_AXE
+  - IRON_AXE
+  - GOLDEN_AXE
+  - DIAMOND_AXE
+  damage-healing-percent: 0.1
+  maximum-healing: 200
+  duration: 7500
+  apply-text: §7[§2Skill§7] %hero% is drinking blood!
+  expire-text: §7[§2Skill§7] %hero% is no longer drinking blood!
+Charge:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 15.0
+  target-hit-tolerance: 0.2
+  stun-duration: 5000
+  slow-duration: 0
+  root-duration: 0
+  silence-duration: 0
+  damage: 0
+  damage-per-level: 0
+  radius: 2
+Poison:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 15.0
+  target-hit-tolerance: 0.2
+  duration: 10000
+  period: 2000
+  tick-damage: 1
+  expire-text: '%target% has recovered from the poison!'
+Overgrowth:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  max-distance: 15
+Renewal:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 5
+  target-hit-tolerance: 0.2
+  is-scaled-healing: false
+  healing-scale-expression: '1'
+  max-distance-increase-per-wisdom: 0.15
+  healing: 100
+  healing-increase-per-wisdom: 2.25
+Wolf:
+  apply-text: §7[§2Skill§7] %hero% gained %skill%!
+  unapply-text: §7[§2Skill§7] %hero% lost %skill%!
+Shield:
+  apply-text: ''
+  unapply-text: ''
+  iron-door: 0.75
+  wooden-door: 0.85
+  iron-trapdoor: 0.9
+  wooden-trapdoor: 0.95
+ShieldReflect:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 3000
+  reflected-damage-modifier: 0.8
+  apply-text: §7[§2Skill§7] %hero% holds up their shield and is now reflecting incoming
+    attacks!
+  expire-text: §7[§2Skill§7] %hero% is no longer reflecting attacks!
+One:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  speed-multiplier: 2
+  duration: 15000
+  apply-text: '%hero% gained a burst of speed!'
+  expire-text: '%hero% returned to normal speed!'
+ChaoticVisions:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  max-distance: 20
+  damage: 80
+  damage-increase-per-intellect: 1.125
+  radius: 2
+  spear-move-delay: 2
+Absolution:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 5
+  target-hit-tolerance: 0.2
+  is-scaled-healing: false
+  healing-scale-expression: '1'
+  max-distance-increase-per-intellect: 0.15
+  healing: 125
+  healing-increase-per-wisdom: 2.0
+Summonfood:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  food-type: BREAD
+  amount: 1
+Excavate:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  speed-multiplier: 2
+  duration: 0
+  duration-per-level: 100
+  apply-text: '%hero% begins excavating!'
+  expire-text: '%hero% is no longer excavating!'
+LunarLance:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 6
+  target-hit-tolerance: 0.2
+  weapons:
+  - WOODEN_SPADE
+  - WOODEN_SHOVEL
+  - STONE_SPADE
+  - STONE_SHOVEL
+  - IRON_SPADE
+  - IRON_SHOVEL
+  - GOLDEN_SPADE
+  - GOLDEN_SHOVEL
+  - DIAMOND_SPADE
+  - DIAMOND_SHOVEL
+  damage: 50
+  damage-increase-per-strength: 0.84
+  mana-burn-amount: 90
+TitansGrip:
+  apply-text: ''
+  unapply-text: ''
+  velocity-multiplier: 1.15
+InfernoBlade:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 8.0
+  target-hit-tolerance: 0.2
+  damage: 250.0
+  damage-increase-per-intellect: 1.0
+  spike-height: 3.0
+  does-knock-up: true
+  knock-up-strength: 0.6
+  duration: 5000
+Arcaneblast:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 10
+  target-hit-tolerance: 0.2
+  max-distance-increase-per-intellect: 0.2
+  damage: 200
+  damage-increase-per-intellect: 2.5
+Kick:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 3
+  target-hit-tolerance: 0.2
+  damage: 40
+  damage-increase-per-strength: 0.75
+  duration: 2000
+Headbutt:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 4
+  target-hit-tolerance: 0.2
+  duration: 1500
+  duration-increase-per-charisma: 30
+  damage: 31
+  damage-increase-per-strength: 0.7
+  health-cost: 80
+Enchant:
+  apply-text: ''
+  unapply-text: ''
+  PROTECTION_ENVIRONMENTAL: 200
+  PROTECTION_FIRE: 1
+  PROTECTION_FALL: 1
+  PROTECTION_EXPLOSIONS: 200
+  PROTECTION_PROJECTILE: 200
+  OXYGEN: 1
+  WATER_WORKER: 1
+  DAMAGE_ALL: 200
+  DAMAGE_UNDEAD: 200
+  DAMAGE_ARTHROPODS: 200
+  KNOCKBACK: 1
+  FIRE_ASPECT: 1
+  LOOT_BONUS_MOBS: 1
+  DIG_SPEED: 1
+  SILK_TOUCH: 200
+  DURABILITY: 1
+  LOOT_BONUS_BLOCKS: 1
+  ARROW_DAMAGE: 200
+  ARROW_KNOCKBACK: 1
+  ARROW_FIRE: 1
+  ARROW_INFINITE: 1
+  FROST_WALKER: 200
+  MENDING: 200
+ForgeChainChest:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  amount: 1
+Atrophy:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 7
+  target-hit-tolerance: 0.2
+  duration: 20000
+  period: 2500
+  tick-damage: 17.0
+  tick-damage-increase-per-intellect: 0.17
+  apply-text: §7[§2Skill§7] %target%'s flesh has begun to rot!
+  expire-text: §7[§2Skill§7] %target% is no longer rotting alive!
+AssassinsBlade:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  weapons:
+  - WOODEN_SWORD
+  - STONE_SWORD
+  - IRON_SWORD
+  - GOLDEN_SWORD
+  - DIAMOND_SWORD
+  buff-duration: 600000
+  poison-duration: 10000
+  period: 2000
+  tick-damage: 2
+  damage-per-level: 0
+  attacks: 1
+  apply-text: '%target% is poisoned!'
+  expire-text: '%target% has recovered from the poison!'
+FireStorm:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  radius: 5.0
+  duration: 6000
+  period: 1000
+  tick-damage: 100.0
+  tick-damage-increase-per-intellect: 1.0
+Intervene:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 7
+  target-hit-tolerance: 0.2
+  duration: 8000
+  damage-split-percent: 0.5
+  distance-required-for-intervene: 5
+  apply-text: §7[§2Skill§7] %hero% is intervening attacks against %target%
+  expire-text: §7[§2Skill§7] %hero% is no longer intervening attacks against %target%.
+Fulmination:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 9
+  target-hit-tolerance: 0.2
+  damage: 180
+  damage-increase-per-intellect: 1.4
+  max-distance-increase-per-intellect: 0.2
+  reagent: 289
+  reagent-cost: 1
+  lightning-volume: 0.0
+Arrowstorm:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  max-arrows: 30
+  min-arrows: 15
+  min-rate: 2
+  max-rate: 20
+  arrows-per-level: 0.0
+  cooldown: 1000
+  mana: 10
+Manasong:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  radius: 12
+  mana-restore-tick: 8
+  mana-restore-tick-increase-per-charisma: 0.25
+  period: 1500
+  duration: 3000
+  apply-text: §7[§2Skill§7] You are gifted with a song of mana!
+  expire-text: §7[§2Skill§7] The manasong has ended.
+  delay: 1000
+Cannon:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  tnt-count: 1
+  harmless-to-entities: true
+  throw: true
+  velocity-multiplier: 2.0
+Smite:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 6
+  target-hit-tolerance: 0.2
+  undead-damage: 80
+  damage: 40.0
+  damage-increase-per-intellect: 1.0
+Entangle:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 10
+  target-hit-tolerance: 0.2
+  period: 100
+  duration: 3000
+  apply-text: §7[§2Skill§7] %target% has been rooted!
+  expire-text: §7[§2Skill§7] %target% has broken free from the root!
+EscapeArtist:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  speed-multiplier: 0
+  duration: 0
+Forcepull:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 8
+  target-hit-tolerance: 0.2
+  damage: 50
+  damage-increase-per-intellect: 1.6
+  horizontal-power: 0.3
+  horizontal-power-increase-per-intellect: 0.0125
+  vertical-power: 0.4
+  ncp-exemption-duration: 1000
+  pull-delay: 0.2
+Whirlwind:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  radius: 5
+  damage: 60
+  damage-increase-per-strength: 1.0
+  period: 500
+  duration: 5000
+  slow-amplifier: 1
+  apply-text: §7[§2Skill§7] %hero% is unleashing a powerful whirlwind!
+  expire-text: §7[§2Skill§7] %target% is no longer whirlwinding!
+Murasame:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 5
+  target-hit-tolerance: 0.2
+  damage: 50
+  damage-increase-per-intellect: 1.6
+  sword-sacrifice-percent: 10
+  healing-percent: 25
+SummonSquid:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  chance-2x: 0.2
+  chance-3x: 0.1
+  max-distance: 20
+  chance-2x-per-level: 0.0
+  chance-3x-per-level: 0.0
+ArcaneTransfer:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 8
+  target-hit-tolerance: 0.2
+  max-transfers: 1
+  max-transfers-increase-per-intellect: 0.025
+Fireblast:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  max-distance: 6
+  max-distance-increase-per-intellect: 0.1
+  damage: 90
+  damage-increase-per-intellect: 1.2
+  radius: 3
+  horizontal-power: 1.2
+  vertical-power: 0.5
+  ncp-exemption-duration: 500
+Reckoning:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  damage: 40
+  damage-increase-per-strength: 1.5
+  radius: 8
+  duration: 750
+  duration-increase-per-intellect: 500
+  slow-amplifier: 0
+  slow-amplifier-increase-per-intellect: 0.075
+  ncp-exemption-duration: 500
+  lightning-volume: 0.0
+ToxicRune:
+  use-text: §7[§2Skill§7] %hero% imbues his blade with a Rune of §2Toxicity.
+  damage: 15
+  damage-increase-per-intellect: 0.375
+  period: 3000
+  duration: 12000
+  apply-text: §7[§2Skill§7] %target% has been poisoned by a Rune of Toxicity!
+  expire-text: §7[§2Skill§7] %target% has recovered from the poison!
+  rune-chat-color: §2
+FireArrow:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  mana-per-shot: 1
+  fire-ticks: 100
+DevourMagic:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 5000
+  resist-value: 0.2
+  mana-per-damage: 0.8
+  apply-text: §7[§2Skill§7] %hero% is devouring incoming magic!
+  expire-text: §7[§2Skill§7] %hero% is no longer devouring magic.
+DivineStun:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 6
+  target-hit-tolerance: 0.2
+  duration: 1500
+  duration-increase-per-charisma: 30
+  damage: 31
+  damage-increase-per-strength: 0.7
+  delay: 500
+SacredHymn:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 10
+  target-hit-tolerance: 0.2
+  is-scaled-healing: false
+  healing-scale-expression: '1'
+  healing: 150
+  healing-increase-per-wisdom: 3.75
+SoulSpike:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 8.0
+  target-hit-tolerance: 0.2
+  damage: 250.0
+  damage-increase-per-intellect: 1.0
+  spike-height: 3.0
+  does-knock-up: true
+  knock-up-strength: 0.6
+  duration: 5000
+  slow-amplifier: 1
+  hunger-amplifier: 1
+  apply-text: §7[§2Skill§7] %target%'s soul was spiked!
+  expire-text: §7[§2Skill§7] %target%'s soul is no longer spiked!
+CleanseSpirit:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 10
+  target-hit-tolerance: 0.2
+  is-scaled-healing: false
+  healing-scale-expression: '1'
+  healing: 150
+  healing-increase-per-wisdom: 3.75
+  max-effect-removals: 1
+IronFist:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  damage: 50
+  damage-increase-per-strength: 1.125
+  radius: 5
+  duration: 5000
+  slow-amplifier: 1
+  horizontal-power: 0.0
+  horizontal-power-increase-per-intellect: 0.0
+  vertical-power: 0.4
+  vertical-power-increase-per-intellect: 0.015
+  ncp-exemption-duration: 1000
+  delay: 500
+Masamune:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  sword-sacrifice-percent: 20
+  speed-duration: 30000
+  speed-amplitude: 2
+Might:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  damage-bonus: 1.25
+  radius: 10
+  apply-text: Your muscles bulge with power!
+  expire-text: You feel strength leave your body!
+  duration: 600000
+Alacrity:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 10
+  target-hit-tolerance: 0.2
+  duration: 600000
+  duration-increase-per-level: 30000
+  agi-increase: 15
+  apply-text: $1 is prepared and has Alacrity!
+  expire-text: $1 goes back to being unprepared.
+Bleed:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 15.0
+  target-hit-tolerance: 0.2
+  duration: 10000
+  period: 2000
+  tick-damage: 1
+  damage-per-level: 0
+  damage-per-level-power: 1.0
+  apply-text: '%target% is bleeding!'
+  expire-text: '%target% has stopped bleeding!'
+SummonArrow:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  amount: 2
+Earthwall:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  height: 4
+  width: 2
+  max-distance: 12
+  max-distance-increase-per-intellect: 0.2
+  duration: 5000
+  apply-text: §7[§2Skill§7] %hero% conjures a wall of earth!
+  expire-text: §7[§2Skill§7] %hero%'s wall has crumbled
+  block-type: DIRT
+AngelsGrace:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  radius: 7
+  duration: 3000
+Port:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  radius: 10
+  no-combat-use: true
+  delay: 10000
+BloodBeam:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  beam-max-length: 15
+  beam-radius: 2.0
+  damage: 150.0
+  damage-increase-per-intellect: 1.0
+Transfuse:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  health-cost: 100
+  mana-gain: 150
+Tackle:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 15.0
+  target-hit-tolerance: 0.2
+  radius: 3
+  radius-increase: 0.0
+  duration: 3000
+  duration-increase: 0
+  damage: 6
+  damage-increase: 0.0
+Bolt:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 9
+  target-hit-tolerance: 0.2
+  damage: 180
+  damage-increase-per-intellect: 1.4
+  max-distance-increase-per-intellect: 0.2
+  reagent: 289
+  reagent-cost: 1
+  lightning-volume: 0.0
+Icebolt:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  damage: 50
+  damage-increase-per-intellect: 1.0
+  duration: 4000
+  slow-multiplier: 1
+  velocity-multiplier: 1.2
+  apply-text: §7[§2Skill§7] %target% has been slowed by %hero%!
+  expire-text: §7[§2Skill§7] %target% is no longer slowed!
+RechargeRunestone:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  no-combat-use: true
+  delay: 8000
+BecomeDeath:
+  use-text: ''
+  duration: 120000
+  apply-text: §7[§2Skill§7] %hero% shrouds themself in death!
+  expire-text: §7[§2Skill§7] %hero% no longer appears as an undead!
+MinorRunestone:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  no-combat-use: true
+  delay: 5000
+  max-uses: 2
+DropTheBass:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  radius: 15
+  duration: 10000
+  apply-text: §7[§2Skill§7] %hero%'s party celebrates bass-drops!
+  expire-text: §7[§2Skill§7] %hero%'s party no longer is dropping bass!
+FlyingKick:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 8
+  target-hit-tolerance: 0.2
+  max-distance-increase-per-dexterity: 0.15
+  damage: 40
+  damage-increase-per-strength: 1.125
+  vertical-power: 1.0
+  horizontal-divider: 6
+  vertical-divider: 8
+  multiplier: 1.0
+  jump-delay: 0.3
+  ncp-exemption-duration: 2000
+DarkBolt:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  damage: 80
+  damage-increase-per-intellect: 1.25
+  radius: 4
+  duration: 6000
+  wither-level: 1
+  healing-reduction-percent: 0.15
+  velocity-multiplier: 2.0
+  ticks-lived: 3
+  apply-text: §7[§2Skill§7] %target%'s begins to wither away!
+  expire-text: §7[§2Skill§7] %target%'s is no longer withering.
+Purge:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 12
+  target-hit-tolerance: 0.2
+  max-removals: 1
+Blink:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  max-distance: 6
+  max-distance-increase-per-intellect: 0.15
+  reagent: 331
+  reagent-cost: 3
+Telekinesis:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  max-distance: 15
+Wisdom:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  regen-multiplier: 1.2
+  radius: 10
+  duration: 600000
+BloodRitual:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 8
+  target-hit-tolerance: 0.2
+  blood-union-health-multiplier: 0.0625
+  blood-union-health-multiplier-increase-per-wisdom: 0.0016
+Shadowstep:
+  use-text: §7[§2Skill§7] %hero% ShadowStepped behind %target%!
+  max-distance: 4
+  target-hit-tolerance: 0.2
+  max-distance-increase-per-intellect: 0.15
+  teleport-blocks-behind-target: 1
+GrapplingShot:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  num-shots: 1
+  max-distance: -1
+  safe-fall-duration: 4500
+  duration: 5000
+  horizontal-divider: 6
+  vertical-divider: 8
+  multiplier: 1.0
+  grapple-delay: 0.5
+  ncp-exemption-duration: 3000
+  apply-text: §7[§2Skill§7] %hero% readies his grappling shot!
+  expire-text: §7[§2Skill§7] %hero% drops his grappling shot.
+  reagent: STRING
+  reagent-cost: 2
+Root:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 15.0
+  target-hit-tolerance: 0.2
+  duration: 5000
+ForgeChainLeggings:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  amount: 1
+Conflux:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  max-distance: 8
+  duration: 5000
+  period: 1000
+  duration-increase-per-charisma: 125
+  max-drift: 2.1
+  ncp-exemption-duration: 500
+  apply-text: §7[§2Skill§7] %target% is confluxd!
+  expire-text: §7[§2Skill§7] %target% has regained his wit!
+Potion:
+  lingering-multiplier:
+    instant: 0.5
+    duration: 0.25
+  allow:
+    SPEED: false
+    SPLASH-SPEED: false
+    LINGERING-SPEED: false
+    SPEED-II: false
+    SPLASH-SPEED-II: false
+    LINGERING-SPEED-II: false
+    SLOW: false
+    SPLASH-SLOW: false
+    LINGERING-SLOW: false
+    SLOW-II: false
+    SPLASH-SLOW-II: false
+    LINGERING-SLOW-II: false
+    FAST_DIGGING: false
+    SPLASH-FAST_DIGGING: false
+    LINGERING-FAST_DIGGING: false
+    FAST_DIGGING-II: false
+    SPLASH-FAST_DIGGING-II: false
+    LINGERING-FAST_DIGGING-II: false
+    SLOW_DIGGING: false
+    SPLASH-SLOW_DIGGING: false
+    LINGERING-SLOW_DIGGING: false
+    SLOW_DIGGING-II: false
+    SPLASH-SLOW_DIGGING-II: false
+    LINGERING-SLOW_DIGGING-II: false
+    INCREASE_DAMAGE: false
+    SPLASH-INCREASE_DAMAGE: false
+    LINGERING-INCREASE_DAMAGE: false
+    INCREASE_DAMAGE-II: false
+    SPLASH-INCREASE_DAMAGE-II: false
+    LINGERING-INCREASE_DAMAGE-II: false
+    HEAL: false
+    SPLASH-HEAL: false
+    LINGERING-HEAL: false
+    HEAL-II: false
+    SPLASH-HEAL-II: false
+    LINGERING-HEAL-II: false
+    HARM: false
+    SPLASH-HARM: false
+    LINGERING-HARM: false
+    HARM-II: false
+    SPLASH-HARM-II: false
+    LINGERING-HARM-II: false
+    JUMP: false
+    SPLASH-JUMP: false
+    LINGERING-JUMP: false
+    JUMP-II: false
+    SPLASH-JUMP-II: false
+    LINGERING-JUMP-II: false
+    CONFUSION: false
+    SPLASH-CONFUSION: false
+    LINGERING-CONFUSION: false
+    REGENERATION: false
+    SPLASH-REGENERATION: false
+    LINGERING-REGENERATION: false
+    REGENERATION-II: false
+    SPLASH-REGENERATION-II: false
+    LINGERING-REGENERATION-II: false
+    DAMAGE_RESISTANCE: false
+    SPLASH-DAMAGE_RESISTANCE: false
+    LINGERING-DAMAGE_RESISTANCE: false
+    DAMAGE_RESISTANCE-II: false
+    SPLASH-DAMAGE_RESISTANCE-II: false
+    LINGERING-DAMAGE_RESISTANCE-II: false
+    FIRE_RESISTANCE: false
+    SPLASH-FIRE_RESISTANCE: false
+    LINGERING-FIRE_RESISTANCE: false
+    WATER_BREATHING: false
+    SPLASH-WATER_BREATHING: false
+    LINGERING-WATER_BREATHING: false
+    INVISIBILITY: false
+    SPLASH-INVISIBILITY: false
+    LINGERING-INVISIBILITY: false
+    BLINDNESS: false
+    SPLASH-BLINDNESS: false
+    LINGERING-BLINDNESS: false
+    NIGHT_VISION: false
+    SPLASH-NIGHT_VISION: false
+    LINGERING-NIGHT_VISION: false
+    HUNGER: false
+    SPLASH-HUNGER: false
+    LINGERING-HUNGER: false
+    HUNGER-II: false
+    SPLASH-HUNGER-II: false
+    LINGERING-HUNGER-II: false
+    WEAKNESS: false
+    SPLASH-WEAKNESS: false
+    LINGERING-WEAKNESS: false
+    WEAKNESS-II: false
+    SPLASH-WEAKNESS-II: false
+    LINGERING-WEAKNESS-II: false
+    POISON: false
+    SPLASH-POISON: false
+    LINGERING-POISON: false
+    POISON-II: false
+    SPLASH-POISON-II: false
+    LINGERING-POISON-II: false
+    WITHER: false
+    SPLASH-WITHER: false
+    LINGERING-WITHER: false
+    WITHER-II: false
+    SPLASH-WITHER-II: false
+    LINGERING-WITHER-II: false
+    HEALTH_BOOST: false
+    SPLASH-HEALTH_BOOST: false
+    LINGERING-HEALTH_BOOST: false
+    HEALTH_BOOST-II: false
+    SPLASH-HEALTH_BOOST-II: false
+    LINGERING-HEALTH_BOOST-II: false
+    ABSORPTION: false
+    SPLASH-ABSORPTION: false
+    LINGERING-ABSORPTION: false
+    ABSORPTION-II: false
+    SPLASH-ABSORPTION-II: false
+    LINGERING-ABSORPTION-II: false
+    SATURATION: false
+    SPLASH-SATURATION: false
+    LINGERING-SATURATION: false
+    SATURATION-II: false
+    SPLASH-SATURATION-II: false
+    LINGERING-SATURATION-II: false
+    GLOWING: false
+    SPLASH-GLOWING: false
+    LINGERING-GLOWING: false
+    LEVITATION: false
+    SPLASH-LEVITATION: false
+    LINGERING-LEVITATION: false
+    LEVITATION-II: false
+    SPLASH-LEVITATION-II: false
+    LINGERING-LEVITATION-II: false
+    LUCK: false
+    SPLASH-LUCK: false
+    LINGERING-LUCK: false
+    LUCK-II: false
+    SPLASH-LUCK-II: false
+    LINGERING-LUCK-II: false
+    UNLUCK: false
+    SPLASH-UNLUCK: false
+    LINGERING-UNLUCK: false
+    UNLUCK-II: false
+    SPLASH-UNLUCK-II: false
+    LINGERING-UNLUCK-II: false
+    SLOW_FALLING: false
+    SPLASH-SLOW_FALLING: false
+    LINGERING-SLOW_FALLING: false
+    CONDUIT_POWER: false
+    SPLASH-CONDUIT_POWER: false
+    LINGERING-CONDUIT_POWER: false
+    DOLPHINS_GRACE: false
+    SPLASH-DOLPHINS_GRACE: false
+    LINGERING-DOLPHINS_GRACE: false
+    BAD_OMEN: false
+    SPLASH-BAD_OMEN: false
+    LINGERING-BAD_OMEN: false
+    HERO_OF_THE_VILLAGE: false
+    SPLASH-HERO_OF_THE_VILLAGE: false
+    LINGERING-HERO_OF_THE_VILLAGE: false
+  cooldown:
+    SPEED: 180000
+    SPLASH-SPEED: 180000
+    LINGERING-SPEED: 180000
+    SPEED-II: 180000
+    SPLASH-SPEED-II: 180000
+    LINGERING-SPEED-II: 180000
+    SLOW: 180000
+    SPLASH-SLOW: 180000
+    LINGERING-SLOW: 180000
+    SLOW-II: 180000
+    SPLASH-SLOW-II: 180000
+    LINGERING-SLOW-II: 180000
+    FAST_DIGGING: 180000
+    SPLASH-FAST_DIGGING: 180000
+    LINGERING-FAST_DIGGING: 180000
+    FAST_DIGGING-II: 180000
+    SPLASH-FAST_DIGGING-II: 180000
+    LINGERING-FAST_DIGGING-II: 180000
+    SLOW_DIGGING: 180000
+    SPLASH-SLOW_DIGGING: 180000
+    LINGERING-SLOW_DIGGING: 180000
+    SLOW_DIGGING-II: 180000
+    SPLASH-SLOW_DIGGING-II: 180000
+    LINGERING-SLOW_DIGGING-II: 180000
+    INCREASE_DAMAGE: 180000
+    SPLASH-INCREASE_DAMAGE: 180000
+    LINGERING-INCREASE_DAMAGE: 180000
+    INCREASE_DAMAGE-II: 180000
+    SPLASH-INCREASE_DAMAGE-II: 180000
+    LINGERING-INCREASE_DAMAGE-II: 180000
+    HEAL: 180000
+    SPLASH-HEAL: 180000
+    LINGERING-HEAL: 180000
+    HEAL-II: 180000
+    SPLASH-HEAL-II: 180000
+    LINGERING-HEAL-II: 180000
+    HARM: 180000
+    SPLASH-HARM: 180000
+    LINGERING-HARM: 180000
+    HARM-II: 180000
+    SPLASH-HARM-II: 180000
+    LINGERING-HARM-II: 180000
+    JUMP: 180000
+    SPLASH-JUMP: 180000
+    LINGERING-JUMP: 180000
+    JUMP-II: 180000
+    SPLASH-JUMP-II: 180000
+    LINGERING-JUMP-II: 180000
+    CONFUSION: 180000
+    SPLASH-CONFUSION: 180000
+    LINGERING-CONFUSION: 180000
+    REGENERATION: 180000
+    SPLASH-REGENERATION: 180000
+    LINGERING-REGENERATION: 180000
+    REGENERATION-II: 180000
+    SPLASH-REGENERATION-II: 180000
+    LINGERING-REGENERATION-II: 180000
+    DAMAGE_RESISTANCE: 180000
+    SPLASH-DAMAGE_RESISTANCE: 180000
+    LINGERING-DAMAGE_RESISTANCE: 180000
+    DAMAGE_RESISTANCE-II: 180000
+    SPLASH-DAMAGE_RESISTANCE-II: 180000
+    LINGERING-DAMAGE_RESISTANCE-II: 180000
+    FIRE_RESISTANCE: 180000
+    SPLASH-FIRE_RESISTANCE: 180000
+    LINGERING-FIRE_RESISTANCE: 180000
+    WATER_BREATHING: 180000
+    SPLASH-WATER_BREATHING: 180000
+    LINGERING-WATER_BREATHING: 180000
+    INVISIBILITY: 180000
+    SPLASH-INVISIBILITY: 180000
+    LINGERING-INVISIBILITY: 180000
+    BLINDNESS: 180000
+    SPLASH-BLINDNESS: 180000
+    LINGERING-BLINDNESS: 180000
+    NIGHT_VISION: 180000
+    SPLASH-NIGHT_VISION: 180000
+    LINGERING-NIGHT_VISION: 180000
+    HUNGER: 180000
+    SPLASH-HUNGER: 180000
+    LINGERING-HUNGER: 180000
+    HUNGER-II: 180000
+    SPLASH-HUNGER-II: 180000
+    LINGERING-HUNGER-II: 180000
+    WEAKNESS: 180000
+    SPLASH-WEAKNESS: 180000
+    LINGERING-WEAKNESS: 180000
+    WEAKNESS-II: 180000
+    SPLASH-WEAKNESS-II: 180000
+    LINGERING-WEAKNESS-II: 180000
+    POISON: 180000
+    SPLASH-POISON: 180000
+    LINGERING-POISON: 180000
+    POISON-II: 180000
+    SPLASH-POISON-II: 180000
+    LINGERING-POISON-II: 180000
+    WITHER: 180000
+    SPLASH-WITHER: 180000
+    LINGERING-WITHER: 180000
+    WITHER-II: 180000
+    SPLASH-WITHER-II: 180000
+    LINGERING-WITHER-II: 180000
+    HEALTH_BOOST: 180000
+    SPLASH-HEALTH_BOOST: 180000
+    LINGERING-HEALTH_BOOST: 180000
+    HEALTH_BOOST-II: 180000
+    SPLASH-HEALTH_BOOST-II: 180000
+    LINGERING-HEALTH_BOOST-II: 180000
+    ABSORPTION: 180000
+    SPLASH-ABSORPTION: 180000
+    LINGERING-ABSORPTION: 180000
+    ABSORPTION-II: 180000
+    SPLASH-ABSORPTION-II: 180000
+    LINGERING-ABSORPTION-II: 180000
+    SATURATION: 180000
+    SPLASH-SATURATION: 180000
+    LINGERING-SATURATION: 180000
+    SATURATION-II: 180000
+    SPLASH-SATURATION-II: 180000
+    LINGERING-SATURATION-II: 180000
+    GLOWING: 180000
+    SPLASH-GLOWING: 180000
+    LINGERING-GLOWING: 180000
+    LEVITATION: 180000
+    SPLASH-LEVITATION: 180000
+    LINGERING-LEVITATION: 180000
+    LEVITATION-II: 180000
+    SPLASH-LEVITATION-II: 180000
+    LINGERING-LEVITATION-II: 180000
+    LUCK: 180000
+    SPLASH-LUCK: 180000
+    LINGERING-LUCK: 180000
+    LUCK-II: 180000
+    SPLASH-LUCK-II: 180000
+    LINGERING-LUCK-II: 180000
+    UNLUCK: 180000
+    SPLASH-UNLUCK: 180000
+    LINGERING-UNLUCK: 180000
+    UNLUCK-II: 180000
+    SPLASH-UNLUCK-II: 180000
+    LINGERING-UNLUCK-II: 180000
+    SLOW_FALLING: 180000
+    SPLASH-SLOW_FALLING: 180000
+    LINGERING-SLOW_FALLING: 180000
+    CONDUIT_POWER: 180000
+    SPLASH-CONDUIT_POWER: 180000
+    LINGERING-CONDUIT_POWER: 180000
+    DOLPHINS_GRACE: 180000
+    SPLASH-DOLPHINS_GRACE: 180000
+    LINGERING-DOLPHINS_GRACE: 180000
+    BAD_OMEN: 180000
+    SPLASH-BAD_OMEN: 180000
+    LINGERING-BAD_OMEN: 180000
+    HERO_OF_THE_VILLAGE: 180000
+    SPLASH-HERO_OF_THE_VILLAGE: 180000
+    LINGERING-HERO_OF_THE_VILLAGE: 180000
+  apply-text: ''
+  unapply-text: ''
+  level: 1
+  no-combat-use: false
+ShockingStrike:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 3
+  target-hit-tolerance: 0.2
+  weapons:
+  - WOODEN_AXE
+  - STONE_AXE
+  - IRON_AXE
+  - GOLDEN_AXE
+  - DIAMOND_AXE
+  damage: 30
+  damage-increase-per-intellect: 0.7
+  lightning-volume: 0.0
+Regrowth:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 12
+  target-hit-tolerance: 0.2
+  duration: 15000
+  period: 3000
+  healing: 25
+  healing-increase-per-wisdom: 0.875
+  tick-healing: 29
+  tick-healing-increase-per-wisdom: 0.7
+  apply-text: §7[§2Skill§7] %target% has been given the gift of regrowth!
+  expire-text: §7[§2Skill§7] %target% has lost the gift of regrowth!
+FarSight:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 12000
+GrapplingHook:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  num-shots: 1
+  max-distance: -1
+  safe-fall-duration: 4500
+  duration: 5000
+  horizontal-divider: 6
+  vertical-divider: 8
+  multiplier: 1.0
+  grapple-delay: 0.5
+  ncp-exemption-duration: 3000
+  apply-text: §7[§2Skill§7] %hero% readies his grappling hook!
+  expire-text: §7[§2Skill§7] %hero% drops his grappling hook.
+  reagent: STRING
+  reagent-cost: 2
+PlaceTNT:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  tnt-count: 1
+  harmless-to-entities: true
+  throw: false
+  velocity-multiplier: 1.5
+BoilBlood:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  damage: 70
+  damage-increase-per-intellect: 1.25
+  radius: 5
+  tick-damage: 10
+  tick-damage-increase-per-intellect: 0.15
+  period: 2000
+  duration: 12000
+  apply-text: §7[§2Skill§7] %target%'s blood begins to boil!
+  expire-text: §7[§2Skill§7] %target%'s blood is no longer boiling.
+  blood-union-required-for-use: 3
+  max-targets: 6
+DeathMark:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 60000
+  period: 5000
+  damage-increase-percent: 0.1
+  target-min-combat-level: 10
+Frenzy:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  nausea-amplifier: 3
+  outgoing-damage-increase: 0.15
+  incoming-damage-increase: 0.25
+  duration: 8000
+  apply-text: §7[§2Skill§7] %hero% has entered a frenzy!
+  expire-text: §7[§2Skill§7] %hero% is no longer in a frenzy!
+Clarity:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  radius: 10
+  mana-regen: 1.2
+  mana-regen-increase-per-intellect: 0.375
+  duration: 180000
+  apply-text: §7[§2Skill§7] You feel a bit wiser!
+  expire-text: §7[§2Skill§7] You no longer feel as wise!
+Warsong:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  radius: 12
+  damage-bonus: 1.1
+  damage-bonus-increase-per-charisma: 0.00375
+  duration: 3000
+  apply-text: §7[§2Skill§7] Your muscles bulge with power!
+  expire-text: §7[§2Skill§7] You feel strength leave your body!
+  delay: 1000
+Bash:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 3
+  target-hit-tolerance: 0.2
+  damage: 30
+  damage-increase-per-strength: 0.7
+Megabolt:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 7
+  target-hit-tolerance: 0.2
+  max-distance-increase-per-intellect: 0.125
+  damage: 100
+  damage-increase-per-intellect: 1.75
+  radius: 5
+  reagent: 289
+  reagent-cost: 2
+  lightning-volume: 0.0
+GiganticRunestone:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  no-combat-use: true
+  delay: 8000
+  max-uses: 15
+Mark:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  no-combat-use: true
+  cooldown: 3180000
+  delay: 5000
+  reagent: 265
+  reagent-cost: 1
+AimedShot:
+  use-text: ''
+  max-distance: 40
+  target-hit-tolerance: 0.2
+  damage: 125
+  damage-increase-per-dexterity: 3.1
+  delay: 3000
+  grace-period: 4000
+  apply-text: §7[§2Skill§7] %hero% is locked on!
+  delay-text: §7[§2Skill§7] %hero% begins to hone in his aim on %target%
+  expire-text-fail: §7[§2Skill§7] %hero% has lost sight of his target.
+  expire-text-success: §7[§2Skill§7] %hero% has unleashed a powerful §lAimed Shot§r§7
+    on %target%!
+ChaoticStrength:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 15000
+  strength-buff: 18
+  intellect-drain: 15
+  apply-text: §7[§2Skill§7] %hero% is imbued with Chaotic Strength!
+  expire-text: §7[§2Skill§7] %hero%'s Chaotic Strength fades.
+Gift:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 15.0
+  target-hit-tolerance: 0.2
+  max-amount: 64
+  send-text: '%hero% has sent you %amount% %item%'
+Reincarnate:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  delay: 8000
+  reagent: POPPY
+  reagent-cost: 1
+Gills:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 60000
+  apply-text: §7[§2Skill§7] %hero% has grown a set of gills!
+  expire-text: §7[§2Skill§7] %hero% lost their gills!
+AbsorbRunes:
+  use-text: §7[§2Skill§7] %hero% absorbs his Runes!
+  weapons:
+  - WOODEN_SWORD
+  - STONE_SWORD
+  - IRON_SWORD
+  - GOLDEN_SWORD
+  - DIAMOND_SWORD
+  conversion-rate: 0.35
+  fail-text-no-runes: §7[§2Skill§7] §fYou have no Runes to absorb!
+  rune-application-cooldown: 1000
+  imbued-runes-text-empty: §7[§2Skill§7] §fYour weapon is no longer imbued with Runes!
+  imbued-runes-text-start: '§7[§2Skill§7] §fImbued Runes: <'
+  imbued-runes-text-delimiter: §f|
+  imbued-runes-text-end: §f>
+CombustBlood:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 10
+  target-hit-tolerance: 0.2
+  max-distance-increase-per-intellect: 0.2
+  damage: 95
+  damage-increase-per-intellect: 0.75
+  blood-union-increase: 1
+  blood-union-required-for-dot: 3
+  tick-damage: 14
+  tick-damage-increase-per-intellect: 0.15
+  period: 2500
+  duration: 7500
+  apply-text: §7[§2Skill§7] %target% is bleeding from the effects of their Combusted
+    Blood!
+  expire-text: §7[§2Skill§7] %target% is no longer bleeding.
+Balance:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  radius: 7
+  radius-increase-per-wisdom: 0.005
+Wrath:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 6
+  target-hit-tolerance: 0.2
+  undead-damage: 120
+  damage: 60.0
+  damage-increase-per-intellect: 1.15
+Revive:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  delay: 10000
+  reagent: POPPY
+  reagent-cost: 1
+Disenchant:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+PickPocket:
+  use-text: ''
+  max-distance: 15.0
+  target-hit-tolerance: 0.2
+  base-chance: 0.1
+  chance-per-level: 0.003
+  failure-message: '%hero% failed to steal from %target%!'
+  noisy-success-message: '%hero% stole %target%s %item%!'
+  disallowed-items:
+  - ''
+  always-steal-all: true
+  max-stolen: 64
+Kotesu:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 5
+  target-hit-tolerance: 0.2
+  damage: 50
+  damage-increase-per-intellect: 1.6
+  apply-text: §7[§2Skill§7] $1 is slowed by Kotesu's power!
+  expire-text: §7[§2Skill§7] Kotesu's power fades from $1.
+  sword-sacrifice-percent: 5
+  slowness-duration: 2000
+  slowness-amplitude: 2
+SummonChicken:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  chance-2x: 0.2
+  chance-3x: 0.1
+  max-distance: 20
+  chance-2x-per-level: 0.0
+  chance-3x-per-level: 0.0
+FauxBomb:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  damage: 0
+  radius: 5
+  fuse-time: 6000
+  velocity: 1.0
+  reagent: 367
+  reagent-cost: 0
+Ashura:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 5
+  target-hit-tolerance: 0.2
+  damage: 50
+  damage-increase-per-intellect: 1.6
+  sword-sacrifice-percent: 5
+  horizontal-power: 1.5
+  horizontal-power-increase-per-strength: 0.0375
+  vertical-power: 0.25
+  vertical-power-increase-per-strength: 0.0075
+  ncp-exemption-duration: 1500
+  push-delay: 0.2
+Cleave:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 4
+  target-hit-tolerance: 0.2
+  weapons:
+  - WOODEN_SWORD
+  - STONE_SWORD
+  - IRON_SWORD
+  - GOLDEN_SWORD
+  - DIAMOND_SWORD
+  radius: 3
+  damage-multiplier: 0.75
+Innervate:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  mana-bonus: 0.75
+BoastfulBellow:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 4
+  target-hit-tolerance: 0.2
+  damage: 60
+  damage-increase-per-intellect: 1.5
+  radius: 3
+DragonsBreath:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  max-distance: 6
+  damage: 80
+  damage-increase-per-intellect: 1.125
+  radius: 3
+  breath-travel-delay: 1
+ImbueRunestone:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  no-combat-use: true
+  max-message-length: 40
+Impale:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 9
+  target-hit-tolerance: 0.2
+  weapons:
+  - WOODEN_SPADE
+  - WOODEN_SHOVEL
+  - STONE_SPADE
+  - STONE_SHOVEL
+  - IRON_SPADE
+  - IRON_SHOVEL
+  - GOLDEN_SPADE
+  - GOLDEN_SHOVEL
+  - DIAMOND_SPADE
+  - DIAMOND_SHOVEL
+  damage: 50
+  damage-increase-per-strength: 1.0
+  duration: 3000
+  amplitude: 2
+  apply-text: §7[§2Skill§7] %target% has been slowed by %hero%'s impale!
+  expire-text: §7[§2Skill§7] %target% is no longer slowed!
+InfernoOrb:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  damage: 80
+  damage-increase-per-intellect: 1.25
+  velocity-multiplier: 0.5
+  fire-ticks: 50
+Duskblade:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 4
+  target-hit-tolerance: 0.2
+  damage: 85
+  damage-increase-per-strength: 0.75
+  heal-mult: 1.0
+SongOfRespiration:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  radius: 7
+  duration: 6000
+  duration-increase-per-charisma: 225
+  delay: 1000
+  apply-text: §7[§2Skill§7] You are filled with increased respiration!
+  expire-text: §7[§2Skill§7] Your increased respiration has faded.
+BoneSpear:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  max-distance: 20
+  damage: 80
+  damage-increase-per-intellect: 1.125
+  radius: 2
+  spear-move-delay: 2
+Hellgate:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  radius: 10
+  teleport-absolute: false
+  x: 612
+  y: 124
+  z: -65
+  hell-world: hell
+  default-return: bastion
+Light:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 30000
+  period: 200
+  apply-text: §7[§2Skill§7] %hero% is lighting the way.
+  expire-text: §7[§2Skill§7] %hero% is no longer lighting the way
+PoisonArrow:
+  use-text: '%hero% imbues their arrows with poison!'
+  duration: 10000
+  period: 2000
+  mana-per-shot: 1
+  tick-damage: 2
+  apply-text: '%target% is poisoned!'
+  expire-text: '%target% has recovered from the poison!'
+Curse:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 15.0
+  target-hit-tolerance: 0.2
+  duration: 5000
+  miss-chance: 0.5
+  miss-text: '%target% misses an attack!'
+  apply-text: '%target% has been cursed!'
+  expire-text: '%target% has recovered from the curse!'
+ExplosiveShot:
+  use-text: ''
+  num-shots: 1
+  duration: 4000
+  radius: 4
+  damage: 80.0
+  damage-increase-per-intellect: 2.0
+  horizontal-power: 1.1
+  vertical-power: 0.5
+  ncp-exemption-duration: 500
+  cancel-arrow-damage: true
+  alt-arrow-damage: 75.0
+  apply-text: §7[§2Skill§7] %hero%'s arrows are §f§lExplosive§r!
+  expire-text: §7[§2Skill§7] %hero%'s arrows are no longer Explosive.
+Despair:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  damage: 55
+  damage-increase-per-intellect: 0.5
+  radius: 8
+  duration: 4000
+  duration-increase-per-charisma: 50
+  apply-text: §7[§2Skill§7] %hero% has blinded %target% with %skill%!
+  expire-text: §7[§2Skill§7] %hero% has recovered their sight!
+  reagent: ROTTEN_FLESH
+  reagent-cost: 1
+Blessing:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 10
+  target-hit-tolerance: 0.2
+  duration: 300000
+  duration-increase-per-level: 10000
+  attribute-increase: 5
+  apply-text: $1 is Blessed!
+  expire-text: $1 is no longer Blessed.
+Splendor:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 10
+  target-hit-tolerance: 0.2
+  duration: 600000
+  duration-increase-per-level: 30000
+  cha-increase: 15
+  apply-text: $1 is willing to use Splendor!
+  expire-text: $1 is no longer using Splendor.
+GroupHeal:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  heal-amount: 2
+  radius: 5
+SummonSheep:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  chance-2x: 0.2
+  chance-3x: 0.1
+  max-distance: 20
+  chance-2x-per-level: 0.0
+  chance-3x-per-level: 0.0
+Enlightenment:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 10
+  target-hit-tolerance: 0.2
+  duration: 600000
+  duration-increase-per-level: 30000
+  attribute-increase: 15
+  apply-text: $1 is Enlightened!
+  expire-text: $1 is no longer Enlightened.
+Doomwave:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  enderpearls-launched: 12
+  enderpearls-launched-per-intellect: 0.325
+  velocity-multiplier: 1.0
+  damage: 90
+  damage-increase-per-intellect: 1.5
+  reagent: 289
+  reagent-cost: 1
+AssemblePickaxe:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  amount: 1
+Courage:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 10
+  target-hit-tolerance: 0.2
+  duration: 600000
+  duration-increase-per-level: 30000
+  con-increase: 15
+  apply-text: $1 is encouraged and has Courage!
+  expire-text: $1 goes back to being discouraged.
+Bandage:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 5
+  target-hit-tolerance: 0.2
+  health: 5
+  health-per-level: 0
+  reagent: 339
+  reagent-cost: 1
+Spear:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 12
+  target-hit-tolerance: 0.2
+  damage: 45
+  damage-increase-per-strength: 1.375
+  weapons:
+  - WOODEN_SPADE
+  - WOODEN_SHOVEL
+  - STONE_SPADE
+  - STONE_SHOVEL
+  - IRON_SPADE
+  - IRON_SHOVEL
+  - GOLDEN_SPADE
+  - GOLDEN_SHOVEL
+  - DIAMOND_SPADE
+  - DIAMOND_SHOVEL
+  ncp-exemption-duration: 1000
+  delay: 500
+Confuse:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 15.0
+  target-hit-tolerance: 0.2
+  duration: 10000
+  period: 1000
+  max-drift: 0.35
+  apply-text: '%target% is confused!'
+  expire-text: '%target% has regained his wit!'
+SmokeBomb:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 5500
+  apply-text: §7[§2Skill§7] Someone vanished in a cloud of smoke!
+  expire-text: §7[§2Skill§7] %hero% has reappeared!
+  reagent: GUNPOWDER
+  reagent-cost: 1
+Web:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 15.0
+  target-hit-tolerance: 0.2
+  duration: 5000
+  apply-text: '%hero% conjured a web at %target%''s feet!'
+DreadAura:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  radius: 7
+  damage: 28
+  damage-increase-per-intellect: 0.05
+  maximum-healing-per-tick: 25.0
+  mana-activate: 150
+  mana-tick: 7
+  heal-mult: 0.2
+  period: 3000
+  apply-text: §7[§2Skill§7] %hero% is emitting an aura of dread!
+  expire-text: §7[§2Skill§7] %hero% is no longer emitting an aura of dread.
+Recall:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  no-combat-use: true
+  delay: 10000
+  reagent: 331
+  reagent-cost: 10
+Deconstruct:
+  IRON_AXE:
+    level: 1
+    exp: 0
+    min-durability: 0.5
+    IRON_INGOT: 1
+    STICK: 1
+  use-text: '%hero% has deconstructed a %item%'
+  require-workbench: true
+Fireball:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  damage: 80
+  damage-increase-per-intellect: 1.25
+  velocity-multiplier: 1.5
+  fire-ticks: 50
+DivineBlessing:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  healing: 120
+  healing-increase-per-wisdom: 1.75
+  radius: 8
+QuiveringPalm:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 4
+  target-hit-tolerance: 0.2
+  duration: 20000
+  damage: 50
+  damage-increase-per-strength: 1.0
+  apply-text: §7[§2Skill§7] %target% is weakened by a §lQuiveringPalm§l!
+  expire-text: §7[§2Skill§7] %target% has recovered from the effects of the §lQuiveringPalm§l!
+  damage-multiplier: 1.075
+SummonRabbit:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  chance-2x: 0.2
+  chance-3x: 0.1
+  max-distance: 20
+  chance-2x-per-level: 0.0
+  chance-3x-per-level: 0.0
+HarmShield:
+  use-text: ''
+  damage-multiplier: 0.2
+  duration: 10000
+  apply-text: §7[§2Skill§7] %hero% is shielded from harm!
+  expire-text: §7[§2Skill§7] %hero% lost his harm shield!
+HealingChorus:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 3000
+  radius: 12
+  period: 1500
+  tick-healing: 17
+  healing-increase-per-charisma: 0.175
+  apply-text: §7[§2Skill§7] You are gifted with %hero%'s chorus of healing.
+  expire-text: §7[§2Skill§7] %hero%'s chorus of healing has ended.
+  delay: 1000
+IceRune:
+  use-text: §7[§2Skill§7] %hero% imbues his blade with a Rune of §bIce.
+  damage: 35
+  damage-increase-per-intellect: 0.75
+  speed-multiplier: 2
+  duration: 2000
+  apply-text: §7[§2Skill§7] %target% has been slowed by a Rune of Ice!
+  expire-text: §7[§2Skill§7] %target% is no longer slowed!
+  rune-chat-color: §b
+MajorRunestone:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  no-combat-use: true
+  delay: 5000
+  max-uses: 8
+Chakra:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  radius: 5
+  radius-increase-per-wisdom: 0.125
+  healing: 75
+  healing-increase-per-wisdom: 0.875
+  max-removals: 0
+  max-removals-increase-per-wisdom: 0.05
+SummonBat:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  chance-2x: 0.2
+  chance-3x: 0.1
+  max-distance: 20
+  chance-2x-per-level: 0.0
+  chance-3x-per-level: 0.0
+Dispel:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 15.0
+  target-hit-tolerance: 0.2
+  max-removals: 3
+LabelChest:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  chance: 1.0
+  chance-per-level: 0.0
+  possible-items:
+  - WOODEN_PICKAXE
+  - STONE_PICKAXE
+  - IRON_PICKAXE
+  - GOLDEN_PICKAXE
+  - DIAMOND_PICKAXE
+  - TRAPPED_CHEST
+  - ENDER_CHEST
+  - CHEST
+Meditate:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  mana-bonus: 0.5
+  stamina-bonus: 0.7
+Soothe:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 8
+  target-hit-tolerance: 0.2
+  is-scaled-healing: false
+  healing-scale-expression: '1'
+  healing: 65
+  healing-increase-per-wisdom: 1.5
+Eruption:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  damage: 200.0
+  damage-increase-per-intellect: 1.0
+  duration: 10
+  duration-increase-per-wisdom: 1
+  knockup: true
+  knockup-velocity: 1.0
+  knockup-multiplier: 2.0
+TransmuteOre:
+  COAL:
+    product: IRON_ORE
+    reagent-cost: 5
+    level: 1
+  IRON_ORE:
+    product: GOLD_ORE
+    reagent-cost: 3
+    level: 1
+  LAPIS_BLOCK:
+    product: DIAMOND
+    reagent-cost: 1
+    level: 1
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  require-furnace: false
+BerserkerRage:
+  apply-text: ''
+  unapply-text: §7[§2Skill§7] %hero% lost %skill%!
+  expire-text: ''
+  damage-percent-increase-per-hp-percent: 0.0075
+  damage-percent-increase-threshhold: 0.4
+SacredTouch:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 10
+  target-hit-tolerance: 0.2
+  is-scaled-healing: false
+  healing-scale-expression: '1'
+  healing: 150
+  healing-increase-per-wisdom: 3.75
+ParryMagic:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 5000
+  apply-text: '%hero% raised their guard!'
+  expire-text: '%hero% lowered their guard!'
+  parry-text: '%hero% parried an attack!'
+  parry-skill-text: '%hero% has parried %target%''s %skill%.'
+Honor:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  radius: 10
+  con-increase: 5
+  con-increase-per-strength: 0.0
+  duration: 180000
+  apply-text: §7[§2Skill§7] Honor is bestowed upon you!
+  expire-text: §7[§2Skill§7] You are no longer honorable!
+SummonMooshroomCow:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  chance-2x: 0.2
+  chance-3x: 0.1
+  max-distance: 20
+  chance-2x-per-level: 0.0
+  chance-3x-per-level: 0.0
+ThickenBlood:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 7
+  target-hit-tolerance: 0.2
+  duration: 2000
+  duration-increase-per-intellect: 75
+  apply-text: §7[§2Skill§7] %target%'s blood has thickened!
+  expire-text: §7[§2Skill§7] %target%'s blood returns to normal.
+RampartVine:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  max-distance: 12
+  max-distance-increase-per-intellect: 0.2
+  duration: 15000
+  max-growth-distance: 30
+  apply-text: §7[§2Skill§7] %hero% creates an overgrowth of vines!
+  expire-text: §7[§2Skill§7] %hero%'s vines have withered.
+SiphonBlood:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 8
+  target-hit-tolerance: 0.2
+  max-distance-increase-per-intellect: 0.1
+  damage: 80
+  damage-increase-per-intellect: 1.0
+  heal-mult: 1.1
+  blood-union-heal-mult-increase: 0.06
+  blood-union-increase: 1
+Lunge:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 8
+  target-hit-tolerance: 0.2
+  max-distance-increase-per-strength: 0.15
+  vertical-power: 1.0
+  horizontal-divider: 6
+  vertical-divider: 8
+  multiplier: 1.0
+  jump-delay: 0.3
+  ncp-exemption-duration: 2000
+Maim:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 4
+  target-hit-tolerance: 0.2
+  weapons:
+  - WOODEN_SWORD
+  - STONE_SWORD
+  - IRON_SWORD
+  - GOLDEN_SWORD
+  - DIAMOND_SWORD
+  - WOODEN_AXE
+  - STONE_AXE
+  - IRON_AXE
+  - GOLDEN_AXE
+  - DIAMOND_AXE
+  - WOODEN_SPADE
+  - WOODEN_SHOVEL
+  - STONE_SPADE
+  - STONE_SHOVEL
+  - IRON_SPADE
+  - IRON_SHOVEL
+  - GOLDEN_SPADE
+  - GOLDEN_SHOVEL
+  - DIAMOND_SPADE
+  - DIAMOND_SHOVEL
+  - WOODEN_HOE
+  - STONE_HOE
+  - IRON_HOE
+  - GOLDEN_HOE
+  - DIAMOND_HOE
+  - BOW
+  - TRIDENT
+  amplitude: 3
+  damage: 60
+  damage-increase-per-strength: 1.0
+  duration: 2500
+  apply-text: §7[§2Skill§7] %target% has been maimed by %hero%!
+  expire-text: §7[§2Skill§7] %target% is no longer slowed!
+Envenom:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  weapons:
+  - WOODEN_SWORD
+  - STONE_SWORD
+  - IRON_SWORD
+  - GOLDEN_SWORD
+  - DIAMOND_SWORD
+  duration: 10000
+  damage: 5
+  damage-increase-per-intellect: 2.0
+  apply-text: §7[§2Skill§7] %hero% has coated his weapons with a deadly poison.
+  expire-text: §7[§2Skill§7] %hero%'s weapons are no longer poisoned.
+Pray:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 25
+  target-hit-tolerance: 0.2
+  is-scaled-healing: false
+  healing-scale-expression: '1'
+  healing: 10
+Cauterize:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 15.0
+  target-hit-tolerance: 0.2
+Barrier:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  damage-multiplier: 0.4
+  damage-multiplier-increase-per-intellect: 0.00875
+  duration: 5000
+  duration-increase-per-intellect: 75
+  slow-amplifier: 35
+  disarm-duration: 3000
+  apply-text: §7[§2Skill§7] %hero% has created a Barrier!
+  expire-text: §7[§2Skill§7] %hero%'s Barrier has faded.
+PiercingStrike:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 7
+  target-hit-tolerance: 0.2
+  weapons:
+  - WOODEN_SPADE
+  - WOODEN_SHOVEL
+  - STONE_SPADE
+  - STONE_SHOVEL
+  - IRON_SPADE
+  - IRON_SHOVEL
+  - GOLDEN_SPADE
+  - GOLDEN_SHOVEL
+  - DIAMOND_SPADE
+  - DIAMOND_SHOVEL
+  damage-multiplier: 0.5
+Infusion:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 8
+  target-hit-tolerance: 0.2
+  health-increase-percent-per-blood-union: 0.03
+  healing: 75
+  healing-increase-per-wisdom: 1.0
+  health-cost: 35
+  mana: 80
+MassPiggify:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  radius: 5
+  duration: 2500
+  duration-increase-per-charisma: 38
+ArcaneStorm:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  radius: 5.0
+  duration: 6000
+  period: 1000
+  tick-damage: 100.0
+  tick-damage-increase-per-intellect: 1.0
+Provoke:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 4
+  target-hit-tolerance: 0.2
+  duration: 6000
+  outgoing-damage-increase-percent: 0.35
+  incoming-damage-increase-percent: 0.2
+  apply-text: §7[§2Skill§7] %target% was provoked by %hero%!
+  expire-text: §7[§2Skill§7] %target% is no longer provoked!
+  provoke-message-speed: 1000
+  provoke-text: '%hero% is provoking you!'
+Darkscythe:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  weapons:
+  - WOODEN_AXE
+  - STONE_AXE
+  - IRON_AXE
+  - GOLDEN_AXE
+  - DIAMOND_AXE
+  duration: 10000
+  damage: 5
+  damage-increase-per-intellect: 2.0
+  apply-text: §7[§2Skill§7] %hero% has coated his weapons with suffering.
+  expire-text: §7[§2Skill§7] %hero%'s weapons are no longer enhanced.
+ForgeShield:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  amount: 1
+Rejuvenate:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 10
+  target-hit-tolerance: 0.2
+  duration: 20000
+  period: 2000
+  tick-healing: 10
+  healing-increase-per-wisdom: 0.25
+Eviscerate:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 4
+  target-hit-tolerance: 0.2
+  damage: 100
+  damage-increase-per-strength: 3.75
+  weapons:
+  - WOODEN_SWORD
+  - STONE_SWORD
+  - IRON_SWORD
+  - GOLDEN_SWORD
+  - DIAMOND_SWORD
+ForgeChainBoots:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  amount: 1
+SmeltGold:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  no-combat-use: true
+  base-nugget-chance: 10
+  chance-gain-per-level: 0.25
+Terror:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 7
+  target-hit-tolerance: 0.2
+  amplifier: 2
+  duration: 4000
+  duration-increase-per-charisma: 75
+  apply-text: §7[§2Skill§7] %target% has been overcome with fear!
+  expire-text: §7[§2Skill§7] %target% has overcome his fear!
+BloodBond:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  heal-percent: 0.15
+  radius: 12
+  mana-tick: 13
+  mana-tick-period: 1000
+  toggle-on-text: §7[§2Skill§7] %hero% has formed a §lBloodBond§r!
+  toggle-off-text: §7[§2Skill§7] %hero% has broken his §lBloodBond§r!
+DarkBlade:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 4
+  target-hit-tolerance: 0.2
+  damage: 85
+  damage-increase-per-strength: 0.75
+  mana-drain: 100
+Forcepush:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 5
+  target-hit-tolerance: 0.2
+  damage: 50
+  damage-increase-per-intellect: 1.6
+  horizontal-power: 1.5
+  horizontal-power-increase-per-intellect: 0.0375
+  vertical-power: 0.25
+  vertical-power-increase-per-intellect: 0.0075
+  ncp-exemption-duration: 1500
+  push-delay: 0.2
+Backflip:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  no-air-backflip: false
+  horizontal-power: 0.5
+  horizontal-power-increase-per-dexterity: 0.0125
+  vertical-power: 0.5
+  vertical-power-increase-per-dexterity: 0.00625
+  ncp-exemption-duration: 2000
+FullHeal:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 8
+  target-hit-tolerance: 0.2
+  max-distance-increase-per-intellect: 0.15
+  self-heal-modifier: 0.5
+Sacrifice:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  radius: 10
+  con-increase: 5
+  con-increase-per-strength: 0.0
+  str-increase: 5
+  str-increase-per-strength: 0.0
+  duration: 180000
+  apply-text: §7[§2Skill§7] A sacrifice was made for your sake!
+  expire-text: §7[§2Skill§7] The sacrifice's effect wore off...
+BruteForce:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 10
+  target-hit-tolerance: 0.2
+  duration: 600000
+  duration-increase-per-level: 30000
+  str-increase: 15
+  apply-text: $1 is willing to use Brute Force!
+  expire-text: $1 is no longer using Brute Force.
+Mining:
+  apply-text: §7[§2Skill§7] %hero% gained %skill%!
+  unapply-text: §7[§2Skill§7] %hero% lost %skill%!
+  chance-per-level: 0.001
+  chance-from-stone: 5.0E-4
+SummonCat:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  chance-2x: 0.2
+  chance-3x: 0.1
+  max-distance: 20
+  chance-2x-per-level: 0.0
+  chance-3x-per-level: 0.0
+Disarm:
+  use-text: §7[§2Skill§7] %target% was disarmed by %hero%!
+  max-distance: 4
+  target-hit-tolerance: 0.2
+  duration: 3000
+  apply-text: ''
+  expire-text: §7[§2Skill§7] %target% has found their weapon again!
+Nightmare:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 8.0
+  target-hit-tolerance: 0.2
+  tick-damage: 250.0
+  tick-damage-increase-per-intellect: 1.0
+  spike-height: 3.0
+  does-knock-up: true
+  knock-up-strength: 0.6
+  duration: 5000
+  period: 1000
+  apply-text: §7[§2Skill§7] %target% has been cast into a nightmare!
+  expire-text: §7[§2Skill§7] %target% has awoken from a nightmare!
+BloodUnion:
+  apply-text: ''
+  unapply-text: ''
+  period: 25000
+  max-blood-union: 4
+Blitz:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 5
+  target-hit-tolerance: 0.2
+  max-distance-increase-per-intellect: 0.1
+  damage: 180
+  damage-increase-per-intellect: 2
+  reagent: 289
+  reagent-cost: 1
+  lightning-volume: 0.0
+GreatCombustion:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  max-distance: 4
+  duration: 750
+  duration-increase-per-charisma: 32
+  radius: 4
+  damage: 100
+  damage-increase-per-intellect: 1.875
+  delay: 1500
+Antidote:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 15.0
+  target-hit-tolerance: 0.2
+Reborn:
+  apply-text: §7[§2Skill§7] %hero% gained %skill%!
+  unapply-text: §7[§2Skill§7] %hero% lost %skill%!
+  health-percent-on-rebirth: 0.5
+  health-increase: 0.0
+  on-reborn-text: '%hero% is saved from death, but weakened!'
+  cooldown: 600000
+  cooldown-reduce: 0
+Safefall:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 6000
+Battlesong:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  radius: 12
+  stamina-restore-tick: 7
+  stamina-restore-tick-increase-per-charisma: 0.275
+  period: 1500
+  duration: 3000
+  apply-text: '§7[§2Skill§7] You are filled with '
+  expire-text: §7[§2Skill§7] You feel strength leave your body!
+  delay: 1000
+Flameshield:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 8000
+  apply-text: §7[§2Skill§7] %hero% conjured a shield of flames!
+  expire-text: §7[§2Skill§7] %hero% lost his shield of flames!
+  skill-block-text: §7[§2Skill§7] %name%'s flameshield has blocked %hero%'s %skill%.
+ChainLightning:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 15.0
+  target-hit-tolerance: 0.2
+  damage: 100.0
+  bounceTime: 2000
+  bounceRadius: 5
+  bounceDamageMultiplier: 0.75
+  bounceCooldownReduction: 1000
+  lightning-volume: 0.0
+DarkRitual:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  health-cost: 100
+  mana-gain: 150
+TimeRune:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 15.0
+  target-hit-tolerance: 0.2
+  duration: 10000
+  healing-percentage: 0.25
+  healing-percentage-per-wisdom: 0.005
+  preserve-look-direction: true
+  preserve-velocity: true
+FistOfJin:
+  apply-text: ''
+  unapply-text: ''
+  healing-internal-cooldown: 1000
+  heal-per-hit-self: 8
+  heal-per-hit-party: 3
+  healing-increase-per-wisdom: 0.15
+  radius: 6
+  radius-increase-per-wisdom: 0.1
+  is-scaled-healing: false
+  healing-scale-expression: '1'
+  weapons:
+  - AIR
+  - STICK
+  - FISHING_ROD
+  - RAW_FISH
+  - BLAZE_ROD
+Runeword:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 10
+  target-hit-tolerance: 0.2
+  damage-bonus: 1.2
+  duration: 20000
+  apply-text: §7[§2Skill§7] %target% has been cursed by a Runeword!
+  expire-text: §7[§2Skill§7] The Runeword's curse fades from %target%!
+GroupTeleport:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+Repair:
+  use-text: '%hero% repaired a %item%%ench%'
+  wood-weapons: 1
+  stone-weapons: 1
+  iron-weapons: 1
+  gold-weapons: 1
+  diamond-weapons: 1
+  leather-armor: 1
+  iron-armor: 1
+  chain-armor: 1
+  gold-armor: 1
+  diamond-armor: 1
+  wood-tools: 1
+  stone-tools: 1
+  iron-tools: 1
+  gold-tools: 1
+  diamond-tools: 1
+  fishing-rod: 1
+  shears: 1
+  flint-steel: 1
+  unchant-chance: 0.5
+  unchant-chance-reduce: 0.005
+Accelerando:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  radius: 12
+  speed-multiplier: 2
+  duration: 3000
+  apply-text: §7[§2Skill§7] %hero% gained a burst of speed!
+  expire-text: §7[§2Skill§7] %hero% returned to normal speed!
+  delay: 1000
+  cooldown: 1000
+GuardianAngel:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  radius: 7
+  duration: 3000
+Teleport:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  cooldown: 180000
+  reagent: 264
+  reagent-cost: 1
+Awaken:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  delay: 7500
+  reagent: POPPY
+  reagent-cost: 0
+Forage:
+  forest:
+    items:
+    - APPLE
+    chance: 0.01
+    max-found: 3
+  plains:
+    items:
+    - WHEAT
+    - MELON
+    chance: 0.01
+    max-found: 3
+  water:
+    items:
+    - RAW_FISH
+    chance: 0.01
+    max-found: 3
+  swamp:
+    items:
+    - RED_MUSHROOM
+    - BROWN_MUSHROOM
+    - RAW_FISH
+    - VINE
+    chance: 0.01
+    max-found: 4
+  desert:
+    items:
+    - CACTUS
+    - SUGAR_CANE
+    chance: 0.005
+    max-found: 2
+  hell:
+    items:
+    - ROTTEN_FLESH
+    chance: 0.005
+    max-found: 1
+  sky:
+    items:
+    - VINE
+    chance: 0.01
+    max-found: 3
+  ice:
+    items:
+    - RAW_FISH
+    chance: 0.005
+    max-found: 1
+  mushroom:
+    items:
+    - RED_MUSHROOM
+    - BROWN_MUSHROOM
+    - HUGE_MUSHROOM_1
+    - HUGE_MUSHROOM_2
+    chance: 0.1
+    max-found: 2
+  default:
+    items: []
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+Ultravision:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 180000
+  apply-text: §7[§2Skill§7] %hero% gains Ultravision!
+  expire-text: §7[§2Skill§7] %hero% lost Ultravision!
+Backstab:
+  use-text: ''
+  backstab-text: ''
+  weapons:
+  - WOODEN_SWORD
+  - STONE_SWORD
+  - IRON_SWORD
+  - GOLDEN_SWORD
+  - DIAMOND_SWORD
+  backstab-chance: -1.0
+  backstab-bonus: 0.05
+  backstab-bonus-increase-per-dexterity: 0.04125
+  ambush-chance: -1.0
+  ambush-bonus: 0.1
+  ambush-bonus-increase-per-dexterity: 0.06375
+  allow-vanilla-sneaking: false
+DevouringDarkness:
+  use-text: ''
+  darkness-buff-duration: 3000
+  darkness-buff-period: 1500
+  radius: 6
+  darkness-slow-duration: 1500
+  slow-amplifier: 0
+  slow-amplifier-increase-per-intellect: 0.075
+  apply-text: §7[§2Skill§7] %hero% emits a devouring darkness!
+  expire-text: §7[§2Skill§7] %hero% is no longer emitting darkness.
+  delay: 1000
+  cooldown: 1000
+  max-targets: 5
+Inversion:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 15.0
+  target-hit-tolerance: 0.2
+  max-damage: 0
+  damage-modifier: 1
+  damage-modifier-increase: 0
+SummonSword:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  amount: 1
+Superheat:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 20000
+  apply-text: '%hero%''s pick has become superheated!'
+  expire-text: '%hero%''s pick has cooled down!'
+Camouflage:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 30000
+  apply-text: You blend into the terrain
+  expire-text: You come back into view
+  fail-text: The surrounding terrain isn't natural enough
+  detection-range: 1.0
+  max-move-distance: 1.0
+HealingSurge:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 10
+  target-hit-tolerance: 0.2
+  duration: 20000
+  period: 2000
+  tick-healing: 10
+  healing-increase-per-wisdom: 0.25
+  mana-stamina-recover-percent: 1.0
+  mana-stamina-recover-percent-per-intellect: 0.1
+Cripple:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 15
+  target-hit-tolerance: 0.2
+  duration: 10000
+  duration-increase: 0
+  period: 1000
+  tick-damage: 2
+  tick-damage-increase: 0
+  damage: 5
+  damage-incrase: 0
+  max-distance-increase: 0
+  apply-text: '%target% has been Crippled by %hero%!'
+  remove-text: '%target% has recovered from %hero%s Crippling blow!'
+MortalWound:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 2
+  target-hit-tolerance: 0.2
+  weapons:
+  - WOODEN_SWORD
+  - STONE_SWORD
+  - IRON_SWORD
+  - GOLDEN_SWORD
+  - DIAMOND_SWORD
+  duration: 12000
+  period: 3000
+  heal-multiplier: 0.5
+  tick-damage: 1
+  apply-text: '%target% has been mortally wounded by %hero%!'
+  expire-text: '%target% has recovered from their mortal wound!'
+Fishing:
+  apply-text: §7[§2Skill§7] %hero% gained %skill%!
+  unapply-text: §7[§2Skill§7] %hero% lost %skill%!
+  chance-per-level: 0.001
+  leather-level: 5
+  enable-leather: false
+Smoke:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 20000
+  apply-text: You vanish in a cloud of smoke!
+  expire-text: You reappeared!
+DivineFury:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  min-damage: 100.0
+  max-damage: 350.0
+  max-distance: 20.0
+  radius: 0.5
+  velocity: 0.5
+  penetration: 0
+Bladegrasp:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 5000
+  apply-text: '%hero% tightened their grip!'
+  expire-text: '%hero% loosened their grip!'
+  parry-text: '%hero% parried an attack!'
+  parry-skill-text: '%hero% has parried %target%''s %skill%.'
+BloodWell:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  weapons:
+  - WOODEN_AXE
+  - STONE_AXE
+  - IRON_AXE
+  - GOLDEN_AXE
+  - DIAMOND_AXE
+  damage-healing-percent: 0.1
+  maximum-healing: 200
+  duration: 7500
+  apply-text: §7[§2Skill§7] %hero% is drinking blood!
+  expire-text: §7[§2Skill§7] %hero% is no longer drinking blood!
+Woodcutting:
+  apply-text: §7[§2Skill§7] %hero% gained %skill%!
+  unapply-text: §7[§2Skill§7] %hero% lost %skill%!
+  chance-per-level: 0.001
+SummonPig:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  chance-2x: 0.2
+  chance-3x: 0.1
+  max-distance: 20
+  chance-2x-per-level: 0.0
+  chance-3x-per-level: 0.0
+SummonCow:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  chance-2x: 0.2
+  chance-3x: 0.1
+  max-distance: 20
+  chance-2x-per-level: 0.0
+  chance-3x-per-level: 0.0
+HealingBloom:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 20000
+  radius: 15
+  period: 2000
+  tick-healing: 11
+  healing-increase-per-wisdom: 0.275
+Harmtouch:
+  use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
+  max-distance: 4
+  target-hit-tolerance: 0.2
+  damage: 180
+  damage-increase-per-intellect: 1.75
+  health-cost: 75
+  duration: 12000
+  heal-multiplier: 0.5
+  slow-level: 2
+  apply-text: '%target% has been harmfully touched by %hero%!'
+  expire-text: '%target% has recovered from their harmful touch!'
+Pulse:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  damage: 60
+  damage-increase-per-intellect: 1.0
+  radius: 5
+  max-targets: 5
+TornadoKick:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  damage: 50
+  damage-increase-per-strength: 1.125
+  radius: 5
+  delay: 500
+  horizontal-power: 0.4
+  horizontal-power-increase-per-intellect: 0.015
+  vertical-power: 0.2
+  vertical-power-increase-per-intellect: 0.0075
+  ncp-exemption-duration: 1000
+EnchantingBook:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+Taunt:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+Sneak:
+  use-text: §7[§2Skill§7] %hero% used %skill%!
+  duration: 600000
+  damage-cancels: true
+  attacking-cancels: true
+  refresh-interval: 5000

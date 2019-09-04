@@ -1,0 +1,90 @@
+creature-health:
+    Chicken: 4
+    Cow: 10
+    Creeper: 20
+    Ghast: 10
+    Giant: 100
+    Pig: 10
+    Pig_Zombie: 20
+    Sheep: 8
+    Skeleton: 20
+    Ocelot: 10
+    Slime: 16
+    Spider: 20
+    Squid: 10
+    Zombie: 20
+    Wolf: 8
+    Cave_Spider: 20
+    Enderman: 40
+    Ender_Dragon: 200
+    Silverfish: 8
+    Villager: 20
+    Blaze: 20
+    Mushroom_Cow: 10
+    Magma_Cube: 16
+    SnowMan: 4
+    Iron_Golem: 100
+    Bat: 6
+    Wither: 300
+    Witch: 26
+    Horse: 20
+creature-damage:
+    Creeper: 49
+    Giant: 17
+    Zombie: 4
+    Pig_Zombie: 5
+    Ender_Dragon: 10
+    Wolf: 2
+    Enderman: 7
+    Skeleton: 4
+    Spider: 2
+    Cave_Spider: 2
+    SnowMan: 0
+    Iron_Golem: 20
+    Ocelot: 3
+    Slime: 4
+    Magma_Cube: 6
+    Wither: 5
+item-damage:
+    Air: 2
+#Uncomment to edit environmental damages
+#environmental-damage:
+#    These values are flat damage:
+#
+#    CONTACT: 1 #cactus
+#    FIRE_TICK: 1 #being on fire
+#    LIGHTNING: 5 #struck by lightning
+#    POISON: 0.5 #poison potion effect
+#    PROJECTILE: 1 #dispenser damage
+#
+#    These values are percent max health damage:
+#
+#    CRAMMING: 0.3 #too many entities in a block
+#    DROWNING: 0.1 #drowning damage
+#    FIRE: 0.2 #standing on fire
+#    HOT_FLOOR: 0.2 #magma block
+#    LAVA: 0.2 #lava block
+#    MELTING: 0.25 #snowmen
+#    STARVATION: 0.05 #out of food
+#    SUFFOCATION: 0.05 #inside a block
+#    VOID: 0.2 #under the map
+#
+#    These values are percent max health damage, multiplied by the original damage:
+#
+#    BLOCK_EXPLOSION: 0.05 #at range 0
+#    ENTITY_EXPLOSION: 0.05 #at range 0
+#    FALL: 0.05 #per block above 3
+#    FALLING_BLOCK: 0.05 #anvils
+#    FLY_INTO_WALL: 0.05 #elytra damage
+#    MAGIC: 0.05 #splash damage potions
+#    THORNS: 0.05 #thorns armor enchant
+#    WITHER: 0.05 #decay potion effect
+#
+potions:
+    health-per-tier: .1
+enchantment-damage:
+    THORNS: 1
+    DAMAGE_ALL: 1
+    DAMAGE_UNDEAD: 1
+    DAMAGE_ARTHROPODS: 1
+    ARROW_DAMAGE: 1
