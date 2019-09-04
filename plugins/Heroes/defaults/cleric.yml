@@ -1,0 +1,127 @@
+name: Cleric
+default: false
+parents:
+    strong: []
+    weak: []
+primary: true
+secondary: false
+description: A heavily armored healer
+#Runs a cmd as console or not on selection of this class.
+run-command:
+  as-console: true
+  #you can have multiple cmds run
+  #use {player_name} for plugins who dont support @p, etc.
+  command:
+    -  give @p diamond
+    -  mm items give {PLAYER_NAME} KingsCrown
+stamina:
+  costs:
+    miss: 150
+    swing-hit: -75
+    sprinting: 0
+    taken-hit: 20
+    jump: 50
+  stop-regen:
+    swing-hit:
+      enable: false
+      time: 10000
+    miss:
+      enable: false
+      time: 10000
+    sprinting:
+      enable: true
+      time: 10000
+    taken-hit:
+      enable: false
+      time: 10000
+    jump:
+      enable: false
+      time: 10000
+base-attributes:
+    STRENGTH: 5
+    CONSTITUTION: 9
+    ENDURANCE: 5
+    DEXTERITY: 3
+    INTELLECT: 5
+    WISDOM: 10
+    CHARISMA: 5
+permitted-armor:
+- LEATHER
+- IRON
+- DIAMOND
+- SHIELD
+permitted-weapon:
+- WOOD
+- STONE_HOE
+- IRON_PICKAXE
+- DIAMOND_HOE
+item-damage:
+  STONE_HOE: 2
+  IRON_HOE: 2.5
+  GOLD_HOE: 3
+  DIAMOND_HOE: 4
+item-damage-level:
+  STONE_HOE: 0.1
+  IRON_HOE: 0.15
+  GOLD_HOE: 0.20
+  DIAMOND_HOE: 0.25
+projectile-damage:
+  ARROW: 1
+projectile-damage-level:
+  ARROW: 0.1
+permitted-skills:
+    Root:
+        level: 5
+        max-distance: 25
+        duration: 6000
+        mana: 25
+        cooldown: 25000
+    Port:
+        level: 1
+    Invuln: 
+        level: 30
+        duration: 10000
+        cooldown: 50000
+        mana: 20
+    Pray:
+        level: 1
+        max-distance: 15
+        health: 10
+        mana: 15
+        cooldown: 15000
+    Wisdom:
+        level: 10
+        health-cost: 5
+        regen-multiplier: 3.0
+        reagent: REDSTONE
+        reagent-cost: 8
+        radius: 1
+        duration: 5000
+    Slow:
+        level: 15
+        max-distance: 5
+        mana: 10
+        duration: 4000
+        cooldown: 2000
+    Groupheal:
+        level: 20
+        heal-amount: 10
+        radius: 10
+        cooldown: 80000
+        mana: 35
+experience-sources:
+- KILLING
+- PVP
+- QUESTING
+- EXTERNAL
+expmodifier: 1.0
+base-max-health: 34.0
+max-health-per-level: 0.5
+base-max-mana: 125
+max-mana-per-level: 1
+base-mana-regen: 2
+mana-regen-per-level: .1
+expLoss: 0.007
+wildcard-permission: true
+tier: 1
+recipes: [ default ]

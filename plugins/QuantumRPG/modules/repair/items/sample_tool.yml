@@ -1,0 +1,22 @@
+material: IRON_AXE:0:1
+name: '&0&fRepair Hammer'
+lore:
+- '&8&m               &f  「 INFO 」  &8&m               '
+- '&7Tier: &fCommon'
+- '&7Uses: &f%uses%&7/&f%uses-max%'
+- '&7Repair amount: &f%repair%%'
+- '&8&m              &f  「 USAGE 」  &8&m              '
+- '&7Drag & Drop onto item to repair.'
+item-flags:
+- '*'
+min-level: 1
+max-level: 5
+uses-by-level:
+  '1': 1
+  '2': 3
+repair-by-level:
+  '1': 10
+  '2': 20
+  '3': 30
+  '4': 40
+  '5': 50

@@ -1,0 +1,47 @@
+name: orc
+default: false
+default-prof: false
+default-race: false
+tier: 1
+secondary: false
+race: true
+primary: false
+description: 'The default race.'
+#Runs a cmd as console or not on selection of this class.
+run-command:
+  as-console: true
+  #you can have multiple cmds run
+  #use {player_name} for plugins who dont support @p, etc.
+  command:
+    -  give @p diamond
+    -  mm items give {PLAYER_NAME} KingsCrown
+permitted-weapon:
+- WOOD
+- STONE
+- IRON_PICKAXE
+- IRON_AXE
+- IRON_SHOVEL
+- IRON_HOE
+- SHEARS
+- FISHING_ROD
+permitted-skills:
+    Mark:
+        level: 1
+        mana: 100
+permission-skills: []
+experience-sources:
+- MINING
+- CRAFTING
+- LOGGING
+- FISHING
+- BUILDING
+- FARMING
+- SKILL
+expmodifier: 1.0
+item-damage:
+    WOODEN_PICKAXE: 12
+expLoss: 0.01
+wildcard-permission: true
+max-level: 20
+recipes:
+- CRAFTER

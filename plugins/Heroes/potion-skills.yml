@@ -1,0 +1,31 @@
+# Potion Skills - allows passive potion effect skills to be applied to classes
+#
+# Potion format: TYPE:AMPLIFIER
+# TYPE: type of potion effect
+# AMPLIFIER: integer of the amplification of the effect
+#
+# Note that amplifier can be excluded and is equivalent to TYPE:0
+# For example for the Speed effect: Speed I is SPEED:0 or SPEED, Speed II is SPEED:1
+default-settings:
+   # Period which potion effects are refreshed at, in seconds
+   # This shouldn't be needed to be changed unless required, especially to
+   # a lower value than 60s (minimum value).
+   # WARNING: changing to a low value may increase lag.
+   period: 60000
+   # If true, spawns more and translucent particles
+   is-ambient: false
+   # Do the potion effects show particles?
+   has-particles: true
+# Examples:
+FireWalker:
+   description: 'Protects from flames and adds speed'
+   is-ambient: false
+   has-particles: true
+   potions:
+      - FIRE_RESISTANCE
+      - SPEED:0
+ExtraStep:
+   # Uses default settings
+   description: 'Gives an extra step in your jump.'
+   potions:
+      - JUMP

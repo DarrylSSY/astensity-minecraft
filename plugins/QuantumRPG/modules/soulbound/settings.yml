@@ -1,0 +1,55 @@
+cfg_version: 1.0
+command-aliases: soulbound
+general:
+  block-commands:
+  - /market
+  - /auc
+  - /ah
+lore-format:
+  untradable: '&c✗ Untradable; Unable to sell on auction'
+  soulbound-req: '&c☩ Requires Soulbound to use'
+  soulbound-set: '&a☩ Soulbounded with &2%player%'
+bind-to-player:
+  on-item-drop: true
+  on-item-pickup: true
+  on-item-click: true
+  on-item-interact: true
+interact:
+  allow-drop: true
+  drop-on-death: false
+gui:
+  title: '&2&l<&2&nSoulbound&2&l>'
+  size: 9
+  item-slot: 3
+  source-slot: 4
+  result-slot: 5
+  content:
+    filler:
+      material: BLACK_STAINED_GLASS_PANE:0:1
+      skull-hash: ''
+      enchanted: false
+      name: ''
+      lore: []
+      slots: 0,1,2,3,4,5,6,7,8
+      type: NONE
+    accept:
+      material: LIME_STAINED_GLASS_PANE:0:1
+      skull-hash: ''
+      enchanted: false
+      name: '&2« &aAccept &2»'
+      lore:
+      - '&7The item will be soulbounded'
+      - '&7with you.'
+      - ''
+      - '&7After that, you can not'
+      - '&7trade your item &canymore&7.'
+      slots: '8'
+      type: ACCEPT
+    exit:
+      material: RED_STAINED_GLASS_PANE:0:1
+      skull-hash: ''
+      enchanted: false
+      name: '&4« &cCancel &4»'
+      lore: []
+      slots: '0'
+      type: EXIT

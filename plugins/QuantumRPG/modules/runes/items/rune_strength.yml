@@ -1,0 +1,12 @@
+material: PRISMARINE_SHARD:0
+name: '&bRune of Strength'
+lore:
+- '&7Grants &fStrength %rlevel% &7effect'
+effect: INCREASE_DAMAGE
+min-level: 1
+max-level: 3
+min-success-rate: 10
+max-success-rate: 75
+item-types:
+- WEAPON
+socket-display: '&bStrength %rlevel%'

@@ -1,0 +1,236 @@
+name: '%c%%prefix_tier% %prefix_material% %prefix_type% %itemtype% %suffix_material%
+  %suffix_type% %suffix_tier%'
+lore:
+- '&7Type: &f%TYPE%'
+- '&7Tier:%c% %TIER%'
+- '&7Level: &f%level%'
+- '%AMMO_TYPE%'
+- '%HAND_TYPE%'
+- '%ENCHANTS%'
+- ''
+- '%SOULBOUND%'
+- '%CLASS%'
+- '%LEVEL%'
+- ''
+- '%ARMOR_TYPES%'
+- '%DAMAGE_TYPES%'
+- ''
+- '%DIRECT_DAMAGE%'
+- '%AOE_DAMAGE%'
+- '%CRITICAL_RATE%'
+- '%CRITICAL_DAMAGE%'
+- '%ACCURACY_RATE%'
+- '%DODGE_RATE%'
+- '%BLOCK_RATE%'
+- '%BLOCK_DAMAGE%'
+- '%LOOT_RATE%'
+- '%MOVEMENT_SPEED%'
+- '%ATTACK_SPEED%'
+- '%MAX_HEALTH%'
+- '%PENETRATION%'
+- '%VAMPIRISM%'
+- '%BURN_RATE%'
+- ''
+- '%DURABILITY%'
+- '%SET%'
+- '%GEM%'
+- '%ESSENCE%'
+- '%RUNE%'
+color: -1,-1,-1
+min-level: 1
+max-level: 50
+unbreakable: true
+item-flags:
+- '*'
+generator:
+  name: Rare
+  color: '&a'
+  prefix-chance: 100.0
+  suffix-chance: 100.0
+  materials:
+    reverse: false
+    black-list:
+    - DIAMOND*
+    - IRON*
+    - CHAINMAIL*
+  material-data:
+    reverse: true
+    black-list:
+    - 1
+    - 2
+    - 3
+    special:
+      DIAMOND_SWORD:
+      - 10
+      - 11
+      GOLD_SWORD:
+      - 12
+      - 13
+  restrictions:
+    player-level-by-item-level:
+      '1': 1-10
+      '11': 11-25
+      '26': 26-35
+      '36': 36-50
+    classes:
+    - Warrior
+    - Cleric
+    min-item-stats: 1
+    max-item-stats: 4
+    min-damage-types: 1
+    max-damage-types: 2
+    min-defense-types: 1
+    max-defense-types: 2
+    material-modifiers:
+      iron_sword:
+        damage-types:
+          physical: 1.15
+      iron_helmet:
+        defense-types:
+          physical: 1.25
+      axe:
+        item-stats:
+          CRITICAL_DAMAGE: 1.5
+  enchants:
+    min: 1
+    max: 2
+    safe-only: false
+    list:
+    - sharpness:1:2
+    - knockback:1:2
+    - efficiency:1:2
+    - silk_touch:0:1
+    - smite:1:2
+  damage-types:
+    physical:
+      chance: 100.0
+      scale-by-level: 1.025
+      min: 6.6
+      max: 12.8
+  armor-types:
+    physical:
+      chance: 100.0
+      scale-by-level: 1.025
+      min: 13.25
+      max: 18.75
+  ammo-types:
+    ARROW: 100.0
+  hand-types:
+    ONE: 70.0
+    TWO: 30.0
+  item-stats:
+    CRITICAL_RATE:
+      default:
+        chance: 25.0
+        scale-by-level: 1.025
+        min: 3.5
+        max: 7.25
+    CRITICAL_DAMAGE:
+      default:
+        chance: 25.0
+        scale-by-level: 1.025
+        min: 1.15
+        max: 1.25
+    DODGE_RATE:
+      default:
+        chance: 25.0
+        scale-by-level: 1.025
+        min: 3.5
+        max: 5.0
+    ACCURACY_RATE:
+      default:
+        chance: 25.0
+        scale-by-level: 1.025
+        min: 14.5
+        max: 17.5
+    BLOCK_RATE:
+      default:
+        chance: 25.0
+        scale-by-level: 1.025
+        min: 4.5
+        max: 9.2
+    BLOCK_DAMAGE:
+      default:
+        chance: 25.0
+        scale-by-level: 1.025
+        min: 4.15
+        max: 9.25
+    VAMPIRISM:
+      default:
+        chance: 10.0
+        scale-by-level: 1.025
+        min: 3.5
+        max: 7.5
+    BURN_RATE:
+      default:
+        chance: 8.0
+        scale-by-level: 1.025
+        min: 4.5
+        max: 12.5
+    DURABILITY:
+      default:
+        chance: 100.0
+        scale-by-level: 1.025
+        min: 650
+        max: 1200
+    PENETRATION:
+      default:
+        chance: 6.0
+        scale-by-level: 1.025
+        min: 4.5
+        max: 10.0
+    LOOT_RATE:
+      default:
+        chance: 7.5
+        scale-by-level: 1.025
+        min: 2.0
+        max: 10.0
+    MOVEMENT_SPEED:
+      default:
+        chance: 3.5
+        scale-by-level: 1.025
+        min: 7.5
+        max: 15.0
+    ATTACK_SPEED:
+      default:
+        chance: 4.75
+        scale-by-level: 1.025
+        min: 5.0
+        max: 10.0
+    MAX_HEALTH:
+      default:
+        chance: -1
+        scale-by-level: 1.025
+        min: 5.0
+        max: 10.0
+    DIRECT_DAMAGE:
+      default:
+        chance: -1
+        scale-by-level: 1.025
+        min: 5.0
+        max: 10.0
+    AOE_DAMAGE:
+      default:
+        chance: 5
+        scale-by-level: 1.025
+        min: 5.0
+        max: 10.0
+    RANGE:
+      default:
+        chance: 20.0
+        scale-by-level: 1.025
+        min: 5.0
+        max: 25.0
+  sockets:
+    GEM:
+      chance: 75.0
+      min: 1
+      max: 3
+    ESSENCE:
+      chance: 15.0
+      min: 0
+      max: 1
+    RUNE:
+      chance: 30.0
+      min: 0
+      max: 1
