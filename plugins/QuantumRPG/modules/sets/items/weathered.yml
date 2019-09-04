@@ -1,26 +1,26 @@
-name: '&eWild Cat Set'
-prefix: '&a&fBroken '
-suffix: 'of Wild Cat'
+name: '&eWeathered Set'
+prefix: '&lWeathered '
+suffix: ''
 color:
   have: '&a'
   miss: '&8'
 parts:
   HELMET:
     enabled: true
-    material: GOLDEN_HELMET
-    name: '%prefix%Helmet %suffix%'
+    material: LEATHER_HELMET
+    name: '%prefix%Skullcap%suffix%'
   CHESTPLATE:
     enabled: true
-    material: GOLDEN_CHESTPLATE
-    name: '%prefix%Chestplate %suffix%'
+    material: LEATHER_CHESTPLATE
+    name: '%prefix%Battlemail %suffix%'
   LEGGINGS:
     enabled: true
-    material: GOLDEN_LEGGINGS
-    name: '%prefix%Leggings %suffix%'
+    material: LEATHER_LEGGINGS
+    name: '%prefix%Underpants %suffix%'
   BOOTS:
     enabled: true
-    material: GOLDEN_BOOTS
-    name: '%prefix%Boots %suffix%'
+    material: LEATHER_BOOTS
+    name: '%prefix%Bloody Greaves %suffix%'
 effects:
   parts:
     '2':
