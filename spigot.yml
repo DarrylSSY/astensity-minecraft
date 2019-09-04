@@ -110,10 +110,10 @@ world-settings:
     squid-spawn-range:
       min: 45.0
     entity-activation-range:
-      animals: 20
+      animals: 16
       monsters: 24
       raiders: 48
-      misc: 12
+      misc: 8
       tick-inactive-villagers: true
     entity-tracking-range:
       players: 48
