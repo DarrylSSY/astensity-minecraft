@@ -55,8 +55,10 @@ plugins/AdvancedAchievements/config.yml.bak
 *.log*
 *.db*
 *.sqlite*
+*log*
 plugins/CrazyCrates/Locations.yml
 plugins/CrazyCrates/Schematics
+plugins/CrazyCrates/data.yml
 plugins/Essentials_WarpGUI/warps.yml
 plugins/SAML/frozen-chunks
 plugins/TimeVote/Stats.yml
