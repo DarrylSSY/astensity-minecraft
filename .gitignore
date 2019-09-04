@@ -1,5 +1,6 @@
 cache/
 logs/
+spawn/
 world/
 world_nether/
 world_the_end/
@@ -17,6 +18,7 @@ plugins/PluginMetrics
 plugins/AuthMe/authme.db
 plugins/AuthMe/authme.log
 plugins/AuthMe/GeoLite2-Country.mmdb
+plugins/CrazyAuctions/Data.yml
 plugins/FastLogin/FastLogin.db
 server.properties
 plugins/mcMMO/backup
@@ -43,4 +45,5 @@ plugins/ChestShop/items.db
 plugins/ChestShop/users.db
 plugins/CommandButtons/data.yml
 spawn/
+plugins/Essentials_WarpGUI/warps.yml
 plugins/Minepacks/backpack.db
