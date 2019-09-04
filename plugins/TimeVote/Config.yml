@@ -1,0 +1,24 @@
+Version: 1.42
+GameVersion:
+  SetOwn: false
+  Version: v1_13_R2
+ColoredConsoleText: true
+DayTime: 6000
+NightTime: 18000
+VotingTime: 35
+RemindingTime: 25
+TimeoutPeriod: 15
+UseScoreboard: true
+UseVoteGUI: true
+UseBossBar: true
+UseTitle: true
+CheckForHiddenPlayers: false
+PrematureEnd: true
+Price: 0.0
+RawMessages: true
+DisabledWorld:
+- world_nether
+- world_the_end
+VotingInventoryMessages: true
+ShowOnlyToPlayersWithPermission: false
+RefundVotingPriceIfVotingFails: true

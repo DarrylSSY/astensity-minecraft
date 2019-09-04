@@ -4,11 +4,11 @@ core:
 data:
   auto-save: 15
   storage:
-    type: sqlite
-    username: none
-    password: none
-    host: none
-    database: none
+    type: mysql
+    username: astensity
+    password: ***REMOVED***
+    host: ***REMOVED***
+    database: minecraft
   purge:
     enabled: false
     days: 60

@@ -1,6 +1,6 @@
 command-aliases: loot,qloot
 general:
-  protect-drop: true
+  protect-drop: false
   time-to-loot: 300
   entity-blacklist:
   - ARMOR_STAND
