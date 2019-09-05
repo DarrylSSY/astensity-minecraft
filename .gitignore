@@ -57,6 +57,7 @@ plugins/WeatherVote/Stats.yml
 plugins/Wild/Biomes.txt
 server.properties
 spawn/
+spawn
 usercache.json
 version_history.json
 whitelist.json
