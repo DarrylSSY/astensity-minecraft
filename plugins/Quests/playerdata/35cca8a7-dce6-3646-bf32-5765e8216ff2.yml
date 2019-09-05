@@ -1,0 +1,13 @@
+quest-progress:
+  buildingquest1:
+    started: true
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      glass:
+        completed: false
+      logs:
+        completed: false
+      planks:
+        completed: false

@@ -1,0 +1,44 @@
+{
+  "uuid": "bf4012df-82de-4f67-80c8-019f9bee5223",
+  "name": "EhhEddy",
+  "wins": 4,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "default": 1456
+  },
+  "matches": [
+    {
+      "winner": "EhhEddy",
+      "loser": "YouTubeChickens",
+      "kit": "default",
+      "time": 1567145990268,
+      "duration": 159869,
+      "health": 5.5
+    },
+    {
+      "winner": "EhhEddy",
+      "loser": "ClarR_",
+      "kit": "default",
+      "time": 1567162200444,
+      "duration": 120593,
+      "health": 10.0
+    },
+    {
+      "winner": "EhhEddy",
+      "loser": "ClarR_",
+      "kit": "default",
+      "time": 1567162302684,
+      "duration": 86006,
+      "health": 9.5
+    },
+    {
+      "winner": "EhhEddy",
+      "loser": "ClarR_",
+      "kit": "default",
+      "time": 1567162599279,
+      "duration": 265857,
+      "health": 10.0
+    }
+  ]
+}

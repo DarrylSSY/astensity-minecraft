@@ -1,0 +1,20 @@
+{
+  "uuid": "06d7e6e4-bf0d-4cbb-9ae8-2a6aa32740e9",
+  "name": "YouTubeChickens",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "default": 1384
+  },
+  "matches": [
+    {
+      "winner": "EhhEddy",
+      "loser": "YouTubeChickens",
+      "kit": "default",
+      "time": 1567145990268,
+      "duration": 159869,
+      "health": 5.5
+    }
+  ]
+}

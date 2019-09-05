@@ -1,1 +1,103 @@
-{}
+{
+  "default": {
+    "name": "default",
+    "displayed": {
+      "material": "DIAMOND_SWORD",
+      "amount": 1,
+      "data": 0,
+      "displayName": "\u00267\u0026ldefault",
+      "lore": [
+        "\u0026aClick to send",
+        "\u0026aa duel request",
+        "\u0026awith this kit!"
+      ],
+      "unbreakable": false
+    },
+    "usePermission": false,
+    "arenaSpecific": false,
+    "items": {
+      "INVENTORY": {
+        "0": {
+          "material": "DIAMOND_SWORD",
+          "amount": 1,
+          "data": 0,
+          "unbreakable": false
+        },
+        "1": {
+          "material": "BOW",
+          "amount": 1,
+          "data": 0,
+          "unbreakable": false
+        },
+        "36": {
+          "material": "DIAMOND_BOOTS",
+          "amount": 1,
+          "data": 0,
+          "unbreakable": false
+        },
+        "37": {
+          "material": "DIAMOND_LEGGINGS",
+          "amount": 1,
+          "data": 0,
+          "unbreakable": false
+        },
+        "6": {
+          "material": "ENCHANTED_GOLDEN_APPLE",
+          "amount": 5,
+          "data": 0,
+          "unbreakable": false
+        },
+        "38": {
+          "material": "DIAMOND_CHESTPLATE",
+          "amount": 1,
+          "data": 0,
+          "unbreakable": false
+        },
+        "7": {
+          "material": "ENDER_PEARL",
+          "amount": 10,
+          "data": 0,
+          "unbreakable": false
+        },
+        "39": {
+          "material": "DIAMOND_HELMET",
+          "amount": 1,
+          "data": 0,
+          "unbreakable": false
+        },
+        "8": {
+          "material": "ARROW",
+          "amount": 64,
+          "data": 0,
+          "unbreakable": false
+        }
+      },
+      "ARMOR": {
+        "1": {
+          "material": "DIAMOND_HELMET",
+          "amount": 1,
+          "data": 0,
+          "unbreakable": false
+        },
+        "2": {
+          "material": "DIAMOND_CHESTPLATE",
+          "amount": 1,
+          "data": 0,
+          "unbreakable": false
+        },
+        "3": {
+          "material": "DIAMOND_LEGGINGS",
+          "amount": 1,
+          "data": 0,
+          "unbreakable": false
+        },
+        "4": {
+          "material": "DIAMOND_BOOTS",
+          "amount": 1,
+          "data": 0,
+          "unbreakable": false
+        }
+      }
+    }
+  }
+}

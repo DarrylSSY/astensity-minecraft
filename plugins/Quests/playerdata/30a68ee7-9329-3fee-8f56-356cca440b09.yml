@@ -1,0 +1,79 @@
+quest-progress:
+  miningquest12:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1567581421664
+    task-progress:
+      mining:
+        completed: true
+        progress: 500
+  miningquest3:
+    started: true
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      mining:
+        completed: false
+        progress: 758
+  miningquest2:
+    started: true
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      mining:
+        completed: false
+        progress: 758
+  miscquest11:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1567534659363
+    task-progress:
+      playtime:
+        completed: true
+        progress: 120
+  miscquest12:
+    started: true
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      playtime:
+        completed: false
+        progress: 287
+  miscquest10:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1567531049248
+    task-progress:
+      playtime:
+        completed: true
+        progress: 60
+  nightmarequest1:
+    started: true
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      riddle:
+        completed: false
+  nightmarequest6:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1567610842785
+    task-progress:
+      riddle:
+        completed: true
+  nightmarequest5:
+    started: true
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      riddle:
+        completed: false

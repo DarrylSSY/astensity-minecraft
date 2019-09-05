@@ -168,6 +168,7 @@ World_aliases:
     world: world
     spawn: spawn
     world_nether: world_nether
+    world_the_end: world_the_end
 # -----------------------------------------------------
 # These settings will make Plan write .js, .css, .json and .html files to some location on disk.
 # Relative path will render to /plugins/Plan/path

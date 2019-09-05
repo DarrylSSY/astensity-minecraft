@@ -1,0 +1,36 @@
+quest-progress:
+  farmingquest1:
+    started: true
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      mining:
+        completed: false
+        progress: 31
+  farmingquest5:
+    started: true
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      mining:
+        completed: false
+  miningquest2:
+    started: true
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      mining:
+        completed: false
+        progress: 228
+  miningquest1:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1567533454289
+    task-progress:
+      mining:
+        completed: true
+        progress: 500
