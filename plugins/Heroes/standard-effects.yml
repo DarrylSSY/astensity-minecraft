@@ -1,0 +1,24 @@
+#Bleeding
+Bleeding:
+  apply-text: "%target% has started bleeding!"
+  remove-text: "%target% is no longer bleeding!"
+  max-stacks: 10
+  damage-per-stack: 0.5
+  period: 250
+  particle-count: 25
+
+# Deep Wound
+DeepWound:
+  apply-text: "%target% has been deeply wounded!"
+  remove-text: "%target% is no longer deeply wounded!"
+  percent-max-health-reduction: 0.2
+
+# Slowness
+Slowness:
+  apply-text: "%target% is afflicted with slowness %strength%!"
+  remove-text: "slowness %strength% has expired from %target%!"
+
+# Swiftness
+Swiftness:
+  apply-text: "%target% has gained swiftness %strength%!"
+  remove-text: "swiftness %strength% has expired from %target%!"

@@ -1,0 +1,38 @@
+material: 'POTION:0:1'
+name: '&aSmall Loot Potion %rlevel%'
+lore:
+- '%LEVEL%'
+- ''
+- '&7Increases a chance to find the item'
+- '&7by &f10%&7 for &f10 minutes&7.'
+- ''
+- '&7Cooldown: &f1 minute&7.'
+- '&7Portions: &f%uses%&7/&f%uses-max%'
+skull-hash: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZkM2E3ZTA3ZjVkYWRkNDdiYWRiMTM4MmE1YjE2Mjc4MThlZTE2YTE5YTdjMGJmMjc2OGFlNjI2MjczN2I2In19fQ==\'
+color: '220,220,30'
+item-flags:
+- '*'
+enchanted: false
+user-requirements:
+  level: 5
+  classes: ''
+effects:
+  health: 0
+  hunger: 0
+uses-by-level:
+ '1': 1
+ '2': 2
+ '3': 3
+min-level: 1
+max-level: 3
+usage:
+  RIGHT:
+    cooldown: 1
+    actions:
+      target-selectors:
+        self:
+        - '[SELF]'
+      action-executors:
+      - '[COMMAND_CONSOLE] ~message: buff add %executor% loot 1 600; ~target: self;'
+      - '[PARTICLE_SIMPLE] ~name: VILLAGER_HAPPY; ~offset: 0.3,0.3,0.3; ~speed: 0.3; ~amount: 50; ~target: self;'
+      - '[SOUND] ~name: BLOCK_NOTE_BLOCK_BELL; ~target: self;'

@@ -1,0 +1,84 @@
+Version: 1.42
+'[WeatherVote]': '&f[&9Weather&bVote&f] '
+Color:
+  '1': '&9'
+  '2': '&b'
+Message:
+  '1': You have to be a player, to use this command.
+  '2': You do not have the permission for this command.
+  '3': '&b&l[PLAYER]&9 started a new voting for &b&l[WEATHER]&9 weather, vote with
+    &b&l/wv yes&9 or &b&l/wv no&9.'
+  '4': The voting is disabled in this world.
+  '5': There is already a voting in this world.
+  '6': There isn't a voting in this world.
+  '7': You have already voted.
+  '8': You have voted for &b&lYes&9.
+  '9': You have voted for &b&lNo&9.
+  '10': The plugin is reloading...
+  '11': Reloading completed.
+  '12': The voting is over, the weather has been changed.
+  '13': The voting is over, the weather hasn't been changed.
+  '14': The voting for &b&l[WEATHER]&9 weather is over in &b&l[SECONDS]&9 seconds.
+  '15': You have to wait &b&l[SECONDS]&9 more second(s), until you can start a new
+    voting.
+  '16': There is a new update available for this plugin. &b( https://fof1092.de/WV
+    )&9
+  '17': All players have voted.
+  '18': You need &b&l[MONEY]$&9 more to start a voting.
+  '19': You payed &b&l[MONEY]$&9 to start a voting.
+  '20': You opend the voting-inventory.
+  '21': Your Voting-Inventory has been closed.
+  '22': Try [COMMAND]
+  '23': You changed the weather to &b[WEATHER]&9.
+  '24': The voting has stopped.
+  '25': You stopped the voting.
+Text:
+  '1': Sunny
+  '2': Rainy
+  '3': 'Yes'
+  '4': 'No'
+StatsText:
+  '1': 'Stats since: '
+  '2': 'Money spent: '
+  '3': 'Total sunny votes: '
+  '8': 'Total rainy votes: '
+  '4': '  Yes votes: '
+  '5': '  No votes: '
+  '6': '  Won: '
+  '7': '  Lost: '
+HelpTextGui:
+  '1': '&b[&9Click to use this command&b]'
+  '2': '&b[&9Next page&b]'
+  '3': '&b[&9Last page&b]'
+  '4': '&7&oPage [PAGE]. &7Click on the arrows for the next page.'
+HelpText:
+  '1': This command shows you the help page.
+  '2': This command shows you the info page.
+  '3': This command shows you the stats page.
+  '4': This command opens the Voting-Inventory.
+  '5': This command allows you to start a sun voting.
+  '6': This command allows you to start a rain voting.
+  '7': This command allows you to vote for yes or no.
+  '8': ''' '''
+  '9': This command is reloading the Config.yml and Messages.yml file.
+  '10': This command stopps a voting.
+VotingInventoryTitle:
+  '1': '&f[&9&lW&bV&f] &bSunny&f/&bRainy'
+  '2': '&f[&9&lW&bV&f] &b[WEATHER]&9 Weather'
+BossBarMessage: '&f[&9&lW&b&lV&f] &9Voting for &b&l[WEATHER]&9 weather (&b&l/wv yes&9
+  or &b&l/wv no&9)'
+TitleMessage:
+  Title:
+    '1': '&f[&9&lW&b&lV&f] &b&l[WEATHER]&9 time voting.'
+    '2': '&f[&9&lW&b&lV&f] &b&l[SECONDS]&9 seconds left.'
+    '3': '&f[&9&lW&b&lV&f] &9The weather has been changed.'
+    '4': '&f[&9&lW&b&lV&f] &9The weather hasn''t been changed.'
+  SubTitle: '&9(&b/wv yes&9 or &b/wv no&9)'
+RawMessage:
+  '1': '["",{"text":"[PLAYER]","color":"aqua","bold":true},{"text":" started a new
+    voting for ","color":"blue"},{"text":"[WEATHER]","color":"aqua","bold":true},{"text":"
+    weather, vote with ","color":"blue"},{"text":"/wv yes","color":"aqua","bold":true,"clickEvent":{"action":"run_command","value":"/wv
+    yes"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"/wv
+    yes","color":"aqua"}]}}},{"text":" or ","color":"blue"},{"text":"/wv no","color":"aqua","bold":true,"clickEvent":{"action":"run_command","value":"/wv
+    no"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"/wv
+    no","color":"aqua","bold":true}]}}},{"text":".","color":"blue"}]'

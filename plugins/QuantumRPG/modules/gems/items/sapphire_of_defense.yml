@@ -1,0 +1,23 @@
+material: LAPIS_LAZULI:0
+name: '&9Sapphire of Defense'
+socket-display: '&aDefense %rlevel% &7[&f+%defense_physical%&7]'
+lore:
+- '&f▸ &7Phys. Defense: &f+%defense_physical%'
+enchanted: false
+item-flags:
+- '*'
+damage-by-level: {}
+defense-by-level:
+  '1':
+    physical: 2%
+  '2':
+    physical: 4%
+  '3':
+    physical: 6%
+stats-by-level: {}
+min-level: 1
+max-level: 3
+min-success-rate: 60
+max-success-rate: 80
+item-types:
+- ARMOR

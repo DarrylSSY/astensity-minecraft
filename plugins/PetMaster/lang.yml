@@ -1,0 +1,61 @@
+#============================================================#
+# +--------------------------------------------------------+ #
+# |         Pet Master 1.10.2 English language file        | #
+# |                      By DarkPyves                      | #
+# +--------------------------------------------------------+ #
+#============================================================#
+
+no-permissions: "You do not have the permission to do this."
+currently-disabled: "PetMaster is currently disabled, you cannot use this command."
+misused-command: "Misused command. Please type /petm."
+
+# Related to /petm reload.
+configuration-successfully-reloaded: "Configuration successfully reloaded."
+configuration-reload-failed: "Errors while reloading configuration. Please view logs for more details."
+
+# Related to other plugin commands.
+petmaster-disabled: "PetMaster disabled till next reload or /petm enable."
+petmaster-enabled: "PetMaster enabled."
+petmaster-hologram: "Pet owned by "
+petmaster-chat: "Pet owned by "
+petmaster-action-bar: "Pet owned by "
+petmaster-health: "Health: "
+player-offline: "The specified player is offline!"
+cannot-change-to-yourself: "You cannot change the owner to yourself!"
+owner-changed: "This pet was given to a new owner!"
+change-owner-price: "You payed: AMOUNT!"
+new-owner: "Player PLAYER gave you ownership of a pet!"
+not-owner: "You do not own this pet!"
+right-click: "Right click on a pet to change its owner!"
+pet-freed: "Say goodbye: this pet returned to the wild!"
+not-enough-money: "You do not have the required amount: AMOUNT!"
+
+# Related to /petm help.
+petmaster-command-setowner: "Change the ownership of a pet."
+petmaster-command-free: "Free a pet."
+petmaster-command-disable: "Disable plugin."
+petmaster-command-enable: "Enable plugin."
+petmaster-command-reload: "Reload the plugin's configuration."
+petmaster-command-info: "Display various information about the plugin."
+petmaster-command-setowner-hover: "You can only change the ownership of your own pets, unless you're admin!"
+petmaster-command-free-hover: "You can only free your own pets, unless you're admin!"
+petmaster-command-disable-hover: "The plugin will not work until next reload or /petm enable."
+petmaster-command-enable-hover: "Plugin enabled by default. Use this if you entered /petm disable before!"
+petmaster-command-reload-hover: "Reload most settings in config.yml and lang.yml files."
+petmaster-command-info-hover: "Some extra info about the plugin and its awesome author!"
+petmaster-tip: "&lHINT&r &8You can &7&n&ohover&r &8or &7&n&oclick&r &8on the commands!"
+
+# Related to /petm info.
+version-command-name: "Name:"
+version-command-version: "Version:"
+version-command-website: "Website:"
+version-command-author: "Author:"
+version-command-description: "Description:"
+version-command-description-details: "Whose pet is this? Manage pets and display infomartion via holograms, action bar or chat messages!"
+version-command-enabled: "Plugin enabled:"
+
+#============================================================#
+# +--------------------------------------------------------+ #
+# |         Parameters to appear in future versions        | #
+# +--------------------------------------------------------+ #
+#============================================================#

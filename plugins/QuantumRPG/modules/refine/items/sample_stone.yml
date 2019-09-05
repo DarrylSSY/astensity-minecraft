@@ -1,0 +1,46 @@
+material: CHARCOAL:0
+name: '&eEnchantment Stone'
+lore: []
+enchanted: false
+min-level: 1
+max-level: 3
+min-success-rate: 50
+max-success-rate: 75
+item-level-requirements: {}
+item-types:
+- WEAPON
+refine-by-level:
+  item-stats: {}
+  damage-types:
+    '1':
+      physical: 1%
+    '2':
+      physical: 1.5%
+    '3':
+      physical: 2%
+    '4':
+      physical: 2.5%
+    '5':
+      physical: 3%
+    '6':
+      physical: 3.5%
+    '7':
+      physical: 4%
+    '8':
+      physical: 4.5%
+    '9':
+      physical: 5%
+    '10':
+      physical: 5.5%
+    '11':
+      physical: 6%
+    '12':
+      physical: 6.5%
+    '13':
+      physical: 7%
+    '14':
+      physical: 7.5%
+    '15':
+      physical: 8%
+  defense-types: {}
+socket-display: '&eEnchantment Stone'

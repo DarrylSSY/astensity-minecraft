@@ -1,0 +1,80 @@
+settings:
+
+lines:
+  # This is a combat scoreboard example showing
+  # Combat related information.
+  # DO NOT GIVE THE PERMISSION FOR THIS SCOREBOARD
+  # (Unless you want it to show all the time)
+  # You still need to 'trigger' this scoreboard in the vanilla_combat
+
+  # Lets just use the title,header and footer from the default example
+  # for in depth configuration look at the spawn.yml
+  #
+  # When designing a board that is used when triggered on an event. You have
+  # to think (before looking at the placeholders) what is relevant.
+  # For example: When I think of combat my first thoughts are:
+  # - Health: To see how much you have left
+  # - Possible cooldown timers
+  # - With who am I in combat?
+  # - Target health
+  # - mcMMO attacking level?
+  #
+  # Next you have to think what is important during that event:
+  # - Combat: not too much distraction (no animations, smaller scoreboard)
+  #
+  # Once you know those things start looking for placeholders. A lot of events such
+  # as mcmmo have placeholders that can only be used in such events.
+  title:
+    frames:
+    # To create cool looking animations you create yourself
+    # you can use the graphical tool AnimationCreator
+    # https://www.spigotmc.org/resources/animationcreator.6001/
+    # For all placeholders:   https://www.spigotmc.org/wiki/mvdw-placeholders/
+    # For all preset effects: https://www.spigotmc.org/wiki/mvdw-effects/
+    - '<single><delay times="10">&l><</delay></single>'
+    - '<single>&f&ler</single>' # <single> will allow the frame to only run ONCE
+    - '<single>&f&lherB</single>'
+    - '<single>&f&lherBo</single>'
+    - '<single>&f&latherBoa</single>'
+    - '<single>&f&leatherBoar</single>'
+    - ' <delay times="100">&f&lFe&4&l4&f&ltherBoard</delay>' # <delay> will repeat the line X times
+    interval: 2
+    random: false
+  header:
+    frames:
+    - '&a&m+-----------------+'
+    interval: 10
+    random: true
+  combat-label:
+    frames:
+    - '&8&l> &7&lCombat target:'
+    interval: 100
+    random: false
+  combat-data:
+    frames:
+    - '{vanilla-combat_opponent_name}'
+    interval: 2
+    random: false
+  spacer1:
+    frames: []
+    interval: 100
+  health-label:
+    frames:
+    - '&8&l> &7&lHealth stats:'
+    interval: 100
+    random: false
+  health-data-1:
+    frames:
+    - '&aYou: {healthbar}'
+    interval: 1
+    random: false
+  health-data-2:
+    frames:
+    - '&cTarget: {vanilla-combat_opponent_healthbar}'
+    interval: 1
+    random: false
+  footer:
+    frames:
+    - '&a&m+-----------------+'
+    interval: 10
+    random: true

@@ -1,0 +1,12 @@
+material: PRISMARINE_SHARD:0
+name: '&bRune of Jump'
+lore:
+- '&7Grants &fJump %rlevel% &7effect'
+socket-display: '&bJump %rlevel%'
+effect: JUMP
+min-level: 1
+max-level: 2
+min-success-rate: 40
+max-success-rate: 75
+item-types:
+- BOOTS

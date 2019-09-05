@@ -1,0 +1,109 @@
+#Name of the class, does not have to match the file name but is good practice.
+name: Citizen
+#Is this the default join class?
+default: true
+#does this require a permission to be? (node.classname)
+wildcard-permission: true
+#Is this a primary or a secondary class? (primary are usually combat, secondary is crafting)
+primary: true
+#can it be a secondary?
+secondary: false
+#description shown in class lists.
+description: The Default Starter Path
+#Runs a cmd as console or not on selection of this class.
+run-command:
+  as-console: true
+  #you can have multiple cmds run
+  #use {player_name} for plugins who dont support @p, etc.
+  command:
+    -  give @p diamond
+    -  mm items give {PLAYER_NAME} KingsCrown
+#Attributes that effect skill settings and class damage health and other things.
+stamina:
+  costs:
+    miss: 150
+    swing-hit: -75
+    sprinting: 0
+    taken-hit: 20
+    jump: 50
+  stop-regen:
+    swing-hit:
+      enable: false
+      time: 10000
+    miss:
+      enable: false
+      time: 10000
+    sprinting:
+      enable: true
+      time: 10000
+    taken-hit:
+      enable: false
+      time: 10000
+    jump:
+      enable: false
+      time: 10000
+base-attributes:
+    STRENGTH: 1
+    CONSTITUTION: 1
+    ENDURANCE: 1
+    DEXTERITY: 1
+    INTELLECT: 1
+    WISDOM: 1
+    CHARISMA: 1
+#The armor used by the class, broad/general settings can be used like "*"
+permitted-armor:
+- LEATHER
+#weapons permitted, not having a weapon here will make it unequip.
+permitted-weapon:
+- FISHING_ROD
+- SHEARS
+- STONE
+- IRON
+#offhand permitted, not having an offhand here will make it unequip.
+permitted-offhand:
+- FISHING_ROD
+- SHEARS
+#You can have permitted skills so the user acquires the node at that parituclar level. example below.
+permitted-skills: []
+    #ArtisanCrafter:
+        #level: 10
+#The sources that this class can gain exp.
+experience-sources:
+- KILLING
+- CRAFTING
+- MINING
+- LOGGING
+- FARMING
+- QUESTING
+- EXTERNAL
+#The max health that this class starts with.
+base-max-health: 20
+#The class gains this amount of health per level.
+max-health-per-level: 0.1
+#Same as health but mana.
+base-max-mana: 75
+#Same as health but mana
+max-mana-per-level: 1
+#The regeneration rate of the class, this has a cap for now.
+base-mana-regen: 1
+#Same but for mana regen per level (unused)
+mana-regen-per-level: .05
+#The exp modified for incoming sources.
+expmodifier: 1.0
+#The set damage for the item held.
+item-damage:
+  air: 1
+#Per level damage for the item held
+item-damage-level:
+  air: 0.1
+#Set projectile damage, this may be a bit wonky with 1.9+ fundamentals.
+projectile-damage:
+  Arrow: 3
+projectile-damage-level:
+  Arrow: 0.1
+#Should the class lose exp on death? this is a percentage, 1.0 means 100% level lost.
+expLoss: 0
+#What tier is this class? not always used but great for some cases
+tier: 0
+#Recipes settings, check the folder for more options.
+recipes: [ default ]

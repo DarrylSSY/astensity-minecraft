@@ -1,0 +1,36 @@
+cfg_version: 1.0.1
+command-aliases: itemhints,hints
+general:
+  only-custom-name-items: false
+  glow: true
+  hint-black-list:
+  - BEDROCK
+  - BARRIER
+  glow-black-list:
+  - BEDROCK
+  - BARRIER
+  name-black-list:
+  - some word
+  - '***{'
+  lore-black-list:
+  - some word
+format:
+  single: '%name%'
+  multi: '%name% &7x%amount%'
+for-modules:
+  ESSENCES: true
+  GEMS: true
+  MAGIC_DUST: true
+  RUNES: true
+  REPAIR: true
+  TIERS: true
+  IDENTIFY: true
+  SCROLLS: true
+  ACTIVE_ITEMS: true
+  ARROWS: true
+  CONSUMABLES: true
+  CUSTOM_ITEMS: true
+  EXTRACTOR: true
+  RESOLVE: true
+  REFINE: true
+  FORTIFY: true

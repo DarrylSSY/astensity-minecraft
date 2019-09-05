@@ -1,0 +1,18 @@
+name: '&cRage %rlevel%'
+icon:
+  material: 'FIRE_CHARGE'
+  name: '%buff_name%'
+  lore:
+  - '&7Increases your physical damage by &f%damage_physical%&7.'
+min-level: 1
+max-level: 3
+buffs-by-level:
+  item-stats:
+    '1': {}
+  damage-types:
+    '1':
+      physical: 10%
+    '2':
+      physical: 20%
+    '3':
+      physical: 30%
