@@ -1,3 +1,20 @@
 Data Version: 2
 Crate Locations:
-  vote: []
+  vote:
+  - spawn|999|77|123
+  loot:
+  - spawn|999|77|126
+Claims:
+  01371ec4-2a46-488c-b064-9406b987b816:
+  - vote|2
+  695dccab-ade7-30c5-86ad-5acd22dc23c1: []
+  06d7e6e4-bf0d-4cbb-9ae8-2a6aa32740e9: []
+  6b594140-6fb5-367d-b4c0-211c0b5f2617:
+  - vote|2
+  7a4a06f2-cae7-40da-a17a-96962186821a: []
+  ca37d690-0199-4944-b4c7-4fe19887c1ae:
+  - vote|1
+  3993eb59-dae8-3845-9599-0179ff851cb6: []
+  a3a87884-5c10-33c0-9e8a-1438adc771b8:
+  - vote|1
+  8b8aca3c-a202-4b5b-a715-a2663115be05: []

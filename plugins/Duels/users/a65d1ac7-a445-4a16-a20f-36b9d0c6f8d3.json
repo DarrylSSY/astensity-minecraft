@@ -2,7 +2,19 @@
   "uuid": "a65d1ac7-a445-4a16-a20f-36b9d0c6f8d3",
   "name": "DarrylSSY",
   "wins": 0,
-  "losses": 0,
+  "losses": 1,
   "requests": true,
-  "matches": []
+  "rating": {
+    "default": 1384
+  },
+  "matches": [
+    {
+      "winner": "DomoAK",
+      "loser": "DarrylSSY",
+      "kit": "default",
+      "time": 1565189009283,
+      "duration": 118742,
+      "health": 9.0
+    }
+  ]
 }

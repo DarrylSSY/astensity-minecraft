@@ -11,7 +11,7 @@ TimeoutPeriod: 15
 UseScoreboard: true
 UseVoteGUI: true
 UseBossBar: true
-UseTitle: true
+UseTitle: false
 CheckForHiddenPlayers: false
 PrematureEnd: true
 Price: 0.0

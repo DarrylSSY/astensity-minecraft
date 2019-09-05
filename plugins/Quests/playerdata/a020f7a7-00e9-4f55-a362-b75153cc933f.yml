@@ -1,0 +1,11 @@
+quest-progress:
+  buildingquest10:
+    started: true
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      obsidian:
+        completed: false
+      cobble:
+        completed: false

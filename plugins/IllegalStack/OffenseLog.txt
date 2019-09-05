@@ -1,0 +1,41 @@
+July 27 2019 (9:50:3) - bangthewall appears to be using an autofishing mod.. 4 caught within 0.3 blocks of each other @Location{world=CraftWorld{name=world},x=2393.3274082199896,y=70.0,z=3600.734720488853,pitch=23.250124,yaw=215.11578}
+July 27 2019 (9:50:3) - Jhojojo is spam fishing.  11 casts without a 2 second break! @Location{world=CraftWorld{name=world},x=1083.300000011921,y=67.0,z=1192.5022005901883,pitch=20.249977,yaw=-91.3563}
+July 27 2019 (9:50:3) - prevented Jiaaade from putting a chest on a Donkey @ Location{world=CraftWorld{name=world},x=2372.7145958955216,y=75.0625,z=3608.16329958802,pitch=-6.1281796,yaw=469.86182}
+July 27 2019 (9:50:3) - prevented HarukiGrande from putting a chest on a Trader Llama @ Location{world=CraftWorld{name=world},x=1515.4897558270347,y=63.0,z=1115.5066141634513,pitch=5.9676595,yaw=300.10284}
+July 27 2019 (9:50:3) - prevented HarukiGrande from putting a chest on a Trader Llama @ Location{world=CraftWorld{name=world},x=1516.0404534206202,y=63.0,z=1114.9578701443577,pitch=5.0537114,yaw=300.10458}
+July 27 2019 (9:50:3) - Stopped Retraction Dupe Glitch & Removed Piston @ Location{world=CraftWorld{name=world},x=2467.0,y=70.0,z=3611.0,pitch=0.0,yaw=0.0}  RAIL
+July 27 2019 (9:50:3) - HarukiGrande is spam fishing.  38 casts without a 2 second break! @Location{world=CraftWorld{name=world},x=1506.574657396424,y=62.875,z=1162.5704355628984,pitch=15.995447,yaw=179.5357}
+July 27 2019 (9:50:3) - HarukiGrande appears to be using an autofishing mod.. 4 caught within 0.3 blocks of each other @Location{world=CraftWorld{name=world},x=1527.0274062621834,y=63.0,z=1186.2678028988428,pitch=14.738972,yaw=353.19052}
+July 27 2019 (9:50:3) - Raysayhello is spam fishing.  11 casts without a 2 second break! @Location{world=CraftWorld{name=world},x=2394.699999988079,y=72.0,z=3616.4348239729306,pitch=-14.811004,yaw=-87.28992}
+July 27 2019 (9:50:3) - Jiaaade is spam fishing.  11 casts without a 2 second break! @Location{world=CraftWorld{name=spawn},x=957.6224899348446,y=67.0,z=121.99943005735462,pitch=23.249863,yaw=-165.44157}
+July 27 2019 (9:50:3) - Illegal stack of items removed: SADDLE (2) from player: Jiaaade at item scan.
+August 2 2019 (6:28:35) - Illegal stack of items removed: BOW (64) from player: DarrylSSY at item scan.
+August 2 2019 (6:28:35) - nasilomak is spam fishing.  11 casts without a 2 second break! @Location{world=CraftWorld{name=world},x=2038.9250000119205,y=64.0,z=4065.18646517283,pitch=26.10919,yaw=-281.48096}
+August 2 2019 (6:28:35) - nasilomak is spam fishing.  11 casts without a 2 second break! @Location{world=CraftWorld{name=world},x=2038.925000011921,y=64.0,z=4065.655362044957,pitch=26.983635,yaw=-266.646}
+August 2 2019 (6:28:35) - nasilomak is spam fishing.  11 casts without a 2 second break! @Location{world=CraftWorld{name=world},x=2040.4151515962735,y=64.0,z=4064.576862437448,pitch=14.616225,yaw=76.7712}
+August 2 2019 (6:28:35) - nasilomak appears to be using an autofishing mod.. 4 caught within 0.3 blocks of each other @Location{world=CraftWorld{name=world},x=2048.7095819535944,y=63.0,z=4058.5492270730447,pitch=3.3028429,yaw=204.69301}
+August 2 2019 (6:28:35) - Illegal stack of items removed: WATER_BUCKET (2) from player: SirPotatoSalad at item scan.
+August 2 2019 (6:28:35) - Illegal stack of items removed: IRON_INGOT (65) from player: StuffyHam at item scan.
+August 2 2019 (6:28:35) - AllisterNiel2023 is spam fishing.  13 casts without a 2 second break! @Location{world=CraftWorld{name=world},x=2528.4809073288848,y=71.9375,z=2512.9153935422555,pitch=41.27165,yaw=9.740201}
+August 2 2019 (6:28:35) - Illegal stack of items removed: DIAMOND_AXE (2) from player: StuffyHam at item scan.
+August 2 2019 (6:28:35) - Illegal stack of items removed: DIAMOND_AXE (3) from player: StuffyHam at item scan.
+August 2 2019 (6:28:35) - Illegal stack of items removed: DIAMOND_AXE (4) from player: StuffyHam at item scan.
+August 2 2019 (6:28:35) - Illegal stack of items removed: DIAMOND_AXE (5) from player: StuffyHam at item scan.
+August 2 2019 (6:28:35) - Illegal stack of items removed: DIAMOND_AXE (6) from player: StuffyHam at item scan.
+August 2 2019 (6:28:35) - Illegal stack of items removed: DIAMOND_AXE (7) from player: StuffyHam at item scan.
+August 2 2019 (6:28:35) - Illegal stack of items removed: DIAMOND_AXE (8) from player: StuffyHam at item scan.
+August 2 2019 (6:28:35) - Illegal stack of items removed: DIAMOND_AXE (9) from player: StuffyHam at item scan.
+August 2 2019 (6:28:35) - Illegal stack of items removed: DIAMOND_AXE (64) from player: StuffyHam at item scan.
+August 2 2019 (6:28:35) - Illegal stack of items removed: DIAMOND_AXE (2) from player: StuffyHam at item scan.
+August 2 2019 (6:28:35) - Illegal stack of items removed: WATER_BUCKET (4) from player: StuffyHam at item scan.
+August 2 2019 (6:28:35) - Illegal stack of items removed: WATER_BUCKET (4) from player: StuffyHam at item scan.
+August 2 2019 (6:28:35) - Apoleng was prevented from accessing the top of the nether @ Location{world=CraftWorld{name=world},x=1980.5264545454843,y=166.0,z=1468.3871030813025,pitch=22.199816,yaw=263.7365}
+August 2 2019 (6:28:35) - bangthewall appears to be using an autofishing mod.. 4 caught within 0.3 blocks of each other @Location{world=CraftWorld{name=world},x=2054.417953516224,y=64.5,z=3994.918152306987,pitch=28.49942,yaw=-83.448975}
+August 2 2019 (6:28:35) - saranrajrj is spam fishing.  105 casts without a 2 second break! @Location{world=CraftWorld{name=world},x=3830.512826498148,y=72.875,z=2254.6403927179244,pitch=14.850019,yaw=0.75671387}
+August 2 2019 (6:28:35) - saranrajrj is spam fishing.  13 casts without a 2 second break! @Location{world=CraftWorld{name=world},x=3830.3954215341923,y=72.875,z=2254.602821979736,pitch=25.649954,yaw=-13.791992}
+August 2 2019 (6:28:35) - saranrajrj is spam fishing.  17 casts without a 2 second break! @Location{world=CraftWorld{name=world},x=3830.3644398750234,y=73.0,z=2253.913938258894,pitch=26.700027,yaw=-357.893}
+August 2 2019 (6:28:35) - AlphaOhm is spam fishing.  11 casts without a 2 second break! @Location{world=CraftWorld{name=world},x=3830.4964635806996,y=73.0,z=2254.2371053107295,pitch=21.149742,yaw=-358.9508}
+August 2 2019 (6:28:35) - Jiaaade appears to be using an autofishing mod.. 4 caught within 0.3 blocks of each other @Location{world=CraftWorld{name=world},x=2398.37,y=74.95,z=3592.63,pitch=40.79992,yaw=-336.0722}
+August 4 2019 (1:17:47) - Stopped a minecart from being glitched into a block @ Location{world=CraftWorld{name=world},x=3146.5,y=69.0,z=3935.5,pitch=0.0,yaw=0.0}
+August 4 2019 (1:17:47) - Stopped a minecart from being glitched into a block @ Location{world=CraftWorld{name=world},x=3146.5,y=69.0,z=3935.5,pitch=0.0,yaw=0.0}
+August 4 2019 (1:17:47) - HarukiGrande appears to be using an autofishing mod.. 4 caught within 0.3 blocks of each other @Location{world=CraftWorld{name=world},x=1533.5336005292452,y=63.0,z=1187.032218719502,pitch=19.88445,yaw=2.7238317}
