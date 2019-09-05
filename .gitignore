@@ -4,7 +4,6 @@
 *.db*
 *.log*
 *.sqlite*
-*log*
 .idea/workspace.xml
 banned-ips.json
 banned-players.json
