@@ -1,0 +1,20 @@
+#----------------------------------------
+# MobArena
+# MobArena minigame plugin
+# http://dev.bukkit.org/bukkit-plugins/mobarena/
+#----------------------------------------
+
+# DO NOT EDIT THIS CONFIG VERSION!
+config: 2
+
+
+# Do you want to enable this event hook?
+# Enabling this hook will trigger
+# when the arena starts or stops
+# for all players that are in the arena or spectating
+enabled: false
+
+# What do you want to trigger?
+trigger: "default"
+
+

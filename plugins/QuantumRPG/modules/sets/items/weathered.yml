@@ -1,0 +1,39 @@
+name: '&eWeathered Set'
+prefix: '&lWeathered '
+suffix: ''
+color:
+  have: '&a'
+  miss: '&8'
+parts:
+  HELMET:
+    enabled: true
+    material: LEATHER_HELMET
+    name: '%prefix%Skullcap%suffix%'
+  CHESTPLATE:
+    enabled: true
+    material: LEATHER_CHESTPLATE
+    name: '%prefix%Battlemail %suffix%'
+  LEGGINGS:
+    enabled: true
+    material: LEATHER_LEGGINGS
+    name: '%prefix%Underpants %suffix%'
+  BOOTS:
+    enabled: true
+    material: LEATHER_BOOTS
+    name: '%prefix%Bloody Greaves %suffix%'
+effects:
+  parts:
+    '2':
+      lore:
+      - '%c%&lSet Bonuses (2/4):'
+      - '%c%▸ +25% PvE Damage'
+      - '%c%▸ +10 Max. Health'
+      - '%c%▸ Speed I'
+      bonuses:
+        item-stats:
+          MAX_HEALTH: 10.0
+          PVE_DAMAGE: 25
+        damage-types: {}
+        defense-types: {}
+      potion-effects:
+      - 'SPEED:1'

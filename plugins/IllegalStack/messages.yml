@@ -1,0 +1,77 @@
+PluginPrefix: '[IllegalStack] -'
+ChestRemoved: removed a chest from a ~entity~ @
+ChestPrevented: prevented ~player~ from putting a chest on a ~entity~ @
+BookRemoved: 'found a book with characters that do NOT match the specified character
+  set and removed it.. Author was: ~author~'
+SignRemoved: Found a sign not matching the allowed character set in the world @
+SignRemovedOnPlace: detected a sign placed by ~name~ that contained characters not
+  in the allowed character set.  Possible dupe machine exploit! @
+SignKickPlayerMsg: Placing signs with unicode characters is NOT permitted.
+ShulkerClick: 'Removed a shulker box from inside another shulker box clicked by: ~name~'
+ItemFrameRemoveOnExtend: removed an item frame containing - ~contents~ on the back
+  of a retracting piston @
+ItemFrameRemoveOnRetract: removed an item frame containing - ~contents~ pulled by
+  a sticky piston
+PistonRetractionDupe: Stopped Retraction Dupe Glitch & Removed Piston @ ~removedblocks~
+NetherPortalBlock: 'Blocked an entity from entering or leaving the nether: ~name~
+  @'
+EndPortalBlock: 'Blocked an entity from entering or leaving the end: ~name~ @'
+MinecartGlitch1: 'Located and removed a minecart glitched inside another block : ~blocktype~
+  @'
+MinecartGlitch2: Stopped a minecart from being glitched into a block @
+ZeroTickGlitch: Stopped 1.13 - 1.14 Zero tick crop growth glitch and removed (~removedblocks~)
+  @
+NamedItemRemovalHopper: Found an item named ~item~ in a hopper, it has been removed
+  @
+NamedItemRemovalPlayer: 'Found an item named: ~item~ in ~name~''s inventory, it has
+  been removed. @'
+ItemTypeRemovedPlayer: 'Found a blacklisted item type: ~item~ in ~name~''s inventory,
+  it has been removed'
+SilkTouchBookBlocked: Stopped  ~name~ from breaking ~block~ using a silk touch book
+  @
+PistonHeadRemoval: A piston head was exploded.. removing an orphan piston base @
+IllegalStackLogin: 'Illegal stack of items removed: ~item~ (~amount~) from player:
+  ~name~ at login.'
+IllegalStackOffhand: Removed an illegal stack of items from the off hand of ~name~,
+  ~item~ ( ~amount~)
+IllegalStackPlayerBody: 'Illegal stack of items removed: ~item~ (~amount~) from ~name~''s
+  body during item scan.'
+IllegalStackItemScan: 'Illegal stack of items removed: ~item~ (~amount~) from player:
+  ~name~ at item scan.'
+IllegalStackOnClick: 'Illegal stack of items removed: ~item~ (~amount~) from player:
+  ~name~ on click in inventory.'
+IllegalStackShorten: 'Fixed an illegal stack of: ~item~ (~amount~) triggered by player:
+  ~name~.'
+PlayerDisabledBookMsg: §cSorry but player book editing is disabled on this server!
+PlayerKickMsgFishing: §cAuto Clicker Fishing is not allowed on this server!
+PlayerKickMsgFishMod: §cAttention! it looks like you may be using an Auto Fishing
+  Mod...  Please change the spot you're fishing to avoid getting kicked!
+PlayerSwimExploitMsg: §cThat villager is too busy swimming to trade with you right
+  now!
+PlayerCMIShulkerNest: §cSorry you can not put a shulker into another shulker!
+PlayerDisabledHorseChestMsg: §cSorry, chests on horses, llamas, mules etc are disabled!
+PlayerNearbyNotification: a nearby exploit was detected ~prot~
+PlayerNetherBlock: §cSorry ~name~ players are not allowed on top of the nether!
+StaffMsgCreativeBlock: ~name~ was prevented from loading in an illegal item via the
+  creative saved toolbar.
+StaffMsgNetherBlock: ~name~ was prevented from accessing the top of the nether @
+StaffMsgNetherFix: ~name~ has been teleported down from above the nether ceiling @
+StaffMsgBookRemoved: 'Removed a writable book from player: ~name~ because player book
+  creation is disabled!'
+StaffProtectionToggleMsg: 'Protection: ~protection~ has been turned ~status~ by ~name~'
+StaffInvalidProtectionMsg: '§cYou must supply a valid protection name to add values
+  to:'
+StaffOptionUpdated: §aOption successfully updated!
+StaffSingleWordsOnly: §cThat protection does not support multiple word arguments!
+StaffStringUpdated: '§aValue updated with string value: ~value~'
+StaffEnchantBypass: §cPlease left click with the item in hand you wish to add to the
+  EnchantedItemWhitelist, left click with nothing in hand or use /istack cancel to
+  cancel.
+StaffEnchantBypassCancel: §cEnchantedItemWhitelist add item mode DISABLED.
+StaffEnchantBypassAdded: §aAdded ~itemdata~ to the EnchantedItemWhitelist!
+IllegalEnchantLevel: '§aFixed Enchantment Level ~enchant~.(~lvl~) on ~item~ found
+  on player: ~player~'
+StaffSpamFishingNotice: §a~player~ is spam fishing! ~casts~ casts without a 2 second
+  break! @
+IllegalEnchantType: '§aCould not fix Enchantment ~enchant~.(~lvl~) on ~item~ found
+  on player: ~player~ this enchantment is not valid for this item type!'

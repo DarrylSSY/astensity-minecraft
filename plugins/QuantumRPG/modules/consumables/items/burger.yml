@@ -1,0 +1,35 @@
+material: 'PLAYER_HEAD:0:1'
+name: '&6Burger on a Plate'
+lore:
+- '&7Definitely a hearty burger.'
+- '&7Portions: &f%uses%&7/&f%uses-max%'
+- ''
+- '%LEVEL%'
+- '%CLASS%'
+- ''
+- '&f• &7Health: &6+5❤&7.'
+- '&f• &7Saturation: &6+5☕&7.'
+- '&f• &7Absorption I: &645 sec&7.'
+skull-hash: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZkM2E3ZTA3ZjVkYWRkNDdiYWRiMTM4MmE1YjE2Mjc4MThlZTE2YTE5YTdjMGJmMjc2OGFlNjI2MjczN2I2In19fQ==\'
+color: '240,240,20'
+user-requirements:
+  level: 10
+  classes: 'Warrior,Berserker'
+effects:
+  health: 5
+  hunger: 5
+uses-by-level:
+ '1': 2
+min-level: 1
+max-level: 1
+usage:
+  RIGHT:
+    cooldown: 10
+    actions:
+      target-selectors:
+        self:
+        - '[SELF]'
+      action-executors:
+      - '[POTION] ~name: ABSORPTION; ~amount: 1; ~duration: 900; ~target: self;'
+      - '[PARTICLE_SIMPLE] ~name: ITEM_CRACK:BREAD; ~offset: 0.1,0.1,0.1; ~speed: 0.1; ~amount: 40; ~target: self;'
+      - '[SOUND] ~name: ENTITY_GENERIC_EAT; ~target: self;'

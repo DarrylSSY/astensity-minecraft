@@ -20,7 +20,7 @@ display:
   - "&a&k;&r&f&k;&r &a(!) You have started this quest."
   type: "IRON_BARS"
 rewards:
-  - "give {player} 310 1 protection:4 fireprotection:3 unbreaking:3 name:&8&l◆_&4&lNIGHTMARE_HELMET_&8◆"
+  - "give {player} diamond_helmet 1 protection:4 fireprotection:3 unbreaking:3 name:&8&l◆_&4&lNIGHTMARE_HELMET_&8◆"
 options:
   category: "nightmare"
   requires: []

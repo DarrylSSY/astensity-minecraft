@@ -1,0 +1,148 @@
+cfg_version: 1.0.0
+command-aliases: sell
+price:
+  level-modifier:
+    GEMS: 1.25
+  item-types:
+    DIAMOND_SWORD: 500
+    EMERALD: 300
+  item-stats:
+    CRITICAL_RATE: 5
+    DIRECT_DAMAGE: 5.0
+    AOE_DAMAGE: 5.0
+    PVP_DAMAGE: 5.0
+    PVE_DAMAGE: 5.0
+    DODGE_RATE: 5.0
+    ACCURACY_RATE: 5.0
+    BLOCK_RATE: 5.0
+    BLOCK_DAMAGE: 5.0
+    LOOT_RATE: 5.0
+    BURN_RATE: 5.0
+    PVP_DEFENSE: 5.0
+    PVE_DEFENSE: 5.0
+    CRITICAL_DAMAGE: 5.0
+    DURABILITY: 5.0
+    DURABILITY_UNBREAK: 5.0
+    MOVEMENT_SPEED: 5.0
+    PENETRATION: 5.0
+    ATTACK_SPEED: 5.0
+    VAMPIRISM: 5.0
+    MAX_HEALTH: 5.0
+    BLEED_RATE: 5.0
+    DISARM_RATE: 5.0
+    RANGE: 5.0
+    THORNMAIL: 5.0
+    HEALTH_REGEN: 5.0
+    MANA_REGEN: 5.0
+  refine-levels:
+    '1': 25
+    '2': 35
+    '3': 50
+  armor-types:
+    physical: 3
+    magical: 2.0
+    poison: 2.0
+    fire: 2.0
+    water: 2.0
+    wind: 2.0
+  damage-types:
+    physical: 4
+    magical: 2.0
+    poison: 2.0
+    fire: 2.0
+    water: 2.0
+    wind: 2.0
+  item-sockets:
+    GEM: 50.0
+    ESSENCE: 75.0
+    RUNE: 100.0
+  enchants: {}
+  item-modules:
+    ACTIVE_ITEMS:
+      default: 50.0
+      scroll_of_speed: 50.0
+      scroll_of_fire: 50.0
+      scroll_of_attack: 50.0
+    ARROWS:
+      default: 50.0
+      arrow_flame: 50.0
+      arrow_explosive: 50.0
+      arrow_pierce: 50.0
+    CONSUMABLES:
+      default: 50.0
+      small_health_potion: 50.0
+      burger: 50.0
+      small_loot_potion: 50.0
+    CUSTOM_ITEMS:
+      default: 50.0
+      fire_staff: 50.0
+    ESSENCES:
+      default: 50.0
+      light_trail: 50.0
+      magic_helix: 50.0
+    EXTRACTOR:
+      default: 50.0
+      tool_armor: 50.0
+      tool_wpn: 50.0
+    FORTIFY:
+      default: 50.0
+      stone_refine: 50.0
+      stone_rune: 50.0
+      stone_essence: 50.0
+      stone_gem: 50.0
+    GEMS:
+      default: 50.0
+      emerald_of_health: 50.0
+      sapphire_of_defense: 50.0
+      diamond_of_attack: 50.0
+    IDENTIFY:
+      default: 50.0
+      tome-rare: 50.0
+      item-common: 50.0
+      tome-common: 50.0
+    MAGIC_DUST:
+      default: 50.0
+      sample_dust: 50.0
+    REFINE:
+      default: 50.0
+      sample_stone: 50.0
+    REPAIR:
+      default: 50.0
+      sample_tool: 50.0
+    RESOLVE:
+      default: 50.0
+      sample_tool: 50.0
+    RUNES:
+      default: 50.0
+      rune_strength: 50.0
+      rune_jump: 50.0
+      rune_speed: 50.0
+    TIERS:
+      default: 50.0
+      common: 50.0
+      legendary: 50.0
+      rare: 50.0
+gui:
+  title: '&4&l<&4&nSelling&4&l>'
+  size: 54
+  item-slots: 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44
+  content:
+    filler_black:
+      material: BLACK_STAINED_GLASS_PANE:0:1
+      skull-hash: ''
+      enchanted: false
+      name: ''
+      lore: []
+      slots: 45,46,47,48,49,50,51,52,53
+      type: NONE
+    sell:
+      material: LIME_STAINED_GLASS_PANE:0:1
+      skull-hash: ''
+      enchanted: false
+      name: '&2« &aSell &2»'
+      lore:
+      - '&f» &7Total cost:             &f%cost%$'
+      - '&8&m                                      '
+      - '&7Sell all items in GUI.'
+      slots: '49'
+      type: ACCEPT

@@ -1,0 +1,23 @@
+# Example 2:
+# This example is the same as Example 1
+# But every time it flashes it prints the message in the console (AKA SPAM)
+# This is for demonstrational purposes
+
+# <example2 messagecolor="c">Message here</example2>
+
+settings:
+  # When set to false, it will cache the effect if it does not contain MVdW placeholders
+  # When set to true, it will not cache the effect and parse it every time it starts again
+  force-update: false
+  # Optional arguments
+  arguments:
+    messagecolor: 'c' # Use 'c' as the default value for messagecolor
+
+script: |
+  function logMessage(message){
+    print(message);
+  }
+# Use {message} as the placeholder for the text that is between the tags
+frames:
+- '&e&lWARNING: &{messagecolor}{message}<% logMessage("{message}"); %>'
+- '&6&lWARNING: &{messagecolor}{message}'

@@ -1,6 +1,6 @@
 #
 #  mcMMO configuration
-#  Last updated on 2.1.97-SNAPSHOT-b${BUILD_NUMBER}
+#  Last updated on 2.1.101-b${BUILD_NUMBER}
 #
 #####
 
@@ -15,7 +15,7 @@ General:
         Enabled: true
     Locale: en_US
     AprilFoolsEvent: true
-    MOTD_Enabled: false
+    MOTD_Enabled: true
     EventBroadcasts: true
     EventInfoOnPlayerJoin: true
     AdminNotifications: true
@@ -164,7 +164,7 @@ MySQL:
             Load: 20
             Save: 20
     Server:
-        SSL: false
+        SSL: true
         Port: 3306
         Address: 34.87.92.37
 
@@ -174,39 +174,39 @@ MySQL:
 ###
 Hardcore:
     Death_Stat_Loss:
-        Penalty_Percentage: 5.0
-        Level_Threshold: 100
+        Penalty_Percentage: 75.0
+        Level_Threshold: 0
         Enabled:
-            Acrobatics: true
-            Alchemy: true
-            Archery: true
-            Axes: true
-            Excavation: true
-            Fishing: true
-            Herbalism: true
-            Mining: true
-            Repair: true
-            Swords: true
-            Taming: true
-            Unarmed: true
-            Woodcutting: true
+            Acrobatics: false
+            Alchemy: false
+            Archery: false
+            Axes: false
+            Excavation: false
+            Fishing: false
+            Herbalism: false
+            Mining: false
+            Repair: false
+            Swords: false
+            Taming: false
+            Unarmed: false
+            Woodcutting: false
     Vampirism:
         Leech_Percentage: 5.0
         Level_Threshold: 0
         Enabled:
-            Acrobatics: true
-            Alchemy: true
-            Archery: true
-            Axes: true
-            Excavation: true
-            Fishing: true
-            Herbalism: true
-            Mining: true
-            Repair: true
-            Swords: true
-            Taming: true
-            Unarmed: true
-            Woodcutting: true
+            Acrobatics: false
+            Alchemy: false
+            Archery: false
+            Axes: false
+            Excavation: false
+            Fishing: false
+            Herbalism: false
+            Mining: false
+            Repair: false
+            Swords: false
+            Taming: false
+            Unarmed: false
+            Woodcutting: false
 
 #
 #  Settings for SMP Mods
@@ -519,7 +519,7 @@ Commands:
         # Prevents players from spamming /mctop or /mcrank
         Player_Cooldown: 1750
     mcmmo:
-        Donate_Message: false
+        Donate_Message: true
     inspect:
         Max_Distance: 30.0
     ptp:

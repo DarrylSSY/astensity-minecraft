@@ -1,0 +1,100 @@
+cfg_version: 1.0
+command-aliases: extractor
+extract:
+  cost:
+    GEM: 250.0
+    RUNE: 250.0
+    ESSENCE: 250.0
+item-format:
+  name: '%item_name%'
+  lore:
+  - '&8&m               &f  「 INFO 」  &8&m               '
+  - '%item_lore%'
+  - '&8&m         &f  「 REQUIREMENTS 」  &8&m        '
+  - '%item-level%'
+  - '%item-types%'
+  - '&8&m               &f 「 USAGE 」 &8&m               '
+  - '&7Drag & Drop onto item to start extracting.'
+gui:
+  title: '          &4« &lExtractor &r&4»'
+  size: 54
+  item-slot: 2
+  source-slot: 4
+  result-slot: 6
+  socket-slots: 45,46,47,48,49,50,51,52,53
+  socket-name: '&7Extract: %name%'
+  socket-lore:
+  - '&7Cost:           &e%cost%$'
+  - '&7You have:     &e%have%$'
+  - '&8&m                                      '
+  - '&f[Click to select this item]'
+  socket-types:
+    GEM:
+      material: EMERALD:0:1
+      skull-hash: ''
+      name: '&aExtract Gems'
+      lore: []
+      slots: '28'
+      type: NONE
+    RUNE:
+      material: PRISMARINE_SHARD:0:1
+      skull-hash: ''
+      name: '&bExtract Runes'
+      lore: []
+      slots: '31'
+      type: NONE
+    ESSENCE:
+      material: REDSTONE:0:1
+      skull-hash: ''
+      name: '&cExtract Essences'
+      lore: []
+      slots: '34'
+      type: NONE
+  content:
+    filler_black:
+      material: BLACK_STAINED_GLASS_PANE:0:1
+      skull-hash: ''
+      enchanted: false
+      name: ''
+      lore: []
+      slots: 0,1,2,3,4,5,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44
+      type: NONE
+    filler_yellow:
+      material: YELLOW_STAINED_GLASS_PANE:0:1
+      skull-hash: ''
+      enchanted: false
+      name: ''
+      lore: []
+      slots: 3,5
+      type: NONE
+    filler_orange:
+      material: ORANGE_STAINED_GLASS_PANE:0:1
+      skull-hash: ''
+      enchanted: false
+      name: ''
+      lore: []
+      slots: 10,11,12,13,14,15,16,19,22,25
+      type: NONE
+    accept:
+      material: LIME_STAINED_GLASS_PANE:0:1
+      skull-hash: ''
+      enchanted: false
+      name: '&2« &aAccept &2»'
+      lore:
+      - '&7Selected socket will be extracted.'
+      - '&7Item in socket will be &cdestroyed&7.'
+      - '&8&m                                              '
+      - '&f[Click to confirm]'
+      slots: '8'
+      type: ACCEPT
+    exit:
+      material: RED_STAINED_GLASS_PANE:0:1
+      skull-hash: ''
+      enchanted: false
+      name: '&4« &cCancel &4»'
+      lore:
+      - '&7No actions will be done.'
+      - '&8&m                              '
+      - '&f[Click to exit]'
+      slots: '0'
+      type: EXIT

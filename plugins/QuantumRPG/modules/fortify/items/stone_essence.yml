@@ -1,0 +1,30 @@
+material: COAL:0
+name: '&eFortify Stone'
+lore:
+- '&7Fortifies the item when socketing &eEssences&7.'
+enchanted: false
+min-level: 1
+max-level: 10
+affected-modules:
+- RUNES
+protect-chance-by-level:
+  '1': 15
+  '2': 20
+  '3': 25
+  '4': 30
+  '5': 35
+  '6': 40
+  '7': 45
+  '8': 50
+  '9': 55
+  '10': 60
+item-level-requirements:
+  '1': 1-10
+  '10': 11-20
+uses-by-level:
+  '1': 1
+  '5': 2
+  '10': 3
+item-types:
+- WEAPON
+- ARMOR
