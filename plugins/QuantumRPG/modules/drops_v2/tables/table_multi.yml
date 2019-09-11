@@ -12,22 +12,6 @@ region-blacklist:
 - world_the_end
 items:
   tier-common:
-    chance: 10.0
-    item-id: 'random'
-    type: TIERS
-    min-level: '%mob_lvl% + 1'
-    max-level: '%mob_lvl% + 3'
-    additional-conditions: []
-    actions-on-drop: {}
-  tier-rare:
-    chance: 5.0
-    item-id: 'random'
-    type: TIERS
-    min-level: '%mob_lvl% + 1'
-    max-level: '%mob_lvl% + 3'
-    additional-conditions: []
-    actions-on-drop: {}
-  tier-legendary:
     chance: 1.0
     item-id: 'random'
     type: TIERS
@@ -35,8 +19,24 @@ items:
     max-level: '%mob_lvl% + 3'
     additional-conditions: []
     actions-on-drop: {}
+  tier-rare:
+    chance: 0.5
+    item-id: 'random'
+    type: TIERS
+    min-level: '%mob_lvl% + 1'
+    max-level: '%mob_lvl% + 3'
+    additional-conditions: []
+    actions-on-drop: {}
+  tier-legendary:
+    chance: 0.1
+    item-id: 'random'
+    type: TIERS
+    min-level: '%mob_lvl% + 1'
+    max-level: '%mob_lvl% + 3'
+    additional-conditions: []
+    actions-on-drop: {}
   runes-random:
-    chance: 40.0
+    chance: 10.0
     item-id: 'random'
     type: RUNES
     min-level: '1'
@@ -44,7 +44,7 @@ items:
     additional-conditions: []
     actions-on-drop: {}
   arrows-random:
-    chance: 50.0
+    chance: 30.0
     item-id: 'random'
     type: ARROWS
     min-level: '1'
