@@ -5,14 +5,14 @@ level-penalty:
   variance: 10
 world-whitelist:
 - world
-- world_nether
-- world_the_end
 biome-whitelist:
 - ALL
-region-blacklist: []
+region-blacklist:
+- world_nether
+- world_the_end
 items:
   tier-random:
-    chance: 1.0
+    chance: 0.1
     item-id: 'random'
     type: TIERS
     min-level: '%mob_lvl% + 1'
@@ -20,7 +20,7 @@ items:
     additional-conditions: []
     actions-on-drop: {}
   runes-random:
-    chance: 3.0
+    chance: 0.3
     item-id: 'random'
     type: RUNES
     min-level: '1'
@@ -28,7 +28,7 @@ items:
     additional-conditions: []
     actions-on-drop: {}
   arrows-random:
-    chance: 10.0
+    chance: 1.0
     item-id: 'random'
     type: ARROWS
     min-level: '1'
