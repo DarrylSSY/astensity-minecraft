@@ -11,8 +11,24 @@ region-blacklist:
 - world_nether
 - world_the_end
 items:
-  tier-random:
-    chance: 30.0
+  tier-common:
+    chance: 10.0
+    item-id: 'random'
+    type: TIERS
+    min-level: '%mob_lvl% + 1'
+    max-level: '%mob_lvl% + 3'
+    additional-conditions: []
+    actions-on-drop: {}
+  tier-rare:
+    chance: 5.0
+    item-id: 'random'
+    type: TIERS
+    min-level: '%mob_lvl% + 1'
+    max-level: '%mob_lvl% + 3'
+    additional-conditions: []
+    actions-on-drop: {}
+  tier-legendary:
+    chance: 1.0
     item-id: 'random'
     type: TIERS
     min-level: '%mob_lvl% + 1'
