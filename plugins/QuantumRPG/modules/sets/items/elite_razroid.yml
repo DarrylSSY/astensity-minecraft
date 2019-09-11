@@ -1,0 +1,41 @@
+name: '&eElite Razroid Set'
+prefix: '&6Elite '
+suffix: 'of Razroid'
+color:
+  have: '&a'
+  miss: '&8'
+parts:
+  HELMET:
+    enabled: true
+    material: DIAMOND_HELMET
+    name: '%prefix%Helmet %suffix%'
+  CHESTPLATE:
+    enabled: true
+    material: DIAMOND_CHESTPLATE
+    name: '%prefix%Chestplate %suffix%'
+  LEGGINGS:
+    enabled: true
+    material: DIAMOND_LEGGINGS
+    name: '%prefix%Leggings %suffix%'
+  BOOTS:
+    enabled: true
+    material: DIAMOND_BOOTS
+    name: '%prefix%Boots %suffix%'
+effects:
+  parts:
+    '2':
+      lore:
+      - '%c%&lSet Bonuses (4/4):'
+      - '%c%▸ +15% PvP Damage'
+      - '%c%▸ +9 Max. Health'
+      - '%c%▸ Strength I'
+      - '%c%▸ Speed I'
+      bonuses:
+        item-stats:
+          MAX_HEALTH: 9.0
+          PVP_DAMAGE: 15
+        damage-types: {}
+        defense-types: {}
+      potion-effects:
+      - 'STRENGTH:1'
+      - 'SPEED:1'

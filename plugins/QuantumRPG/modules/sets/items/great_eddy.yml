@@ -1,0 +1,36 @@
+name: '&eGreat Eddy Set'
+prefix: '&aGreat '
+suffix: 'of Eddy'
+color:
+  have: '&a'
+  miss: '&8'
+parts:
+  HELMET:
+    enabled: true
+    material: GOLDEN_HELMET
+    name: '%prefix%Helmet %suffix%'
+  CHESTPLATE:
+    enabled: true
+    material: GOLDEN_CHESTPLATE
+    name: '%prefix%Chestplate %suffix%'
+  LEGGINGS:
+    enabled: true
+    material: GOLDEN_LEGGINGS
+    name: '%prefix%Leggings %suffix%'
+  BOOTS:
+    enabled: true
+    material: GOLDEN_BOOTS
+    name: '%prefix%Boots %suffix%'
+effects:
+  parts:
+    '2':
+      lore:
+      - '%c%&lSet Bonuses (4/4):'
+      - '%c%▸ +10% PvP Damage'
+      - '%c%▸ +3 Max. Health'
+      bonuses:
+        item-stats:
+          MAX_HEALTH: 3.0
+          PVP_DAMAGE: 10
+        damage-types: {}
+        defense-types: {}
