@@ -72,9 +72,6 @@ generator:
       '11': 11-25
       '26': 26-35
       '36': 36-50
-    classes:
-    - Warrior
-    - Cleric
     min-item-stats: 1
     max-item-stats: -1
     min-damage-types: 1

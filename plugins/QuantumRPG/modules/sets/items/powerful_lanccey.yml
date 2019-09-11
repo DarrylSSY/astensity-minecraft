@@ -1,0 +1,39 @@
+name: '&ePowerful Lanccey Set'
+prefix: '&aPowerful '
+suffix: 'of Lanccey'
+color:
+  have: '&a'
+  miss: '&8'
+parts:
+  HELMET:
+    enabled: true
+    material: GOLDEN_HELMET
+    name: '%prefix%Helmet %suffix%'
+  CHESTPLATE:
+    enabled: true
+    material: GOLDEN_CHESTPLATE
+    name: '%prefix%Chestplate %suffix%'
+  LEGGINGS:
+    enabled: true
+    material: GOLDEN_LEGGINGS
+    name: '%prefix%Leggings %suffix%'
+  BOOTS:
+    enabled: true
+    material: GOLDEN_BOOTS
+    name: '%prefix%Boots %suffix%'
+effects:
+  parts:
+    '2':
+      lore:
+      - '%c%&lSet Bonuses (4/4):'
+      - '%c%▸ +7% PvP Damage'
+      - '%c%▸ +5 Max. Health'
+      - '%c%▸ Strength I'
+      bonuses:
+        item-stats:
+          MAX_HEALTH: 5.0
+          PVP_DAMAGE: 7
+        damage-types: {}
+        defense-types: {}
+      potion-effects:
+      - 'STRENGTH:1'

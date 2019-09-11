@@ -12,7 +12,7 @@ region-blacklist:
 - world_the_end
 items:
   gem-random:
-    chance: 0.1
+    chance: 100
     item-id: 'random'
     type: GEMS
     min-level: '%mob_lvl% + 1'

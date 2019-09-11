@@ -1,0 +1,41 @@
+name: '&eElite Endless Battle Set'
+prefix: '&6Elite '
+suffix: 'of Endless Battle'
+color:
+  have: '&a'
+  miss: '&8'
+parts:
+  HELMET:
+    enabled: true
+    material: DIAMOND_HELMET
+    name: '%prefix%Helmet %suffix%'
+  CHESTPLATE:
+    enabled: true
+    material: DIAMOND_CHESTPLATE
+    name: '%prefix%Chestplate %suffix%'
+  LEGGINGS:
+    enabled: true
+    material: DIAMOND_LEGGINGS
+    name: '%prefix%Leggings %suffix%'
+  BOOTS:
+    enabled: true
+    material: DIAMOND_BOOTS
+    name: '%prefix%Boots %suffix%'
+effects:
+  parts:
+    '2':
+      lore:
+      - '%c%&lSet Bonuses (4/4):'
+      - '%c%▸ +18% PvP Damage'
+      - '%c%▸ +5 Max. Health'
+      - '%c%▸ Strength I'
+      - '%c%▸ Speed I'
+      bonuses:
+        item-stats:
+          MAX_HEALTH: 5.0
+          PVP_DAMAGE: 18
+        damage-types: {}
+        defense-types: {}
+      potion-effects:
+      - 'STRENGTH:1'
+      - 'SPEED:1'
