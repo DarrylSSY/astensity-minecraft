@@ -19,7 +19,7 @@ parts:
     name: '%prefix%Boots %suffix%'
 effects:
   parts:
-    '2':
+    '4':
       lore:
       - '%c%&lSet Bonuses (4/4):'
       - '%c%▸ +7% PvP Damage'
