@@ -23,7 +23,7 @@ parts:
     name: '%prefix%Boots %suffix%'
 effects:
   parts:
-    '4':
+    '2':
       lore:
       - '%c%&lSet Bonuses (4/4):'
       - '%c%▸ +10% PvP Damage'
@@ -37,5 +37,5 @@ effects:
         damage-types: {}
         defense-types: {}
       potion-effects:
-      - 'INCREASE_DAMAGE:1'
+      - 'STRENGTH:1'
       - 'SPEED:1'
