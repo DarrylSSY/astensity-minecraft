@@ -6,7 +6,7 @@ DataSource:
     # or when a website integration is being used.
     caching: true
     # Database host address
-    mySQLHost: localhost
+    mySQLHost: 34.87.92.37
     # Database port
     mySQLPort: '3306'
     # Connect to MySQL database over SSL
@@ -393,12 +393,12 @@ Protection:
     enableProtectionRegistered: true
     # Countries allowed to join the server and register. For country codes, see
     # https://dev.maxmind.com/geoip/legacy/codes/iso3166/
-    # Use "localhost" for local addresses.
+    # Use "34.87.92.37" for local addresses.
     # PLEASE USE QUOTES!
     countries: 
     - US
     - GB
-    - localhost
+    - 34.87.92.37
     # Countries not allowed to join the server and register
     # PLEASE USE QUOTES!
     countriesBlacklist: 

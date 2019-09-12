@@ -5,9 +5,6 @@
 # #################################################################
 
 MyPet:
-  Entity:
-    Skip-Target-AI-Ticks: 0
-    FollowStartDistance: 7.0
   Update:
     Check: true
     Download: false
@@ -19,6 +16,7 @@ MyPet:
     AllowRanged: true
   OwnerCanAttackPet: false
   DisablePetVersusPlayer: false
+  FollowStartDistance: 7.0
   RetainEquipmentOnTame: true
   Make-Pet-Invisible-When-Owner-Is-Invisible: true
   Log:
@@ -37,7 +35,7 @@ MyPet:
     MySQL:
       Database: minecraft
       TablePrefix: mypet_
-      Host: localhost
+      Host: 34.87.92.37
       Password: Astensity1234
       User: astensity
       Port: 3306
@@ -46,7 +44,7 @@ MyPet:
     MongoDB:
       Database: mypet
       CollectionPrefix: ''
-      Host: localhost
+      Host: 34.87.92.37
       Password: ''
       User: ''
       Port: 27017

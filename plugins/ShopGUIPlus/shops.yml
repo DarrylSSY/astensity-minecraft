@@ -128,7 +128,7 @@ shops:
           material: SNOW_BLOCK
           quantity: 16
         buyPrice: 300
-        sellPrice: 0.3
+        sellPrice: 3
         slot: 15
       17:
         type: item
@@ -846,7 +846,7 @@ shops:
           material: SNOWBALL
           quantity: 16
         buyPrice: 180
-        sellPrice: 0.1
+        sellPrice: 6
         slot: 25
       24:
         type: item

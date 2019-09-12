@@ -1,5 +1,5 @@
 useMySQL: true
-hostName: localhost
+hostName: 34.87.92.37
 port: '3306'
 databaseName: 'minecraft'
 username: astensity

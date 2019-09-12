@@ -26,7 +26,7 @@ regions:
     use-creature-spawn-event: true
     sql:
         use: false
-        dsn: jdbc:mysql://localhost/minecraft
+        dsn: jdbc:mysql://34.87.92.37/minecraft
         username: astensity
         password: Astensity1234
         table-prefix: ''
@@ -169,7 +169,7 @@ blacklist:
             enable: true
         database:
             enable: false
-            dsn: jdbc:mysql://localhost:3306/minecraft
+            dsn: jdbc:mysql://34.87.92.37:3306/minecraft
             user: astensity
             pass: 'Astensity1234'
             table: blacklist_events

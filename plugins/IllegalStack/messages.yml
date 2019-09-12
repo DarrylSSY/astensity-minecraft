@@ -75,5 +75,3 @@ StaffSpamFishingNotice: §a~player~ is spam fishing! ~casts~ casts without a 2 s
   break! @
 IllegalEnchantType: '§aCould not fix Enchantment ~enchant~.(~lvl~) on ~item~ found
   on player: ~player~ this enchantment is not valid for this item type!'
-StaffMsgSpawnerReset: A ~type~ spawner was reset to a pig spawner when broken by ~name~
-  @
