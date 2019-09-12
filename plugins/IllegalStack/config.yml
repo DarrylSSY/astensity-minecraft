@@ -1,84 +1,65 @@
-ConfigVersion: '2.0'
-Exploits:
-  Nether:
-    ExcludeNetherWorldFromHeightCheck: []
-    NetherYLevel: 128
-    BlockPlayersAboveNether: true
-  1_14_Exploits:
-    Traders:
-      VillagerRestockTime: 10
-      BlockVillagerTradeCheesing: true
-      ZombieVillagerTransformChance: 100
-    Misc:
-      PreventFoodDupe: true
-      BlockSilkTouchBookExploit: true
-  Other:
-    PreventRailDupe: true
-    PreventBedrockDestruction: true
-    DisableChestsOnMobs: true
-    PreventHoppersToUnloadedChunks: true
-    PreventZeroTickExploit: true
-    PreventNestedShulkers: true
-  FishMod:
-    WarnPlayerThenKickInsteadOfNotify: false
-    MaxFishAllowedBeforeKick: 5
-    WatchForAutoFishMod: true
-    MaxFishToNotifyStaffThenBlock: 5
-  MineCart:
-    PreventMinecartGlitch: true
-    MinecartBlockWhiteList: []
-    RemoveExistingGlitchedMinecarts: false
-  PortalDupe:
-    BlockNonPlayersInEndPortal: true
-    BlockNonPlayersInNetherPortal: true
-    NetherWhiteList: []
-    NotifyBlockedPortalAttempts: false
-    NetherWhiteListMode: true
-    EndWhiteList: []
-    EndWhiteListMode: true
-  Enchants:
-    FixIllegalEnchants: false
-    EnchantedItemWhitelist: []
-  BookExploit:
-    RemoveBooksNotMatchingCharset: true
-    ValidCharset: US-ASCII
-    PageCountThreshold: 5
-    DisableBookWriting: false
-    BookAuthorWhitelist: []
-  TNTDupe:
-    PreventIndirectTNTPowerDupe: true
-  OverStack:
-    RemoveOverstackedItems: true
-    FixOverstackedItemInstead: false
-    GroupStack: []
-    RemoveItemsOfType: []
-    StackWhiteListMode: true
-    AllowStack:
-    - POTION
-    PreventOverStackedItemInHoppers: true
-  3rdParty:
-    BlockCMIShulkerStacking: true
-  SignExploit:
-    DestroyBadSignsOnChunkLoad: false
-  Fishing:
-    KickForAutoClickerFishing: true
-UserRequested:
-  ItemRemoval:
-    NameLoreStrictMatchMode: false
-    ItemNamesToRemove: []
-    RemoveItemsMatchingName: false
-    ItemLoresToRemove: []
-  Misc:
-    NotifyInsteadOfBlock: []
-  Mobs:
-    PreventZombieItemPickup: false
-  Obscure:
-    BlockBadItemsFromCreativeTab: false
-  Spawners:
-    ResetSpawnersOfType: []
-Misc:
-  BreakMachinesInsteadOfDroppingItems: true
-  NotifyNearbyPlayers: false
-  InGameOffenseNotifications: true
-  LogOffensesInSeparateFile: true
+Settings:
   DisableInWorlds: []
+  LogOffensesInSeparateFile: true
+  InGameOffenseNotifications: true
+  NotifyInsteadOfBlock: []
+  NotifyNearbyPlayers: false
+  RemoveBooksNotMatchingCharset: true
+  DisableBookWriting: false
+  DestroyBadSignsOnChunkLoad: false
+  ValidCharset: US-ASCII
+  PageCountThreshold: 5
+  BookAuthorWhitelist: []
+  AllowStack:
+  - POTION
+  RemoveItemsOfType: []
+  RemovePistonIfHeadIsExploded: true
+  PreventRailDupe: true
+  PreventOverStackedItemInHoppers: true
+  PreventRecipeDupe: false
+  RemoveOverstackedItems: true
+  StackWhiteListMode: true
+  PreventNestedShulkers: true
+  BlockCMIShulkerStacking: true
+  PreventHoppersToUnloadedChunks: true
+  PreventCactusDupe: true
+  PreventItemFramePistonDupe: false
+  PreventZombieItemPickup: false
+  DisableChestsOnMobs: true
+  PreventIndirectTNTPowerDupe: true
+  PreventMinecartGlitch: true
+  MinecartBlockWhiteList: []
+  RemoveExistingGlitchedMinecarts: false
+  BlockNonPlayersInNetherPortal: true
+  BlockNonPlayersInEndPortal: true
+  NotifyBlockedPortalAttempts: false
+  NetherWhiteList: []
+  NetherWhiteListMode: true
+  BlockPlayersAboveNether: true
+  EndWhiteList: []
+  EndWhiteListMode: true
+  BlockVillagerTradeCheesing: true
+  VillagerRestockTime: 10
+  ZombieVillagerTransformChance: 0
+  PreventVillagerSwimExploit: true
+  KickForAutoClickerFishing: true
+  WatchForAutoFishMod: true
+  FishMod:
+    MaxFishToNotifyStaffThenBlock: 5
+    WarnPlayerThenKickInsteadOfNotify: false
+    MaxFishAllowedBeforeKick: 30
+  RemoveItemsMatchingName: true
+  ItemNamesToRemove: []
+  ItemLoresToRemove: []
+  NameLoreStrictMatchMode: false
+  FixIllegalEnchants: false
+  EnchantedItemWhitelist: []
+  FixOverstackedItemInstead: false
+  GroupStack: []
+  BlockSilkTouchBookExploit: true
+  BlockBadItemsFromCreativeTab: true
+  BreakMachinesInsteadOfDroppingItems: true
+  PreventExcessiveFireworkExploit: false
+  ExcludeNetherWorldFromHeightCheck: []
+  PreventFoodDupe: true
+  RemoveEnchantsLargerThan: 0

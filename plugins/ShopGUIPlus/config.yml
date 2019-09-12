@@ -2,7 +2,7 @@ database:
   # Database backend type, can be set to mysql or sqlite
   type: mysql
   # MySQL database host
-  mySQLHost: localhost
+  mySQLHost: ***REMOVED***
   # MySQL connection port number
   mySQLPort: 3306
   # MySQL database name
