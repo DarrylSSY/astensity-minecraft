@@ -17,7 +17,7 @@ Settings:
   PreventRailDupe: true
   PreventOverStackedItemInHoppers: true
   PreventRecipeDupe: false
-  RemoveOverstackedItems: true
+  RemoveOverstackedItems: false
   StackWhiteListMode: true
   PreventNestedShulkers: true
   BlockCMIShulkerStacking: true
