@@ -23,7 +23,7 @@ parts:
     name: '%prefix%Boots %suffix%'
 effects:
   parts:
-    '4':
+    '2':
       lore:
       - '%c%&lSet Bonuses (4/4):'
       - '%c%▸ +15% PvE Damage'
@@ -38,4 +38,4 @@ effects:
         defense-types: {}
       potion-effects:
       - 'REGENERATION:1'
-      - 'DAMAGE_RESISTANCE:1'
+      - 'RESISTANCE:1'
