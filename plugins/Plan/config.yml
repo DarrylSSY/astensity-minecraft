@@ -27,7 +27,7 @@ Plugin:
 Database:
     Type: MySQL
     MySQL:
-        Host: ***REMOVED***
+        Host: localhost
         Port: 3306
         User: astensity
         Password: ***REMOVED***

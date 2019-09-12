@@ -24,7 +24,7 @@ Database:
   # If you are using BungeeCord, set it to whatever you use on your BungeeCord server!!!
   UUID_Type: auto
   SQL:
-    Host: '***REMOVED***'
+    Host: 'localhost'
     Database: 'minecraft'
     User: 'astensity'
     Password: '***REMOVED***'

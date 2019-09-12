@@ -168,7 +168,7 @@ autoLogin: true
 # MySQL/MariaDB
 # If you want to enable it uncomment only the lines below this not this line.
 driver: com.mysql.jdbc.Driver
-host: ***REMOVED***
+host: localhost
 port: 3306
 database: minecraft
 username: astensity
