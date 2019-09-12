@@ -51,3 +51,11 @@ items:
     max-level: '1'
     additional-conditions: []
     actions-on-drop: {}
+  gem-random:
+    chance: 20.0
+    item-id: 'random'
+    type: GEMS
+    min-level: '%mob_lvl% + 1'
+    max-level: '%mob_lvl% + 3'
+    additional-conditions: []
+    actions-on-drop: {}
