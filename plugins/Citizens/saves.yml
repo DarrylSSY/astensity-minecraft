@@ -28,7 +28,7 @@ npc:
       owner:
         owner: DarrylSSY
         uuid: a65d1ac7-a445-4a16-a20f-36b9d0c6f8d3
-    traitnames: scoreboardtrait,equipment,mounttrait,inventory,location,owner,spawned,gravity,type
+    traitnames: gravity,equipment,spawned,inventory,owner,scoreboardtrait,mounttrait,location,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -57,7 +57,7 @@ npc:
       owner:
         owner: DarrylSSY
         uuid: a65d1ac7-a445-4a16-a20f-36b9d0c6f8d3
-    traitnames: scoreboardtrait,equipment,mounttrait,inventory,location,owner,spawned,gravity,type
+    traitnames: gravity,equipment,spawned,inventory,scoreboardtrait,owner,mounttrait,location,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -86,7 +86,7 @@ npc:
       owner:
         owner: DarrylSSY
         uuid: a65d1ac7-a445-4a16-a20f-36b9d0c6f8d3
-    traitnames: scoreboardtrait,equipment,mounttrait,inventory,location,owner,spawned,gravity,type
+    traitnames: gravity,equipment,spawned,inventory,scoreboardtrait,owner,mounttrait,location,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

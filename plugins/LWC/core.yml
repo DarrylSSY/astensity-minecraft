@@ -26,7 +26,7 @@ optional:
 database:
     adapter: mysql
     path: plugins/LWC/lwc.db
-    host: ***REMOVED***
+    host: localhost
     database: minecraft
     username: 'astensity'
     password: '***REMOVED***'
