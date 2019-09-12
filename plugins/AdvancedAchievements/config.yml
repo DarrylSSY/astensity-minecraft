@@ -225,8 +225,8 @@ TablePrefix: "aach_"
 AdditionalConnectionOptions: ""
 
 # Settings to connect to your MySQL/PostgreSQL database (ignored if sqlite).
-# A PostgreSQL database address will be similar to jdbc:postgresql://34.87.92.37:5432/minecraft
-DatabaseAddress: "jdbc:mysql://34.87.92.37:3306/minecraft"
+# A PostgreSQL database address will be similar to jdbc:postgresql://localhost:5432/minecraft
+DatabaseAddress: "jdbc:mysql://localhost:3306/minecraft"
 DatabaseUser: astensity
 DatabasePassword: Astensity1234
   

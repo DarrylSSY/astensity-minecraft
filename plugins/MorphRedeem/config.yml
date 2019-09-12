@@ -25,7 +25,7 @@ StorageMethod: "MySQL"
 MySQL:
   Username: "astensity"
   Password: "Astensity1234"
-  Host: "34.87.92.37"
+  Host: "localhost"
   Port: 3306
   SSL: false
   Database: "minecraft"
