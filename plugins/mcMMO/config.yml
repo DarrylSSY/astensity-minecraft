@@ -77,7 +77,7 @@ Scoreboard:
         # Settings for /mcrank
         # The sub-options (Print, Board, Display_Time) are the same for each type.
         Rank:
-            Print: false
+            Print: true
             Board: true
             Display_Time: 15
         # Settings for /mctop

@@ -1,16 +1,16 @@
 # MessageAnnouncer v1.10.0 Main configuration
 interval_announcement_list:
-- default
 - vote
+- forums
 announcements:
-  default:
-  - '{"text": "--------"}'
-  - '{"text": "This is a JSON auto announcement!"}'
-  - '{"text": "--------"}'
   vote:
-  - '{"text": "--------"}'
-  - '{"text": "Be sure to vote for the server!"}'
-  - '{"text": "--------"}'
+  - '{"text": "<><><><><><><><><><><><><><><><><><>"}'
+  - '{"text": "Remember to /vote for the server!"}'
+  - '{"text": "<><><><><><><><><><><><><><><><><><>"}'
+  forums:
+  - '{"text": "<><><><><><><><><><><><><><><><><><>"}'
+  - '{"text": "Visit the forums at astensity.org!"}'
+  - '{"text": "<><><><><><><><><><><><><><><><><><>"}'
 announcer_enabled: false
 announcer_random: true
 announce_interval: 60
