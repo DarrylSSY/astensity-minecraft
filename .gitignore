@@ -80,4 +80,5 @@ plugins/dynmap/web
 plugins/dynmap/worlds.txt
 plugins/dynmap
 plugins/CrazyAuctions/Data.yml
+plugins/CrazyAuctions
 plugins/LoginSecurity
