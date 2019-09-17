@@ -1,8 +1,7 @@
 tasks:
   gathering:
     type: "inventory"
-    item: SAPLING
-    data: 1
+    item: SPRUCE_SAPLING
     amount: 64
     remove-items-when-complete: true
 display:
@@ -17,7 +16,7 @@ display:
   - "&r"
   lore-started:
   - "&a&k;&r&f&k;&r &a(!) You have started this quest."
-  type: "SAPLING:1"
+  type: "SPRUCE_SAPLING"
 rewards:
   - "xp give {player} 500"
 options:

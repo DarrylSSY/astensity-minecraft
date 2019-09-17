@@ -2,7 +2,7 @@ tasks:
   mining:
     type: "blockbreakcertain"
     amount: 256
-    block: 103
+    block: MELON
 display:
   name: "&a&nFarming Quest:&r &e#26"
   lore-normal:

@@ -2,7 +2,7 @@ tasks:
   mining:
     type: "blockbreakcertain"
     amount: 256
-    block: 81
+    block: CACTUS
 display:
   name: "&a&nFarming Quest:&r &e#17"
   lore-normal:

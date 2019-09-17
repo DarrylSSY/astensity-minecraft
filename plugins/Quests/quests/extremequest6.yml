@@ -2,7 +2,7 @@ tasks:
   mining:
     type: "blockbreakcertain"
     amount: 1152
-    block: 17
+    block: OAK_LOG
 display:
   name: "&e&nExtreme Quest:&r &e#6"
   lore-normal:
@@ -15,7 +15,7 @@ display:
   - "&r"
   lore-started:
   - "&a&k;&r&f&k;&r &a(!) You have started this quest."
-  type: "LOG"
+  type: "OAK_LOG"
 rewards:
   - "eco give {player} 20000"
 options:

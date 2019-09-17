@@ -2,7 +2,7 @@ tasks:
   mining:
     type: "blockbreakcertain"
     amount: 50
-    block: 111
+    block: LILY_PAD
 display:
   name: "&a&nFarming Quest:&r &e#76"
   lore-normal:
@@ -15,7 +15,7 @@ display:
   - "&r"
   lore-started:
   - "&a&k;&r&f&k;&r &a(!) You have started this quest."
-  type: "WATER_LILY"
+  type: "LILY_PAD"
 rewards:
   - "xp give {player} 750"
 options:
