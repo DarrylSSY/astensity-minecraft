@@ -94,7 +94,7 @@ database:
   type: mysql
   db: test
   poolsize: 10
-  url: localhost
+  url: ***REMOVED***
   port: '3306'
   username: test
   password: test
