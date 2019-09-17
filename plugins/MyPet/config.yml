@@ -5,6 +5,9 @@
 # #################################################################
 
 MyPet:
+  Entity:
+    Skip-Target-AI-Ticks: 0
+    FollowStartDistance: 7.0
   Update:
     Check: true
     Download: false
@@ -16,7 +19,6 @@ MyPet:
     AllowRanged: true
   OwnerCanAttackPet: false
   DisablePetVersusPlayer: false
-  FollowStartDistance: 7.0
   RetainEquipmentOnTame: true
   Make-Pet-Invisible-When-Owner-Is-Invisible: true
   Log:
