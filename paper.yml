@@ -169,3 +169,5 @@ world-settings:
       enabled: false
       items:
         COBBLESTONE: 300
+    generator-settings:
+      flat-bedrock: false
