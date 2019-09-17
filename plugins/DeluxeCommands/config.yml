@@ -72,3 +72,38 @@ commands:
     target_permission: some.custom.targetpermission
     target_no_permission_message: '&cYou don''t have permission to view this command
       with a target player argument!'
+  website:
+    permission: astensity.website
+    message:
+      - '{"text":"Click to open website","color":"yellow","clickEvent":{"action":"open_url","value":"https://astensity.org/"}}'
+    target_permission: some.custom.targetpermission
+    target_no_permission_message: '&cYou don''t have permission to view this command
+      with a target player argument!'
+  ranks:
+    permission: astensity.ranks
+    message:
+    - '{"text":"To be added","color":"red"}'
+    target_permission: some.custom.targetpermission
+    target_no_permission_message: '&cYou don''t have permission to view this command
+        with a target player argument!'
+  rankup:
+    permission: astensity.rankup
+    message:
+      - '{"text":"To be added","color":"red"}'
+    target_permission: some.custom.targetpermission
+    target_no_permission_message: '&cYou don''t have permission to view this command
+        with a target player argument!'
+  menu:
+    permission: astensity.menu
+    message:
+      - '{"text":"To be added","color":"red"}'
+    target_permission: some.custom.targetpermission
+    target_no_permission_message: '&cYou don''t have permission to view this command
+        with a target player argument!'
+  store:
+    permission: astensity.store
+    message:
+      - '{"text":"To be added","color":"red"}'
+    target_permission: some.custom.targetpermission
+    target_no_permission_message: '&cYou don''t have permission to view this command
+        with a target player argument!'
