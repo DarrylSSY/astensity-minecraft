@@ -2,7 +2,7 @@ tasks:
   mining:
     type: "blockbreakcertain"
     amount: 512
-    block: 86
+    block: PUMPKIN
 display:
   name: "&a&nFarming Quest:&r &e#24"
   lore-normal:

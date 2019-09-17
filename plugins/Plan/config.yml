@@ -194,6 +194,8 @@ Export:
 Plugins:
     AdvancedAchievements:
         Enabled: true
+    AdvancedBan:
+        Enabled: true
     BuyCraft:
         # http://help.buycraft.net/article/36-where-to-find-the-secret-key
         Secret: '-'

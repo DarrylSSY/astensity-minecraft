@@ -32,11 +32,17 @@
 Default:
   Description:
   - |-
-    &aAstensity
-    &7Now with Towny, Economy, Cracked, and much more!
+    &f        &6&lAstensity &7» &e[1.14.4 &a✔&e] &dCUSTOM ITEMS! ❤
+    &b&nALPHA RELEASE &7«&e★&7» &6&n28 Sept&r &eServer event! &6&n&o/discord
   - |-
-    &aAstensity
-    &eWe have updated our server to &lMinecraft 1.14.4&e!
+    &f        &6&lAstensity &7» &e[1.14.4 &a✔&e] &dNO GRIEF! ❤
+    &b&nALPHA RELEASE &7«&e★&7» &6&n28 Sept&r &eServer event! &6&n&o/discord
+  - |-
+    &f        &6&lAstensity &7» &e[1.14.4 &a✔&e] &dCRACKED SERVER! ❤
+    &b&nALPHA RELEASE &7«&e★&7» &6&n28 Sept&r &eServer event! &6&n&o/discord
+  - |-
+    &f        &6&lAstensity &7» &e[1.14.4 &a✔&e] &dCUSTOM ENCHANTS! ❤
+    &b&nALPHA RELEASE &7«&e★&7» &6&n28 Sept&r &eServer event! &6&n&o/discord
   Players:
     Hover:
     - |-
@@ -48,12 +54,18 @@ Default:
 
 Personalized:
   Description:
-  - |-
-    &aAstensity &7|  &eHello, &l%player%!
-    &7Now with Towny, Economy, Cracked, and much more!
-  - |-
-    &aAstensity &7|  &eHello, &l%player%!
-    &eWe have updated our server to &lMinecraft 1.14.4&e!
+    - |-
+      &f        &6&lAstensity &7» &e[1.14.4 &a✔&e] &dCUSTOM ITEMS! ❤
+      &b&nALPHA RELEASE &7«&e★&7» &6&n28 Sept&r &eServer event! &6&n&o/discord
+    - |-
+      &f        &6&lAstensity &7» &e[1.14.4 &a✔&e] &dNO GRIEF! ❤
+      &b&nALPHA RELEASE &7«&e★&7» &6&n28 Sept&r &eServer event! &6&n&o/discord
+    - |-
+      &f        &6&lAstensity &7» &e[1.14.4 &a✔&e] &dCRACKED SERVER! ❤
+      &b&nALPHA RELEASE &7«&e★&7» &6&n28 Sept&r &eServer event! &6&n&o/discord
+    - |-
+      &f        &6&lAstensity &7» &e[1.14.4 &a✔&e] &dCUSTOM ENCHANTS! ❤
+      &b&nALPHA RELEASE &7«&e★&7» &6&n28 Sept&r &eServer event! &6&n&o/discord
   Players:
     Hover:
     - |-

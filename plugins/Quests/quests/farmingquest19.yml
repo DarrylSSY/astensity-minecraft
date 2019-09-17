@@ -2,7 +2,7 @@ tasks:
   mining:
     type: "blockbreakcertain"
     amount: 128
-    block: 83
+    block: SUGAR_CANE
 display:
   name: "&a&nFarming Quest:&r &e#19"
   lore-normal:

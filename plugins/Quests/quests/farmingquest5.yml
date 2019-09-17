@@ -2,7 +2,7 @@ tasks:
   mining:
     type: "blockbreakcertain"
     amount: 75
-    block: 142
+    block: POTATO
 display:
   name: "&a&nFarming Quest:&r &e#5"
   lore-normal:
@@ -15,7 +15,7 @@ display:
   - "&r"
   lore-started:
   - "&a&k;&r&f&k;&r &a(!) You have started this quest."
-  type: "POTATO_ITEM"
+  type: "POTATO"
 rewards:
   - "xp give {player} 1000"
 options:

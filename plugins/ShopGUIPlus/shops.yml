@@ -846,7 +846,7 @@ shops:
           material: SNOWBALL
           quantity: 16
         buyPrice: 180
-        sellPrice: 6
+        sellPrice: 1
         slot: 25
       24:
         type: item

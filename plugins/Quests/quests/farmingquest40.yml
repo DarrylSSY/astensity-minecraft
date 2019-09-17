@@ -2,7 +2,7 @@ tasks:
   mining:
     type: "blockbreakcertain"
     amount: 50
-    block: 39
+    block: BROWN_MUSHROOM
 display:
   name: "&a&nFarming Quest:&r &e#40"
   lore-normal:

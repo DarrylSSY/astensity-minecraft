@@ -2,7 +2,7 @@ tasks:
   mining:
     type: "blockbreakcertain"
     amount: 100
-    block: 59
+    block: WHEAT
 display:
   name: "&a&nFarming Quest:&r &e#3"
   lore-normal:

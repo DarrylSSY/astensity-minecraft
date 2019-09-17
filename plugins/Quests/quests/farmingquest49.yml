@@ -2,7 +2,7 @@ tasks:
   mining:
     type: "blockbreakcertain"
     amount: 50
-    block: 82
+    block: CLAY
 display:
   name: "&a&nFarming Quest:&r &e#49"
   lore-normal:
