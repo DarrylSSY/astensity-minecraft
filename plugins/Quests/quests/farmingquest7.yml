@@ -2,7 +2,7 @@ tasks:
   mining:
     type: "blockbreakcertain"
     amount: 50
-    block: 141
+    block: CARROT
 display:
   name: "&a&nFarming Quest:&r &e#7"
   lore-normal:
@@ -15,7 +15,7 @@ display:
   - "&r"
   lore-started:
   - "&a&k;&r&f&k;&r &a(!) You have started this quest."
-  type: "CARROT_ITEM"
+  type: "CARROT"
 rewards:
   - "xp give {player} 750"
 options:

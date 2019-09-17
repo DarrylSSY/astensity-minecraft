@@ -2,7 +2,7 @@ tasks:
   mining:
     type: "blockbreakcertain"
     amount: 100
-    block: 106
+    block: VINE
 display:
   name: "&a&nFarming Quest:&r &e#74"
   lore-normal:

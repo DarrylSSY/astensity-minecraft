@@ -2,7 +2,7 @@ tasks:
   mining:
     type: "blockbreakcertain"
     amount: 200
-    block: 170
+    block: HAY_BLOCK
 display:
   name: "&a&nFarming Quest:&r &e#36"
   lore-normal:

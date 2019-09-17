@@ -2,7 +2,7 @@ tasks:
   mining:
     type: "blockbreakcertain"
     amount: 100
-    block: 115
+    block: NETHER_WART
 display:
   name: "&a&nFarming Quest:&r &e#47"
   lore-normal:
@@ -15,7 +15,7 @@ display:
   - "&r"
   lore-started:
   - "&a&k;&r&f&k;&r &a(!) You have started this quest."
-  type: "NETHER_STALK"
+  type: "NETHER_WART"
 rewards:
   - "xp give {player} 1500"
 options:
