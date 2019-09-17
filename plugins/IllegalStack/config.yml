@@ -41,6 +41,7 @@ Exploits:
   Enchants:
     FixIllegalEnchants: false
     EnchantedItemWhitelist: []
+    OnlyFunctionInWorlds: !!set {}
   3rdParty:
     BlockCMIShulkerStacking: true
   TNTDupe:
