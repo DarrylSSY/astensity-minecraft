@@ -1,0 +1,74 @@
+serverInfo:
+  location: spawn, 989.302, 79.000, 115.395
+  lines:
+    - '&lWebsite: &bAstensity.org &e/website'
+    - '&lStore: &bStore.Astensity.org &e/store'
+    - '&lMap: &bMC.Astensity.org:8123 &e/map'
+    - '&lDiscord: &e/discord'
+    - '&lVote: &e/vote'
+welcomeMessage:
+  location: spawn, 989.302, 79.500, 115.395
+  lines:
+    - Welcome to &c&lAstensity&f!
+tutorial1:
+  location: spawn, 934.474, 106.000, 250.661
+  lines:
+    - Welcome to &c&lAstensity&f!
+tutorial2:
+  location: spawn, 943.746, 106.000, 249.759
+  lines:
+    - '&c&n&lRules'
+    - To keep a pleasant and fun
+    - environment, follow the rules!
+tutorial1text:
+  location: spawn, 934.474, 105.500, 250.661
+  lines:
+    - Explore, join a community, build a
+    - town, play with friends, become strong
+    - and become the wealthiest around!
+tutorial2text:
+  location: spawn, 943.746, 105.000, 249.759
+  lines:
+    - '&cRules Summary:'
+    - '&c⤫ &fNo Griefing / Stealing'
+    - '&c⤫ &fNo Cheating / Exploit Usage'
+    - '&c⤫ &fNo Disrespect'
+    - '&c⤫ &fNo Swearing'
+    - '&c⤫ &fNo Advertising'
+tutorial3:
+  location: spawn, 952.465, 105.500, 247.449
+  lines:
+    - '&6&n&lEconomy & Money'
+    - You can earn money by working &e/jobs
+    - Spend your money in &e/shop &f& &e/market
+    - Money can be used in a variety
+    - of things such as town!
+tutorial4:
+  location: spawn, 958.766, 105.500, 242.186
+  lines:
+    - '&6&l&nTowny'
+    - Astensity uses Towny as grief protection.
+    - To start a new town, you'll need &b$250&f.
+    - '&e/t new [name]'
+    - For more info, do &e/towny
+    - You can also ask any online staff or players for help.
+tutorial5:
+  location: spawn, 965.787, 105.500, 232.435
+  lines:
+    - '&6&l&nRanks & End-Game Content'
+    - As you rank up, you will gain many perks &e/ranks
+    - While progressing through the server,
+    - upgrade your gear with custom enchantments &e/ce
+    - Capture pets by hitting animal with a lead &e/pets
+tutorial6:
+  location: spawn, 972.636, 106.000, 221.739
+  lines:
+    - '&6&l&nAstensity'
+    - Those are just a few of the things
+    - you can do in Astensity.
+    - 'Here are some helpful commands:'
+    - '&e/home &f- Teleport to your /sethome'
+    - '&e/sethome &f- Create a home to teleport to'
+    - '&e/rankup &f- Level up and unlock rewards'
+    - '&e/tpa &f- Teleport to a player'
+    - '&e/menu &f- Access server menu'

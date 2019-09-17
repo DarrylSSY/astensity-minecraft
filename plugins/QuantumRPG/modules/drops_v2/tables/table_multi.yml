@@ -1,17 +1,17 @@
 name: '&dExample Multi-Item Table'
-roll-once: false
+roll-once: true
 level-penalty:
   enabled: false
   variance: 10
 world-whitelist:
 - world
-- world_nether
-- world_the_end
 biome-whitelist:
 - ALL
-region-blacklist: []
+region-blacklist:
+- world_nether
+- world_the_end
 items:
-  tier-random:
+  tier-common:
     chance: 1.0
     item-id: 'random'
     type: TIERS
@@ -19,8 +19,24 @@ items:
     max-level: '%mob_lvl% + 3'
     additional-conditions: []
     actions-on-drop: {}
+  tier-rare:
+    chance: 0.5
+    item-id: 'random'
+    type: TIERS
+    min-level: '%mob_lvl% + 1'
+    max-level: '%mob_lvl% + 3'
+    additional-conditions: []
+    actions-on-drop: {}
+  tier-legendary:
+    chance: 0.1
+    item-id: 'random'
+    type: TIERS
+    min-level: '%mob_lvl% + 1'
+    max-level: '%mob_lvl% + 3'
+    additional-conditions: []
+    actions-on-drop: {}
   runes-random:
-    chance: 3.0
+    chance: 10.0
     item-id: 'random'
     type: RUNES
     min-level: '1'
@@ -28,10 +44,18 @@ items:
     additional-conditions: []
     actions-on-drop: {}
   arrows-random:
-    chance: 10.0
+    chance: 30.0
     item-id: 'random'
     type: ARROWS
     min-level: '1'
     max-level: '1'
+    additional-conditions: []
+    actions-on-drop: {}
+  gem-random:
+    chance: 20.0
+    item-id: 'random'
+    type: GEMS
+    min-level: '%mob_lvl% + 1'
+    max-level: '%mob_lvl% + 3'
     additional-conditions: []
     actions-on-drop: {}

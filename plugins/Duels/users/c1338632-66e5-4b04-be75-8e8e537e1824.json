@@ -1,0 +1,20 @@
+{
+  "uuid": "c1338632-66e5-4b04-be75-8e8e537e1824",
+  "name": "DomoAK",
+  "wins": 1,
+  "losses": 0,
+  "requests": true,
+  "rating": {
+    "default": 1416
+  },
+  "matches": [
+    {
+      "winner": "DomoAK",
+      "loser": "DarrylSSY",
+      "kit": "default",
+      "time": 1565189009283,
+      "duration": 118742,
+      "health": 9.0
+    }
+  ]
+}

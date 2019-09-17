@@ -68,7 +68,7 @@ Database:
   UseUUIDSeparators: false
   # Settings only for MySQL
   SQL:
-    Host: 34.87.92.37:3306
+    Host: localhost:3306
     Database: minecraft
     User: minecraft
     Password: minecraft

@@ -409,7 +409,7 @@ Categories: #You can make as many different categories as you want
       - '&c&lCost: &6&l$100000'
     Item: 'LIME_STAINED_GLASS_PANE' #The id for the item
     Glowing: true #If it has a glowing effect.
-    Cost: 20 #How much each book will cost to buy.
+    Cost: 100000 #How much each book will cost to buy.
     Currency: Vault #The currency you wish to use.
     Rarity: 1 #This allows the enchantments to be ordered with the Transmog Scrolls. The higher the number the rarer it is. Try and have each category have different rarities.
     LostBook: #Controls the Lost Book shop for this tier

@@ -1,0 +1,28 @@
+quest-progress:
+  miningquest21:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1566987337522
+    task-progress:
+      mining:
+        completed: true
+        progress: 75
+  miningquest20:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1566987332555
+    task-progress:
+      mining:
+        completed: true
+        progress: 75
+  miningquest1:
+    started: true
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      mining:
+        completed: false
+        progress: 57

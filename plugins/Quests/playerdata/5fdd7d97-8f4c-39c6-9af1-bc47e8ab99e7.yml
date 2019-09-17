@@ -1,0 +1,18 @@
+quest-progress:
+  miningquest20:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1567261794123
+    task-progress:
+      mining:
+        completed: true
+        progress: 75
+  nightmarequest17:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1567262370332
+    task-progress:
+      riddle:
+        completed: true

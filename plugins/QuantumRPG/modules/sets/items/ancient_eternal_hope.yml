@@ -1,0 +1,45 @@
+name: '&eAncient Eternal Hope Set'
+prefix: '&6Ancient '
+suffix: 'of Eternal Hope'
+color:
+  have: '&a'
+  miss: '&8'
+parts:
+  HELMET:
+    enabled: true
+    material: DIAMOND_HELMET
+    name: '%prefix%Helmet %suffix%'
+  CHESTPLATE:
+    enabled: true
+    material: DIAMOND_CHESTPLATE
+    name: '%prefix%Chestplate %suffix%'
+  LEGGINGS:
+    enabled: true
+    material: DIAMOND_LEGGINGS
+    name: '%prefix%Leggings %suffix%'
+  BOOTS:
+    enabled: true
+    material: DIAMOND_BOOTS
+    name: '%prefix%Boots %suffix%'
+effects:
+  parts:
+    '4':
+      lore:
+      - '%c%&lSet Bonuses (4/4):'
+      - '%c%▸ +10% PvE Damage'
+      - '%c%▸ +10 Max. Health'
+      - '%c%▸ Regeneration I'
+      - '%c%▸ Strength I'
+      - '%c%▸ Resistance I'
+      - '%c%▸ Speed I'
+      bonuses:
+        item-stats:
+          MAX_HEALTH: 10.0
+          PVE_DAMAGE: 10
+        damage-types: {}
+        defense-types: {}
+      potion-effects:
+      - 'REGENERATION:1'
+      - 'INCREASE_DAMAGE:1'
+      - 'DAMAGE_RESISTANCE:1'
+      - 'SPEED:1'

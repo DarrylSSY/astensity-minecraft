@@ -1,0 +1,10 @@
+PlayerData:
+  Shop: true
+  Locked: false
+  location:
+    x: 3126.5
+    y: 82.0
+    z: 1804.5
+    yaw: -335.33966
+    pitch: -1.3498813
+    world: world

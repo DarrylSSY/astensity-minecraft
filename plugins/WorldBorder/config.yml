@@ -18,3 +18,10 @@ bypass-list-uuids: []
 fill-memory-tolerance: 500
 prevent-block-place: false
 prevent-mob-spawn: false
+worlds:
+  world:
+    x: 2355.6336860742767
+    z: 2302.2742766889505
+    radiusX: 4000
+    radiusZ: 4000
+    wrapping: false

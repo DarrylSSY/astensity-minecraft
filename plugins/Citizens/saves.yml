@@ -2,7 +2,7 @@
 
 
 
-last-created-npc-id: 2
+last-created-npc-id: 8
 npc:
   '2':
     metadata:
@@ -20,7 +20,7 @@ npc:
       spawned: true
       location:
         world: spawn
-        x: '995.4395'
+        x: '995.4393'
         y: '77.0625'
         z: '101.2506'
         yaw: '-1.674560546875'
@@ -28,7 +28,7 @@ npc:
       owner:
         owner: DarrylSSY
         uuid: a65d1ac7-a445-4a16-a20f-36b9d0c6f8d3
-    traitnames: mounttrait,inventory,type,owner,gravity,spawned,equipment,scoreboardtrait,location
+    traitnames: scoreboardtrait,equipment,mounttrait,inventory,location,owner,spawned,gravity,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -57,7 +57,7 @@ npc:
       owner:
         owner: DarrylSSY
         uuid: a65d1ac7-a445-4a16-a20f-36b9d0c6f8d3
-    traitnames: mounttrait,inventory,type,owner,gravity,spawned,equipment,scoreboardtrait,location
+    traitnames: scoreboardtrait,equipment,mounttrait,inventory,location,owner,spawned,gravity,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -78,7 +78,7 @@ npc:
       spawned: true
       location:
         world: spawn
-        x: '998.4811'
+        x: '998.4809'
         y: '77.0625'
         z: '133.4259'
         yaw: '174.812744140625'
@@ -86,7 +86,7 @@ npc:
       owner:
         owner: DarrylSSY
         uuid: a65d1ac7-a445-4a16-a20f-36b9d0c6f8d3
-    traitnames: mounttrait,inventory,type,owner,gravity,spawned,equipment,scoreboardtrait,location
+    traitnames: scoreboardtrait,equipment,mounttrait,inventory,location,owner,spawned,gravity,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

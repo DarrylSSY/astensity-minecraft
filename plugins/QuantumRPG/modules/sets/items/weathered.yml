@@ -23,7 +23,7 @@ parts:
     name: '%prefix%Bloody Greaves %suffix%'
 effects:
   parts:
-    '2':
+    '4':
       lore:
       - '%c%&lSet Bonuses (2/4):'
       - '%c%▸ +25% PvE Damage'
