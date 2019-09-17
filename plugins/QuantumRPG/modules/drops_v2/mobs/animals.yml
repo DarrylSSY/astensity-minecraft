@@ -5,4 +5,4 @@ vanilla-mobs:
 mythic-mobs: []
 prevent-from: []
 drop-tables:
-- table_gems
+- table_multi

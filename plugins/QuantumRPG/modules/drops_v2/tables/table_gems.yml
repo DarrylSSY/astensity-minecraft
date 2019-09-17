@@ -5,14 +5,14 @@ level-penalty:
   variance: 10
 world-whitelist:
 - world
-- world_nether
-- world_the_end
 biome-whitelist:
 - ALL
-region-blacklist: []
+region-blacklist:
+- world_nether
+- world_the_end
 items:
   gem-random:
-    chance: 15.0
+    chance: 100
     item-id: 'random'
     type: GEMS
     min-level: '%mob_lvl% + 1'

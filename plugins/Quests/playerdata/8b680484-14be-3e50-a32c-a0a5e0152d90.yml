@@ -1,0 +1,33 @@
+quest-progress:
+  farmingquest2:
+    started: true
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      mining:
+        completed: false
+  miningquest1:
+    started: true
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      mining:
+        completed: false
+        progress: 57
+  buildingquest6:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1567318993491
+    task-progress:
+      walls:
+        completed: true
+        progress: 2
+      torch:
+        completed: true
+        progress: 1
+      fence:
+        completed: true
+        progress: 1

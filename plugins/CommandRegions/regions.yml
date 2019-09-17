@@ -55,7 +55,7 @@ regions:
   wild:
     worldName: spawn
     commands:
-      playerEnterCommand: wild %player% world
+      playerEnterCommand: wild world
       consoleEnterCommand: NONE
       playerLeaveCommand: NONE
       consoleLeaveCommand: NONE

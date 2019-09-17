@@ -1,0 +1,81 @@
+quest-progress:
+  miningquest12:
+    started: true
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      mining:
+        completed: false
+        progress: 230
+  miningquest11:
+    started: true
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      mining:
+        completed: false
+        progress: 230
+  miningquest21:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1567596840713
+    task-progress:
+      mining:
+        completed: true
+        progress: 75
+  miningquest6:
+    started: true
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      mining:
+        completed: false
+  miningquest5:
+    started: true
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      mining:
+        completed: false
+        progress: 83
+  miningquest4:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1567595108712
+    task-progress:
+      mining:
+        completed: true
+        progress: 100
+  miningquest3:
+    started: true
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      mining:
+        completed: false
+        progress: 1335
+  miningquest2:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1567596315712
+    task-progress:
+      mining:
+        completed: true
+        progress: 1000
+  miningquest1:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1567595319712
+    task-progress:
+      mining:
+        completed: true
+        progress: 500

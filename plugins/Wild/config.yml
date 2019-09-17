@@ -77,8 +77,8 @@ AutoUpdate: true
 Metrics: true
 Worlds:
   world:
-    MinX: 0
-    MaxX: 50000
-    MinZ: 0
-    MaxZ: 50000
+    MinX: 900
+    MaxX: 3944
+    MinZ: 1104
+    MaxZ: 3728
 Converted: true

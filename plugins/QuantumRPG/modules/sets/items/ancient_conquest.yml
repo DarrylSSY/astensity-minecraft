@@ -1,0 +1,43 @@
+name: '&eAncient Conquest Set'
+prefix: '&6Ancient '
+suffix: 'of Conquest'
+color:
+  have: '&a'
+  miss: '&8'
+parts:
+  HELMET:
+    enabled: true
+    material: DIAMOND_HELMET
+    name: '%prefix%Helmet %suffix%'
+  CHESTPLATE:
+    enabled: true
+    material: DIAMOND_HELMET
+    name: '%prefix%Chestplate %suffix%'
+  LEGGINGS:
+    enabled: true
+    material: DIAMOND_HELMET
+    name: '%prefix%Leggings %suffix%'
+  BOOTS:
+    enabled: true
+    material: DIAMOND_HELMET
+    name: '%prefix%Boots %suffix%'
+effects:
+  parts:
+    '4':
+      lore:
+      - '%c%&lSet Bonuses (4/4):'
+      - '%c%▸ +20% PvP Damage'
+      - '%c%▸ Regeneration I'
+      - '%c%▸ Strength I'
+      - '%c%▸ Resistance I'
+      - '%c%▸ Speed I'
+      bonuses:
+        item-stats:
+          PVP_DAMAGE: 20
+        damage-types: {}
+        defense-types: {}
+      potion-effects:
+      - 'REGENERATION:1'
+      - 'INCREASE_DAMAGE:1'
+      - 'DAMAGE_RESISTANCE:1'
+      - 'SPEED:1'

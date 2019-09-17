@@ -1,0 +1,41 @@
+name: '&eHoly Darryl Set'
+prefix: '&6Holy '
+suffix: 'of Darryl'
+color:
+  have: '&a'
+  miss: '&8'
+parts:
+  HELMET:
+    enabled: true
+    material: DIAMOND_HELMET
+    name: '%prefix%Helmet %suffix%'
+  CHESTPLATE:
+    enabled: true
+    material: DIAMOND_CHESTPLATE
+    name: '%prefix%Chestplate %suffix%'
+  LEGGINGS:
+    enabled: true
+    material: DIAMOND_LEGGINGS
+    name: '%prefix%Leggings %suffix%'
+  BOOTS:
+    enabled: true
+    material: DIAMOND_BOOTS
+    name: '%prefix%Boots %suffix%'
+effects:
+  parts:
+    '4':
+      lore:
+      - '%c%&lSet Bonuses (4/4):'
+      - '%c%▸ +20% PvE Damage'
+      - '%c%▸ +10 Max. Health'
+      - '%c%▸ Regeneration I'
+      - '%c%▸ Resistance I'
+      bonuses:
+        item-stats:
+          MAX_HEALTH: 10
+          PVE_DAMAGE: 20
+        damage-types: {}
+        defense-types: {}
+      potion-effects:
+      - 'REGENERATION:1'
+      - 'DAMAGE_RESISTANCE:1'

@@ -1,0 +1,100 @@
+quest-progress:
+  miscquest1:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1567264252469
+    task-progress:
+      misc:
+        completed: true
+        progress: 12
+  miscquest4:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1567264744424
+    task-progress:
+      misc:
+        completed: true
+        progress: 42
+  miscquest5:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1567264937851
+    task-progress:
+      misc:
+        completed: true
+        progress: 56
+  miscquest2:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1567264497768
+    task-progress:
+      misc:
+        completed: true
+        progress: 31
+  miscquest3:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1567264685135
+    task-progress:
+      misc:
+        completed: true
+        progress: 30
+  miningquest8:
+    started: true
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      mining:
+        completed: false
+        progress: 9
+  miningquest6:
+    started: true
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      mining:
+        completed: false
+        progress: 31
+  miningquest5:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1567264118575
+    task-progress:
+      mining:
+        completed: true
+        progress: 100
+  miningquest3:
+    started: true
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      mining:
+        completed: false
+        progress: 1524
+  miningquest2:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1567264631898
+    task-progress:
+      mining:
+        completed: true
+        progress: 1000
+  miningquest1:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1567262729365
+    task-progress:
+      mining:
+        completed: true
+        progress: 500

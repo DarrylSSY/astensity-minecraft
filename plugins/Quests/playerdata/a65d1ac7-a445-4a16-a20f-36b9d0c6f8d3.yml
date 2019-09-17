@@ -1,0 +1,9 @@
+quest-progress:
+  nightmarequest1:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1567018515919
+    task-progress:
+      riddle:
+        completed: true

@@ -12,18 +12,18 @@ Settings:
   BookAuthorWhitelist: []
   AllowStack:
   - POTION
-  RemoveItemsOfType: !!set {}
+  RemoveItemsOfType: []
   RemovePistonIfHeadIsExploded: true
   PreventRailDupe: true
   PreventOverStackedItemInHoppers: true
-  PreventRecipeDupe: true
-  RemoveOverstackedItems: true
+  PreventRecipeDupe: false
+  RemoveOverstackedItems: false
   StackWhiteListMode: true
   PreventNestedShulkers: true
   BlockCMIShulkerStacking: true
   PreventHoppersToUnloadedChunks: true
   PreventCactusDupe: true
-  PreventItemFramePistonDupe: true
+  PreventItemFramePistonDupe: false
   PreventZombieItemPickup: false
   DisableChestsOnMobs: true
   PreventIndirectTNTPowerDupe: true
@@ -40,7 +40,7 @@ Settings:
   EndWhiteListMode: true
   BlockVillagerTradeCheesing: true
   VillagerRestockTime: 10
-  ZombieVillagerTransformChance: '100'
+  ZombieVillagerTransformChance: 0
   PreventVillagerSwimExploit: true
   KickForAutoClickerFishing: true
   WatchForAutoFishMod: true
@@ -59,6 +59,7 @@ Settings:
   BlockSilkTouchBookExploit: true
   BlockBadItemsFromCreativeTab: true
   BreakMachinesInsteadOfDroppingItems: true
-  PreventExcessiveFireworkExploit: true
+  PreventExcessiveFireworkExploit: false
   ExcludeNetherWorldFromHeightCheck: []
   PreventFoodDupe: true
+  RemoveEnchantsLargerThan: 0

@@ -1,31 +1,31 @@
 # Animations with unlimited names & texts.
 animations:
-  tablist:
+  Astensity:
     # Text changing interval in milliseconds (ticks).
     interval: 60
     texts:
-    - "&b&lTabList"
-    - "&6&lTabList"
-    - "&4&lTabList"
-    - "&9&lTabList"
-    - "&a&lTabList"
-    - "&e&lTabList"
-    - "&5&lTabList"
-    - "&b&lTabList"
-    - "&6&lTabList"
-    - "&4&lTabList"
-    - "&9&lTabList"
-    - "&a&lTabList"
-    - "&e&lTabList"
-    - "&5&lTabList"
-    - "&b&lTabList"
-    - "&6&lTabList"
-    - "&4&lTabList"
-    - "&9&lTabList"
-    - "&a&lTabList"
-    - "&e&lTabList"
-    - "&5&lTabList"
-    - "&b&lTabList"
+    - "&b&lAstensity"
+    - "&6&lAstensity"
+    - "&4&lAstensity"
+    - "&9&lAstensity"
+    - "&a&lAstensity"
+    - "&e&lAstensity"
+    - "&5&lAstensity"
+    - "&b&lAstensity"
+    - "&6&lAstensity"
+    - "&4&lAstensity"
+    - "&9&lAstensity"
+    - "&a&lAstensity"
+    - "&e&lAstensity"
+    - "&5&lAstensity"
+    - "&b&lAstensity"
+    - "&6&lAstensity"
+    - "&4&lAstensity"
+    - "&9&lAstensity"
+    - "&a&lAstensity"
+    - "&e&lAstensity"
+    - "&5&lAstensity"
+    - "&b&lAstensity"
   welcome:
     interval: 200
     texts:
