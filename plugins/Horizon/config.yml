@@ -46,11 +46,11 @@ badpackets:
   # Action map
   action:
     8:
-      - 'horizon notify &7(&a!&7) &a%player% &7failed &aBadPackets &7(Patchwork - %module%) (&a%fixed_vl%VL&7)'
+      - 'horizon notify &7(&a!&7) &a%player% &7failed &aBadPackets &7(Patchwork-%module%) (&a%fixed_vl%VL&7)'
     14:
-      - 'horizon notify &7(&6!&7) &6%player% &7failed &6BadPackets &7(Patchwork - %module%) (&6%fixed_vl%VL&7)'
+      - 'horizon notify &7(&6!&7) &6%player% &7failed &6BadPackets &7(Patchwork-%module%) (&6%fixed_vl%VL&7)'
     20:
-      - 'horizon notify &7(&c!&7) &c%player% &7failed &cBadPackets &7(Patchwork - %module%) (&c%fixed_vl%VL&7)'
+      - 'horizon notify &7(&c!&7) &c%player% &7failed &cBadPackets &7(Patchwork-%module%) (&c%fixed_vl%VL&7)'
       - 'horizon kick %player% Bad packets'
 
 fastuse:
@@ -77,11 +77,11 @@ fastuse:
   # Action map
   action:
     6:
-      - 'horizon notify &7(&a!&7) &a%player% &7failed &aFastUse &7(Patchwork - %module%) (&a%fixed_vl%VL&7)'
+      - 'horizon notify &7(&a!&7) &a%player% &7failed &aFastUse &7(Patchwork-%module%) (&a%fixed_vl%VL&7)'
     9:
-      - 'horizon notify &7(&6!&7) &6%player% &7failed &6FastUse &7(Patchwork - %module%) (&6%fixed_vl%VL&7)'
+      - 'horizon notify &7(&6!&7) &6%player% &7failed &6FastUse &7(Patchwork-%module%) (&6%fixed_vl%VL&7)'
     12:
-      - 'horizon notify &7(&c!&7) &c%player% &7failed &cFastUse &7(Patchwork - %module%) (&c%fixed_vl%VL&7)'
+      - 'horizon notify &7(&c!&7) &c%player% &7failed &cFastUse &7(Patchwork-%module%) (&c%fixed_vl%VL&7)'
 
 fly:
   cancel_vl: 100
@@ -109,11 +109,11 @@ fly:
   # Action map
   action:
     90:
-      - 'horizon notify &7(&a!&7) &a%player% &7failed &aFly &7(Patchwork - %module%) (&a%fixed_vl%VL&7)'
+      - 'horizon notify &7(&a!&7) &a%player% &7failed &aFly &7(Patchwork-%module%) (&a%fixed_vl%VL&7)'
     120:
-      - 'horizon notify &7(&6!&7) &6%player% &7failed &6Fly &7(Patchwork - %module%) (&6%fixed_vl%VL&7)'
+      - 'horizon notify &7(&6!&7) &6%player% &7failed &6Fly &7(Patchwork-%module%) (&6%fixed_vl%VL&7)'
     160:
-      - 'horizon notify &7(&c!&7) &c%player% &7failed &cFly &7(Patchwork - %module%) (&c%fixed_vl%VL&7)'
+      - 'horizon notify &7(&c!&7) &c%player% &7failed &cFly &7(Patchwork-%module%) (&c%fixed_vl%VL&7)'
 
 fastbreak:
   cancel_vl: 2
@@ -169,11 +169,11 @@ speed:
   # Action map
   action:
     80:
-      - 'horizon notify &7(&a!&7) &a%player% &7failed &aSpeed &7(Patchwork - %module%) (&a%fixed_vl%VL&7)'
+      - 'horizon notify &7(&a!&7) &a%player% &7failed &aSpeed &7(Patchwork-%module%) (&a%fixed_vl%VL&7)'
     120:
-      - 'horizon notify &7(&6!&7) &6%player% &7failed &6Speed &7(Patchwork - %module%) (&6%fixed_vl%VL&7)'
+      - 'horizon notify &7(&6!&7) &6%player% &7failed &6Speed &7(Patchwork-%module%) (&6%fixed_vl%VL&7)'
     150:
-      - 'horizon notify &7(&c!&7) &c%player% &7failed &cSpeed &7(Patchwork - %module%) (&c%fixed_vl%VL&7)'
+      - 'horizon notify &7(&c!&7) &c%player% &7failed &cSpeed &7(Patchwork-%module%) (&c%fixed_vl%VL&7)'
 
 timer:
   cancel_vl: 100
@@ -192,9 +192,9 @@ timer:
   action:
     50:
       - 'horizon notify &7(&a!&7) &a%player% &7failed &aTimer &7(Patchwork) (&a%fixed_vl%VL&7)'
-    60:
+    75:
       - 'horizon notify &7(&6!&7) &6%player% &7failed &6Timer &7(Patchwork) (&6%fixed_vl%VL&7)'
-    80:
+    95:
       - 'horizon notify &7(&c!&7) &c%player% &7failed &cTimer &7(Patchwork) (&c%fixed_vl%VL&7)'
 
 cheststealer:
@@ -208,9 +208,9 @@ cheststealer:
   action:
     12:
       - 'horizon notify &7(&a!&7) &a%player% &7failed &aChestStealer &7(Patchwork) (&a%fixed_vl%VL&7)'
-    15:
+    18:
       - 'horizon notify &7(&6!&7) &6%player% &7failed &6ChestStealer &7(Patchwork) (&6%fixed_vl%VL&7)'
-    20:
+    25:
       - 'horizon notify &7(&c!&7) &c%player% &7failed &cChestStealer &7(Patchwork) (&c%fixed_vl%VL&7)'
 
 velocity:
@@ -222,12 +222,12 @@ velocity:
       vl_addition: 2
   # Action map
   action:
-    16:
-      - 'horizon notify &7(&a!&7) &a%player% &7failed &aAnti-Knockback &7(Patchwork - %module%) (&a%fixed_vl%VL&7)'
+    15:
+      - 'horizon notify &7(&a!&7) &a%player% &7failed &aAnti-Knockback &7(Patchwork-%module%) (&a%fixed_vl%VL&7)'
     25:
-      - 'horizon notify &7(&6!&7) &6%player% &7failed &6Anti-Knockback &7(Patchwork - %module%) (&6%fixed_vl%VL&7)'
+      - 'horizon notify &7(&6!&7) &6%player% &7failed &6Anti-Knockback &7(Patchwork-%module%) (&6%fixed_vl%VL&7)'
     35:
-      - 'horizon notify &7(&c!&7) &c%player% &7failed &cAnti-Knockback &7(Patchwork - %module%) (&c%fixed_vl%VL&7)'
+      - 'horizon notify &7(&c!&7) &c%player% &7failed &cAnti-Knockback &7(Patchwork-%module%) (&c%fixed_vl%VL&7)'
       - 'horizon kick %player% No knockback'
 
 killaura:
@@ -264,12 +264,12 @@ killaura:
       vl_addition: 6
   # Action map
   action:
-    12:
-      - 'horizon notify &7(&a!&7) &a%player% &7failed &aKill Aura &7(Patchwork - %module%) (&a%fixed_vl%VL&7)'
+    13:
+      - 'horizon notify &7(&a!&7) &a%player% &7failed &aKill Aura &7(Patchwork-%module%) (&a%fixed_vl%VL&7)'
     20:
-      - 'horizon notify &7(&6!&7) &6%player% &7failed &6Kill Aura &7(Patchwork - %module%) (&6%fixed_vl%VL&7)'
+      - 'horizon notify &7(&6!&7) &6%player% &7failed &6Kill Aura &7(Patchwork-%module%) (&6%fixed_vl%VL&7)'
     35:
-      - 'horizon notify &7(&c!&7) &c%player% &7failed &cKill Aura &7(Patchwork - %module%) (&c%fixed_vl%VL&7)'
+      - 'horizon notify &7(&c!&7) &c%player% &7failed &cKill Aura &7(Patchwork-%module%) (&c%fixed_vl%VL&7)'
 
 liquidwalk:
   cancel_vl: 5
@@ -286,9 +286,9 @@ liquidwalk:
   action:
     20:
       - 'horizon notify &7(&a!&7) &a%player% &7failed &aLiquidWalk &7(Patchwork) (&a%fixed_vl%VL&7)'
-    28:
+    30:
       - 'horizon notify &7(&6!&7) &6%player% &7failed &6LiquidWalk &7(Patchwork) (&6%fixed_vl%VL&7)'
-    36:
+    45:
       - 'horizon notify &7(&c!&7) &c%player% &7failed &cLiquidWalk &7(Patchwork) (&c%fixed_vl%VL&7)'
 
 nofall:
@@ -334,9 +334,9 @@ scaffold:
   action:
     10:
       - 'horizon notify &7(&a!&7) &a%player% &7failed &aScaffold &7(Patchwork) (&a%fixed_vl%VL&7)'
-    12:
-      - 'horizon notify &7(&6!&7) &6%player% &7failed &6Scaffold &7(Patchwork) (&6%fixed_vl%VL&7)'
     15:
+      - 'horizon notify &7(&6!&7) &6%player% &7failed &6Scaffold &7(Patchwork) (&6%fixed_vl%VL&7)'
+    20:
       - 'horizon notify &7(&c!&7) &c%player% &7failed &cScaffold &7(Patchwork) (&c%fixed_vl%VL&7)'
 
 freecam:

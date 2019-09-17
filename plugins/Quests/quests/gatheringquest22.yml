@@ -1,9 +1,8 @@
 tasks:
   gathering:
     type: "inventory"
-    item: RED_ROSE
+    item: PINK_TULIP
     amount: 64
-    data: 7
     remove-items-when-complete: true
 display:
   name: "&f&nGathering Quest:&r &e#22"
@@ -17,7 +16,7 @@ display:
   - "&r"
   lore-started:
   - "&a&k;&r&f&k;&r &a(!) You have started this quest."
-  type: "RED_ROSE:7"
+  type: "PINK_TULIP"
 rewards:
   - "xp give {player} 500"
 options:

@@ -2,7 +2,7 @@ tasks:
   mining:
     type: "blockbreakcertain"
     amount: 100
-    block: 127
+    block: COCOA
 display:
   name: "&a&nFarming Quest:&r &e#38"
   lore-normal:

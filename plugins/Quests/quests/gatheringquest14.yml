@@ -1,7 +1,7 @@
 tasks:
   gathering:
     type: "inventory"
-    item: PUPMKIN_SEEDS
+    item: PUMPKIN_SEEDS
     amount: 64
     remove-items-when-complete: true
 display:

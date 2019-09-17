@@ -1,0 +1,8 @@
+[18/09/2019 03:30:58/INFO] Loot module is disabled. Party drop mode will disabled.
+[18/09/2019 05:01:40/INFO] Loot module is disabled. Party drop mode will disabled.
+[18/09/2019 05:16:14/INFO] Loot module is disabled. Party drop mode will disabled.
+[18/09/2019 05:17:44/INFO] Loot module is disabled. Party drop mode will disabled.
+[18/09/2019 05:26:08/INFO] Loot module is disabled. Party drop mode will disabled.
+[18/09/2019 05:33:02/INFO] Loot module is disabled. Party drop mode will disabled.
+[18/09/2019 05:49:37/INFO] Loot module is disabled. Party drop mode will disabled.
+[18/09/2019 06:16:08/INFO] Loot module is disabled. Party drop mode will disabled.

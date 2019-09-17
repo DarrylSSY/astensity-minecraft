@@ -2,7 +2,7 @@ tasks:
   mining:
     type: "blockbreakcertain"
     amount: 200
-    block: 32
+    block: DEAD_BUSH
 display:
   name: "&a&nFarming Quest:&r &e#69"
   lore-normal:

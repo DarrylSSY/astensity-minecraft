@@ -1,19 +1,25 @@
 # MessageAnnouncer v1.10.0 Main configuration
 interval_announcement_list:
-- default
+- help
+- map
+- discord
 - vote
+- event
 announcements:
-  default:
-  - '{"text": "--------"}'
-  - '{"text": "This is a JSON auto announcement!"}'
-  - '{"text": "--------"}'
+  help:
+  - '{"text": "&a&lInfo&f: Need &ehelp&f? See useful commands in &7/help"}'
+  map:
+  - '{"text": "&a&lInfo&f: Need a live &emap&f of the world? Use &7/map"}'
+  discord:
+  - '{"text": "&a&lInfo&f: We have a &eDiscord&f server! Find us on &7/discord"}'
   vote:
-  - '{"text": "--------"}'
-  - '{"text": "Be sure to vote for the server!"}'
-  - '{"text": "--------"}'
-announcer_enabled: false
+  - '{"text": "&a&lInfo&f: Enjoying your time here? &eVote&f for rewards &7/vote"}'
+  event:
+  - '{"text": "&a&lInfo&f: Our first official server &eevent&f will be hosted on 28
+    September 2019, 7:30 PM GMT+8."}'
+announcer_enabled: true
 announcer_random: true
-announce_interval: 60
+announce_interval: 300
 sound:
   enabled: true
   sound_name: NOTE_PLING
