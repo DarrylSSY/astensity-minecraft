@@ -1,0 +1,150 @@
+Parkour:
+  Prefix: '&0[&bParkour&0] &f'
+  SignHeading: '&0[&bParkour&0]'
+  Join: Joined &b%COURSE%
+  JoinLives: '&7You have &3%AMOUNT% &7lives on this course!'
+  TimerStarted: Timer started!
+  Restarting: Restarting course
+  Leave: You left &b%COURSE%
+  Created: '&b%COURSE% &fhas been created and selected!'
+  Delete: '&b%COURSE% &fhas been deleted!'
+  DeleteCheckpoint: Checkpoint &b%CHECKPOINT% &fwas deleted on &b%COURSE%
+  Reset: '&b%COURSE% &fhas been reset!'
+  Finish: '&b%COURSE% &fhas been set to finished!'
+  FinishBroadcast: '&3%PLAYER% &ffinished &b%COURSE% &fwith &b%DEATHS% &fdeaths, in
+    &b%TIME%&f!'
+  FinishCourse1: Finished &b%COURSE%&f!
+  FinishCourse2: In %TIME%, dying %DEATHS% times
+  Lobby: You have joined the lobby
+  LobbyOther: You have joined the &b%LOBBY% &flobby
+  Continue: Continuing Parkour on &b%COURSE%
+  TimeReset: '&fYour time has been restarted!'
+  Teleport: You have teleported to &b%COURSE%
+  Invite:
+    Send: Invitation to &b%COURSE% &fsent to &b%TARGET%
+    Recieve1: '&b%PLAYER% &fhas invited you to &b%COURSE%'
+    Recieve2: To accept, type &3/pa join %COURSE%
+  MaxDeaths: 'Sorry, you reached the maximum amount of deaths: &b%AMOUNT%'
+  MaxTime: Sorry, you have reached the maximum time limit of %TIME%!
+  Die1: You died! Going back to the start!
+  Die2: You died! Going back to checkpoint &b%POINT%
+  LifeCount: '&b%AMOUNT% &flives remaining!'
+  Playing: ' &b%PLAYER% &f- &8C: &7%COURSE% &8D: &7%DEATHS% &8T: &7%TIME%'
+  Accept: '&7Enter &a/pa accept &7to accept.'
+  RewardLevel: Your level has been set to &b%LEVEL% &ffor completing &b%COURSE%&f!
+  RewardRank: Your rank has been set to %RANK%
+  RankInfo: '* For level &b%LEVEL% &fyou earn: %RANK%'
+  RewardParkoins: '&b%AMOUNT% &fParkoins rewarded! New total: &7%TOTAL%'
+  SetMode: Mode for &b%COURSE% &fset to &b%MODE%
+  Countdown: Starting in &b%AMOUNT% &fseconds...
+  Go: Go!
+  BestTime: Your new best time!
+  CourseRecord: New course record!
+  LeaderboardHeading: '%COURSE% : Top %AMOUNT% results'
+  LeaderboardEntry: '%POSITION%) &b%PLAYER% &fin &3%TIME%&f, dying &7%DEATHS% &ftimes'
+  QuietOn: 'Quiet Mode: &bON'
+  QuietOff: 'Quiet Mode: &bOFF'
+  Challenge:
+    Receive: You have been challenged by &b%PLAYER% &fto course &b%COURSE%
+    Send: You have challenged &b%PLAYER% &fto course &b%COURSE%
+    Wager: ' &fwith a wager of &b%AMOUNT%'
+    Terminated: '&b%PLAYER% &fhas terminated the challenge!'
+    Winner: Congratulations! You beat &b%PLAYER% &fat &b%COURSE%!
+    Loser: '&b%PLAYER% &fhas completed &b%COURSE% &fbefore you!'
+Event:
+  Join: This server uses &bParkour &3%VERSION%
+  Checkpoint: 'Checkpoint set to '
+  AllCheckpoints: All checkpoints achieved!
+  HideAll1: All players have magically reappeared!
+  HideAll2: All players have magically disappeared!
+  Chat: '&0[&b%RANK%&0] &f%PLAYER%&0:&f %MESSAGE%'
+  DefaultRank: Newbie
+Error:
+  NotOnCourse: You are not on this course!
+  NotOnAnyCourse: You are not on a course!
+  TooMany: Too many arguments!
+  TooLittle: Not enough arguments!
+  Exist: This course already exists!
+  NoExist: '&b%COURSE% &fdoesn''t exist!'
+  Unknown: Unknown course!
+  Command: Non-Parkour commands have been disabled!
+  Sign: Non-Parkour signs have been disabled!
+  Selected: You have not selected a course!
+  WrongWorld: You are in the wrong world!
+  WorldTeleport: Teleporting to a different world has been cancelled
+  Something: 'Something went wrong: &4%ERROR%'
+  RequiredLvl: You require level &b%LEVEL% &fto join!
+  Finished1: This course is not ready for you to play yet!
+  Finished2: 'WARNING: This course is not finished yet.'
+  SignProtected: This sign is protected!
+  Syntax: '&cInvalid Syntax: &f/pa &8%COMMAND% &7%ARGUMENTS%'
+  UnknownSignCommand: Unknown sign command!
+  UnknownCommand: Unknown command!
+  UnknownPlayer: This player does not exist!
+  Cheating1: Please do not cheat.
+  Cheating2: '&lYou must achieve all &4%AMOUNT% &f&lcheckpoints!'
+  Cooldown: Slow down! Please wait &b%AMOUNT% &fmore seconds.
+  NotCompleted: You have not yet completed &b%COURSE%&f!
+  AlreadyVoted: You have already voted for &b%COURSE%&f!
+  PrizeCooldown: You have to wait &b%TIME% &fbefore you can receive this prize again!
+  NoQuestion: You have not been asked a question!
+  JoiningAnotherCourse: You can not join another course while on a course.
+Help:
+  Command: '&7/pa help &9%COMMAND% &0: &7To learn more about this command.'
+  Commands: '&3/pa &bcmds &8: &fTo display the Parkour commands menu.'
+  SignCommands: '&3/pa &bcmds signs &8: &fTo display the Parkour sign commands menu.'
+Other:
+  Item_LastCheckpoint: '&7SHIFT + &6Right click to go back to last checkpoint'
+  Item_HideAll: '&7SHIFT + &6Right click to toggle visibility'
+  Item_Leave: '&7SHIFT + &6Right click to leave course'
+  Item_Restart: '&7SHIFT + &6Right click to restart course'
+  Item_Book: '&6View course stats'
+  Reload: Config Reloaded!
+  Kit: ParkourKit Given!
+Scoreboard:
+  MainHeading: '&b&l== Parkour =='
+  TitleFormat: '&b%TITLE%'
+  TextFormat: '&f%TEXT%'
+  NotCompleted: Not Completed
+  CourseTitle: 'Course:'
+  BestTimeTitle: 'Best Time:'
+  BestTimeNameTitle: 'Best Player:'
+  MyBestTimeTitle: 'My Best Time:'
+  CurrentTimeTitle: 'Current Time:'
+ParkourGUI:
+  NextPage: '&bNext page &f>'
+  PreviousPage: < &bPrevious page
+  AllCourses:
+    Title: Courses - Page %PAGE%
+    Description: '&fJoin &b%COURSE%'
+    Command: pa join %COURSE%
+Economy:
+  Insufficient: You require at least &b%AMOUNT% &fbefore joining &b%COURSE%
+  Fee: '&b%AMOUNT% &fhas been deducted from your balance for joining &b%COURSE%'
+  Reward: You earned &b%AMOUNT% &ffor completing &b%COURSE%&f!
+Kit:
+  Speed: '&bSpeed Block'
+  Climb: '&bClimb Block'
+  Launch: '&bLaunch Block'
+  Finish: '&bFinish Block'
+  Norun: '&bNoRun Block'
+  Nofall: '&bNoFall Block'
+  Nopotion: '&bNoPotion Block'
+  Sign: '&bSign'
+  Death: '&bDeath Block'
+  Bounce: '&bBounce Block'
+  Repulse: '&bRepulse Block'
+Mode:
+  Freedom:
+    ItemName: '&6Freedom Tool'
+    JoinText: '&6Freedom Mode &f- Right click: &2Save&f, Left click: &5Load'
+    Save: Position saved
+    Load: Position loaded
+  Drunk:
+    JoinText: You feel strange...
+  Darkness:
+    JoinText: It suddenly becomes dark...
+  Rockets:
+    JoinText: Use the Rocket Launcher to launch yourself
+    ItemName: Rocket Launcher
+NoPermission: 'You do not have Permission: &b%PERMISSION%'
