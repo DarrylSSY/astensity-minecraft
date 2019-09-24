@@ -1,0 +1,33 @@
+# ==================================== #
+# 
+# RewardPro 4.0.4
+# A complete reward solution.
+# (c) SuperM
+# 
+# ==================================== #
+# 
+# Thank you for using the plugin! 
+# If you like the plugin, please rate it with 5 stars on SpigotMc!
+# 
+# ==================================== #
+#           Settings 
+# ==================================== #
+# You see the full documentation of this file here: 
+# https://pastebin.com/kekSgXzV
+
+Prefix: '&0[&3RewardPro&0]&f'
+Function:
+  Voting: true
+  DailyReward: true
+  ReferSystem: false
+  CheckUpdate: true
+  PlayerHead: true
+  Debug: false
+  RespawnPresentMan: false
+  RESTfulAPI:
+    Enable: false
+    APIKey: d4ef7bdf-4171-46e4-9043-37c802621f36
+    APIPassword: 3de64195-6586-4523-9cf9-00f69661ea83
+    Port: 4578
+RewardProAddOns:
+  Bungee: false

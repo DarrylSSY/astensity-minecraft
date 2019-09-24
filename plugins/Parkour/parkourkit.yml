@@ -1,0 +1,27 @@
+ParkourKit:
+  default:
+    STONE_BRICKS:
+      Action: death
+    BRICKS:
+      Action: climb
+      Strength: 0.4
+    EMERALD_BLOCK:
+      Action: launch
+      Strength: 1.2
+    MOSSY_COBBLESTONE:
+      Action: bounce
+      Strength: 5.0
+      Duration: 200
+    OBSIDIAN:
+      Action: speed
+      Strength: 5.0
+      Duration: 200
+    END_STONE:
+      Action: repulse
+      Strength: 0.4
+    GOLD_BLOCK:
+      Action: norun
+    RED_MUSHROOM_BLOCK:
+      Action: finish
+    BROWN_MUSHROOM_BLOCK:
+      Action: nopotion

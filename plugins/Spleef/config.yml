@@ -1,0 +1,22 @@
+lang: english
+times:
+  wait: 10
+allow:
+  snowBalls: false
+  lightning: true
+  showTime: true
+  goldShovel: true
+  magmaCream: true
+rewards:
+  win: 0
+  lose: 0
+  command: 'null'
+gameMode:
+  team:
+    glowing: false
+  melt:
+    beforeMelt: 30
+    betweenMelt: 1
+commands:
+  start: 'null'
+  end: 'null'
