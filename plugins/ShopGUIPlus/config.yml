@@ -13,24 +13,24 @@ database:
   mySQLPassword: "Astensity1234"
   # MySQL table names
   tableNames:
-    players: "players"
+    players: "shopguiplus"
 
-#  Type of the economy which will handle all transactions. 
+#  Type of the economy which will handle all transactions.
 #  Supported economies:
 #  - EXP (default Minecraft experience points)
 #  - VAULT (requires http://dev.bukkit.org/bukkit-plugins/vault/)
 #  - MYSQL_TOKENS (requires https://www.spigotmc.org/resources/mysql-tokens.7535/)
 #  - PLAYER_POINTS (requires https://dev.bukkit.org/projects/playerpoints)
 #  - TOKEN_MANAGER (requires https://www.spigotmc.org/resources/tokenmanager.8610/)
-#  - CUSTOM (requires custom implementation, see API section in plugin documentation)
 economyType: VAULT
 # Name of the main GUI
-shopMenuName: "&3&lShop menu"
+shopMenuName: "&3&lShop"
 # Size of the main GUI, valid values are 9, 18, 27, 36, 45 and 54
-shopMenuSize: 45
+shopMenuSize: 54
 # Choose an item to fill the empty slots of menu with
 shopMenuFillItem:
   material: BLACK_STAINED_GLASS_PANE
+  damage: 15
   name: " "
 # Define whether selling all with middle mouse button is enabled
 enableSellAll: true
@@ -92,8 +92,6 @@ itemStackSizeCappedAt:
     size: 1
 # Choose what gamemodes will prevent players from accessing shops. Valid values: ADVENTURE, CREATIVE, SPECTATOR, SURVIVAL
 disableShopsInGamemodes:
-  - ADVENTURE
-  - CREATIVE
   - SPECTATOR
 # Choose in which worlds players won't be able to access the shop. Same list format as disableShopsInGamemodes
 disableShopsInWorlds: []
@@ -121,27 +119,27 @@ defaultItemSettings:
 shopItemLoreFormat:
   # This lore will be applied to items
   item:
-    - "&7Buy price: &c%buy%$"
-    - "&7Sell price: &a%sell%$"
-    - "&9Click with MMB to sell all"
+    - "&b&l► &eBuy price &b» &2%buy% &b$"
+    - "&b&l► &eSell price &b» &2%sell% &b$"
+    - "&b&l► &eClick with &6MMB &eto sell all &b&l◄"
   # This lore will be applied to items in the buy GUI (when enableBuyGUI is set to true)
   itemBuyGUI:
-    - "&7Buy price: &c%buy%$"
+    - "&b&l► &eBuy price &b» &2%buy% &b$"
   # This lore will be applied to items in the sell GUI (when enableSellGUI is set to true)
   itemSellGUI:
-    - "&7Sell price: &a%sell%$"
+    - "&b&l► &eSell price &b» &2%sell% &b$"
   # This lore will be applied to the sell all button in the sell GUI (when enableSellGUI and enableSellGUISellAll are set to true)
   itemSellGUISellAll:
-    - "&7Sell all for: &a%sell%$"
+    - "&b&l► &eSell all for &b» &2%sell% &b$"
   # This one to permissions
   permission:
-    - "&7Buy price: &c%buy%$"
+    - "&b&l► &eBuy price &b» &2%buy% &b$"
   # And this one to enchantments
   enchantment:
-    - "&7Buy price: &c%buy%$"
+    - "&b&l► &eBuy price &b» &2%buy% &b$"
   # And the last one to commands
   command:
-    - "&7Buy price: &c%buy%$"
+    - "&b&l► &eBuy price &b» &2%buy% &b$"
 
 # Logging settings
 log:
@@ -169,21 +167,19 @@ sellHand:
 sellAll:
   # When set to true, players will get a detailed summary with prices of each item stack sold
   detailedSummary: false
-  # Choose if maximal sell price of an item across all shops should be chosen in sell all. Enabling this may affect sell command performance when having lots of shops/items
-  findMaxSellPrice: true
 
 buttons:
   # "Go back button"
   goBack:
     item:
       # Material name, full list can be found here: http://wiki.brcdev.net/Materials
-      material: BARRIER
+      material: EXPERIENCE_BOTTLE
       # Amount of the item
       amount: 1
       # (optional) Data value, for example 1 for WOOD:1 means spruce wood planks
       damage: 0
       # (optional) Custom name
-      name: "&c&lGo back to categories"
+      name: "&a&l&nGo Back To Main Menu"
       # (optional) Lore, can contain multiple lines
       lore:
         - "&7Click here to return"
@@ -196,14 +192,14 @@ buttons:
       material: PAPER
       quantity: 1
       name: "&e&lPrevious page"
-    slot: 48
+    slot: 54
   # "Next page" button
   nextPage:
     item:
       material: PAPER
       quantity: 1
       name: "&e&lNext page"
-    slot: 50
+    slot: 54
 
 # Elements of the bulk buy GUI
 amountSelectionGUIBulkBuy:
@@ -220,7 +216,7 @@ amountSelectionGUIBulkBuy:
         quantity: 1
         name: "&aBuy 1 stack"
         lore:
-          - "&7Price: &c%buy%$"
+          - "&ePrice &b» &2%buy% &b$"
       # Value indicated the amount of stacks
       value: 1
       slot: 0
@@ -230,7 +226,7 @@ amountSelectionGUIBulkBuy:
         quantity: 2
         name: "&aBuy 2 stacks"
         lore:
-          - "&7Price: &c%buy%$"
+          - "&ePrice &b» &2%buy% &b$"
       value: 2
       slot: 1
     # "Buy 3 stacks" button
@@ -239,7 +235,7 @@ amountSelectionGUIBulkBuy:
         quantity: 3
         name: "&aBuy 3 stacks"
         lore:
-          - "&7Price: &c%buy%$"
+          - "&ePrice &b» &2%buy% &b$"
       value: 3
       slot: 2
     # "Buy 4 stacks" button
@@ -248,7 +244,7 @@ amountSelectionGUIBulkBuy:
         quantity: 4
         name: "&aBuy 4 stacks"
         lore:
-          - "&7Price: &c%buy%$"
+          - "&ePrice &b» &2%buy% &b$"
       value: 4
       slot: 3
     # "Buy 5 stacks" button
@@ -257,7 +253,7 @@ amountSelectionGUIBulkBuy:
         quantity: 5
         name: "&aBuy 5 stacks"
         lore:
-          - "&7Price: &c%buy%$"
+          - "&ePrice &b» &2%buy% &b$"
       value: 5
       slot: 4
     # "Buy 6 stacks" button
@@ -266,7 +262,7 @@ amountSelectionGUIBulkBuy:
         quantity: 6
         name: "&aBuy 6 stacks"
         lore:
-          - "&7Price: &c%buy%$"
+          - "&ePrice &b» &2%buy% &b$"
       value: 6
       slot: 5
     # "Buy 7 stacks" button
@@ -275,7 +271,7 @@ amountSelectionGUIBulkBuy:
         quantity: 7
         name: "&aBuy 7 stacks"
         lore:
-          - "&7Price: &c%buy%$"
+          - "&ePrice &b» &2%buy% &b$"
       value: 7
       slot: 6
     # "Buy 8 stacks" button
@@ -284,7 +280,7 @@ amountSelectionGUIBulkBuy:
         quantity: 8
         name: "&aBuy 8 stacks"
         lore:
-          - "&7Price: &c%buy%$"
+          - "&ePrice &b» &2%buy% &b$"
       value: 8
       slot: 7
     # "Buy 9 stacks" button
@@ -293,15 +289,15 @@ amountSelectionGUIBulkBuy:
         quantity: 9
         name: "&aBuy 9 stacks"
         lore:
-          - "&7Price: &c%buy%$"
+          - "&ePrice &b» &2%buy% &b$"
       value: 9
       slot: 8
     # "Cancel" button
     cancel:
       item:
-        material: RED_STAINED_GLASS
+        material: RED_STAINED_GLASS_PANE
         quantity: 1
-        name: "&c&lCancel"
+        name: "&c&l&nCancel"
       slot: 13
 
 # Elements of the bulk buy GUI
@@ -319,7 +315,7 @@ amountSelectionGUIBulkSell:
         quantity: 1
         name: "&aSell 1 stack"
         lore:
-          - "&7Price: &c%sell%$"
+          - "&ePrice &b» &2%sell% &b$"
       # Value indicated the amount of stacks
       value: 1
       slot: 0
@@ -329,7 +325,7 @@ amountSelectionGUIBulkSell:
         quantity: 2
         name: "&aSell 2 stacks"
         lore:
-          - "&7Price: &c%sell%$"
+          - "&ePrice &b» &2%sell% &b$"
       value: 2
       slot: 1
     # "Sell 3 stacks" button
@@ -338,7 +334,7 @@ amountSelectionGUIBulkSell:
         quantity: 3
         name: "&aSell 3 stacks"
         lore:
-          - "&7Price: &c%sell%$"
+          - "&ePrice &b» &2%sell% &b$"
       value: 3
       slot: 2
     # "Sell 4 stacks" button
@@ -347,7 +343,7 @@ amountSelectionGUIBulkSell:
         quantity: 4
         name: "&aSell 4 stacks"
         lore:
-          - "&7Price: &c%sell%$"
+          - "&ePrice &b» &2%sell% &b$"
       value: 4
       slot: 3
     # "Sell 5 stacks" button
@@ -356,7 +352,7 @@ amountSelectionGUIBulkSell:
         quantity: 5
         name: "&aSell 5 stacks"
         lore:
-          - "&7Price: &c%sell%$"
+          - "&ePrice &b» &2%sell% &b$"
       value: 5
       slot: 4
     # "Sell 6 stacks" button
@@ -365,7 +361,7 @@ amountSelectionGUIBulkSell:
         quantity: 6
         name: "&aSell 6 stacks"
         lore:
-          - "&7Price: &c%sell%$"
+          - "&ePrice &b» &2%sell% &b$"
       value: 6
       slot: 5
     # "Sell 7 stacks" button
@@ -374,7 +370,7 @@ amountSelectionGUIBulkSell:
         quantity: 7
         name: "&aSell 7 stacks"
         lore:
-          - "&7Price: &c%sell%$"
+          - "&ePrice &b» &2%sell% &b$"
       value: 7
       slot: 6
     # "Sell 8 stacks" button
@@ -383,7 +379,7 @@ amountSelectionGUIBulkSell:
         quantity: 8
         name: "&aSell 8 stacks"
         lore:
-          - "&7Price: &c%sell%$"
+          - "&ePrice &b» &2%sell% &b$"
       value: 8
       slot: 7
     # "Sell 9 stacks" button
@@ -392,15 +388,15 @@ amountSelectionGUIBulkSell:
         quantity: 9
         name: "&aSell 9 stacks"
         lore:
-          - "&7Price: &c%sell%$"
+          - "&ePrice &b» &2%sell% &b$"
       value: 9
       slot: 8
     # "Cancel" button
     cancel:
       item:
-        material: RED_STAINED_GLASS
+        material: RED_STAINED_GLASS_PANE
         quantity: 1
-        name: "&c&lCancel"
+        name: "&c&l&nCancel"
       slot: 13
 
 # Elements of the regular buy/sell GUI
@@ -423,28 +419,28 @@ amountSelectionGUI:
       item:
         material: RED_STAINED_GLASS_PANE
         quantity: 10
-        name: "&c&lRemove 10"
+        name: "&c&l-10"
       slot: 19
     # "Remove 1" button
     remove1:
       item:
         material: RED_STAINED_GLASS_PANE
         quantity: 1
-        name: "&c&lRemove 1"
+        name: "&c&l-1"
       slot: 20
     # "Add 1" button
     add1:
       item:
         material: LIME_STAINED_GLASS_PANE
         quantity: 1
-        name: "&a&lAdd 1"
+        name: "&a&l+1"
       slot: 24
     # "Add 10" button
     add10:
       item:
         material: LIME_STAINED_GLASS_PANE
         quantity: 10
-        name: "&a&lAdd 10"
+        name: "&a&l+10"
       slot: 25
     # "Set to 16" button
     set16:
@@ -463,118 +459,295 @@ amountSelectionGUI:
     # "Confirm" button
     confirm:
       item:
-        material: LIME_STAINED_GLASS
+        material: LIME_STAINED_GLASS_PANE
         quantity: 1
-        name: "&a&lConfirm"
+        name: "&a&l&nConfirm"
       slot: 39
     # "Sell all" button
     sellAll:
       item:
-        material: LIME_STAINED_GLASS
+        material: LIME_STAINED_GLASS_PANE
         quantity: 1
-        name: "&a&lSell all"
+        name: "&a&l&nSell all"
       slot: 40
     # "Buy more" button
     buyMore:
       item:
-        material: LIME_STAINED_GLASS
+        material: LIME_STAINED_GLASS_PANE
         quantity: 64
         name: "&a&lBuy more"
       slot: 49
     # "Sell more" button
     sellMore:
       item:
-        material: LIME_STAINED_GLASS
+        material: LIME_STAINED_GLASS_PANE
         quantity: 64
         name: "&a&lSell more"
       slot: 49
     # "Cancel" button
     cancel:
       item:
-        material: RED_STAINED_GLASS
+        material: RED_STAINED_GLASS_PANE
         quantity: 1
-        name: "&c&lCancel"
+        name: "&c&l&nCancel"
       slot: 41
 
 shopMenuItems:
   # Has to be unique, value doesn't matter
   1:
     item:
-      # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: GRASS_BLOCK
+      material: GRASS_bLOCK
       quantity: 1
       name: "&9&lBlocks"
-    # Shop ID from shops.yml
-    shop: "blocks"
-    # Slot in shops menu, counting from 0 to 53
+      lore:
+        - "&7Wanna build?!!"
+    shop: "blocks1"
     slot: 11
   2:
     item:
       material: COOKED_CHICKEN
       quantity: 1
       damage: 0
-      name: "&2&lFood"
+      name: "&e&lFood"
       lore:
         - "&7Get some yummy food here!"
     shop: "food"
-    slot: 12
+    slot: 22
   3:
     item:
-      material: GOLD_INGOT
+      material: COMPASS
       quantity: 1
       damage: 0
-      name: "&3&lOres"
-    shop: "ores"
-    slot: 13
-  4:
-    item:
-      material: IRON_PICKAXE
-      quantity: 1
-      name: "&8&lTools"
-    shop: "tools"
-    slot: 14
-  5:
-    item:
-      material: DIAMOND_CHESTPLATE
-      quantity: 1
-      name: "&4&lArmor"
-    shop: "armor"
+      name: "&7&lMiscellanous"
+      lore:
+        - "&7The random its real!!"
+    shop: "misc"
     slot: 15
-  6:
+  4:
     item:
       material: WHEAT
       quantity: 1
-      name: "&5&lFarming"
+      name: "&2&lFarming"
+      lore:
+        - "&7Ohh! I see, you are a farmer."
     shop: "farming"
-    slot: 21
+    slot: 40
+  5:
+    item:
+      material: BREWING_STAND
+      quantity: 1
+      name: "&5&lBrewing"
+      lore:
+        - "&7Mysterious things..."
+    shop: "brewing"
+    slot: 39
   7:
     item:
-      material: SPIDER_EYE
+      material: REDSTONE
       quantity: 1
-      name: "&9&lMob drops"
-    shop: "drops"
-    slot: 22
+      name: "&c&lRedstone"
+      lore:
+        - "&7I think it will be complicated!?"
+    shop: "redstone"
+    slot: 12
   8:
     item:
-      material: LIGHT_BLUE_DYE
+      material: DIAMOND_SWORD
       quantity: 1
-      name: "&2&lDyes"
-    shop: "dyes"
-    slot: 23
+      name: "&b&lArmor&8&l/&b&lTools&8&l/&b&lWeapons"
+      lore:
+        - "&7Get you self equipped"
+        - "&7with the gear."
+    shop: "armortools1"
+    slot: 41
   9:
     item:
-      material: SADDLE
+      material: DIAMOND
       quantity: 1
-      name: "&3&lMiscellanous"
-    shop: "miscellanous"
+      name: "&a&lOres"
+      lore:
+        - "&7Shiny&7&l!!!"
+    shop: "ores"
+    slot: 13
+  10:
+    item:
+      material: ENDER_PEARL
+      quantity: 1
+      name: "&3&lMobDrops"
+      lore:
+        - "&7You must be a killer?!"
+    shop: "mobdrops"
     slot: 31
+  11:
+    item:
+      material: SPAWNER
+      quantity: 1
+      name: "&e&lSpawners"
+      lore:
+        - "&7Spawn something!?"
+    shop: "spawners1"
+    slot: 32
+  12:
+    item:
+      material: PAINTING
+      quantity: 1
+      name: "&e&lDecorations"
+      lore:
+        - "&7This will looook good."
+    shop: "decorations1"
+    slot: 14
+  13:
+    item:
+      material: POTION
+      potion:
+        type: SPEED
+        level: 1
+        extended: true
+      quantity: 1
+      name: "&5&lPotions"
+      lore:
+        - "&7Im invincible!"
+    shop: "potions"
+    slot: 21
+  14:
+    item:
+      material: YELLOW_DYE
+      quantity: 1
+      name: "&3&lDyes"
+      lore:
+        - "&7WOW! Soo many colors!"
+    shop: "dyes"
+    slot: 23
+  15:
+    item:
+      material: ENCHANTED_BOOK
+      quantity: 1
+      name: "&d&lEnchantments"
+      lore:
+        - "&7Its time to enchant something!"
+    shop: "enchants1"
+    slot: 30
+  a1:
+    item:
+      material: WHITE_STAINED_GLASS_PANE
+      quantity: 1
+    shop: ""
+    slot: 27
+  a2:
+    item:
+      material: WHITE_STAINED_GLASS_PANE
+      quantity: 1
+    shop: ""
+    slot: 28
+  a3:
+    item:
+      material: WHITE_STAINED_GLASS_PANE
+      quantity: 1
+    shop: ""
+    slot: 34
+  a4:
+    item:
+      material: WHITE_STAINED_GLASS_PANE
+      quantity: 1
+    shop: ""
+    slot: 35
+  a5:
+    item:
+      material: WHITE_STAINED_GLASS_PANE
+      quantity: 1
+    shop: ""
+    slot: 36
+  a6:
+    item:
+      material: WHITE_STAINED_GLASS_PANE
+      quantity: 1
+    shop: ""
+    slot: 37
+  a7:
+    item:
+      material: WHITE_STAINED_GLASS_PANE
+      quantity: 1
+    shop: ""
+    slot: 38
+  a8:
+    item:
+      material: WHITE_STAINED_GLASS_PANE
+      quantity: 1
+    shop: ""
+    slot: 42
+  a9:
+    item:
+      material: WHITE_STAINED_GLASS_PANE
+      quantity: 1
+    shop: ""
+    slot: 43
+  a10:
+    item:
+      material: WHITE_STAINED_GLASS_PANE
+      quantity: 1
+    shop: ""
+    slot: 44
+  a11:
+    item:
+      material: WHITE_STAINED_GLASS_PANE
+      quantity: 1
+    shop: ""
+    slot: 45
+  a12:
+    item:
+      material: WHITE_STAINED_GLASS_PANE
+      quantity: 1
+    shop: ""
+    slot: 46
+  a13:
+    item:
+      material: WHITE_STAINED_GLASS_PANE
+      quantity: 1
+    shop: ""
+    slot: 47
+  a14:
+    item:
+      material: WHITE_STAINED_GLASS_PANE
+      quantity: 1
+    shop: ""
+    slot: 48
+  a15:
+    item:
+      material: WHITE_STAINED_GLASS_PANE
+      quantity: 1
+    shop: ""
+    slot: 49
+  a16:
+    item:
+      material: WHITE_STAINED_GLASS_PANE
+      quantity: 1
+    shop: ""
+    slot: 50
+  a17:
+    item:
+      material: WHITE_STAINED_GLASS_PANE
+      quantity: 1
+    shop: ""
+    slot: 51
+  a18:
+    item:
+      material: WHITE_STAINED_GLASS_PANE
+      quantity: 1
+    shop: ""
+    slot: 52
+  a19:
+    item:
+      material: WHITE_STAINED_GLASS_PANE
+      quantity: 1
+    shop: ""
+    slot: 53
 
 
 specialElements:
   balance:
     item:
-      material: GOLD_INGOT
+      material: SUNFLOWER
       quantity: 1
-      name: "&6&lYour balance"
+      name: "&2&nYour Balance"
       lore:
-        - "&7$%balance%"
+        - "&f»&7»&8» &e$&6%balance% &8«&7«&f«"

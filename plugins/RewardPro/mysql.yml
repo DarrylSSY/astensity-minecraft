@@ -1,0 +1,21 @@
+# ==================================== #
+# 
+# RewardPro 4.0.4
+# A complete reward solution.
+# (c) SuperM
+# 
+# ==================================== #
+# 
+# Thank you for using the plugin! 
+# If you like the plugin, please rate it with 5 stars on SpigotMc!
+# 
+# ==================================== #
+#           Settings 
+# ==================================== #
+
+Database:
+  Host: 34.87.92.37
+  Port: '3306'
+  Database: minecraft
+  Username: astensity
+  Password: Astensity1234
