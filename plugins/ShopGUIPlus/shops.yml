@@ -2060,7 +2060,6 @@ shops:
           material: ARROW
           quantity: 16
         buyPrice: 130
-        sellPrice: 27
         slot: 15
       20:
         type: item
@@ -2735,7 +2734,6 @@ shops:
           material: ARROW
           quantity: 16
         buyPrice: 130
-        sellPrice: 27
         slot: 13
       12:
         type: item
