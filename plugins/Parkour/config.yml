@@ -1,0 +1,149 @@
+# ==== Parkour Config ==== #
+OnJoin:
+  AllowViaCommand: true
+  EnforceWorld: false
+  EnforceFinished: true
+  FillHealth: true
+  Item:
+    LastCheckpoint:
+      Material: ARROW
+      Slot: 0
+    HideAll:
+      Material: BONE
+      Slot: 1
+      Global: true
+    Leave:
+      Material: SAPLING
+      Slot: 2
+    Restart:
+      Material: STICK
+      Slot: 3
+  SetGamemode: 0
+  TreatFirstCheckpointAsStart: false
+OnFinish:
+  BroadcastLevel: 3
+  DefaultPrize:
+    Material: DIAMOND
+    Amount: 1
+    XP: 0
+  DisplayNewRecords: false
+  DisplayStats: true
+  EnablePrizes: true
+  EnforceCompletion: true
+  SaveUserCompletedCourses: true
+  SetGamemode: 0
+  TeleportAway: true
+  TeleportDelay: 0
+  UpdatePlayerDatabaseTime: false
+OnLeave:
+  TeleportToLinkedLobby: false
+OnDie:
+  ResetTimeWithNoCheckpoint: false
+  SetXPBarToDeathCount: false
+OnLeaveServer:
+  LeaveCourse: false
+  TeleportToLastCheckpoint: false
+ParkourModes:
+  Challenge:
+    HidePlayers: true
+    CountdownFrom: 5
+  Moon:
+    Strength: 5
+  Speedy:
+    SetSpeed: 0.8
+    ResetSpeed: 0.2
+DisplayTitle:
+  FadeIn: 5
+  Stay: 20
+  FadeOut: 5
+  JoinCourse: true
+  Checkpoint: true
+  RewardLevel: true
+  Death: true
+  Leave: true
+  Finish: true
+AutoStart:
+  Enabled: true
+  Material: BEDROCK
+  TickDelay: 0
+Scoreboard:
+  Enabled: false
+  Display:
+    CourseName: true
+    BestTimeEver: true
+    BestTimeEverName: true
+    BestTimeByMe: true
+    CurrentTime: true
+ParkourGUI:
+  Enabled: false
+  Rows: 2
+  Material: BOOK
+Version: 5.3
+Lobby:
+  Set: false
+  EnforceWorld: false
+OnCourse:
+  AdminPlaceBreakBlocks: true
+  AttemptLessChecks: false
+  CheckpointMaterial: STONE_PLATE
+  DieInLiquid: false
+  DieInVoid: false
+  DisableItemDrop: false
+  DisableItemPickup: false
+  DisablePlayerDamage: false
+  DisableFly: true
+  DisplayLiveTime: false
+  EnforceParkourSigns: true
+  MaxFallTicks: 80
+  PreventPlateStick: false
+  PreventOpeningOtherInventories: false
+  PreventAttackingEntities: false
+  PreventJoiningDifferentCourse: false
+  PreventPlayerCollisions: false
+  SneakToInteractItems: true
+  UseParkourKit: true
+  EnforceParkourCommands:
+    Enabled: true
+    Whitelist:
+    - login
+  Trails:
+    Enabled: false
+    Particle: DRIP_LAVA
+MySQL:
+  Use: true
+  Host: ***REMOVED***
+  Port: 3306
+  User: astensity
+  Password: ***REMOVED***
+  Database: minecraft
+  Table: parkour
+SQLite:
+  PathOverride: ''
+Other:
+  CheckForUpdates: true
+  PlaceholderAPI:
+    Enabled: true
+  LogToFile: true
+  EnforceSafeCheckpoints: true
+  UseAutoTabCompletion: true
+  ParkourKit:
+    ReplaceInventory: true
+  Parkour:
+    ChatRankPrefix:
+      Enabled: false
+      OverrideChat: true
+    SignProtection: true
+    InventoryManagement: true
+    SignPermissions: false
+    CommandPermissions: false
+  Display:
+    JoinWelcomeMessage: true
+    LevelReward: true
+    ShowMilliseconds: false
+    PrizeCooldown: true
+  OnServerShutdown:
+    BackupFiles: false
+  Economy:
+    Enabled: true
+  BountifulAPI:
+    Enabled: false
