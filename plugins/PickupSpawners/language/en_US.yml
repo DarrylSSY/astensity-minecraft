@@ -1,0 +1,13 @@
+break: '&7You have broken out one &e%type%&7 spawner.'
+place: '&7You have placen one &e%type%&7 spawner.'
+limit-reach: '&cYou have reached the daily spawner break limit (%limit%).'
+no-enough-money: '&cYou do not have enough money!'
+no-enough-space-inv: '&cThere are not enough space in your inventory!'
+give: '&aGave %count% &e%type%&a spawner to you.'
+no-perm: '&cYou do not have permission to perform this action.'
+change-succesful: §7Spawner succesfully changed from §e%type_from%§7 to §e%type_to%§7.
+change-error: §cThere was an error while changing a spawner from §e%type_from%§7 to
+  §e%type_to%§7.
+change-error-not-spawner: §cYou're not looking at a spawner, or is too far away.
+change-error-disabled-type: §cYou can't change this spawner, because the type is disabled.
+cannot-pickup: §cYou can't pickup spawners with that item!
