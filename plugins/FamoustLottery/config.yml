@@ -1,0 +1,43 @@
+version: 6.4.12
+update-check: true
+reset-every: 86400
+default:
+  Status: 2
+  Count_Alive: 60
+  Count_Sleep: 30
+  useEcon: true
+  Price: 20
+  Item: gold_ingot:0
+  maxTicketsbyPlayer: 1
+  maxTicketsinLottery: -1
+  minPlayers: 2
+  minTickets: 2
+  jackpotChance: 100
+  globalMessages: false
+  broadcastBuy: true
+  broadcastDraw: 10
+  taxMultiplier: 20
+  taxHolder: 3206ba4c-968d-424c-877d-1547fa974d60
+  maxWinsADay: 1
+  extraInPot: 10
+  clearExtraInPot: true
+  maxWinners: 2
+  drawType: 0
+  firstpercentage: 50
+  sounds:
+    winning: none
+    loosing: none
+    reminding: none
+mysql:
+  enabled: true
+  host: 34.87.92.37
+  port: '3306'
+  dbname: minecraft
+  user: astensity
+  password: Astensity1234
+first_line_activ: '&2[FamoustLottery]'
+first_line_inactiv: '&6[FamoustLottery]'
+first_line_closed: '&4[FamoustLottery]'
+third_line: '%hours:%minutes:%seconds'
+commands_on_buy: []
+commands_on_win: []

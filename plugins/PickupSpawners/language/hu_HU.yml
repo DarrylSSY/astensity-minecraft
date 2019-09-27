@@ -1,0 +1,13 @@
+break: '&7Kiütöttél egy &e%type%&7 spawnert.'
+place: '&7Letettél egy &e%type%&7 spawnert.'
+limit-reach: '&cElérted a napi kiüthető spawner limitet (%limit%).'
+no-enough-money: '&cNincs elég pénzed!'
+no-enough-space-inv: '&cNincs elég hely a táskádban!'
+give: '&aKaptál %count% &e%type%&a spawnert.'
+no-perm: '&cEhhez nincs jogod.'
+change-succesful: §7Spawner sikeresen átváltoztatva §e%type_from%§7 ->> §e%type_to%§7.
+change-error: §cHiba történt a spawner átváltoztatása közben §e%type_from%§7 típusról
+  §e%type_to%§7 típusra.
+change-error-not-spawner: §cNem egy spawnerre nézel vagy túl messze van.
+change-error-disabled-type: §cNem változtathatod a spawnert, mert a típus le van tiltva.
+cannot-pickup: §cNem üthetsz ki spawnereket ezzel a tárggyal!
