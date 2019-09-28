@@ -120,6 +120,36 @@ formats:
     name_click_command: '/msg %player_name% '
     suffix_click_command: ''
     channel_tooltip: []
+  donor:
+    suffix_tooltip:
+      - ''
+    priority: 3
+    channel: ''
+    prefix: '%deluxetags_tag%'
+    name_color: ''
+    name: '&a%player_name%'
+    suffix: '&8: '
+    chat_color: '&f'
+    prefix_tooltip:
+      - '%deluxetags_description%'
+    name_tooltip:
+      - '%player_name%'
+      - '&7&m-------------'
+      - '&7ᚽ &aDONOR'
+      - '&7ᚽ &fCash: &a$%vault_eco_balance_formatted%'
+      - '&7ᚽ &fPlayed: &6%statistic_hours_played% hrs'
+      - '&7ᚽ &fKills: &c%statistic_player_kills%'
+      - '&7ᚽ &fAchievements: &5%aach_achievements%'
+      - '&7ᚽ'
+      - '&7ᚽ &fTown Name: &d%towny_town%'
+      - '&7ᚽ'
+      - '&7ᚽ &fJobs Total Level: &b%jobs_total_levels%'
+      - '&7&m-------------'
+    channel_click_command: /ranks
+    prefix_click_command: /ranks
+    name_click_command: '/msg %player_name% '
+    suffix_click_command: ''
+    channel_tooltip: []
   management:
     priority: 2
     channel: ''

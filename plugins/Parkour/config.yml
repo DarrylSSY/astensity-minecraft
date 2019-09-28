@@ -94,7 +94,7 @@ OnCourse:
   DisableFly: true
   DisplayLiveTime: false
   EnforceParkourSigns: true
-  MaxFallTicks: 80
+  MaxFallTicks: 300
   PreventPlateStick: false
   PreventOpeningOtherInventories: false
   PreventAttackingEntities: false
