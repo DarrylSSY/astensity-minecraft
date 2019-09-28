@@ -4,7 +4,9 @@ interval_announcement_list:
 - map
 - discord
 - vote
-- event
+- tags
+- forums
+- death
 announcements:
   help:
   - '{"text": "&a&lInfo&f: Need &ehelp&f? See useful commands in &7/help"}'
@@ -14,9 +16,14 @@ announcements:
   - '{"text": "&a&lInfo&f: We have a &eDiscord&f server! Find us on &7/discord"}'
   vote:
   - '{"text": "&a&lInfo&f: Enjoying your time here? &eVote&f for rewards &7/vote"}'
-  event:
-  - '{"text": "&a&lInfo&f: Our first official server &eevent&f will be hosted on 28
-    September 2019, 7:30 PM GMT+8."}'
+  tags:
+  - '{"text": "&a&lInfo&f: Equip yourself with a tag! Do /tags."}'
+  forums:
+   - '{"text": "&a&lInfo&f: Join our forums at astensity.org!"}'
+  death:
+    - '{"text": "&a&lInfo&f: Reminder that keepInventory is false in the Nether and the End!!"}'
+
+
 announcer_enabled: true
 announcer_random: true
 announce_interval: 300
