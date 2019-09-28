@@ -221,7 +221,7 @@ deluxetags:
     order: 204
     tag: '&2[Scooper]'
     description: '&aWinner of Dig Off event'
-  custom_whiteoptic1:
+  custom_whiteoptic_1:
     order: 1001
     tag: '&f[Argonaut]'
     description: '&6Custom Tag'
