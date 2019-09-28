@@ -32,7 +32,7 @@ nickname-prefix: ''
 # The maximum length allowed in nicknames. The nickname prefix is included in this.
 max-nick-length: 15
 
-# When this option is enabled, nickname length checking will exclude color codes in player names.
+# When this option is enabled, nickname lengt h checking will exclude color codes in player names.
 # ie: "&6Notch" has 7 characters (2 are part of a color code), a length of 5 is used when this option is set to true
 ignore-colors-in-max-nick-length: false
 
@@ -359,7 +359,13 @@ per-warp-permission: false
 list:
     # To merge groups, list the groups you wish to merge
     #Staff: owner admin moderator
-    Admins: owner admin
+    Admin: owner admin coowner
+    HeadModerator: headmoderator
+    Moderator: moderator
+    Helper: helper
+    Builder: builder
+    Donor: donor
+    Member: member
     # To limit groups, set a max user limit
     #builder: 20
     # To hide groups, set the group as hidden
