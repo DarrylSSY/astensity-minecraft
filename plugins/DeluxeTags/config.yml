@@ -205,3 +205,20 @@ deluxetags:
     order: 158
     tag: '&d[Senpai]'
     description: '&5Host of AstensitySMP'
+  maniac:
+    order: 201
+    tag: '&5[Maniac]'
+    description: '&dWinner of Maniac Rod event'
+  prodigy:
+    order: 202
+    tag: '&d[Prodigy]'
+    description: '&5Winner of Who, who, who, who? event'
+  rager:
+    order: 203
+    tag: '&6[Rager]'
+    description: '&eWinner of Spiralrage event'
+  scooper:
+    order: 204
+    tag: '&2[Scooper]'
+    description: '&aWinner of Dig Off event'
+
