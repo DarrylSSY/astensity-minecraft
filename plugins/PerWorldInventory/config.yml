@@ -46,7 +46,7 @@ player:
     # Load a player's exhaustion level
     exhaustion: true
     # Load how much exp a player has
-    exp: true
+    exp: false
     # Load a player's hunger level
     food: true
     # Load if a player is flying
