@@ -1,0 +1,8 @@
+# Welcome to the configuration page for Redeemable
+# All data is stored here, if you don't know what you're doing then don't touch anything below 'active-redeemables'
+# Add a "#" before any Redeemable name in active-redeemables to offload it from memory while still keeping it's data. Remove the # to re-enable it.
+per-redeemable-permissions: true
+auto-generate-chars: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
+auto-generate-length: 5
+active-redeemables: []
+Redeemables: {}

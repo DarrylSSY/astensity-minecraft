@@ -1,0 +1,17 @@
+Prefix: '&7[&cBookNotification&7] '
+JoinDelaySeconds: 0
+Cooldown: 5000
+PermissionsEnabled: false
+JoinNotificationEnabled: true
+JoinNotificationByPassEnabled: true
+JoinNotificationByPassPermission: booknotification.bypass
+ReverseText: false
+BookSite:
+  '1':
+  - line 1
+  - line 2
+  - line 3
+  '2':
+  - line 1
+  - line 2
+  - line 3
