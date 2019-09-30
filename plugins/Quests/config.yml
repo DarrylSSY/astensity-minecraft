@@ -19,7 +19,7 @@ categories:
         - "&7Quest Difficulty: &aEasy &7- &cHard"
         - "&7◆ Complete a quest to get a reward!"
         - '&8&m+------------------------------------------+'
-      type: "362"
+      type: "MELON_SEEDS"
   mining:
     display:
       name: '&8&m+--------------------------------+'
@@ -34,7 +34,7 @@ categories:
         - "&7Quest Difficulty: &aEasy &7- &cHard"
         - "&7◆ Complete a quest to get a reward!"
         - '&8&m+--------------------------------+'
-      type: "257"
+      type: "IRON_PICKAXE"
   nightmare:
     display:
       name: '&8&m+-------------------------------------+'
@@ -52,7 +52,7 @@ categories:
         - "&7Quest Difficulty: &4Nightmare"
         - "&7◆ Complete a quest to get an &nAMAZING&r&7 reward!"
         - '&8&m+-------------------------------------+'
-      type: "397:1"
+      type: "WITHER_SKELETON_SKULL"
   gathering:
     display:
       name: '&8&m+-------------------------------------+'
@@ -67,7 +67,7 @@ categories:
         - "&7Quest Difficulty: &aEasy &7- &eDifficult"
         - "&7◆ Complete a quest to get a reward!"
         - '&8&m+-------------------------------------+'
-      type: "325"
+      type: "BUCKET"
   extreme:
     display:
       name: '&8&m+------------------------------------+'
@@ -82,7 +82,7 @@ categories:
         - "&7Quest Difficulty: &eDifficult &7- &cHard"
         - "&7◆ Complete a quest to get a reward!"
         - '&8&m+------------------------------------+'
-      type: "264"
+      type: "DIAMOND"
   combat:
     display:
       name: '&8&m+----------------------------------+'
@@ -97,7 +97,7 @@ categories:
         - "&7Quest Difficulty: &aEasy &7- &cHard"
         - "&7◆ Complete a quest to get a reward!"
         - '&8&m+----------------------------------+'
-      type: "322"
+      type: "GOLDEN_APPLE"
   misc:
     display:
       name: '&8&m+-----------------------------------+'
@@ -112,7 +112,7 @@ categories:
         - "&7Quest Difficulty: &aEasy &7- &cHard"
         - "&7◆ Complete a quest to get a reward!"
         - '&8&m+-----------------------------------+'
-      type: "287"
+      type: "STRING"
   building:
     display:
       name: "&8&m+-----------------------------------+"
@@ -127,7 +127,7 @@ categories:
         - "&7Quest Difficulty: &aEasy &7- &cHard"
         - "&7◆ Complete a quest to get a reward!"
         - '&8&m+-----------------------------------+'
-      type: "17"
+      type: "OAK_LOG"
   animal:
     display:
       name: '&8&m+--------------------------------------+'
@@ -142,7 +142,7 @@ categories:
         - "&7Quest Difficulty: &aEasy &7- &cHard"
         - "&7◆ Complete a quest to get a reward!"
         - '&8&m+--------------------------------------+'
-      type: "363"
+      type: "BEEF"
     # This category needs the permission "quests.category.permissionexample", because the category ID is 'permissionexample'.
     # The permission for other categories is: "quests.category.<id>".
     permission-required: false
@@ -177,39 +177,39 @@ gui:
     - ""
     - "&7Requires: &c{requirements}"
     - "&7to be completed to unlock."
-    type: "160:14"
+    type: "RED_STAINED_GLASS_PANE"
   quest-cooldown-display:
     name: "&e&nCooldown"
     lore:
     - "&7You have recently completed this quest"
     - "&7(&e{quest}&7) and you must"
     - "&7wait another &e{time} &7to unlock again."
-    type: "160:1"
+    type: "ORANGE_STAINED_GLASS_PANE"
   quest-completed-display:
     name: "&a&nQuest Complete"
     lore:
     - "&7You have completed this quest"
     - "&7(&a{quest}&7) and cannot."
     - "&7repeat it."
-    type: "160:5"
+    type: "LIME_STAINED_GLASS_PANE"
   quest-cancel-yes:
     name: "&a&nConfirm"
     lore:
     - "&7Confirm you wish to cancel"
     - "&7this quest and lose all"
     - "&7progress."
-    type: "160:5"
+    type: "LIME_STAINED_GLASS_PANE"
   quest-cancel-no:
     name: "&c&nCancel"
     lore:
     - "&7Return to the quest menu."
-    type: "160:14"
+    type: "RED_STAINED_GLASS_PANE"
   quest-permission-display:
     name: "&c&nNo Permission"
     lore:
     - "&7You do not have permission for this"
     - "&7quest (&6{quest}&7)."
-    type: "160:14"
+    type: "RED_STAINED_GLASS_PANE"
 
 options:
   # If categories are disabled, quests will be put into one big gui.
