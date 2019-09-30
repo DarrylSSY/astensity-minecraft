@@ -95,7 +95,7 @@ formats:
     suffix_tooltip:
     - ''
     priority: 2147483647
-    channel: ''
+    channel: '%ezrankspro_rankprefix% '
     prefix: '%deluxetags_tag%'
     name_color: ''
     name: '%player_name%'
@@ -114,17 +114,19 @@ formats:
     - '&7ᚽ &fTown Name: &d%towny_town%'
     - '&7ᚽ'
     - '&7ᚽ &fJobs Total Level: &b%jobs_total_levels%'
+    - '&7ᚽ &fPower Level: %mcmmo_power_level%'
+    - '&7ᚽ &fPlayer Level: %ezrankspro_rank%'
     - '&7&m-------------'
     channel_click_command: /ranks
     prefix_click_command: /ranks
     name_click_command: '/msg %player_name% '
-    suffix_click_command: ''
+    suffix_click_command: []
     channel_tooltip: []
   donor:
     suffix_tooltip:
     - ''
     priority: 3
-    channel: ''
+    channel: '%ezrankspro_rankprefix% '
     prefix: '%deluxetags_tag%'
     name_color: '&b'
     name: '%player_name%'
@@ -144,11 +146,13 @@ formats:
     - '&7ᚽ &fTown Name: &d%towny_town%'
     - '&7ᚽ'
     - '&7ᚽ &fJobs Total Level: &b%jobs_total_levels%'
+    - '&7ᚽ &fPower Level: %mcmmo_power_level%'
+    - '&7ᚽ &fPlayer Level: %ezrankspro_rank%'
     - '&7&m-------------'
     channel_click_command: /ranks
     prefix_click_command: /ranks
     name_click_command: '/msg %player_name% '
-    suffix_click_command: ''
+    suffix_click_command: []
     channel_tooltip: []
   management:
     priority: 2
