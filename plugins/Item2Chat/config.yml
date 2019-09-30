@@ -1,0 +1,42 @@
+# +------------------------------------------------------------+ #
+# Item2Chat Configuration
+# +------------------------------------------------------------+ #
+
+# NOTE: Do NOT put tabs anywhere in the config!
+
+Messages:
+  ErrorMsg : "&c[Item2Chat] : Some error occured."
+  NoItem: "&c[Item2Chat] : You must have something in your hand to use Item2Chat!"
+  NoPermission: "&c[Item2Chat] : You don't have a permission."
+  CoolDown: "&c[Item2Chat] You have to wait for &b%remaining% &aseconds."
+
+
+HelpMessages:
+  banner:
+    msg: "=== &e[&aItem2Chat Commands List (%version%)&e] &r==="  
+  help:
+    msg: "&a/item2chat help : displays this help menu."
+  reload:
+    msg: "&a/item2chat reload : reloads config file."
+    permission: "item2chat.reload"
+  debug:
+    msg: "&a/item2chat debug <true|false> : turn on / off the debug mode."
+    permission: "item2chat.debug"
+
+#if this option is true, the plguin will try to send the chat packet in asynchronous fashion
+AsynchronousMode: false
+
+# if you encounter any issue with your chat plugin, try adjusting this option.
+# adjust these event priority if those event processes from this plugin
+# interfere with other plugins' event processes.
+EventPriorityMap:
+  AsyncPlayerChatEvent: "LOWEST"
+  PlayerCommandPreprocessEvent: "LOWEST"
+
+Cooldown: 10  # in seconds
+CaseSensitive: false
+Keyword:
+  - "[item]"
+  - "{item}"
+  - "{i}"
+InlineFormat: "&r&f[%name% (x%amount%)&r&f]"
