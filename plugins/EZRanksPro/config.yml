@@ -1,0 +1,53 @@
+# EZRanksPro 1.8.0 main configuration file
+# Created by extended_clip
+check_updates: true
+debug: false
+check_primary_group_for_available_rankup: false
+chat_prefix_enabled: false
+log_rankups_to_file: false
+confirm_to_rankup:
+  enabled: true
+  time: 10
+rankup_cooldown:
+  enabled: true
+  time: 30
+ranks_command_enabled: true
+ranks:
+  use_custom_message: false
+  custom_message:
+  - '&8&m----------'
+  - '&aA&f: &a$&f100'
+  - '&bB&f: &a$&f200'
+  - '&cC&f: &a$&f300'
+  - '&8&m----------'
+  header:
+  - '&8&m----------'
+  format_previous_ranks: '&8%rank% to %rankto%: Completed'
+  format_current_rank: '&f%rank% to %rankto%: &a$&f%cost%'
+  format_incomplete_ranks: '&7%rank% to %rankto%: &a$&f%cost%'
+  format_last_rank: '&f%lastrank%: &cMax Level!'
+  format_is_last_rank: '&f%lastrank%: &aYou have reached max level!'
+  footer:
+  - '&8&m----------'
+money:
+  use_custom_format: false
+  custom_format: '#,###.00'
+  thousands_format: k
+  millions_format: M
+  billions_format: B
+  trillions_format: T
+  quadrillions_format: Q
+progress_bar:
+  has_color: '&a'
+  needs_color: '&8'
+  end_color: '&e'
+  left_character: '['
+  bar_character: ':'
+  right_character: ']'
+  is_full: '&a/levelup'
+placeholders:
+  rank_completed: completed
+  rank_not_completed: incompleted
+autorankup:
+  enabled: false
+  check_interval: 60

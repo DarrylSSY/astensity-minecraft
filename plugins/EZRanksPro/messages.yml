@@ -1,0 +1,17 @@
+# EZRanksPro messages file
+no_permission: '&cYou don''t have the permission node &f{0} &cto do that!'
+rankup_last_rank: '&7You are at the last level and have no more level ups.'
+rankup_no_rankups: '&cYou don''t have any level ups available at your current level.'
+rankup_confirm_message: |-
+  &aAre you sure you want to rankup to &f%rankup% for &a$&f%cost%?
+  &aType &7/levelup &ato confirm.
+rankup_on_cooldown: '&cYou need to wait %time% more seconds until you can level up again!'
+ranks_no_ranks_loaded: '&cThere are no levels loaded!'
+target_not_online: '&f{0} &cis not online!'
+force_rankup_no_rankup: '&f{0} &cdoes not have any level ups available at level &f{1}&c!'
+force_rankup_success: '&f{0} &awas successfully levelled up from &f{1} &ato &f{2}&a!'
+autorankup_toggle_on: '&aAutoLevelup toggled on.'
+autorankup_toggle_off: '&7AutoLevelup toggled off.'
+autorankup_last_rank: '&cYou are at max level and have no need to autolevelup!'
+autorankup_no_rankups: '&cYou do not have a level up at your current level and will not
+  be able to autolevelup!'
