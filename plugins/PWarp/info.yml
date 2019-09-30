@@ -1,0 +1,81 @@
+###################################################################################################################
+###################################################################################################################
+#Placeholders (These only work in the intended messages):
+#
+#PLIMITP -> returns the warp limit
+#PPLAYERP -> returns the player, e.g. you have already trusted PPLAYERP
+#PINACTIVEP -> returns the amount of days you have configured as being inactive
+#PUSAGEP -> returns the usage of the command e.g. /pwarp trust <warp> <player>
+#PITEMP -> returns the name of the item you have set as a price
+#PWARPNAMEP -> returns the warp name
+#PITEMAMOUNTP -> returns the amount of the item you have set as a price
+#PMONEYAMOUNTP -> returns the amount of money you have set as a price
+#PSECONDSP -> returns the teleport delay
+#PWORLDP -> returns the minecraft world
+#
+###################################################################################################################
+###################################################################################################################
+#Permissions:
+#
+#pwarp.setlimit: set the warplimit
+#pwarp.deleteall: delete all warps
+#pwarp.remove.others: remove other people's warps
+#pwarp.setlore.others: (re)set other people's lores
+#pwarp.staffhelp: show staff commands in help menu
+#pwarp.guiitem: change the gui item
+#pwarp.movewarp: move your warp
+#pwarp.movewarp.others: move other people's warps
+#pwarp.private: make warps private/public and (un)trust people
+#pwarp.private.others: make other playerwarps private/public
+#pwarp.clearoldwarps: clear old warps that haven't been used in X days
+#pwarp.notingui: disallows players from being shown in the warp gui
+#pwarp.otherlimit.x: guve players another warp limit
+#pwarp.nolimit: get excluded from the default/permitted limit
+#pwarp.setdelay: set the teleport delay for the plugin
+#pwarp.noprice: bypass the warp payments
+#pwarp.setitem.others: change the warp icon of other players
+#pwarp.setwarp (needs to be enabled in config; defaultSetWarpAccess): allow players to set a warp
+#pwarp.blacklist.edit: edit the world blacklist
+#pwarp.blacklist.bypass: bypass the world blacklist
+#pwarp.setseparator: ability to change the glass panes in gui menu to a custom item
+#pwarp.hooks: ability to list the hooked plugins
+#pwarp.worldtoworld: ability to enable/disable world to world teleporting
+#pwarp.blacklist.list: ability to list blacklisted worlds
+#pwarp.worldtoworld.bypass: ability to bypass the world to world teleporting restriction
+#pwarp.listother: ability to see warps owned by another player
+#pwarp.sethidden: ability to hide your warp in the GUI
+#pwarp.sethidden.others: ability to hide warps of other players
+#pwarp.info: ability to check general information
+#pwarp.rename: ability to rename your warp
+#pwarp.rename.others: ability to rename warps of other players
+#pwarp.private.bypass: ability to tp to private warps
+#
+#
+###################################################################################################################
+###################################################################################################################
+#Join my discord for support! Or PM me on spigot if you don't have discord :)
+#https://discord.gg/NVejatt
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#

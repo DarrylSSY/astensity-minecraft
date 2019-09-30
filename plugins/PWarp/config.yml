@@ -1,0 +1,3 @@
+automatedOldWarpRemoval: true
+automatedInactiveRemovalInMinutes: 60
+guiRefreshRateInMinutes: 30

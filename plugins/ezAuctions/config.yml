@@ -1,0 +1,114 @@
+# ezAuctions Configuration File #
+#################################
+
+general:
+  # Should we check for updates and notify players on join? Permission is ezauctions.updatemessage
+  check-updates: true
+  # Time between auctions (in seconds)
+  time-between: 5
+  # Players cannot do /auc cancel when the auction time is under this
+  minimum-cancel-time: 20
+  # What is the maximum amount of auctions that can be in the queue
+  auction-queue-limit: 3
+
+auctions:
+  # Worlds that you cannot start auctions in
+  blocked-worlds:
+  - 'example_world'
+
+  # Materials that cannot be auctions
+  # List of valid materials: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  blocked-materials:
+  - 'bedrock'
+
+  # When should we broadcast the time left in the auction?
+  broadcast-times: [45, 30, 15, 3, 2, 1]
+
+  fees:
+    # The price it costs to start an auction (set to 0 for no price)
+    start-price: 10
+    # The amount of money that is removed from the final bid
+    # Ex: Final bid is $500, tax is 20%; the auction starter only receives $400 (set to 0 for no tax)
+    tax-percent: 2.5
+
+  # Should only have "true" or false"
+  toggles:
+    # Should we deny players in creative mode from starting auctions?
+    deny-creative: false
+
+    # When set to true, the custom item name will be used instead of the minecraft item name when available
+    display-custom-name: false
+
+    # Should we broadcast the owner of the head if it is a player head?
+    broadcast-head: true
+
+    # Should we broadcast how much xp it costs to repair an auctioned item?
+    broadcast-repair: true
+
+    # Should we allow players to specify autobuys?
+    autobuy: true
+
+    # Should we restrict players to start auctions with items that are damaged?
+    restrict-damaged: false
+
+    # Should we allow decimals in these prices? Ex: $5.64
+    decimal:
+      starting-price: false
+      increment: false
+      autobuy: false
+      bid: false
+
+  # Default uses for commands if players specify nothing
+  default:
+    # In seconds
+    auction-time: 60
+    increment: 1
+    # 0 is disabled
+    autobuy: 0
+
+  # If you want to disable player modification, set minimum & maximum to -1
+  # If you want there to be no maximum set that specific key to 0
+
+  minimum:
+    auction-time: -1
+    increment: 1
+    # The minimum here will be $0
+    autobuy: 0
+
+  maximum:
+    auction-time: -1
+    increment: 0
+    autobuy: 10000000
+    # How many times can a player bid in a row before someone else bids?
+    consecutive-bids: 2
+
+# They use the same settings as auctions
+sealed-auctions:
+  # Should we enable sealed auctions (bids don't show in chat)
+  enabled: true
+  # How many times should a player be allowed to bid?
+  max-bids: 1
+
+# Anti-snipe is to stop players from bidding last-second and winning
+antisnipe:
+  enabled: true
+  # The last X seconds which should be considered a snipe and have anti-snipe run
+  seconds-for-start: 3
+  # How many times can the anti-snipe run before cancelling?
+  run-times: 3
+  # How much time should be added when anti-snipe is run?
+  time: 5
+
+# Scoreboard for auctions. Auto-updating
+scoreboard:
+  enabled: true
+  # If the player has another scoreboard visible should we still attempt to display the auction scoreboard?
+  overlap: false
+  # Available options are skull, repair, autobuy, and sealed
+  # These are extra details about the item. For example if it's a skull it will display the skull name. Same as in the
+  # broadcast. Feel free to move these around or completely remove them as you wish
+  meta:
+  - autobuy
+  - skull
+  - repair
+  - sealed
