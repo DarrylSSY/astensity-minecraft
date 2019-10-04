@@ -82,7 +82,6 @@ logging-level: 'INFO'
 # Disables bypass regardless of permission
 # Defaults to false
 disable-bypass: true
-
 # Set the duration in minutes for player profile information to be cached
 cache-duration: 10
 
