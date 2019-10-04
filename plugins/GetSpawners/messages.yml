@@ -13,7 +13,7 @@ Console_Messages:
 
 Messages:
 # Show when a player mines a spawner successfully
-  Lucky: '&bWow, Lucky guy ! ! !'
+  Lucky: '&bWow, you got lucky! ! !'
 
 # If some group is using percentage permission, this will show if a player mines and not have luck
   Unlucky: '&cBetter luck next time.'

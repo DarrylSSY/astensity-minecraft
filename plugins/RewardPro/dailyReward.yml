@@ -25,12 +25,11 @@ DailyReward1:
   InactiveItemAmount: 1
   InactiveItemGlow: false
   Heading: '&6Reward Day #1'
-  ActiveLore: '&7Join this server every day;&7You get every day a bigger reward!;'
-  InactiveLore: '&8You joined some days in a row;&8so get now a bigger reward!;;&7Checkout
-    the following rewards.'
+  ActiveLore: '&7Join the server every day;&7You get a bigger reward everyday!;'
+  InactiveLore: '&8Reward has been claimed;&8check out the next reward!'
   DaysUntilPlayerCanClaim: 0
-  TimeToClaimFormat: '&8You can claim this reward in &7%days &8days.'
-  CanBeClaimedFormat: '&aYou get this reward today!'
+  TimeToClaimFormat: '&8You can claim this reward in &e%days &8days.'
+  CanBeClaimedFormat: '&aClaim this reward now!'
   CanBeClaimedTomorrowFormat: '&8You get this reward tomorrow!'
 DailyReward2:
   Command: eco give [Player] 200
@@ -42,12 +41,11 @@ DailyReward2:
   InactiveItemAmount: 1
   InactiveItemGlow: false
   Heading: '&6Reward Day #2'
-  ActiveLore: '&7Join this server every day;&7You get every day a bigger reward!;'
-  InactiveLore: '&8You joined some days in a row;&8so get now a bigger reward!;;&7Checkout
-    the following rewards.'
+  ActiveLore: '&7Join the server every day;&7You get a bigger reward everyday!;'
+  InactiveLore: '&8Reward has been claimed;&8check out the next reward!'
   DaysUntilPlayerCanClaim: 1
-  TimeToClaimFormat: '&8You can claim this reward in &7%days &8days.'
-  CanBeClaimedFormat: '&aYou get this reward today!'
+  TimeToClaimFormat: '&8You can claim this reward in &e%days &8days.'
+  CanBeClaimedFormat: '&aClaim this reward now!'
   CanBeClaimedTomorrowFormat: '&8You get this reward tomorrow!'
 DailyReward3:
   Command: eco give [Player] 500
@@ -59,12 +57,11 @@ DailyReward3:
   InactiveItemAmount: 1
   InactiveItemGlow: false
   Heading: '&6Reward Day #3'
-  ActiveLore: '&7Join this server every day;&7You get every day a bigger reward!;'
-  InactiveLore: '&8You joined some days in a row;&8so get now a bigger reward!;;&7Checkout
-    the following rewards.'
+  ActiveLore: '&7Join the server every day;&7You get a bigger reward everyday!;'
+  InactiveLore: '&8Reward has been claimed;&8check out the next reward!'
   DaysUntilPlayerCanClaim: 2
-  TimeToClaimFormat: '&8You can claim this reward in &7%days &8days.'
-  CanBeClaimedFormat: '&aYou get this reward today!'
+  TimeToClaimFormat: '&8You can claim this reward in &e%days &8days.'
+  CanBeClaimedFormat: '&aClaim this reward now!'
   CanBeClaimedTomorrowFormat: '&8You get this reward tomorrow!'
 DailyReward4:
   Command: eco give [Player] 1000
@@ -76,12 +73,11 @@ DailyReward4:
   InactiveItemAmount: 1
   InactiveItemGlow: false
   Heading: '&6Reward Day #4'
-  ActiveLore: '&7Join this server every day;&7You get every day a bigger reward!;'
-  InactiveLore: '&8You joined some days in a row;&8so get now a bigger reward!;;&7Checkout
-    the following rewards.'
+  ActiveLore: '&7Join the server every day;&7You get a bigger reward everyday!;'
+  InactiveLore: '&8Reward has been claimed;&8check out the next reward!'
   DaysUntilPlayerCanClaim: 3
-  TimeToClaimFormat: '&8You can claim this reward in &7%days &8days.'
-  CanBeClaimedFormat: '&aYou get this reward today!'
+  TimeToClaimFormat: '&8You can claim this reward in &e%days &8days.'
+  CanBeClaimedFormat: '&aClaim this reward now!'
   CanBeClaimedTomorrowFormat: '&8You get this reward tomorrow!'
 DailyReward5:
   Command: eco give [Player] 2000
@@ -93,12 +89,11 @@ DailyReward5:
   InactiveItemAmount: 1
   InactiveItemGlow: false
   Heading: '&6Reward Day #5'
-  ActiveLore: '&7Join this server every day;&7You get every day a bigger reward!;'
-  InactiveLore: '&8You joined some days in a row;&8so get now a bigger reward!;;&7Checkout
-    the following rewards.'
+  ActiveLore: '&7Join the server every day;&7You get a bigger reward everyday!;'
+  InactiveLore: '&8Reward has been claimed;&8check out the next reward!'
   DaysUntilPlayerCanClaim: 4
-  TimeToClaimFormat: '&8You can claim this reward in &7%days &8days.'
-  CanBeClaimedFormat: '&aYou get this reward today!'
+  TimeToClaimFormat: '&8You can claim this reward in &e%days &8days.'
+  CanBeClaimedFormat: '&aClaim this reward now!'
   CanBeClaimedTomorrowFormat: '&8You get this reward tomorrow!'
 DailyReward6:
   Command: eco give [Player] 5000
@@ -110,12 +105,11 @@ DailyReward6:
   InactiveItemAmount: 1
   InactiveItemGlow: false
   Heading: '&6Reward Day #6'
-  ActiveLore: '&7Join this server every day;&7You get every day a bigger reward!;'
-  InactiveLore: '&8You joined some days in a row;&8so get now a bigger reward!;;&7Checkout
-    the following rewards.'
+  ActiveLore: '&7Join the server every day;&7You get a bigger reward everyday!;'
+  InactiveLore: '&8Reward has been claimed;&8check out the next reward!'
   DaysUntilPlayerCanClaim: 5
-  TimeToClaimFormat: '&8You can claim this reward in &7%days &8days.'
-  CanBeClaimedFormat: '&aYou get this reward today!'
+  TimeToClaimFormat: '&8You can claim this reward in &e%days &8days.'
+  CanBeClaimedFormat: '&aClaim this reward now!'
   CanBeClaimedTomorrowFormat: '&8You get this reward tomorrow!'
 DailyReward7:
   Command: eco give [Player] 10000
@@ -127,12 +121,11 @@ DailyReward7:
   InactiveItemAmount: 1
   InactiveItemGlow: false
   Heading: '&6Reward Day #7'
-  ActiveLore: '&7Join this server every day;&7You get every day a bigger reward!;'
-  InactiveLore: '&8You joined some days in a row;&8so get now a bigger reward!;;&7Checkout
-    the following rewards.'
+  ActiveLore: '&7Join the server every day;&7You get a bigger reward everyday!;'
+  InactiveLore: '&8Reward has been claimed;&8check out the next reward!'
   DaysUntilPlayerCanClaim: 6
-  TimeToClaimFormat: '&8You can claim this reward in &7%days &8days.'
-  CanBeClaimedFormat: '&aYou get this reward today!'
+  TimeToClaimFormat: '&8You can claim this reward in &e%days &8days.'
+  CanBeClaimedFormat: '&aClaim this reward now!'
   CanBeClaimedTomorrowFormat: '&8You get this reward tomorrow!'
 DailyReward8:
   Command: eco give [Player] 20000
@@ -144,10 +137,9 @@ DailyReward8:
   InactiveItemAmount: 1
   InactiveItemGlow: false
   Heading: '&6Reward Day #8'
-  ActiveLore: '&7Join this server every day;&7You get every day a bigger reward!'
-  InactiveLore: '&8You joined some days in a row;&8so get now a bigger reward!;;&7Checkout
-    the following rewards.'
+  ActiveLore: '&7Join the server every day;&7You get a bigger reward everyday!;'
+  InactiveLore: '&8Reward has been claimed;&8check out the next reward!'
   DaysUntilPlayerCanClaim: 8
-  TimeToClaimFormat: '&8You can claim this reward in &7%days &8days.'
-  CanBeClaimedFormat: '&aYou get this reward today!'
+  TimeToClaimFormat: '&8You can claim this reward in &e%days &8days.'
+  CanBeClaimedFormat: '&aClaim this reward now!'
   CanBeClaimedTomorrowFormat: '&8You get this reward tomorrow!'
