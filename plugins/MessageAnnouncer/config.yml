@@ -19,11 +19,10 @@ announcements:
   tags:
   - '{"text": "&a&lInfo&f: Equip yourself with a tag! Do /tags."}'
   forums:
-   - '{"text": "&a&lInfo&f: Join our forums at astensity.org!"}'
+  - '{"text": "&a&lInfo&f: Join our forums at astensity.org!"}'
   death:
-    - '{"text": "&a&lInfo&f: Reminder that keepInventory is false in the Nether and the End!!"}'
-
-
+  - '{"text": "&a&lInfo&f: Reminder that keepInventory is false in the Nether and
+    the End!!"}'
 announcer_enabled: true
 announcer_random: true
 announce_interval: 300
