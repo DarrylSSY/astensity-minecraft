@@ -7,6 +7,7 @@ interval_announcement_list:
 - tags
 - forums
 - death
+- daily
 announcements:
   help:
   - '{"text": "&a&lInfo&f: Need &ehelp&f? See useful commands in &7/help"}'
@@ -22,6 +23,8 @@ announcements:
    - '{"text": "&a&lInfo&f: Join our forums at astensity.org!"}'
   death:
     - '{"text": "&a&lInfo&f: Reminder that keepInventory is false in the Nether and the End!!"}'
+  daily:
+    - '{"text": "&a&lInfo&f: Do /daily to claim your daily rewards!"}'
 
 
 announcer_enabled: true
