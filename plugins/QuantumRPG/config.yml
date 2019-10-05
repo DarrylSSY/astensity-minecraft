@@ -65,7 +65,7 @@ modules:
   RUNES: true
   SELL: true
   SETS: true
-  SOULBOUND: true
+  SOULBOUND: false
   TIERS: true
 strings:
   dmg-separator: ' &7- '
