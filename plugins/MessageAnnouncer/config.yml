@@ -11,21 +11,6 @@ interval_announcement_list:
 announcements:
   help:
   - '{"text": "&a&lInfo&f: Need &ehelp&f? See useful commands in &7/help"}'
-  map:
-  - '{"text": "&a&lInfo&f: Need a live &emap&f of the world? Use &7/map"}'
-  discord:
-  - '{"text": "&a&lInfo&f: We have a &eDiscord&f server! Find us on &7/discord"}'
-  vote:
-  - '{"text": "&a&lInfo&f: Enjoying your time here? &eVote&f for rewards &7/vote"}'
-  tags:
-  - '{"text": "&a&lInfo&f: Equip yourself with a tag! Do /tags."}'
-  forums:
-   - '{"text": "&a&lInfo&f: Join our forums at astensity.org!"}'
-  death:
-    - '{"text": "&a&lInfo&f: Reminder that keepInventory is false in the Nether and the End!!"}'
-  daily:
-    - '{"text": "&a&lInfo&f: Do /daily to claim your daily rewards!"}'
-
 
 announcer_enabled: true
 announcer_random: true
