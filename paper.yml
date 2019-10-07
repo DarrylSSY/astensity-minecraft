@@ -63,7 +63,7 @@ world-settings:
     skeleton-horse-thunder-spawn-chance: 0.01
     keep-spawn-loaded-range: 10
     keep-spawn-loaded: true
-    auto-save-interval: -1
+    auto-save-interval: 6000
     disable-thunder: false
     disable-ice-and-snow: false
     count-all-mobs-for-spawning: false
