@@ -1,14 +1,14 @@
 # This is the main configuration file for Paper.
 # As you can see, there's tons to configure. Some options may impact gameplay, so use
 # with caution, and make sure you know what each option does before configuring.
-# 
+#
 # If you need help with the configuration or have any questions related to Paper,
 # join us in our Discord or IRC channel.
-# 
+#
 # Discord: https://paperdiscord.emc.gs
 # IRC: #paper @ irc.spi.gt ( http://irc.spi.gt/iris/?channels=paper )
-# Website: https://papermc.io/ 
-# Docs: https://paper.readthedocs.org/ 
+# Website: https://papermc.io/
+# Docs: https://paper.readthedocs.org/
 
 verbose: false
 config-version: 19
@@ -44,8 +44,8 @@ timings:
   verbose: true
   server-name-privacy: false
   hidden-config-entries:
-  - database
-  - settings.bungeecord-addresses
+    - database
+    - settings.bungeecord-addresses
   history-interval: 300
   history-length: 3600
   server-name: Unknown Server
@@ -112,21 +112,21 @@ world-settings:
       max-chunk-section-index: 3
       update-radius: 2
       hidden-blocks:
-      - gold_ore
-      - iron_ore
-      - coal_ore
-      - lapis_ore
-      - mossy_cobblestone
-      - obsidian
-      - chest
-      - diamond_ore
-      - redstone_ore
-      - clay
-      - emerald_ore
-      - ender_chest
+        - gold_ore
+        - iron_ore
+        - coal_ore
+        - lapis_ore
+        - mossy_cobblestone
+        - obsidian
+        - chest
+        - diamond_ore
+        - redstone_ore
+        - clay
+        - emerald_ore
+        - ender_chest
       replacement-blocks:
-      - stone
-      - oak_planks
+        - stone
+        - oak_planks
     generator-settings:
       flat-bedrock: false
     game-mechanics:
