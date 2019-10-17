@@ -236,7 +236,7 @@ death-messages:
     Creeper:
       - "%plrtag% was blown up by Creeper"
     CreeperCharged: # charged Creeper
-      - "%plrtag% was blown up by Creeper"
+      - "%plrtag% was blown up by Charged Creeper"
     Dolphin:
       - "%plrtag% was slain by Dolphin"
     Donkey:
@@ -546,11 +546,11 @@ death-messages:
       - "%plrtag% was slain by %killer%"
   pvp:
     PlayerMelee:
-      - "%plrtag% was slain by %killer%"
+      - "%plrtag% was finally slain by %killer% after an intense duel"
     PlayerCustom:
-      - "%plrtag% was slain by %killer% using [%weapon%&f]"
+      - "%plrtag% was slain by %killer% using [%weapon%&f], what hax"
     PlayerArrow:
-      - "%plrtag% was shot by %killer%"
+      - "%plrtag% was gruesomely shot by %killer%"
     PlayerTrident:
       - "%plrtag% was impaled by %killer%"
     PlayerTridentCustom:
@@ -567,13 +567,13 @@ death-messages:
     Thorns:
       - "%plrtag% was killed while trying to hurt %killer%"
     TNT:
-      - "%plrtag% blew up"
+      - "%plrtag% blew up in pieces"
     TNTKill:
       - "%plrtag% was blown up by %killer%"
     EnderCrystal:
       - "%plrtag% blew up"
     Bed: # exploding beds
-      - "%plrtag% was killed by Intentional Game Design"
+      - "%plrtag% was killed by an exploding bed, unlucky"
     Cactus:
       - "%plrtag% was pricked to death"
     CactusKill:
