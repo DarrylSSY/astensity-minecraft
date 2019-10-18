@@ -2,14 +2,14 @@
 savebackconfig: true
 logging:
   active: true
-  maxqueuesize: 3000
+  maxqueuesize: 2000
   extended:
     status: false
     commands:
       actions: false
     allviolations:
-      debug: true
-      debugonly: false
+      debug: false
+      debugonly: true
       backend:
         trace: false
         notify: false
@@ -27,28 +27,28 @@ logging:
 data:
   expiration:
     active: true
-    duration: 50
+    duration: 20
     history: false
   consistencychecks:
     active: true
     interval: 10
     maxtime: 2
-    suppresswarnings: false
+    suppresswarnings: true
 permissions:
   policy:
     default: ALWAYS
     rules:
     - 'nocheatplus.notify :: INTERVAL:60, -world, -offline'
-    - 'nocheatplus.admin.debug :: INTERVAL:5'
+    - 'nocheatplus.admin.debug :: INTERVAL:10'
     - 'nocheatplus.admin* :: ALWAYS'
     - 'nocheatplus.command* :: ALWAYS'
     - 'nocheatplus.bypass* :: ALWAYS'
     - 'regex:^nocheatplus\.checks\..*\.silent$ :: FALSE'
     - 'nocheatplus.checks.chat.relog :: INTERVAL:10'
     - 'nocheatplus.checks.chat.logins :: INTERVAL:10'
-    - 'nocheatplus.checks.chat.* :: INTERVAL:2'
-    - 'nocheatplus.checks.net.* :: INTERVAL:2'
-    - 'nocheatplus.checks.moving.survivalfly.* :: INTERVAL:5'
+    - 'nocheatplus.checks.chat.* :: INTERVAL:4'
+    - 'nocheatplus.checks.net.* :: INTERVAL:4'
+    - 'nocheatplus.checks.moving.survivalfly.* :: INTERVAL:10'
 protection:
   plugins:
     hide:
@@ -115,8 +115,8 @@ checks:
       active: true
       actions: cancel vl>6 cmdc:blockreach:1:11 cancel
     wrongblock:
-      active: false
-      level: 10
+      active: true
+      level: 20
       improbable:
         feedonly: false
         weight: 2.0
@@ -165,7 +165,7 @@ checks:
     noswing:
       active: false
       exceptions:
-      - LILY_PAD
+      - LILLY_PAD
       - FLINT_AND_STEEL
       actions: cancel
     scaffold:
@@ -173,7 +173,7 @@ checks:
       actions: vl>12 cmdc:scaffold1:1:13 cancel vl>40 cmdc:scaffold2:1:12 cancel vl>75 log:scaffold3:1:11:i cancel cmd:javaerror:1:20
     speed:
       active: true
-      interval: 55
+      interval: 30
       improbable:
         feedonly: false
         weight: 0.0
@@ -186,7 +186,7 @@ checks:
       active: true
       skip:
         commands: false
-      characters: abcdefghjkmnpqrtuvwxyzABCDEFGHJKMNPQRTUVWXYZ2346789
+      characters: abcdefghjkmnpqrtuvwxyzABCDEFGHJKMNPQRTUVWXYZ2346789!?
       length: 5
       question: '&cPlease type ''''&6[captcha]&c'''' to continue sending messages/commands.'
       success: '&aOK, it sounds like you''''re not a spambot.'
@@ -206,6 +206,9 @@ checks:
       - /f claim
       - /f unclaim
       - /f help
+      - /undo
+      - /redo
+      - ''
       handleaschat:
       - /tpa
       - /etpa
@@ -267,33 +270,33 @@ checks:
       message:
         lettercount: 1.0
         partition: 1.0
-        uppercase: 1.1
+        uppercase: 1.2
         afterjoin: 1.5
-        nomoving: 1.5
-        repeatviolation: 1.0
+        nomoving: 1.2
+        repeatviolation: 2.0
         repeatglobal: 1.0
         repeatself: 1.5
         words:
           lengthav: 1.0
           lengthmsg: 1.0
-          noletter: 0.0
+          noletter: 0.2
       global:
         active: true
         weight: 1.0
         words:
-          active: false
+          active: true
         prefixes:
           active: false
         similarity:
-          active: false
+          active: true
       player:
         active: true
         words:
-          active: false
+          active: true
         prefixes:
           active: false
         similarity:
-          active: false
+          active: true
     warning:
       active: true
       level: 67
@@ -347,7 +350,7 @@ checks:
     yawrate:
       rate: 105
       penalty:
-        factor: 1.0
+        factor: 2.0
         minimum: 250
         maximum: 2000
       improbable:
@@ -364,16 +367,16 @@ checks:
     angle:
       active: true
       threshold:
-        average_move: 50
-        average_time: 50
-        average_yaw: 50
+        average_move: 100
+        average_time: 200
+        average_yaw: 60
         average_switch: 50
       actions: cancel vl>125 cmdc:fightangle1:1:12 cancel vl>315 cmdc:fightangle2:1:12 cancel vl>625 log:fightangle3:1:12:i cancel
     clickpattern:
       active: true
       range: 8
       penalty: 150
-      actions: vl>2 cancel vl>6 cmdc:clickpattern1:1:12 cancel vl>22 cmdc:clickpattern2:1:12 cancel vl>50 log:clickpattern3:1:12:i cancel
+      actions: vl>2 cancel vl>8 cmdc:clickpattern1:1:12 cancel vl>25 cmdc:clickpattern2:1:12 cancel vl>55 log:clickpattern3:1:12:i cancel
     critical:
       active: false
       falldistance: 0.075
@@ -397,13 +400,13 @@ checks:
       active: false
       actions: cancel
     pitchpattern:
-      active: default
-      alwaysactive: true
+      active: true
+      alwaysactive: false
       limit: 10
-      sample: 25.0
+      sample: 30.0
       gcdDiff: 0.001
       deltaGCD: 1.0E-5
-      actions: vl>2 cmdc:pitchpattern:1:11
+      actions: vl>5 cmdc:pitchpattern1:1:11 vl>11 cmdc:pitchpattern2:1:11
     reach:
       active: true
       survivaldistance: 4.2
@@ -421,7 +424,7 @@ checks:
     speed:
       active: true
       limit: 14
-      actions: cancel vl>2 cmdc:fightspeed1:1:11 cancel vl>12 cmdc:fightspeed2:1:11 cancel vl>30 cmdc:fightspeed3:1:11 cancel
+      actions: cancel vl>2 cmdc:fightspeed1:1:11 cancel vl>12 cmdc:fightspeed2:1:11 cancel vl>30 log:fightspeed3:1:11:i cancel
       shortterm:
         ticks: 7
         limit: 5
@@ -435,9 +438,9 @@ checks:
     active: true
     drop:
       active: true
-      limit: 80
+      limit: 60
       timeframe: 20
-      actions: cancel cmd:kickdrop:1:15
+      actions: cancel cmd:kickdrop:1:10
     fastclick:
       active: true
       exclude:
@@ -464,7 +467,7 @@ checks:
       actions: cmdc:instanteat:1:12 cancel
     fastconsume:
       active: true
-      duration: 0.67
+      duration: 1.4
       whitelist: false
       items:
       - DRIED_KELP
@@ -476,7 +479,7 @@ checks:
     gutenberg:
       active: true
       pagelimit: 50
-      actions: cancel log:gutenberg:0:11:i cmd:kickinvaliddata:1:5
+      actions: cancel log:gutenberg:0:11:i cmd:kickinvaliddata:1:10
     items:
       active: true
     open:
@@ -540,7 +543,7 @@ checks:
               speed: 0
             maxheight: 128
           modifiers: false
-      actions: vl>510 cmdc:notifyflyspeed1:1:40 vl>4000 cmdc:notifyflyspeed2:1:30 vl>9500 cmdc:notifyflyspeed3:1:20
+      actions: cancel vl>510 cancel cmdc:notifyflyspeed1:1:20 vl>4000 cancel cmdc:notifyflyspeed2:1:15 vl>9500 cancel log:notifyflyspeed3:1:11:i cancel
     morepackets:
       active: true
       seconds: 6
@@ -578,6 +581,9 @@ checks:
           - setback
           - set back
           - back set
+          - warp
+          - home
+          - tp
     survivalfly:
       active: true
       stepheight: default
@@ -590,14 +596,14 @@ checks:
       setbackpolicy:
         falldamage: true
         voidtovoid: true
-      actions: vl>30 cancel vl>410 cancel cmdc:notifyfly1:1:20 vl>1250 cancel cmdc:notifyfly2:1:15 vl>5500 cancel cmdc:notifyfly3:1:12 vl>18000 cancel log:notifyfly3:1:30:i
+      actions: vl>25 cancel vl>450 cancel cmdc:notifyfly1:1:20 vl>1250 cancel cmdc:notifyfly2:1:15 vl>5500 cancel cmdc:notifyfly3:1:12 vl>18000 cancel log:notifyfly3:1:30:i
       hover:
         active: true
         step: 5
         ticks: 85
         loginticks: 100
         falldamage: true
-        sfviolation: 550
+        sfviolation: 200
     velocity:
       activationcounter: 80
       activationticks: 140
@@ -622,13 +628,13 @@ checks:
       schedulesetbacks: default
       morepackets:
         active: true
-        actions: cancel vl>20 cmdc:morepackets2:0:11:i cancel
+        actions: cancel vl>15 cmdc:morepackets2:0:11 cancel
       envelope:
         active: default
         hdistcap:
           default: 0.9
           pig: 0.3
-        actions: cancel vl>100 cancel log:vehicleenvelope:0:11:i
+        actions: cancel vl>80 cancel log:vehicleenvelope:0:11:i
     message:
       illegalplayermove: Illegal move.
       illegalvehiclemove: Illegal vehicle move.
@@ -637,24 +643,24 @@ checks:
     attackfrequency:
       active: true
       limitforseconds:
-        half: 10
+        half: 9
         one: 18
         two: 28
         four: 50
         eight: 96
       improbable:
-        weight: 2.0
+        weight: 3.0
       actions: cancel vl>15 cmdc:attackfrequency1:1:15 cancel vl>45 cmdc:attackfrequency2:1:12 cancel vl>80 log:attackfrequency3:1:11:i cancel cmd:javaerror:1:20
     fightsync:
-      active: false
+      active: true
       threshold: 5
-      reset_count: 11
-      actions: vl>12 cmdc:fightsync1:1:12 vl>50 cmdc:fightsync2:1:12 vl>100 log:fightsync3:1:12:i
+      reset_count: 20
+      actions: vl>12000 cmdc:fightsync1:1:12 vl>18000 cmdc:fightsync2:1:12 vl>25000 log:fightsync3:1:12:i
     flyingfrequency:
       active: true
       seconds: 5
       packetspersecond: 60
-      actions: cancel
+      actions: cancel vl>70 cmdc:flyingfrequency:0:15 cancel
       reduceredundant:
         active: true
         seconds: 3
@@ -665,9 +671,9 @@ checks:
       actions: cancel vl>10 log:keepalive:1:15:i cancel
     packetfrequency:
       active: true
-      limitpersecond: 175
+      limitpersecond: 300
       seconds: 4
-      actions: cancel cmd:kickpacketfrequency
+      actions: cancel vl>2 cancel cmd:kickpacketfrequency
     sounddistance:
       active: true
       maxdistance: 180
@@ -675,33 +681,33 @@ checks:
       flying:
         cancelwaiting: true
 strings:
-  attackfrequency1: ncp delay conditionalcommands:ccmd [player] unless -ping->151|-tps-<18.5 do ncp log stream notify &7(&a!&7) &a[player] &7may be using an &aAutoClicker &7(Fast Clicking) (&a[violations]VL&7)
-  attackfrequency2: ncp delay conditionalcommands:ccmd [player] unless -ping->251|-tps-<18.0 do ncp log stream notify &7(&a!&7) &6[player] &7is using an &6AutoClicker &7(Fast Clicking) (&6[violations]VL&7)
+  attackfrequency1: ncp delay conditionalcommands:ccmd [player] unless -ping->161|-tps-<18.5 do ncp log stream notify &7(&a!&7) &a[player] &7may be using an &aAutoClicker &7(Fast Clicking) (&a[violations]VL&7)
+  attackfrequency2: ncp delay conditionalcommands:ccmd [player] unless -ping->291|-tps-<18.0 do ncp log stream notify &7(&a!&7) &6[player] &7is using an &6AutoClicker &7(Fast Clicking) (&6[violations]VL&7)
   attackfrequency3: '&7(&c!&7) &c[player] &7is using an &cAutoClicker &7(Fast Clicking) (&c[violations]VL&7)'
   autosign: '&7(&c!&7) &c[player] &7failed &cAutosSign&7 (info; &c[tags]&7) (&c[violations]VL&7)'
   ban: ban [player]
   ban-ip: ban-ip [ip]
-  bedleave: ncp delay conditionalcommands:ccmd [player] unless -ping->181|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player] &7failed &cBedFucker (&c[violations]VL&7)
+  bedleave: ncp delay conditionalcommands:ccmd [player] unless -ping->191|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player] &7failed &cBedFucker (&c[violations]VL&7)
   blockdirectionbreak: ncp delay conditionalcommands:ccmd [player] unless -ping->161|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player] &7failed (Block-related) Direction &7(&cNuker&7) (&c[violations]VL&7)
   blockdirectionplace: ncp delay conditionalcommands:ccmd [player] unless -ping->161|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player] &7failed (Block-related) Direction &7(Schematica Mod?) (&c[violations]VL&7)
-  blockreach: ncp delay conditionalcommands:ccmd [player] unless -ping->181|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player] &7failed (Block-related) &cReach &7(&c[violations]VL&7)
-  blockspeed: ncp delay conditionalcommands:ccmd [player] unless -ping->181|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player]&7 &7failed (Block-interact) Speed (&cNuker&7/&cFastPlace&7) (&c[violations]VL&7)
+  blockreach: ncp delay conditionalcommands:ccmd [player] unless -ping->191|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player] &7failed (Block-related) &cReach &7(&c[violations]VL&7)
+  blockspeed: ncp delay conditionalcommands:ccmd [player] unless -ping->191|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player]&7 &7failed (Block-interact) Speed (&cNuker&7/&cFastPlace&7) (&c[violations]VL&7)
   clickpattern1: ncp delay conditionalcommands:ccmd [player] unless -ping->161|-tps-<18.5 do ncp log stream notify &7(&a!&7) &a[player] &7is clicking in a pattern (&aAutoClicker&7/&aAimBot&7) (&a[violations]VL&7)
-  clickpattern2: ncp delay conditionalcommands:ccmd [player] unless -ping->281|-tps-<18.0 do ncp log stream notify &7(&6!&7) &6[[player] &7is clicking in a pattern (&6AutoClicker&7) (&6[violations]VL&7)
+  clickpattern2: ncp delay conditionalcommands:ccmd [player] unless -ping->281|-tps-<18.0 do ncp log stream notify &7(&6!&7) &6[[player] &7triggered &6ClickPattern &7(&6[violations]VL&7)
   clickpattern3: '&7(&c!&7) &c[player] &7does not click like a human (&cAutoClicker&7) (&c[violations]VL&7) (&c[violations]VL&7)'
-  fastbow: ncp delay conditionalcommands:ccmd [player] unless -ping->181|-tps-<18.5 do ncp log stream notify &7(&c!&7) &c[player] &7failed &cFastBow &7(&c[violations]VL&7)
+  fastbow: ncp delay conditionalcommands:ccmd [player] unless -ping->191|-tps-<18.5 do ncp log stream notify &7(&c!&7) &c[player] &7failed &cFastBow &7(&c[violations]VL&7)
   fastbreak1: 'ncp delay conditionalcommands:ccmd [player] unless -ping->161|-tps-<18.5 do ncp log stream notify &7(&a!&7) &a[player] &7failed &aSpeedMine &7(Block: [blocktype]) (&a[violations]VL&7)'
   fastbreak2: 'ncp delay conditionalcommands:ccmd [player] unless -ping->281|-tps-<18.5 do ncp log stream notify &7(&6!&7) &6[player] &7failed &6SpeedMine &7(Block: [blocktype]) (&6[violations]VL&7)'
   fastbreak3: '&7(&c!&7) &c[player] &7failed &cSpeedMine &7(Block: [blocktype]) (&c[violations]VL&7)'
   fastclick1: '&7(&6!&7) &6[player] &7failed &6AutoSteal &7from a container (&6[violations]VL&7)'
-  fastclick2: ncp delay conditionalcommands:ccmd [player] unless -ping->251|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player] &7failed &cAutoSteal &7from a container (&c[violations]VL&7) (Kicked)
-  fastconsume: ncp delay conditionalcommands:ccmd [player] unless -ping->171|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player] &7failed &cFastEat &7([food]) (&c[violations]VL&7)
-  fastheal1: ncp delay conditionalcommands:ccmd [player] unless -ping->181|-tps-<18.5 do ncp log stream notify &7(&6!&7) &6[player] &7failed &6FastHeal &7(&6[violations]VL&7)
-  fastheal2: ncp delay conditionalcommands:ccmd [player] unless -ping->251|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player] &7failed &cFastHeal &7(&c[violations]VL&7)
-  fastplace1: ncp delay conditionalcommands:ccmd [player] unless -ping->181|-tps-<18.0 do ncp log stream notify &7(&a!&7) &a[player] &7failed &aFastPlace &7(&a[violations]VL&7)
-  fastplace2: ncp delay conditionalcommands:ccmd [player] unless -ping->261|-tps-<18.0 do ncp log stream notify &7(&6!&7) &6[player] &7failed &6FastPlace &7(&6[violations]VL&7)
+  fastclick2: ncp delay conditionalcommands:ccmd [player] unless -ping->291|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player] &7failed &cAutoSteal &7from a container (&c[violations]VL&7) (Kicked)
+  fastconsume: ncp delay conditionalcommands:ccmd [player] unless -ping->191|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player] &7failed &cFastEat &7([food]) (&c[violations]VL&7)
+  fastheal1: ncp delay conditionalcommands:ccmd [player] unless -ping->191|-tps-<18.5 do ncp log stream notify &7(&6!&7) &6[player] &7failed &6FastHeal &7(&6[violations]VL&7)
+  fastheal2: ncp delay conditionalcommands:ccmd [player] unless -ping->291|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player] &7failed &cFastHeal &7(&c[violations]VL&7)
+  fastplace1: ncp delay conditionalcommands:ccmd [player] unless -ping->191|-tps-<18.0 do ncp log stream notify &7(&a!&7) &a[player] &7failed &aFastPlace &7(&a[violations]VL&7)
+  fastplace2: ncp delay conditionalcommands:ccmd [player] unless -ping->291|-tps-<18.0 do ncp log stream notify &7(&6!&7) &6[player] &7failed &6FastPlace &7(&6[violations]VL&7)
   fastplace3: '&7(&c!&7) &c[player] &7failed &cFastPlace &7(&c[violations]VL&7)'
-  flyingfrequency: ncp delay conditionalcommands:ccmd [player] unless -ping->181|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player] &7is sending movement packets (&cSpeed&7) (&c[violations]VL&7)
+  flyingfrequency: ncp delay conditionalcommands:ccmd [player] unless -ping->191|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player] &7is sending movement packets (&cSpeed&7) (&c[violations]VL&7)
   gutenberg: '&7(&c!&7) &c[player] &7created a book with too many pages! (&cGutenberg&7) (&c[violations]VL&7)'
   instantnuker: '&7(&c!&7) &c[player] &7failed (Instant) &cNuker &7(&c[violations]VL&7)'
   inventorymove: ncp delay conditionalcommands:ccmd [player] unless -ping->201|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player] &7failed &cInventoryMove &7([tags]) (&c[violations]VL&7)
@@ -711,17 +717,17 @@ strings:
   fightdirection1: '&7(&a!&7) &a[player] &7might be using an &aAimBot &7(Direction) (&a[violations]VL&7)'
   fightdirection2: ncp delay conditionalcommands:ccmd [player] unless -ping->191|-tps-<18.0 do ncp log stream notify &7(&6!&7) &6[player] &7might be using an &6AimBot &7(Direction) (&6[violations]VL&7)
   fightdirection3: '&7(&c!&7) &c[player] &7is likely using an &cAimBot &7(Direction) (&c[violations]VL&7)'
-  fightreach1: ncp delay conditionalcommands:ccmd [player] unless -ping->171|-tps-<18.5 do ncp log stream notify &7(&a!&7) &a[player] &7failed (Combat) &aReach &7(&a[violations]VL&7)
-  fightreach2: ncp delay conditionalcommands:ccmd [player] unless -ping->251|-tps-<18.0 do ncp log stream notify &7(&6!&7) &6[player] &7failed (Combat) &6Reach &7(&6[violations]VL&7)
+  fightreach1: ncp delay conditionalcommands:ccmd [player] unless -ping->191|-tps-<18.5 do ncp log stream notify &7(&a!&7) &a[player] &7failed (Combat) &aReach &7(&a[violations]VL&7)
+  fightreach2: ncp delay conditionalcommands:ccmd [player] unless -ping->291|-tps-<18.0 do ncp log stream notify &7(&6!&7) &6[player] &7failed (Combat) &6Reach &7(&6[violations]VL&7)
   fightreach3: '&7(&c!&7) &c[player] &7failed (Combat) &cReach &7(&c[violations]VL&7)'
-  fightspeed1: ncp delay conditionalcommands:ccmd [player] unless -ping->181|-tps-<18.5 do ncp log stream notify &7(&a!&7) &a[player] &7failed (Combat) &aSpeed &7(Over 13 CPS) (&a[violations]VL&7)
-  fightspeed2: ncp delay conditionalcommands:ccmd [player] unless -ping->251|-tps-<18.0 do ncp log stream notify &7(&6!&7) &6[player] &7failed (Combat) &6Speed &7(Over 13 CPS) (&6[violations]VL&7)
-  fightspeed3: ncp delay ncp log stream notify &7(&c!&7) &c[player] &7failed (Combat) &cSpeed &7(Over 13 CPS) (&c[violations]VL&7)
+  fightspeed1: ncp delay conditionalcommands:ccmd [player] unless -ping->191|-tps-<18.5 do ncp log stream notify &7(&a!&7) &a[player] &7failed (Combat) &aSpeed &7(Over 13 CPS) (&a[violations]VL&7)
+  fightspeed2: ncp delay conditionalcommands:ccmd [player] unless -ping->291|-tps-<18.0 do ncp log stream notify &7(&6!&7) &6[player] &7failed (Combat) &6Speed &7(Over 13 CPS) (&6[violations]VL&7)
+  fightspeed3: '&7(&c!&7) &c[player] &7failed (Combat) &cSpeed &7(Over 13 CPS) (&c[violations]VL&7)'
   fightsync1: '&7(&a!&7) &a[player] &7might be using an &aAimBot &7(FightSync) (&a[violations]VL&7)'
   fightsync2: ncp delay conditionalcommands:ccmd [player] unless -ping->191|-tps-<18.0 do ncp log stream notify &7(&6!&7) &6[player] &7might be using an &6AimBot &7(FightSync) (&6[violations]VL&7)
   fightsync3: '&7(&c!&7) &c[player] &7is likely using an &cAimBot &7(FightSync) (&c[violations]VL&7)'
-  instanteat: ncp delay conditionalcommands:ccmd [player] unless -ping->171|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player] &7failed &cInstantEat &7(&c[violations]VL&7)
-  javaerror: ncp delay conditionalcommands:ccmd [player] unless -ping->251|-tps-<18.0&-time_online-<50 do ncp kick [player] Internal Exception; io.netty.handler.timeout.ReadTimeoutException
+  instanteat: ncp delay conditionalcommands:ccmd [player] unless -ping->191|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player] &7failed &cInstantEat &7(&c[violations]VL&7)
+  javaerror: ncp delay conditionalcommands:ccmd [player] unless -ping->291|-tps-<18.0 do ncp kick [player] Internal Exception; io.netty.handler.timeout.ReadTimeoutException
   keepalive: '&7(&c!&7) &c[player] &7failed sending &cKeep-alive packets&7(&c[violations]VL&7)'
   kickbedleave: ncp delay ncp kick [player] Go find a bed!
   kickcaptcha: ncp kick [player] Enter the captcha!
@@ -734,23 +740,24 @@ strings:
   kickinvaliddata: ncp kick [player] Invalid data.
   kickpacketfrequency: ncp kick [player] Too many packets.
   kickselfhit: ncp kick [player] You tried to hit yourself!
-  morepackets1: ncp delay conditionalcommands:ccmd [player] unless -ping->181|-tps-<18.5 do ncp log stream notify &7(&6!&7) &6[player] &7is sending too many movement packets &7(&6Timer&7/&6Blink&7) (&6[violations]VL&7)
-  morepackets2: ncp delay conditionalcommands:ccmd [player] unless -ping->251|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player] &7is sending too many packets &7(&cTimer&7/&cBlink&7) (&c[violations]VL&7)
+  morepackets1: ncp delay conditionalcommands:ccmd [player] unless -ping->191|-tps-<18.5 do ncp log stream notify &7(&6!&7) &6[player] &7is sending too many movement packets &7(&6Timer&7/&6Blink&7) (&6[violations]VL&7)
+  morepackets2: ncp delay conditionalcommands:ccmd [player] unless -ping->291|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player] &7is sending too many packets &7(&cTimer&7/&cBlink&7) (&c[violations]VL&7)
   nofall: '&7(&c!&7) &c[player] &7failed &cNoFall &7(&c[violations]VL&7)'
-  notifyfly1: ncp delay conditionalcommands:ccmd [player] unless -ping->171|-tps-<18.0|-time_online-<40 do ncp log stream notify &7(&a!&7) &a[player] &7is moving suspiciously (&aSurvivalFly&7) (&a[violations]VL&7)
-  notifyfly2: ncp delay conditionalcommands:ccmd [player] unless -ping->261|-tps-<18.0 do ncp log stream notify &7(&6!&7) &6[player] &7might be using &6Fly &7(&6[violations]VL&7)
+  notifyfly1: ncp delay conditionalcommands:ccmd [player] unless -ping->191|-tps-<18.0|-time_online-<40 do ncp log stream notify &7(&a!&7) &a[player] &7is moving suspiciously (&aSurvivalFly&7) (&a[violations]VL&7)
+  notifyfly2: ncp delay conditionalcommands:ccmd [player] unless -ping->291|-tps-<18.0 do ncp log stream notify &7(&6!&7) &6[player] &7might be using &6Fly &7(&6[violations]VL&7)
   notifyfly3: '&7(&c!&7) &c[player] &7is attempting to &cFly &7(&c[violations]VL&7)'
-  notifyflyspeed1: ncp delay conditionalcommands:ccmd [player] unless -ping->181|-tps-<18.5|-time_online-<40 do ncp log stream notify &7(&a!&7) &a[player] &7is moving too quickly (&aExtraElytra&7) (&a[violations]VL&7)
-  notifyflyspeed2: ncp delay conditionalcommands:ccmd [player] unless -ping->251|-tps-<18.0&-time_online-<40 do ncp log stream notify &7(&6!&7) &6[player] &7is moving too quickly (&6ExtraElytra&7) (&6[violations]VL&7)
-  notifyflyspeed3: ncp delay ncp log stream notify &7(&c!&7) &c[player] &7is moving too quickly (&cExtraElytra&7) (&c[violations]VL&7)
-  noswing: ncp delay conditionalcommands:ccmd [player] unless -ping->181|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player] &7failed &cNoSwing &7(&c[violations]VL&7)
-  phase1: ncp delay conditionalcommands:ccmd [player] unless -ping->181|-tps-<18.5|-time_online-<30 do ncp log stream notify &7(&a!&7) &a[player] &7failed &aPhase &7(&a[violations]VL&7)
-  phase2: ncp delay conditionalcommands:ccmd [player] unless -ping->251|-tps-<18.0 do ncp log stream notify &7(&6!&7) &6[player] &7failed &6Phase &7(&6[violations]VL&7)
+  notifyflyspeed1: ncp delay conditionalcommands:ccmd [player] unless -ping->191|-tps-<18.5 do ncp log stream notify &7(&a!&7) &a[player] &7is moving too quickly (&aExtraElytra&7) (&a[violations]VL&7)
+  notifyflyspeed2: ncp delay conditionalcommands:ccmd [player] unless -ping->291|-tps-<18.0 do ncp log stream notify &7(&6!&7) &6[player] &7is moving too quickly (&6ExtraElytra&7) (&6[violations]VL&7)
+  notifyflyspeed3: '&7(&c!&7) &c[player] &7is moving too quickly (&cExtraElytra&7) (&c[violations]VL&7)'
+  noswing: ncp delay conditionalcommands:ccmd [player] unless -ping->191|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player] &7failed &cNoSwing &7(&c[violations]VL&7)
+  phase1: ncp delay conditionalcommands:ccmd [player] unless -ping->191|-tps-<18.5|-time_online-<30 do ncp log stream notify &7(&a!&7) &a[player] &7failed &aPhase &7(&a[violations]VL&7)
+  phase2: ncp delay conditionalcommands:ccmd [player] unless -ping->291|-tps-<18.0 do ncp log stream notify &7(&6!&7) &6[player] &7failed &6Phase &7(&6[violations]VL&7)
   phase3: '&7(&c!&7) &c[player] &7failed &cPhase &7(&c[violations]VL&7)'
-  pitchpattern: ncp delay conditionalcommands:ccmd [player] unless -ping->181|-tps-<18.5 do ncp log stream notify &7(&c!&7) &c[player] &7is using an &cAimBot &7(PitchPattern) (&c[violations]VL&7)
+  pitchpattern1: ncp delay conditionalcommands:ccmd [player] unless -ping->191|-tps-<18.5 do ncp log stream notify &7(&c!&7) &6[player] &7is using an &6AimBot &7(PitchPattern) (&6[violations]VL&7)
+  pitchpattern2: ncp delay conditionalcommands:ccmd [player] unless -ping->291|-tps-<18.0 do ncp log stream notify &7(&c!&7) &c[player] &7is using an &cAimBot &7(PitchPattern) (&c[violations]VL&7)
   projectilespeed: '&7(&c!&7) &c[player] &7is throwing projectiles very quickly &7(&c[violations]VL&7)'
-  scaffold1: ncp delay conditionalcommands:ccmd [player] unless -ping->281|-tps-<18.5 do ncp log stream notify &7(&6!&7) &6[player] &7failed &6Scaffold  &7(&6[violations]VL&7)
-  scaffold2: ncp delay conditionalcommands:ccmd [player] unless -ping->281|-tps-<18.5 do ncp log stream notify &7(&6!&7) &6[player] &7failed &6Scaffold  &7(&6[violations]VL&7)
+  scaffold1: ncp delay conditionalcommands:ccmd [player] unless -ping->191|-tps-<18.5 do ncp log stream notify &7(&6!&7) &6[player] &7failed &6Scaffold &7(&6[violations]VL&7)
+  scaffold2: ncp delay conditionalcommands:ccmd [player] unless -ping->291|-tps-<18.5 do ncp log stream notify &7(&6!&7) &6[player] &7failed &6Scaffold &7(&6[violations]VL&7)
   scaffold3: '&7(&c!&7) &c[player] &7failed &cScaffold &7(&c[violations]VL&7)'
   improbable1: '&7(&a!&7) &a[player] &7might be using an &aAimBot &7(Improbable) (&a[violations]VL&7)'
   improbable2: ncp delay conditionalcommands:ccmd [player] unless -ping->191|-tps-<18.0 do ncp log stream notify &7(&6!&7) &6[player] &7might be using an &6AimBot &7(Improbable) (&6[violations]VL&7)
